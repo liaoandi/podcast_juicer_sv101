@@ -146,7 +146,7 @@ python scripts/process_utils.py https://sv101.fireside.fm/240 --force
 通过 OpenClaw cron 每周日 21:00（上海时间）自动处理最新剧集：
 
 ```bash
-# 注册在 ~/Desktop/projects/agent_toolkit/openclaw/scripts/weekly_invest_sync.py
+# 注册在 ~/projects/agent_toolkit/openclaw/scripts/weekly_invest_sync.py
 python weekly_invest_sync.py --only sv101
 ```
 
@@ -323,7 +323,7 @@ python scripts/process_utils.py https://sv101.fireside.fm/240 --force
 Runs automatically every Sunday at 21:00 Shanghai time via OpenClaw cron:
 
 ```bash
-# Registered in ~/Desktop/projects/agent_toolkit/openclaw/scripts/weekly_invest_sync.py
+# Registered in ~/projects/agent_toolkit/openclaw/scripts/weekly_invest_sync.py
 python weekly_invest_sync.py --only sv101
 ```
 
