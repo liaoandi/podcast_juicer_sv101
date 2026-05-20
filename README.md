@@ -170,6 +170,7 @@ output/
 └── sv101_ep240/                     # 每集的中间数据
     ├── 240.mp3                      # 音频
     ├── 240_transcript_gemini.json   # Gemini 转录
+    ├── sv101_ep240_participants.json # 嘉宾/主持人信息
     ├── sv101_ep240_signals.json     # 投资信号
     ├── sv101_ep240_verified_signals.json  # 验证结果
     └── sv101_ep240_metadata.json    # 元数据
@@ -347,6 +348,7 @@ output/
 └── sv101_ep240/                     # Intermediate data per episode
     ├── 240.mp3                      # Audio
     ├── 240_transcript_gemini.json   # Gemini transcript
+    ├── sv101_ep240_participants.json # Guest/host metadata
     ├── sv101_ep240_signals.json     # Investment signals
     ├── sv101_ep240_verified_signals.json  # Verification results
     └── sv101_ep240_metadata.json    # Metadata

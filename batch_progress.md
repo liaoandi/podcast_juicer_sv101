@@ -14,9 +14,15 @@
 
 ## 保存策略
 
-- GitHub 保留：`README.md`、处理脚本、`output/notes/*.md`、每集 transcript、metadata、participants、signals、verified signals。
+- GitHub 保留：`README.md`、处理脚本、`output/notes/*.md`、每集 transcript、signals、verified signals；metadata 和 participants 有则保存。
 - 本地忽略：音频 `*.mp3`、虚拟环境、chunk / retry / progress 临时产物、运行缓存。
 - 音频可从原始播客 URL 重新下载；不作为 GitHub 持久资产。
+
+## 已知数据缺口
+
+- 缺少 metadata：EP193、EP219、EP221、EP242。
+- 缺少 participants：EP172、EP246、EP247。
+- 部分历史 participants 文件存在旧 schema（`host`）和新 schema（`hosts`）并存；现有 pipeline 能读取规范命名的 `sv101_ep{N}_participants.json`。
 
 ## 已完成集
 
