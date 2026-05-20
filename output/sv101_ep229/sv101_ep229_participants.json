@@ -10,5 +10,11 @@
   "guest_background": {
     "约小亚": "《商业就是这样》主播",
     "肖文杰": "《商业就是这样》主播"
-  }
+  },
+  "hosts": [
+    "麻花"
+  ],
+  "publish_date": "2025-12-17",
+  "record_date": "",
+  "date_notes": null
 }

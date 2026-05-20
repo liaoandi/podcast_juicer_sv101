@@ -4,5 +4,7 @@
   "guests": [],
   "publish_date": null,
   "record_date": null,
-  "date_notes": "无法从页面自动提取日期信息"
+  "date_notes": "无法从页面自动提取日期信息",
+  "host": [],
+  "guest_background": {}
 }

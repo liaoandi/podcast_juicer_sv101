@@ -1,6 +1,81 @@
 # Patch Snapshot
 
-Generated at: 2026-05-20 11:16:53 CST
+Generated at: 2026-05-20 11:30:47 CST
 
 ## git diff --binary HEAD
 
+diff --git a/reviews/2026_05_20_structured_outputs/00_git_status.md b/reviews/2026_05_20_structured_outputs/00_git_status.md
+index 0d2c7f5..21182fc 100644
+--- a/reviews/2026_05_20_structured_outputs/00_git_status.md
++++ b/reviews/2026_05_20_structured_outputs/00_git_status.md
+@@ -1,5 +1,8 @@
+ # Git Status
+ 
+-Generated at: 2026-05-20 11:16:53 CST
++Generated at: 2026-05-20 11:30:47 CST
+ 
+-?? reviews/2026_05_20_structured_outputs/
++ M reviews/2026_05_20_structured_outputs/00_git_status.md
++ M reviews/2026_05_20_structured_outputs/00_review_request.md
++ M reviews/2026_05_20_structured_outputs/02_dispositions.md
++ M reviews/2026_05_20_structured_outputs/03_loop_log.md
+diff --git a/reviews/2026_05_20_structured_outputs/00_review_request.md b/reviews/2026_05_20_structured_outputs/00_review_request.md
+index c996cb6..ebd15a3 100644
+--- a/reviews/2026_05_20_structured_outputs/00_review_request.md
++++ b/reviews/2026_05_20_structured_outputs/00_review_request.md
+@@ -3,10 +3,10 @@
+ - Repo: `podcast_juicer_sv101`
+ - Feature: `structured_outputs`
+ - Author: `codex`
+-- Current round: `1`
+-- Next reviewer: `claude`
++- Current round: `2`
++- Next reviewer: `codex`
+ - Base ref: `HEAD`
+-- Generated at: `2026-05-20 11:16:53 CST`
++- Generated at: `2026-05-20 11:30:47 CST`
+ 
+ ## Summary
+ 
+diff --git a/reviews/2026_05_20_structured_outputs/01_diff.patch b/reviews/2026_05_20_structured_outputs/01_diff.patch
+index e055485..c68cc43 100644
+--- a/reviews/2026_05_20_structured_outputs/01_diff.patch
++++ b/reviews/2026_05_20_structured_outputs/01_diff.patch
+@@ -1,6 +1,6 @@
+ # Patch Snapshot
+ 
+-Generated at: 2026-05-20 11:16:53 CST
++Generated at: 2026-05-20 11:30:47 CST
+ 
+ ## git diff --binary HEAD
+ 
+diff --git a/reviews/2026_05_20_structured_outputs/01_diff_stat.md b/reviews/2026_05_20_structured_outputs/01_diff_stat.md
+index de5348b..6267dc1 100644
+--- a/reviews/2026_05_20_structured_outputs/01_diff_stat.md
++++ b/reviews/2026_05_20_structured_outputs/01_diff_stat.md
+@@ -1,2 +1,7 @@
+ # Diff Stat
+ 
++ reviews/2026_05_20_structured_outputs/00_git_status.md     | 7 +++++--
++ reviews/2026_05_20_structured_outputs/00_review_request.md | 6 +++---
++ reviews/2026_05_20_structured_outputs/02_dispositions.md   | 1 +
++ reviews/2026_05_20_structured_outputs/03_loop_log.md       | 1 +
++ 4 files changed, 10 insertions(+), 5 deletions(-)
+diff --git a/reviews/2026_05_20_structured_outputs/02_dispositions.md b/reviews/2026_05_20_structured_outputs/02_dispositions.md
+index efa984c..989c977 100644
+--- a/reviews/2026_05_20_structured_outputs/02_dispositions.md
++++ b/reviews/2026_05_20_structured_outputs/02_dispositions.md
+@@ -2,3 +2,4 @@
+ 
+ | Timestamp | Round | Reviewer | Decision | Notes |
+ | --- | --- | --- | --- | --- |
++| 2026-05-20 11:30:43 CST | 1 | claude | fixes_applied | Removed local absolute paths from structured JSON metadata, documented missing optional metadata/participants files, and updated README output conventions. Verified all JSON parses with jq. |
+diff --git a/reviews/2026_05_20_structured_outputs/03_loop_log.md b/reviews/2026_05_20_structured_outputs/03_loop_log.md
+index b46ab21..4bdc686 100644
+--- a/reviews/2026_05_20_structured_outputs/03_loop_log.md
++++ b/reviews/2026_05_20_structured_outputs/03_loop_log.md
+@@ -4,3 +4,4 @@
+ | --- | --- |
+ | 2026-05-20 11:16:49 CST | session_started feature=structured_outputs author=codex first_reviewer=claude |
+ | 2026-05-20 11:20:07 CST | review_completed round=1 reviewer=claude findings=01_claude_findings.md |
++| 2026-05-20 11:30:43 CST | next_round round=2 reviewer=codex |

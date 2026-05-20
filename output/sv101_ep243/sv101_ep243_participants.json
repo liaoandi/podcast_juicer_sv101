@@ -11,5 +11,8 @@
   },
   "publish_date": "2026-03-31",
   "record_date": "",
-  "date_notes": "Show Notes中未明确提供录制日期，故留空；发布日期提取自页面元数据。"
+  "date_notes": "Show Notes中未明确提供录制日期，故留空；发布日期提取自页面元数据。",
+  "hosts": [
+    "泓君"
+  ]
 }

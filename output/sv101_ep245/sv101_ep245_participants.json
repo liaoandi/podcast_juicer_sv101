@@ -15,5 +15,8 @@
   },
   "publish_date": "2026-04-09",
   "record_date": "",
-  "date_notes": "Show notes中未提供具体录制日期，录制日期留空，发布日期提取自页面元数据。"
+  "date_notes": "Show notes中未提供具体录制日期，录制日期留空，发布日期提取自页面元数据。",
+  "hosts": [
+    "麻花"
+  ]
 }

@@ -11,5 +11,12 @@
   "guest_background": {
     "小华": "媒体人，《美轮美换》主播",
     "杨一": "旅英媒体人，播客《去现场》主播"
-  }
+  },
+  "hosts": [
+    "Yiwen",
+    "Jinpeng"
+  ],
+  "publish_date": "2025-12-14",
+  "record_date": "",
+  "date_notes": null
 }

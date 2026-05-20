@@ -12,5 +12,9 @@
   },
   "publish_date": "2026-05-08",
   "record_date": "",
-  "date_notes": "Show notes中未提供具体录制日期，故留空。"
+  "date_notes": "Show notes中未提供具体录制日期，故留空。",
+  "hosts": [
+    "Yushan",
+    "泓君"
+  ]
 }

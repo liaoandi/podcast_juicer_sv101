@@ -16,7 +16,7 @@ Commit under review: `9a55d92` ("chore: preserve structured podcast outputs")
 
 ## SHOULD FIX
 
-1. **Local absolute paths leaked into committed JSON** — 96 occurrences of `/Users/antonio/Desktop/podcast_juicer*/...` in `signals.json` and `verified_signals.json` `metadata.source` fields. Non-portable and leaks local directory structure into the repo. Two different base paths exist (`/Users/antonio/Desktop/podcast_juicer/` for older episodes, `/Users/antonio/Desktop/podcast_juicer_sv101/` for ep172), indicating different working directories at different times. Should be relative paths.
+1. **Local absolute paths leaked into committed JSON** — 96 occurrences of local Desktop project paths in `signals.json` and `verified_signals.json` `metadata.source` fields. Non-portable and leaks local directory structure into the repo. Two different base paths existed for older episodes and newer episodes, indicating different working directories at different times. Should be relative paths.
 
 2. **Incomplete file sets for several episodes** — Some episodes are missing files that the `.gitignore` now whitelists:
    - Missing `_metadata.json`: ep193, ep219, ep221, ep242

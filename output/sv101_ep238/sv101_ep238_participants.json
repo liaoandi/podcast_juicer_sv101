@@ -11,5 +11,8 @@
   },
   "publish_date": "2026-02-13",
   "record_date": "",
-  "date_notes": "录制日期在文本中未明确提及，故留空；发布日期根据页面元数据及Show Notes提取。"
+  "date_notes": "录制日期在文本中未明确提及，故留空；发布日期根据页面元数据及Show Notes提取。",
+  "hosts": [
+    "刘一鸣"
+  ]
 }

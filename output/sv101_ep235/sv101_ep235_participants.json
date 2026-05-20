@@ -15,5 +15,8 @@
   "record_date": "2025-12-29",
   "date_notes": "录制日期未找到，使用发布日期作为参考",
   "record_date_source": "transcript",
-  "record_date_evidence": "我們這期節目的錄製時間是在2025年的最後一週"
+  "record_date_evidence": "我們這期節目的錄製時間是在2025年的最後一週",
+  "hosts": [
+    "麻花"
+  ]
 }

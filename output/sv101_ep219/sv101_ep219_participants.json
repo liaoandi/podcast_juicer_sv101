@@ -11,5 +11,8 @@
   },
   "publish_date": "2025-10-12",
   "record_date": "",
-  "date_notes": "Show notes中未提供明确的录制日期，故留空处理。发布日期直接从页面元数据提取。"
+  "date_notes": "Show notes中未提供明确的录制日期，故留空处理。发布日期直接从页面元数据提取。",
+  "hosts": [
+    "泓君"
+  ]
 }

@@ -11,5 +11,8 @@
   },
   "publish_date": "2025-10-22",
   "record_date": "",
-  "date_notes": "Show notes中未明确提及录制日期，故留空。"
+  "date_notes": "Show notes中未明确提及录制日期，故留空。",
+  "hosts": [
+    "麻花"
+  ]
 }
