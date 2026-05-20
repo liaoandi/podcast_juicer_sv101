@@ -1,0 +1,20 @@
+{
+  "podcast_id": "sv101",
+  "podcast_name": "sv101",
+  "episode_id": "240",
+  "url": "https://sv101.fireside.fm/240",
+  "base_url": "https://sv101.fireside.fm",
+  "hosts": [],
+  "language": "en",
+  "publish_date": "2026-03-03",
+  "record_date": "",
+  "date_notes": "Show notes中未明确提供录制日期，根据发布日期（2026-03-03）及文中提到的“年初的摩根大通医疗健康大会”推测，录制时间应在2026年1月至3月初之间。",
+  "guests": [
+    "张璐",
+    "周叶斌"
+  ],
+  "guest_background": {
+    "张璐": "Fusion Fund创始管理合伙人",
+    "周叶斌": "遗传学博士，现在药企从事免疫学研究（《说医解药》主播，微博@生物狗Y博，公众号：一个生物狗的科普小园）"
+  }
+}

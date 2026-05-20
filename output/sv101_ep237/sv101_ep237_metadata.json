@@ -1,0 +1,22 @@
+{
+  "podcast_id": "sv101",
+  "podcast_name": "sv101",
+  "episode_id": "237",
+  "url": "https://sv101.fireside.fm/237",
+  "base_url": "https://sv101.fireside.fm",
+  "hosts": [],
+  "language": "en",
+  "publish_date": "2026-02-03",
+  "record_date": "",
+  "date_notes": "录制日期未在文本中明确提及，因此留空",
+  "guests": [
+    "知县",
+    "华祯豪Troy",
+    "叶天奇"
+  ],
+  "guest_background": {
+    "知县": "北京大学计算机系本硕，AI爱好者和社区项目OwliaBot builder",
+    "华祯豪Troy": "EverMind VP，负责技术生态，本科毕业于清华姚班，卡耐基梅隆硕士（研究NLP和对话系统方向），曾在硅谷任职大型互联网公司算法团队，后创业，加入EverMind",
+    "叶天奇": "PamirAI CEO"
+  }
+}

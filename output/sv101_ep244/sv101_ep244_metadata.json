@@ -1,0 +1,24 @@
+{
+  "podcast_id": "sv101",
+  "podcast_name": "sv101",
+  "episode_id": "244",
+  "url": "https://sv101.fireside.fm/244",
+  "base_url": "https://sv101.fireside.fm",
+  "hosts": [],
+  "language": "en",
+  "publish_date": "2026-03-25",
+  "record_date": "",
+  "date_notes": "发布日期从页面元数据提取；录制日期在文本中未明确具体日期，仅提及为“GTC 2026大会期间的线下特别录制”，因此留空。",
+  "guests": [
+    "张璐",
+    "Dr.Mark Ren",
+    "Dr.Zhibin Xiao",
+    "Alex Yeh"
+  ],
+  "guest_background": {
+    "张璐": "Fusion Fund创始管理合伙人",
+    "Dr.Mark Ren": "Agentrys创始人&CEO，前英伟达研究总监",
+    "Dr.Zhibin Xiao": "ZFLOW AI创始人&CEO，前CASPA主席与董事会顾问",
+    "Alex Yeh": "GMI Cloud创始人&CEO"
+  }
+}

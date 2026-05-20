@@ -1,0 +1,197 @@
+{
+  "metadata": {
+    "source": "output/sv101_ep226/226_transcript_gemini.json",
+    "method": "gemini_3_pro_full_context",
+    "model": "gemini-3.1-pro-preview",
+    "total_signals": 4,
+    "companies_mentioned": [
+      "Alphabet",
+      "Amazon",
+      "BYD",
+      "Hon Hai Precision Industry",
+      "Mercedes-Benz Group",
+      "OpenAI",
+      "Tesla"
+    ],
+    "context_length": 27246,
+    "publish_date": "2025-11-27",
+    "record_date": "",
+    "podcast_id": "sv101",
+    "episode_id": "226"
+  },
+  "signals": [
+    {
+      "entities": [
+        {
+          "name": "Tesla",
+          "ticker": "TSLA",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "supply_chain",
+      "claim": "当前具身智能硬件供应链存在由FOMO情绪驱动的产能扩张泡沫，实际订单极为匮乏。且本体硬件设计远未定型，例如特斯拉Optimus在今年七八月份推翻了原有硬件设计并暂停所有订单，这使得上游零部件厂商面临极高试错风险。",
+      "evidence_seg_ids": [
+        21,
+        23,
+        90
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 23,
+          "quote": "七八月的时候，把自己的硬件设计也重新推翻了"
+        }
+      ],
+      "impact_path": [
+        "短期抑制资本市场对机器人硬件供应链（如减速器、传感器等标的）的估值溢价",
+        "由于核心厂商频繁更改设计，供应链企业面临库存积压与研发沉没成本风险"
+      ],
+      "verification_steps": [
+        "交叉验证核心硬件供应商（如三花智控、拓普集团）的三季度/四季度实际机器人零部件订单转化率",
+        "追踪特斯拉Optimus下一代工程机的设计专利及定点供应商发布时间"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:16:05",
+      "time_end": "01:01:25",
+      "start_seconds": 965.0,
+      "end_seconds": 3685.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Mercedes-Benz Group",
+          "ticker": "MBG.DE",
+          "parent": null,
+          "type": "public"
+        },
+        {
+          "name": "OpenAI",
+          "ticker": null,
+          "parent": null,
+          "type": "private"
+        }
+      ],
+      "signal_type": "competition",
+      "claim": "中国开放的工业场景使其在具身智能数据飞轮上具备结构性优势；相比之下欧美企业受限于严格的数据保护（如奔驰在测试时需搭建黑帐篷遮挡产线数据），可能拖慢其底层模型迭代速度，为中国机器人模型超车提供重要窗口。",
+      "evidence_seg_ids": [
+        20
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 20,
+          "quote": "他是在那个产线上做了一个小的黑屋，就像一个帐篷"
+        }
+      ],
+      "impact_path": [
+        "提升专注于积累真实产线数据的中国机器人整机厂的长期估值潜力",
+        "欧美大厂可能因此加大合成数据（Sim2Real）或家庭C端极早期投放以弥补物理数据劣势"
+      ],
+      "verification_steps": [
+        "对比中美头部机器人厂商（如Figure vs 智元）公开披露的真实场景高质量数据积累规模",
+        "观察欧美监管机构对车间及家庭环境下机器人数据采集的最新合规要求"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "00:13:50",
+      "time_end": "00:16:25",
+      "start_seconds": 830.0,
+      "end_seconds": 985.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Amazon",
+          "ticker": "AMZN",
+          "parent": null,
+          "type": "public"
+        },
+        {
+          "name": "Hon Hai Precision Industry",
+          "ticker": "2317.TW",
+          "parent": "Foxconn",
+          "type": "public"
+        },
+        {
+          "name": "BYD",
+          "ticker": "002594.SZ",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "demand",
+      "claim": "现阶段人形机器人的B端商业化实质上收敛于特定物流末端场景（如亚马逊物流翻箱子找条码、富士康外仓抽箱封带），而对泛化能力要求较高、被市场寄予厚望的复杂工业场景（如比亚迪产线打螺丝）因缺乏高质量数据短期难以落地。",
+      "evidence_seg_ids": [
+        63,
+        66,
+        70,
+        77
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 77,
+          "quote": "外仓库的话永远会站两到三个人...希望能用具身解决"
+        }
+      ],
+      "impact_path": [
+        "修正市场对通用人形机器人快速接管精密制造产线的过高预期",
+        "引导早期商业化投资重定向至解决仓储物流末端非标动作的机器人初创公司"
+      ],
+      "verification_steps": [
+        "跟踪亚马逊及富士康对外部仓库人形机器人测试的采购预算及试点推广进度",
+        "评估下一代端到端模型（VLA）在多步骤精密操作（如螺丝孔定位与受力反馈）上的成功率突破"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "00:46:35",
+      "time_end": "00:50:45",
+      "start_seconds": 2795.0,
+      "end_seconds": 3045.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Alphabet",
+          "ticker": "GOOGL",
+          "parent": "Google",
+          "type": "public"
+        },
+        {
+          "name": "Tesla",
+          "ticker": "TSLA",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "competition",
+      "claim": "具身智能的终局取决于核心瓶颈：若底层基础大模型能力是唯一壁垒，拥有DeepMind等深厚积累的Google相较特斯拉更具核心优势；但若商业化决胜点在于软硬系统的垂直整合，特斯拉仍将凭借其供应链闭环保持领先地位。",
+      "evidence_seg_ids": [
+        94
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 94,
+          "quote": "如果软件能统治一切的话，Tesla倒不一定比得过Google"
+        }
+      ],
+      "impact_path": [
+        "影响投资者在智能机器人赛道核心标的（软件霸主 vs 硬件系统集成王者）之间的资金配置倾斜",
+        "提示市场重新评估Google在泛化具身智能大模型（如RT系列）上的长期变现潜力"
+      ],
+      "verification_steps": [
+        "关注Google及DeepMind后续发布的机器人基座模型（如RT-3）的跨构型泛化能力",
+        "追踪Tesla FSD技术向Optimus大脑迁移时的参数规模扩展及实际任务成功率"
+      ],
+      "confidence": "low",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "01:02:03",
+      "time_end": "01:03:14",
+      "start_seconds": 3723.0,
+      "end_seconds": 3794.0
+    }
+  ]
+}

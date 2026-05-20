@@ -1,0 +1,21 @@
+{
+  "host": [
+    "泓君"
+  ],
+  "guests": [
+    "张璐",
+    "Dr.Mark Ren",
+    "Dr.Zhibin Xiao",
+    "Alex Yeh"
+  ],
+  "episode_info": "硅谷101 E230 - 1万亿收入预期背后：英伟达的巅峰与软肋",
+  "guest_background": {
+    "张璐": "Fusion Fund创始管理合伙人",
+    "Dr.Mark Ren": "Agentrys创始人&CEO，前英伟达研究总监",
+    "Dr.Zhibin Xiao": "ZFLOW AI创始人&CEO，前CASPA主席与董事会顾问",
+    "Alex Yeh": "GMI Cloud创始人&CEO"
+  },
+  "publish_date": "2026-03-25",
+  "record_date": "",
+  "date_notes": "发布日期从页面元数据提取；录制日期在文本中未明确具体日期，仅提及为“GTC 2026大会期间的线下特别录制”，因此留空。"
+}

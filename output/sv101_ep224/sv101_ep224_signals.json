@@ -1,0 +1,178 @@
+{
+  "metadata": {
+    "source": "output/sv101_ep224/224_transcript_gemini.json",
+    "method": "gemini_3_pro_full_context",
+    "model": "gemini-3.1-pro-preview",
+    "total_signals": 4,
+    "companies_mentioned": [
+      "Cassiopea",
+      "Eli Lilly",
+      "Pfizer",
+      "多肽药物递送初创公司",
+      "振东制药"
+    ],
+    "context_length": 15758,
+    "publish_date": "2025-11-16",
+    "record_date": "",
+    "podcast_id": "sv101",
+    "episode_id": "224"
+  },
+  "signals": [
+    {
+      "entities": [
+        {
+          "name": "振东制药",
+          "ticker": "300158.SZ",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "product",
+      "claim": "振东制药正将其管线从单一药品拓展为诊疗方案，重点研发长效米诺地尔/非那雄胺制剂（目标将频率降至每周或每月一次），以解决患者依从性痛点，目标是在增速达15%的国内防脱洗护及药品市场获取更大份额。",
+      "evidence_seg_ids": [
+        2,
+        58,
+        80
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 58,
+          "quote": "争取把制剂变成一个长效用药"
+        }
+      ],
+      "impact_path": [
+        "长效制剂一旦获批并商业化，将大幅提升脱发患者的留存率和生命周期贡献价值",
+        "通过解决现有每日两次用药的依从性痛点，有望重塑振东制药在国内OTC防脱市场的竞争优势"
+      ],
+      "verification_steps": [
+        "查阅振东制药最新财报中关于长效防脱制剂的研发投入及IND/临床阶段披露",
+        "追踪国内脱发类长效制剂的CDE审批动态及同行业竞品进展"
+      ],
+      "confidence": "high",
+      "novelty": "low",
+      "actionability": "low",
+      "time_start": "00:02:27",
+      "time_end": "00:33:30",
+      "start_seconds": 147.0,
+      "end_seconds": 2010.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Cassiopea",
+          "ticker": "COPN.SW",
+          "parent": "Cosmo Pharmaceuticals",
+          "type": "public"
+        }
+      ],
+      "signal_type": "valuation",
+      "claim": "全球脱发纯药物市场当前因依赖廉价老药（如米诺地尔）规模仅约20-30亿美元。未来3-5年内，随着克拉特龙（Clascoterone）、NPC抑制剂等按新药定价的创新脱发药物完成晚期临床并上市，该市场TAM有望出现十倍级重估，飙升至200亿美元以上。",
+      "evidence_seg_ids": [
+        78,
+        80,
+        108
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 80,
+          "quote": "最少是一个 200 亿美金以上的规模市场"
+        }
+      ],
+      "impact_path": [
+        "资本市场对脱发管线资产的估值逻辑将从“低毛利消费级仿制药”转向“高毛利创新药”",
+        "拥有临床后期防脱创新靶点管线的生科公司将迎来重大的可触达市场(TAM)预期扩张"
+      ],
+      "verification_steps": [
+        "追踪新型靶点脱发药（如克拉特龙外用液）的FDA三期临床数据读出与NDA获批时间节点",
+        "关注首批创新脱发药上市后的定价策略(WAC)及商业保险覆盖范围"
+      ],
+      "confidence": "low",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "00:31:54",
+      "time_end": "00:42:58",
+      "start_seconds": 1914.0,
+      "end_seconds": 2578.0
+    },
+    {
+      "entities": [
+        {
+          "name": "多肽药物递送初创公司",
+          "ticker": null,
+          "parent": null,
+          "type": "private"
+        }
+      ],
+      "signal_type": "product",
+      "claim": "有初创企业正利用多肽给药技术开发纯水相、无酒精的外用非那雄胺，以解决当前外用产品（如含55%酒精的Caretopic）易渗透入血并引发潜在ED的痛点。该技术目前处于临床前阶段，正推进与斯坦福医疗的临床合作。",
+      "evidence_seg_ids": [
+        67,
+        68,
+        69
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 67,
+          "quote": "在纯水相的条件下就可以把非那雄胺通过涂抹给药"
+        }
+      ],
+      "impact_path": [
+        "若能证实该技术可在无有机溶剂情况下穿透皮肤角质层且避免进入血液循环，将成为极具商业价值的递送平台",
+        "可能吸引大型药企的收购或管线许可(License-out)，以替代现有的高浓度酒精外用脱发配方"
+      ],
+      "verification_steps": [
+        "关注该初创平台底层多肽递送专利的公开情况及临床前动物数据的同行评议结果",
+        "追踪其与斯坦福Skinnovation诊所的早期临床试验(IIT)注册与安全性数据读出"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "00:25:50",
+      "time_end": "00:29:10",
+      "start_seconds": 1550.0,
+      "end_seconds": 1750.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Eli Lilly",
+          "ticker": "LLY",
+          "parent": null,
+          "type": "public"
+        },
+        {
+          "name": "Pfizer",
+          "ticker": "PFE",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "product",
+      "claim": "美国一线皮肤专科医生已开始针对伴有严重炎症的难治性雄性脱发(AGA)患者，超适应症联合使用近期刚获批用于重度斑秃的口服JAK抑制剂与低浓度米诺地尔进行个性化治疗。",
+      "evidence_seg_ids": [
+        115
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 115,
+          "quote": "加上了一个新获批的 JAK 抑制剂"
+        }
+      ],
+      "impact_path": [
+        "此类实践可能在医生群体中扩散，催生JAK抑制剂在传统雄性脱发治疗领域可观的超适应症(Off-label)需求",
+        "真实世界疗效数据积累后，药企可能启动临床试验，正式扩充JAK抑制剂针对炎性AGA的适应症"
+      ],
+      "verification_steps": [
+        "调研美国头部毛发专科诊所中JAK抑制剂用于AGA的Off-label处方增速",
+        "监测主流皮肤科期刊是否开始出现大量JAK抑制剂联合米诺地尔治疗AGA的真实世界病例报告"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "00:43:52",
+      "time_end": "00:46:55",
+      "start_seconds": 2632.0,
+      "end_seconds": 2815.0
+    }
+  ]
+}

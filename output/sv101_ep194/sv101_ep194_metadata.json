@@ -1,0 +1,20 @@
+{
+  "podcast_id": "sv101",
+  "podcast_name": "sv101",
+  "episode_id": "194",
+  "url": "https://sv101.fireside.fm/194",
+  "base_url": "https://sv101.fireside.fm",
+  "hosts": [],
+  "language": "en",
+  "publish_date": "2025-03-25",
+  "record_date": "",
+  "date_notes": "录制日期未提供，可能与发布日期接近",
+  "guests": [
+    "尤亦庄",
+    "侯万达"
+  ],
+  "guest_background": {
+    "尤亦庄": "加州大学圣地亚哥分校物理系副教授",
+    "侯万达": "加州大学圣地亚哥分校物理学博士生"
+  }
+}

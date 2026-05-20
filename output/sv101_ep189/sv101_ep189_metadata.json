@@ -1,0 +1,18 @@
+{
+  "podcast_id": "sv101",
+  "podcast_name": "sv101",
+  "episode_id": "189",
+  "url": "https://sv101.fireside.fm/189",
+  "base_url": "https://sv101.fireside.fm",
+  "hosts": [],
+  "language": "en",
+  "publish_date": "2025-02-25",
+  "record_date": "",
+  "date_notes": "录制日期未提供，使用发布日期作为参考",
+  "guests": [
+    "陶明"
+  ],
+  "guest_background": {
+    "陶明": "Soul App CTO"
+  }
+}

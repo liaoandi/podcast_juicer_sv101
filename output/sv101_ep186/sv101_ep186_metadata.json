@@ -1,0 +1,23 @@
+{
+  "podcast_id": "sv101",
+  "podcast_name": "硅谷101",
+  "episode_id": "186",
+  "url": "https://sv101.fireside.fm/186",
+  "base_url": "https://sv101.fireside.fm",
+  "hosts": [
+    "泓君"
+  ],
+  "language": "zh",
+  "publish_date": "2025-02-05",
+  "record_date": "2025-02-03",
+  "date_notes": "录制日期推断为英伟达股价下跌的日期",
+  "guests": [
+    "陈羽北",
+    "John Yue"
+  ],
+  "guest_background": {
+    "陈羽北": "加州大学戴维斯分校电子与计算机工程系助理教授，AIzip.ai联合创始人",
+    "John Yue": "Inference.ai创始人兼CEO"
+  },
+  "record_date_source": "transcript"
+}

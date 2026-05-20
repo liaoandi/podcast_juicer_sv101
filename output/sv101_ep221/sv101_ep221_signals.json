@@ -1,0 +1,228 @@
+{
+  "metadata": {
+    "source": "/Users/antonio/Desktop/podcast_juicer/output/sv101_ep221/221_transcript_gemini.json",
+    "method": "gemini_3_pro_full_context",
+    "model": "gemini-3.1-pro-preview",
+    "total_signals": 4,
+    "companies_mentioned": [
+      "FOOD & LIFE COMPANIES",
+      "M Stand",
+      "Zensho Holdings (泉膳)",
+      "丸龟制面",
+      "寿司郎",
+      "滨寿司",
+      "龟甲万"
+    ],
+    "context_length": 23826,
+    "publish_date": null,
+    "record_date": null,
+    "podcast_id": null,
+    "episode_id": null
+  },
+  "signals": [
+    {
+      "entities": [
+        {
+          "name": "寿司郎",
+          "ticker": "3563.T",
+          "parent": "FOOD & LIFE COMPANIES",
+          "type": "public"
+        },
+        {
+          "name": "滨寿司",
+          "ticker": "7550.T",
+          "parent": "Zensho Holdings",
+          "type": "public"
+        }
+      ],
+      "signal_type": "competition",
+      "claim": "寿司郎等日本回转寿司在华展现极高盈利能力，周末翻台率达15次，回本周期仅7至15个月。其核心驱动力是制造前置，借助RFID与AI预测将损耗率降至1%，叠加中国更低的人工成本，单店模型显著优于本土餐饮，预计将为母公司贡献强劲利润。",
+      "evidence_seg_ids": [
+        16,
+        17,
+        18,
+        68
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 17,
+          "quote": "快的话七八个月就可以回本"
+        },
+        {
+          "seg_id": 18,
+          "quote": "中国因为整个工资水平会相对低一些...拉高了盈利能力"
+        },
+        {
+          "seg_id": 68,
+          "quote": "现在这些头部的回转寿司的损耗率在 1% 左右"
+        }
+      ],
+      "impact_path": [
+        "中国区门店凭借更优的人工成本和高客单/翻台率实现超额利润",
+        "回馈至母公司FOOD & LIFE (3563.T) 和 Zensho (7550.T) 财报，提升整体净利率"
+      ],
+      "verification_steps": [
+        "查阅 3563.T 和 7550.T 财报中关于大中华区的单店营收、利润率贡献",
+        "追踪其在中国一二线城市商场的新开门店指引与实际存活率"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:07:30",
+      "time_end": "00:22:00",
+      "start_seconds": 450.0,
+      "end_seconds": 1320.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Zensho Holdings (泉膳)",
+          "ticker": "7550.T",
+          "parent": null,
+          "type": "public"
+        },
+        {
+          "name": "FOOD & LIFE COMPANIES",
+          "ticker": "3563.T",
+          "parent": null,
+          "type": "public"
+        },
+        {
+          "name": "龟甲万",
+          "ticker": "2801.T",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "valuation",
+      "claim": "泉膳等日本餐企市盈率已达40倍，驱动力是出海逻辑兑现。在欧美，其通过并购档口店切入高增长的外卖业态；同时日料出海带动龟甲万等供应链的全球化。市场正为具备全球化扩张能力的日本消费资产支付高溢价，海外营收增速将是维持其高估值的核心指标。",
+      "evidence_seg_ids": [
+        164,
+        166,
+        219
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 164,
+          "quote": "寿司的这种档口店...这个业务不是在日本，是在英国、美国"
+        },
+        {
+          "seg_id": 166,
+          "quote": "背后其实就是日料出海所带着的酱油出海"
+        },
+        {
+          "seg_id": 219,
+          "quote": "市盈率都是 38 倍、 40 倍左右了...全靠出海"
+        }
+      ],
+      "impact_path": [
+        "欧美中食（外卖）市场的高增速填补了日本本土的人口衰退缺口",
+        "重塑投资者对其长期增长预期，维持或进一步推高出海型餐企及供应链的估值倍数"
+      ],
+      "verification_steps": [
+        "跟踪 7550.T 和 2801.T 财报中欧美业务的营收增速及占比变化",
+        "监测这些公司在欧美市场的并购动作与整合后的协同效益"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:45:58",
+      "time_end": "00:59:38",
+      "start_seconds": 2758.0,
+      "end_seconds": 3578.0
+    },
+    {
+      "entities": [
+        {
+          "name": "丸龟制面",
+          "ticker": "3397.T",
+          "parent": "Toridoll Holdings",
+          "type": "public"
+        }
+      ],
+      "signal_type": "competition",
+      "claim": "丸龟制面凭标准化拼装与现制表演构筑壁垒。基础单品毛利达90%，整体毛利率达76%。其兼顾20秒极速出餐与烟火气的模式，成功击败低价纯预制竞品。该模型兼具高周转与高利润，在通缩期展现出卓越的盈利韧性，为母公司Toridoll基本面提供强劲的长期支撑。",
+      "evidence_seg_ids": [
+        110,
+        112,
+        114,
+        126
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 110,
+          "quote": "整个公司的毛利率非常高，大概是有 76%"
+        },
+        {
+          "seg_id": 114,
+          "quote": "中间整个过程大概是 20 秒左右"
+        },
+        {
+          "seg_id": 126,
+          "quote": "所有的乌冬面都是预制的，但是它就没有打过丸龟制面"
+        }
+      ],
+      "impact_path": [
+        "兼具降本提效和消费者体验，保证了门店吞吐上限和毛利空间",
+        "使其在消费降级环境中规避了恶性价格战，保障母公司Toridoll的稳健基本面"
+      ],
+      "verification_steps": [
+        "查阅 Toridoll Holdings (3397.T) 财报核实集团整体毛利率是否稳定在75%以上",
+        "比较其同店销售额（SSSG）与完全预制的竞争对手（如花丸乌冬）的表现差异"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "00:32:50",
+      "time_end": "00:36:02",
+      "start_seconds": 1970.0,
+      "end_seconds": 2162.0
+    },
+    {
+      "entities": [
+        {
+          "name": "M Stand",
+          "ticker": null,
+          "parent": null,
+          "type": "private"
+        }
+      ],
+      "signal_type": "product",
+      "claim": "M Stand等中国咖啡出海日本具备结构性机遇。日本本土深陷烘焙内卷且有传统包袱，缺乏饮品化咖啡创新。中国品牌凭特调菜单可实现差异化破局；且日本商铺租约稳定，单店立足即可获长达十年的稳定现金流，为一级出海项目提供高确定性。",
+      "evidence_seg_ids": [
+        236,
+        238,
+        247
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 236,
+          "quote": "M Stand 在日本的优势就是没有包袱"
+        },
+        {
+          "seg_id": 238,
+          "quote": "抹茶生椰拿铁等一系列的这种味道在日本是没有出现过的"
+        },
+        {
+          "seg_id": 247,
+          "quote": "这一个店能开 10 年，能稳定地给你开 10 年"
+        }
+      ],
+      "impact_path": [
+        "利用降维打击的饮品化SKU避开日本传统精品咖啡红海竞争",
+        "在日本稳定的租金和格局下获取持久的正向现金流，提升品牌估值"
+      ],
+      "verification_steps": [
+        "调研 M Stand 日本门店的菜单销量结构，验证特调咖啡的受欢迎程度",
+        "对标当地独立咖啡店的关店率与留存周期数据"
+      ],
+      "confidence": "low",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "01:03:42",
+      "time_end": "01:06:25",
+      "start_seconds": 3822.0,
+      "end_seconds": 3985.0
+    }
+  ]
+}

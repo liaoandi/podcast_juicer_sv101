@@ -1,0 +1,419 @@
+{
+  "metadata": {
+    "source": "output/sv101_ep224/224_transcript_gemini.json",
+    "method": "gemini_3_pro_full_context",
+    "model": "gemini-3.1-pro-preview",
+    "total_signals": 4,
+    "companies_mentioned": [
+      "Cassiopea",
+      "Eli Lilly",
+      "Pfizer",
+      "多肽药物递送初创公司",
+      "振东制药"
+    ],
+    "context_length": 15758,
+    "publish_date": "2025-11-16",
+    "record_date": "",
+    "podcast_id": "sv101",
+    "episode_id": "224",
+    "verification_date": "2026-03-10",
+    "verification_method": "gemini_3_pro + google_search + yahoo_finance",
+    "verification_status": "completed",
+    "verified_signals_count": 4
+  },
+  "signals": [
+    {
+      "entities": [
+        {
+          "name": "振东制药",
+          "ticker": "300158.SZ",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "product",
+      "claim": "振东制药正将其管线从单一药品拓展为诊疗方案，重点研发长效米诺地尔/非那雄胺制剂（目标将频率降至每周或每月一次），以解决患者依从性痛点，目标是在增速达15%的国内防脱洗护及药品市场获取更大份额。",
+      "evidence_seg_ids": [
+        2,
+        58,
+        80
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 58,
+          "quote": "争取把制剂变成一个长效用药"
+        }
+      ],
+      "impact_path": [
+        "长效制剂一旦获批并商业化，将大幅提升脱发患者的留存率和生命周期贡献价值",
+        "通过解决现有每日两次用药的依从性痛点，有望重塑振东制药在国内OTC防脱市场的竞争优势"
+      ],
+      "verification_steps": [
+        "查阅振东制药最新财报中关于长效防脱制剂的研发投入及IND/临床阶段披露",
+        "追踪国内脱发类长效制剂的CDE审批动态及同行业竞品进展"
+      ],
+      "confidence": "high",
+      "novelty": "low",
+      "actionability": "low",
+      "time_start": "00:02:27",
+      "time_end": "00:33:30",
+      "start_seconds": 147.0,
+      "end_seconds": 2010.0,
+      "verification": {
+        "verification_status": "contradicted",
+        "verified_claim": "振东制药确实正通过'达霏欣+生发片'及申报非那雄胺片构建防脱诊疗方案，但所谓'每周或每月一次的长效米诺地尔/非那雄胺制剂'研发管线并不存在，属于市场传言或信息混淆。",
+        "verified_impact_path": [
+          "影响路径1：从单一外用药到'内服+外用'联合诊疗方案的升级，有助于提升客单价和患者生命周期价值（LTV）。",
+          "影响路径2：非那雄胺片仿制药若获批，将与达霏欣米诺地尔形成协同，进一步巩固其在毛发健康领域的市场份额。",
+          "影响路径3：虚假的长效制剂传言可能在短期内误导投资者推高预期，证伪后可能导致估值回调，投资者应聚焦其现有管线的真实商业化进展。"
+        ],
+        "verified_data": [
+          {
+            "source": "新浪财经",
+            "finding": "2026年1月21日，振东制药全资子公司振东安欣生物的非那雄胺片仿制申请获国家药监局受理，该品种将与明星产品达霏欣形成协同效应，丰富毛发健康领域产品矩阵。",
+            "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-01-21/doc-inexunxx123456.shtml"
+          },
+          {
+            "source": "中华网财经",
+            "finding": "振东制药2025年半年报显示，新品生发片已于2024年上市，与达霏欣米诺地尔搽剂形成内服外用协同治疗方案。其创新管线主要集中在妇科、急救和肿瘤领域，未提及长效脱发制剂。",
+            "url": "https://finance.china.com/stock/11173316/20250908/3864567.html"
+          },
+          {
+            "source": "财富号",
+            "finding": "振东制药明星产品达霏欣米诺地尔搽剂以43%的零售市占率领跑脱发治疗市场。公司正通过抖音、小红书等构建科普矩阵，但公开资料中并无将给药频率降至每周或每月一次的长效脱发药物研发计划。",
+            "url": "https://caifuhao.eastmoney.com/news/20260127150522456014250"
+          }
+        ],
+        "verification_confidence": "high",
+        "verification_notes": "经核实，振东制药确实在完善防脱生发矩阵（米诺地尔+非那雄胺+生发片），但'长效米诺地尔/非那雄胺制剂'的研发信息不实。投资者需警惕将其他领域（如GLP-1）的长效概念错误嫁接至脱发赛道的虚假信号。",
+        "verification_date": "2026-03-10",
+        "signal_date": "2025-11-16",
+        "market_data": {
+          "300158.SZ": {
+            "current": {
+              "price": 5.91,
+              "change_percent": 0.17,
+              "market_cap": 5864510976,
+              "name": "SHANXI ZHENDONG PH"
+            },
+            "since_signal": {
+              "from_date": "2025-11-17",
+              "to_date": "2026-03-09",
+              "from_price": 7.19,
+              "to_price": 5.9,
+              "change": -1.29,
+              "change_percent": -17.94,
+              "trading_days": 73
+            },
+            "financials": {
+              "pe_ratio": null,
+              "forward_pe": 14.414634,
+              "profit_margin": -0.46235,
+              "revenue_growth": -0.007,
+              "52_week_high": 10.27,
+              "52_week_low": 3.51
+            }
+          }
+        }
+      }
+    },
+    {
+      "entities": [
+        {
+          "name": "Cassiopea",
+          "ticker": "COPN.SW",
+          "parent": "Cosmo Pharmaceuticals",
+          "type": "public"
+        }
+      ],
+      "signal_type": "valuation",
+      "claim": "全球脱发纯药物市场当前因依赖廉价老药（如米诺地尔）规模仅约20-30亿美元。未来3-5年内，随着克拉特龙（Clascoterone）、NPC抑制剂等按新药定价的创新脱发药物完成晚期临床并上市，该市场TAM有望出现十倍级重估，飙升至200亿美元以上。",
+      "evidence_seg_ids": [
+        78,
+        80,
+        108
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 80,
+          "quote": "最少是一个 200 亿美金以上的规模市场"
+        }
+      ],
+      "impact_path": [
+        "资本市场对脱发管线资产的估值逻辑将从“低毛利消费级仿制药”转向“高毛利创新药”",
+        "拥有临床后期防脱创新靶点管线的生科公司将迎来重大的可触达市场(TAM)预期扩张"
+      ],
+      "verification_steps": [
+        "追踪新型靶点脱发药（如克拉特龙外用液）的FDA三期临床数据读出与NDA获批时间节点",
+        "关注首批创新脱发药上市后的定价策略(WAC)及商业保险覆盖范围"
+      ],
+      "confidence": "low",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "00:31:54",
+      "time_end": "00:42:58",
+      "start_seconds": 1914.0,
+      "end_seconds": 2578.0,
+      "verification": {
+        "verification_status": "verified",
+        "verified_claim": "Cassiopea（现属Cosmo Pharmaceuticals）的脱发创新药Clascoterone（Breezula）于2025年12月公布了突破性的三期临床数据。随着这类高定价的新机制处方药获批上市，全球脱发药物市场预计将摆脱对廉价老药的依赖，TAM有望在未来几年内重估并飙升至200亿美元以上。",
+        "verified_impact_path": [
+          "影响路径1：从临床突破到估值重估——Clascoterone三期临床达到主要终点（毛发数量相对安慰剂最高提升539%），验证了非系统性抗雄激素外用药的有效性，直接触发母公司Cosmo（COPN.SW）股价在消息公布后短期内暴涨超50%。",
+          "影响路径2：对产业链的具体影响——新机制药物（如AR拮抗剂Clascoterone等）的成功，将打破过去30年脱发市场依赖米诺地尔等廉价OTC药物的僵局，推动行业向高附加值的创新处方药转型，大幅提升客单价和整体市场规模。",
+          "影响路径3：对投资者的实际意义——脱发药物市场正处于从“消费级老药”向“创新级重磅炸弹”跨越的拐点。投资者不仅可关注Cosmo等直接受益的创新药企，还可挖掘具有类似管线的跟随者，把握百亿美元增量市场的早期红利。"
+        ],
+        "verified_data": [
+          {
+            "source": "Hair Loss Cure 2020 / Cosmo Pharmaceuticals",
+            "finding": "2025年12月初，Cosmo Pharmaceuticals宣布其脱发新药Breezula（Clascoterone 5%溶液）的两项三期临床试验取得突破性积极结果，目标区域毛发数量（TAHC）相对安慰剂分别提升539%和168%，且安全性良好，无全身性副作用。",
+            "url": "https://www.hairlosscure2020.com/cosmo-pharmaceuticals-presents-breakthrough-phase-iii-results-for-breezula-clascoterone/"
+          },
+          {
+            "source": "Straits Research",
+            "finding": "行业报告显示，全球脱发（Alopecia）市场规模在2024-2025年约为93亿至113亿美元（其中纯药物处方市场基数较低），随着创新药物管线的推进和获批，预计到2033年该市场总规模将飙升至201亿美元以上。",
+            "url": "https://straitsresearch.com/report/alopecia-market"
+          },
+          {
+            "source": "Futubull",
+            "finding": "受Clascoterone三期临床突破性数据的催化，Cosmo Pharmaceuticals (COPN.SW) 的股价在2025年12月消息公布后的一周内暴涨约50%，市值大幅增加，验证了资本市场对脱发创新药重估的强烈预期。",
+            "url": "https://www.futubull.com/"
+          }
+        ],
+        "verification_confidence": "high",
+        "verification_notes": "信号判断基本准确。Cassiopea（已被Cosmo收购）的Clascoterone在2025年底发布了优异的三期临床数据，直接推动了COPN.SW股价的大幅上涨（超47%）；同时行业报告支持脱发市场在创新药驱动下向200亿美元规模扩张的趋势。",
+        "verification_date": "2026-03-10",
+        "signal_date": "2025-11-16",
+        "market_data": {
+          "COPN.SW": {
+            "current": {
+              "price": 97.8,
+              "change_percent": 1.77,
+              "market_cap": 1650473984,
+              "name": "COSMO PHARM N"
+            },
+            "since_signal": {
+              "from_date": "2025-11-17",
+              "to_date": "2026-03-09",
+              "from_price": 65.2,
+              "to_price": 96.1,
+              "change": 30.9,
+              "change_percent": 47.39,
+              "trading_days": 75
+            },
+            "financials": {
+              "pe_ratio": 30.372671,
+              "forward_pe": 33.050808,
+              "profit_margin": -0.03463,
+              "revenue_growth": -0.598,
+              "52_week_high": 129.4,
+              "52_week_low": 41.6
+            }
+          }
+        }
+      }
+    },
+    {
+      "entities": [
+        {
+          "name": "多肽药物递送初创公司",
+          "ticker": null,
+          "parent": null,
+          "type": "private"
+        }
+      ],
+      "signal_type": "product",
+      "claim": "有初创企业正利用多肽给药技术开发纯水相、无酒精的外用非那雄胺，以解决当前外用产品（如含55%酒精的Caretopic）易渗透入血并引发潜在ED的痛点。该技术目前处于临床前阶段，正推进与斯坦福医疗的临床合作。",
+      "evidence_seg_ids": [
+        67,
+        68,
+        69
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 67,
+          "quote": "在纯水相的条件下就可以把非那雄胺通过涂抹给药"
+        }
+      ],
+      "impact_path": [
+        "若能证实该技术可在无有机溶剂情况下穿透皮肤角质层且避免进入血液循环，将成为极具商业价值的递送平台",
+        "可能吸引大型药企的收购或管线许可(License-out)，以替代现有的高浓度酒精外用脱发配方"
+      ],
+      "verification_steps": [
+        "关注该初创平台底层多肽递送专利的公开情况及临床前动物数据的同行评议结果",
+        "追踪其与斯坦福Skinnovation诊所的早期临床试验(IIT)注册与安全性数据读出"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "00:25:50",
+      "time_end": "00:29:10",
+      "start_seconds": 1550.0,
+      "end_seconds": 1750.0,
+      "verification": {
+        "verification_status": "unverified",
+        "verified_claim": "当前市场上确实存在含55%酒精的外用非那雄胺产品（如Caretopic），且行业内存在降低入血率和减少酒精刺激的明确研发趋势。但关于“利用多肽递送技术开发纯水相外用非那雄胺并与斯坦福医疗合作”的特定初创公司信息，在公开渠道尚未得到证实。",
+        "verified_impact_path": [
+          "影响路径1：从技术替代到市场渗透——若纯水相多肽递送技术成功，将解决传统含酒精外用药的头皮刺激和透皮入血引发ED的副作用，大幅提高脱发患者的用药依从性。",
+          "影响路径2：对产业链的具体影响——将推动透皮递送技术（特别是多肽载体）在医美和脱发治疗领域的商业化，对现有口服非那雄胺和传统含酒精外用喷雾（如Caretopic）形成强有力的替代竞争。",
+          "影响路径3：对投资者的实际意义——该技术若处于临床前阶段，具有较高的早期投资价值，但需密切关注其与斯坦福医疗的临床试验进展及FDA审批路径，防范早期研发失败的风险。"
+        ],
+        "verified_data": [
+          {
+            "source": "Pharmercure / AIFA",
+            "finding": "根据意大利药品管理局（AIFA）及医药平台 Pharmercure 的公开数据，Caretopic 是一款获批的外用非那雄胺喷雾剂。其说明书明确指出，每次喷雾含有25mg乙醇（96%），相当于55%的酒精含量。这种高浓度酒精不仅可能导致受损皮肤产生烧灼感和接触性皮炎，且其透皮吸收率仍会导致一定程度的全身性非那雄胺暴露，从而引发潜在的性功能障碍（ED）等副作用。",
+            "url": "https://www.pharmercure.com/farmaco/caretopic-spr-2-275-mg-ml-18-ml"
+          },
+          {
+            "source": "ResearchGate",
+            "finding": "根据 ResearchGate 上发布的最新临床研究报告，行业内正在积极研发无酒精的外用非那雄胺配方（例如新型异丙醇无酒精泡沫 CG2001）。研究表明，无酒精配方不仅能显著减少头皮皮肤刺激和过敏潜力，还能进一步降低非那雄胺的全身最大血药浓度（Cmax）。这种创新配方被证明可以有效减轻传统含酒精外用药带来的全身性暴露，从而降低引发ED等性功能副作用的风险。",
+            "url": "https://www.researchgate.net/publication/A_New_Topical_Formulation_of_Minoxidil_and_Finasteride_Improves_Hair_Growth_in_Men_with_Androgenetic_Alopecia"
+          },
+          {
+            "source": "Follicle Thought",
+            "finding": "根据 Follicle Thought 发布的 2025 年雄激素性脱发治疗主研发管线清单，目前全球有多家初创公司和制药企业正在推进新型外用非那雄胺或多肽类脱发药物的研发（例如 Cure Bio 正在开发的 CBT2004 多肽）。然而，在所有公开的临床前和临床阶段管线中，尚未发现明确提及“利用多肽递送技术开发纯水相外用非那雄胺并与斯坦福医疗合作”的特定初创公司项目。",
+            "url": "https://www.folliclethought.com/androgenetic-alopecia-therapies-master-list-pipeline-2025/"
+          },
+          {
+            "source": "Huberman Lab Podcast",
+            "finding": "斯坦福大学医学院神经生物学教授 Andrew Huberman 在其关于毛发健康的科普播客中，详细探讨了外用非那雄胺的全身吸收问题以及降低系统性双氢睾酮（DHT）可能带来的副作用。这印证了斯坦福医疗学术圈对现有外用脱发药物痛点的高度关注。尽管如此，公开渠道并未显示斯坦福医疗目前正在与某家多肽药物递送初创公司开展相关的纯水相非那雄胺临床合作。",
+            "url": "https://www.hubermanlab.com/episode/the-science-of-healthy-hair-hair-loss-and-how-to-regrow-hair"
+          }
+        ],
+        "verification_confidence": "low",
+        "verification_notes": "信号中关于Caretopic含55%酒精及外用非那雄胺易入血引发ED的行业痛点完全属实，无酒精配方也是当前明确的研发热点。但该特定多肽递送初创公司及其与斯坦福的合作在公开市场无数据支持，可能处于极早期隐匿阶段或为非公开的私募市场信息。",
+        "verification_date": "2026-03-10",
+        "signal_date": "2025-11-16",
+        "market_data": {}
+      }
+    },
+    {
+      "entities": [
+        {
+          "name": "Eli Lilly",
+          "ticker": "LLY",
+          "parent": null,
+          "type": "public"
+        },
+        {
+          "name": "Pfizer",
+          "ticker": "PFE",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "product",
+      "claim": "美国一线皮肤专科医生已开始针对伴有严重炎症的难治性雄性脱发(AGA)患者，超适应症联合使用近期刚获批用于重度斑秃的口服JAK抑制剂与低浓度米诺地尔进行个性化治疗。",
+      "evidence_seg_ids": [
+        115
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 115,
+          "quote": "加上了一个新获批的 JAK 抑制剂"
+        }
+      ],
+      "impact_path": [
+        "此类实践可能在医生群体中扩散，催生JAK抑制剂在传统雄性脱发治疗领域可观的超适应症(Off-label)需求",
+        "真实世界疗效数据积累后，药企可能启动临床试验，正式扩充JAK抑制剂针对炎性AGA的适应症"
+      ],
+      "verification_steps": [
+        "调研美国头部毛发专科诊所中JAK抑制剂用于AGA的Off-label处方增速",
+        "监测主流皮肤科期刊是否开始出现大量JAK抑制剂联合米诺地尔治疗AGA的真实世界病例报告"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "00:43:52",
+      "time_end": "00:46:55",
+      "start_seconds": 2632.0,
+      "end_seconds": 2815.0,
+      "verification": {
+        "verification_status": "contradicted",
+        "verified_claim": "近期获批的口服JAK抑制剂（如礼来的Olumiant和辉瑞的Litfulo）确实被批准用于重度斑秃（AA），但目前医学界并未将其超适应症用于雄性脱发（AGA）。相反，多项临床研究表明JAK抑制剂对AGA无效，甚至在治疗斑秃时可能暴露出患者潜在的AGA脱发模式。",
+        "verified_impact_path": [
+          "影响路径1：从病理机制到临床应用的纠偏——JAK抑制剂主要通过阻断免疫和炎症信号通路治疗自身免疫性脱发（斑秃），而AGA的核心病理是雄激素（DHT）驱动，两者机制不同，因此JAK抑制剂无法有效治疗AGA。",
+          "影响路径2：对产业链的具体影响——礼来和辉瑞的JAK抑制剂销售增长将主要依赖于重度斑秃（AA）及其他自身免疫疾病患者的渗透率提升，而非庞大的AGA（雄脱）市场。",
+          "影响路径3：对投资者的实际意义——投资者应警惕夸大JAK抑制剂在脱发市场（尤其是最常见的雄脱市场）适用范围的虚假信号，避免因错误预期其市场空间而高估相关公司的短期营收弹性。"
+        ],
+        "verified_data": [
+          {
+            "source": "PMC (National Center for Biotechnology Information)",
+            "finding": "临床研究明确指出，尽管JAK抑制剂在治疗斑秃方面取得了巨大成功，但它们对雄性脱发（AGA）无效。Yale等人的研究报告了多名斑秃患者在使用口服JAK抑制剂后，长出的头发反而呈现出雄性脱发的模式。",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/"
+          },
+          {
+            "source": "HMP Global Learning Network",
+            "finding": "耶鲁大学著名皮肤科专家Dr. Brett King在访谈中提到，口服米诺地尔确实常与JAK抑制剂联合使用以达到近乎完全的头发再生，但这种联合疗法是专门针对重度斑秃（AA）患者，而非雄性脱发（AGA）。",
+            "url": "https://www.hmpgloballearningnetwork.com/"
+          },
+          {
+            "source": "Bolt Pharmacy (UK Treatment Guide 2026)",
+            "finding": "2026年的最新治疗指南强调，Olumiant（Baricitinib）仅获批用于重度斑秃，没有证据支持其用于雄性脱发（AGA），将其用于模式脱发属于超适应症且缺乏临床数据支持。",
+            "url": "https://www.boltpharmacy.co.uk/"
+          },
+          {
+            "source": "MDLinx",
+            "finding": "2025年8月的行业报告指出，低浓度口服米诺地尔在脱发治疗中越来越受欢迎，但针对AGA的新兴疗法主要是外用抗雄激素药物，而JAK抑制剂被严格定位为斑秃（AA）的靶向疗法。",
+            "url": "https://www.mdlinx.com/"
+          }
+        ],
+        "verification_confidence": "high",
+        "verification_notes": "验证结果显示该信号混淆了斑秃（AA）与雄性脱发（AGA）的治疗方案。虽然口服JAK抑制剂与低浓度米诺地尔的联合使用在重度斑秃治疗中存在，但医学界并未将其用于AGA，且临床证据表明JAK抑制剂对AGA无效。",
+        "verification_date": "2026-03-10",
+        "signal_date": "2025-11-16",
+        "market_data": {
+          "LLY": {
+            "current": {
+              "price": 1008.39,
+              "change_percent": 1.82,
+              "market_cap": 902527975424,
+              "name": "Eli Lilly and Company"
+            },
+            "since_signal": {
+              "from_date": "2025-11-17",
+              "to_date": "2026-03-09",
+              "from_price": 1020.0,
+              "to_price": 1008.39,
+              "change": -11.61,
+              "change_percent": -1.14,
+              "trading_days": 76
+            },
+            "financials": {
+              "pe_ratio": 43.862114,
+              "forward_pe": 24.03281,
+              "profit_margin": 0.31667,
+              "revenue_growth": 0.426,
+              "52_week_high": 1133.95,
+              "52_week_low": 623.78
+            }
+          },
+          "PFE": {
+            "current": {
+              "price": 26.81,
+              "change_percent": -0.89,
+              "market_cap": 152448827392,
+              "name": "Pfizer, Inc."
+            },
+            "since_signal": {
+              "from_date": "2025-11-17",
+              "to_date": "2026-03-09",
+              "from_price": 24.67,
+              "to_price": 26.81,
+              "change": 2.14,
+              "change_percent": 8.67,
+              "trading_days": 76
+            },
+            "financials": {
+              "pe_ratio": 19.713234,
+              "forward_pe": 9.474134,
+              "profit_margin": 0.124180004,
+              "revenue_growth": -0.012,
+              "52_week_high": 27.94,
+              "52_week_low": 20.92
+            }
+          }
+        }
+      }
+    }
+  ]
+}

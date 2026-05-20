@@ -1,0 +1,218 @@
+{
+  "metadata": {
+    "source": "/Users/antonio/Desktop/podcast_juicer/output/sv101_ep204/204_transcript_gemini.json",
+    "method": "gemini_3_pro_full_context",
+    "model": "gemini-3.1-pro-preview",
+    "total_signals": 5,
+    "companies_mentioned": [
+      "Fenty Beauty",
+      "LVMH",
+      "e.l.f. Beauty",
+      "欧莱雅",
+      "毛戈平",
+      "美宝莲",
+      "逸仙电商"
+    ],
+    "context_length": 25409,
+    "publish_date": null,
+    "record_date": null,
+    "podcast_id": "sv101",
+    "episode_id": "204"
+  },
+  "signals": [
+    {
+      "entities": [
+        {
+          "name": "逸仙电商",
+          "ticker": "YSG",
+          "parent": "null",
+          "type": "public"
+        }
+      ],
+      "signal_type": "risk",
+      "claim": "完美日记母公司逸仙电商在早期流量红利结束后正遭遇严重转型困难。由于核心彩妆品类极度依赖营销且极易受国内消费降级冲击，公司强行拔高客单价并收购中高端品牌的转型策略面临重大挑战，暴露了其早期依托流量驱动的“to PE”模型在二级市场中的极度脆弱性，将持续压制其长期估值。",
+      "evidence_seg_ids": [
+        73,
+        74
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 74,
+          "quote": "国内的流量红利结束了以后，它会遇到非常大的转型困难"
+        }
+      ],
+      "impact_path": [
+        "影响逸仙电商的长期估值与盈利预期",
+        "国内消费降级趋势与公司强行高端化的战略产生激烈冲突，导致流量模型失效后真实盈利能力难以支撑"
+      ],
+      "verification_steps": [
+        "观测逸仙电商财报中的营销费用率（销售费用占比）变化",
+        "跟踪旗下中高端护肤品牌矩阵的营收增速及整体客单价变动幅度"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:56:10",
+      "time_end": "01:02:10",
+      "start_seconds": 3370.0,
+      "end_seconds": 3730.0
+    },
+    {
+      "entities": [
+        {
+          "name": "LVMH",
+          "ticker": "MC.PA",
+          "parent": "null",
+          "type": "public"
+        },
+        {
+          "name": "Fenty Beauty",
+          "ticker": "null",
+          "parent": "LVMH",
+          "type": "unknown"
+        }
+      ],
+      "signal_type": "capital_action",
+      "claim": "LVMH重金控股Fenty Beauty等明星品牌本质上出于防御性战略。面对彩妆市场审美日益多元化和流媒体带来的渠道分散，即使新并购的IP品牌可能面临商誉减值风险且短期难以提供显著利润，LVMH也必须通过投资带有强烈社群属性的新兴品牌，来防止自身传统彩妆线老化并锁定细分年轻受众。",
+      "evidence_seg_ids": [
+        69
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 69,
+          "quote": "即使做一些防御性的投资，它也必须要去做。因为它担心"
+        }
+      ],
+      "impact_path": [
+        "影响LVMH美妆部门未来的资金配置及并购策略",
+        "大集团为防止被分散的流媒体人群抛弃，将持续对具有强价值观和社群粘性的独立美妆品牌进行高溢价收购"
+      ],
+      "verification_steps": [
+        "跟踪LVMH集团及旗下基金在独立美妆品牌（indie brands）领域的投资并购动向",
+        "监测LVMH美妆部门在北美市场的细分受众市占率"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "00:50:53",
+      "time_end": "00:52:48",
+      "start_seconds": 3053.0,
+      "end_seconds": 3168.0
+    },
+    {
+      "entities": [
+        {
+          "name": "欧莱雅",
+          "ticker": "OR.PA",
+          "parent": "null",
+          "type": "public"
+        },
+        {
+          "name": "美宝莲",
+          "ticker": "null",
+          "parent": "欧莱雅",
+          "type": "unknown"
+        }
+      ],
+      "signal_type": "competition",
+      "claim": "北美市场传统大众开架彩妆品牌（如美宝莲）的市场份额正面临强烈的洗牌危机，被明星IP品牌严重侵蚀。流媒体时代下，带有强烈文化价值观和包容度诉求的新兴独立品牌占据了北美年轻人的预算卡位，直接冲击了缺乏清晰态度表达的传统渠道品牌，导致其市占率天花板被大幅下压。",
+      "evidence_seg_ids": [
+        66
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 66,
+          "quote": "渠道品牌的市占率，美宝莲是最多时候从20个点降到了"
+        }
+      ],
+      "impact_path": [
+        "传统美妆巨头的大众化妆品部在北美的营收增速将长期承压",
+        "消费者由于预算有限，一旦被满足特定价值观的明星/细分品牌绑定，将挤占传统开架品牌的冲动消费空间"
+      ],
+      "verification_steps": [
+        "查阅Ulta Beauty及消费数据机构（如Circana）关于北美大众开架彩妆的市占率变化",
+        "监控欧莱雅大众化妆品部在北美的单季度销售额环比变动"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:46:55",
+      "time_end": "00:49:55",
+      "start_seconds": 2815.0,
+      "end_seconds": 2995.0
+    },
+    {
+      "entities": [
+        {
+          "name": "毛戈平",
+          "ticker": "1318.HK",
+          "parent": "null",
+          "type": "public"
+        }
+      ],
+      "signal_type": "valuation",
+      "claim": "国内纯彩妆品牌在二级市场存在天然的估值劣势，因其生命周期受潮流影响极大且难以预测持续性。因此，毛戈平等品牌在面对资本市场时，必须刻意强调其护肤品线（如面膜）的营收占比，以此来应对投资者对彩妆商业模式的悲观预判，揭示了美妆企业必须依赖护肤品逻辑才能获取更高估值支撑。",
+      "evidence_seg_ids": [
+        75
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 75,
+          "quote": "毛戈平在上市之前强调的最多就是，我们有一半以上的收"
+        }
+      ],
+      "impact_path": [
+        "影响拟上市美妆企业或已上市企业的市场估值逻辑",
+        "资本市场因为无法预测单一彩妆流行周期的持续性，将强制给予护肤品占比高的企业相对更多的估值溢价"
+      ],
+      "verification_steps": [
+        "查阅毛戈平及同类企业招股书/财报中护肤品类的营收占比趋势",
+        "跟踪公司在路演及财报电话会中对主营业务定位的叙事口径变化"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "01:01:50",
+      "time_end": "01:05:10",
+      "start_seconds": 3710.0,
+      "end_seconds": 3910.0
+    },
+    {
+      "entities": [
+        {
+          "name": "e.l.f. Beauty",
+          "ticker": "ELF",
+          "parent": "null",
+          "type": "public"
+        }
+      ],
+      "signal_type": "demand",
+      "claim": "e.l.f. Beauty等具备极致性价比的大众美妆品牌在北美年轻群体中仍维持极其强劲的刚性需求。尽管北美彩妆市场正被强价值观品牌分散，但e.l.f.凭借仅为丝芙兰三分之一的低价优势，成功捕获了侧重基础使用场景的下沉消费者，为其在药妆及商超渠道的持续业绩增长提供了基本盘。",
+      "evidence_seg_ids": [
+        68,
+        74
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 68,
+          "quote": "他们胜在价格非常的便宜。他们基本上是二分之一甚至三"
+        }
+      ],
+      "impact_path": [
+        "支撑ELF在北美下沉和大众市场的业绩高增长预期",
+        "在宏观通胀或消费疲软的背景下，极致便宜且主打基础使用功能的产品依然能有效捕获Gen Z的日用需求"
+      ],
+      "verification_steps": [
+        "跟踪e.l.f. Beauty在Target、CVS等美国主流药妆商超渠道的终端动销数据",
+        "观测其财报中毛利率与单客获取成本(CAC)的平衡状况"
+      ],
+      "confidence": "high",
+      "novelty": "low",
+      "actionability": "high",
+      "time_start": "00:49:50",
+      "time_end": "01:02:10",
+      "start_seconds": 2990.0,
+      "end_seconds": 3730.0
+    }
+  ]
+}

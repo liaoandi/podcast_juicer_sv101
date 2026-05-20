@@ -1,0 +1,22 @@
+{
+  "podcast_id": "sv101",
+  "podcast_name": "sv101",
+  "episode_id": "236",
+  "url": "https://sv101.fireside.fm/236",
+  "base_url": "https://sv101.fireside.fm",
+  "hosts": [],
+  "language": "en",
+  "publish_date": "2026-01-30",
+  "record_date": "",
+  "date_notes": "录制日期未在文本中明确提及，故留空",
+  "guests": [
+    "徐栋",
+    "亓鲁",
+    "吕瀛杰"
+  ],
+  "guest_background": {
+    "徐栋": "阿里云千问大模型业务总经理",
+    "亓鲁": "Insta360研究院总监",
+    "吕瀛杰": "语忆科技联合创始人&CEO"
+  }
+}

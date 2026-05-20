@@ -1,0 +1,293 @@
+{
+  "metadata": {
+    "source": "/Users/antonio/Desktop/podcast_juicer_sv101/output/sv101_ep196/196_transcript_gemini.json",
+    "method": "gemini_3_pro_full_context",
+    "model": "gemini-3.1-pro-preview",
+    "total_signals": 5,
+    "companies_mentioned": [
+      "Apple",
+      "BMW",
+      "Berkshire Hathaway",
+      "ByteDance",
+      "Google",
+      "Mercedes-Benz",
+      "OPPO",
+      "OpenAI",
+      "小米",
+      "比亚迪",
+      "理想汽车"
+    ],
+    "context_length": 22883,
+    "publish_date": "2025-04-13",
+    "record_date": "2025-04-11",
+    "podcast_id": "sv101",
+    "episode_id": "196"
+  },
+  "signals": [
+    {
+      "entities": [
+        {
+          "name": "OPPO",
+          "ticker": null,
+          "parent": "BBK Electronics",
+          "type": "private"
+        }
+      ],
+      "signal_type": "supply_chain",
+      "claim": "中国制造业向东南亚溢出仍局限于总装环节，如OPPO印尼工厂仅吸引极少数简单技术的一级供应商，无二级供应商跟随。因转入国承接力有限且要素价格暴涨，中端供应链实质性转移的经济可行性极低，全球依然高度依赖中国产能。",
+      "evidence_seg_ids": [
+        45,
+        87,
+        88
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 45,
+          "quote": "跟过来8家，而且是技术环节最简单的"
+        },
+        {
+          "seg_id": 45,
+          "quote": "二级供应商一家没有过来的"
+        },
+        {
+          "seg_id": 87,
+          "quote": "转过去一点它就吃撑了...要素价格暴涨"
+        }
+      ],
+      "impact_path": [
+        "削弱市场对“东南亚/墨西哥完全替代中国制造”的宏大叙事预期",
+        "由于海外工业地产及劳动力成本激增，盲目出海扩产的代工企业可能面临利润率反噬"
+      ],
+      "verification_steps": [
+        "追踪越南、墨西哥核心工业区的土地租金及劳动力成本通胀数据",
+        "核查中国对东南亚及墨西哥的中间品出口贸易额占比变化"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:19:50",
+      "time_end": "00:59:45",
+      "start_seconds": 1190.0,
+      "end_seconds": 3585.0
+    },
+    {
+      "entities": [
+        {
+          "name": "比亚迪",
+          "ticker": "002594.SZ",
+          "parent": null,
+          "type": "public"
+        },
+        {
+          "name": "理想汽车",
+          "ticker": "LI",
+          "parent": null,
+          "type": "public"
+        },
+        {
+          "name": "小米",
+          "ticker": "1810.HK",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "product",
+      "claim": "欧洲百年车企因传统机械产品的固有组织架构，难以打通软硬件协同研发，向智能电动车转型效率低下；而比亚迪、理想、小米等具备从零搭建的新型组织架构，在智能化体验上形成降维打击。欧洲车企的落后源于组织架构顽疾，短期难逆转。",
+      "evidence_seg_ids": [
+        45,
+        46,
+        47
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 47,
+          "quote": "新能源车是一个智能产品"
+        },
+        {
+          "seg_id": 47,
+          "quote": "软件跟硬件的协同的研发"
+        },
+        {
+          "seg_id": 47,
+          "quote": "中国新能源车...欧洲那些车是没办法比的"
+        }
+      ],
+      "impact_path": [
+        "欧洲传统车企在智能化领域的估值中枢可能面临长期下修",
+        "具备全栈自研及软硬件打通能力的中国新势力车企在出海中将享有持续的产品力溢价"
+      ],
+      "verification_steps": [
+        "对比欧洲老牌车企与中国造车新势力在软件研发部门的人员配比及组织架构变动",
+        "关注欧洲车企在智能化座舱和智驾上的OTA更新频率及用户反馈"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "00:19:50",
+      "time_end": "00:23:10",
+      "start_seconds": 1190.0,
+      "end_seconds": 1390.0
+    },
+    {
+      "entities": [
+        {
+          "name": "BMW",
+          "ticker": "BMW.DE",
+          "parent": null,
+          "type": "public"
+        },
+        {
+          "name": "Mercedes-Benz",
+          "ticker": "MBG.DE",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "supply_chain",
+      "claim": "欧洲汽车产业向智能化转型受阻，导致曾支撑德日制造优势的传统零部件“隐形冠军”面临严重生存危机。BBA等欧洲车企的封闭供应链系统已松动，正主动向具有成本与创新优势的中国汽车供应链厂商询价，中国汽配出海将迎新红利。",
+      "evidence_seg_ids": [
+        48,
+        50
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 48,
+          "quote": "隐形冠军在未来24个月都在生死边缘挣扎"
+        },
+        {
+          "seg_id": 50,
+          "quote": "以前BBA那些供应链系统我们想打入太难了"
+        },
+        {
+          "seg_id": 50,
+          "quote": "现在他们主动来找我们寻价了"
+        }
+      ],
+      "impact_path": [
+        "中国底盘、热管理、智能座舱等零部件供应商有望加速获取欧洲Tier1及主机厂订单",
+        "欧洲传统Tier2/Tier3汽车零部件企业面临破产清算及被并购潮"
+      ],
+      "verification_steps": [
+        "关注中国核心汽车零部件上市公司(如拓普集团、三花智控等)披露的海外定点项目数量",
+        "跟踪德国中小微汽车零部件企业的破产重组数据"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:22:50",
+      "time_end": "00:25:20",
+      "start_seconds": 1370.0,
+      "end_seconds": 1520.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Apple",
+          "ticker": "AAPL",
+          "parent": null,
+          "type": "public"
+        },
+        {
+          "name": "Berkshire Hathaway",
+          "ticker": "BRK.A",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "capital_action",
+      "claim": "伯克希尔哈撒韦自去年一季度起大规模减仓第一大重仓股苹果，反映出长线巨量资金在多边贸易旧秩序崩溃背景下，对极度依赖全球化套利模式（爱尔兰避税、亚太组装）的科技巨头进行的提前避险操作。依赖全球化的资产面临重估风险。",
+      "evidence_seg_ids": [
+        73,
+        91
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 73,
+          "quote": "苹果原来是整个全球化中最大受益的公司"
+        },
+        {
+          "seg_id": 91,
+          "quote": "去年一季度开始它就大规模的在减仓苹果"
+        },
+        {
+          "seg_id": 91,
+          "quote": "重要的是旧秩序的崩溃"
+        }
+      ],
+      "impact_path": [
+        "重度依赖低成本跨境供应链及海外税收洼地的消费电子巨头估值承压",
+        "市场将给予具备本土化生产闭环或规避地缘政治风险的资产更高溢价"
+      ],
+      "verification_steps": [
+        "查阅伯克希尔哈撒韦最新13F文件确认其AAPL持仓变化趋势",
+        "监控美国及欧盟针对跨国科技企业“税基侵蚀和利润转移”的反避税政策推进情况"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:42:00",
+      "time_end": "01:02:35",
+      "start_seconds": 2520.0,
+      "end_seconds": 3755.0
+    },
+    {
+      "entities": [
+        {
+          "name": "OpenAI",
+          "ticker": null,
+          "parent": null,
+          "type": "private"
+        },
+        {
+          "name": "ByteDance",
+          "ticker": null,
+          "parent": null,
+          "type": "private"
+        },
+        {
+          "name": "Google",
+          "ticker": "GOOGL",
+          "parent": "Alphabet",
+          "type": "public"
+        }
+      ],
+      "signal_type": "other",
+      "claim": "在AI引发大规模岗位替代与逆全球化打破政治经济空间的双重背景下，OpenAI、字节和Google等超级平台有望成为超越国家的经济实体，或通过分配基础算力等形式向大众发放无条件基本收入（UBI），重塑游离于地缘政治外的新商业秩序。",
+      "evidence_seg_ids": [
+        79,
+        80,
+        81,
+        93
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 79,
+          "quote": "未来应该每个人都有基本算力"
+        },
+        {
+          "seg_id": 81,
+          "quote": "大的平台性公司有可能成为经济世界的参议院"
+        },
+        {
+          "seg_id": 93,
+          "quote": "UBI不是由国家提供，而是由平台提供"
+        }
+      ],
+      "impact_path": [
+        "算力代币化或基础设施化可能成为头部AI公司新的商业模式与护城河",
+        "跨国数字巨头与主权国家政府间的合规及监管冲突将显著加剧"
+      ],
+      "verification_steps": [
+        "观察OpenAI等平台是否推出与个人身份绑定的免费基础算力/Token分发计划",
+        "关注多国针对大型AI平台在社会公共基础设施化属性上的反垄断及立法动向"
+      ],
+      "confidence": "low",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "00:45:54",
+      "time_end": "01:04:15",
+      "start_seconds": 2754.0,
+      "end_seconds": 3855.0
+    }
+  ]
+}

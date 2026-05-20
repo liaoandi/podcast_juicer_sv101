@@ -1,0 +1,231 @@
+{
+  "metadata": {
+    "source": "/Users/antonio/Desktop/podcast_juicer/output/sv101_ep211/211_transcript_gemini.json",
+    "method": "gemini_3_pro_full_context",
+    "model": "gemini-3.1-pro-preview",
+    "total_signals": 5,
+    "companies_mentioned": [
+      "Anthropic",
+      "Facebook",
+      "Google",
+      "Instagram",
+      "Meta",
+      "OpenAI",
+      "Scale AI",
+      "高德地图"
+    ],
+    "context_length": 35432,
+    "publish_date": null,
+    "record_date": null,
+    "podcast_id": "sv101",
+    "episode_id": "211"
+  },
+  "signals": [
+    {
+      "entities": [
+        {
+          "name": "OpenAI",
+          "ticker": null,
+          "parent": null,
+          "type": "private"
+        }
+      ],
+      "signal_type": "product",
+      "claim": "OpenAI 匆忙发布的 ChatGPT Agent 结合了 Deep Research 和 Operator，导致运行极慢（单任务达30-60分钟）且支付环节仍需人工介入，其主要目的是为了在通用 Agent 爆发期抢占市场，而非产品已经完全成熟。",
+      "evidence_seg_ids": [
+        1,
+        10,
+        19
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 19,
+          "quote": "想要占领市场而做的一个 move"
+        }
+      ],
+      "impact_path": [
+        "影响用户对 ChatGPT Agent 的早期留存率与使用频次预期",
+        "因产品速度慢且无法完全端到端（支付受限），短期难以取代高频 C 端工具"
+      ],
+      "verification_steps": [
+        "追踪 ChatGPT Agent 在 BrowsingCamp 等基准测试中的实际用时与成功率",
+        "观测第三方平台统计的 ChatGPT Agent 用户周留存率与调用数据"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "00:02:00",
+      "time_end": "00:11:10",
+      "start_seconds": 120.0,
+      "end_seconds": 670.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Meta",
+          "ticker": "META",
+          "parent": null,
+          "type": "public"
+        },
+        {
+          "name": "Scale AI",
+          "ticker": null,
+          "parent": null,
+          "type": "private"
+        }
+      ],
+      "signal_type": "competition",
+      "claim": "Meta 在强化学习和多模态模型（图片/视频/机器人）训练中遇到了严重的数据验证和对齐瓶颈，必须依赖大量人工标注，这是其近期在数据标注领域（如吸收 Scale AI 资源）发力以建立核心壁垒的根本原因。",
+      "evidence_seg_ids": [
+        87,
+        88,
+        91,
+        93
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 88,
+          "quote": "这个方向可能会是 Meta 接下来会发力"
+        }
+      ],
+      "impact_path": [
+        "影响 Meta 的资本支出结构预期",
+        "多模态模型对数据的高要求将导致 Meta 持续在人力数据打标与数据获取上产生高额支出"
+      ],
+      "verification_steps": [
+        "关注 Meta 财报会议中关于多模态数据标注投入及强化学习研发方向的指引",
+        "追踪 Meta 在数据标注领域的收购、团队扩编或相关供应链支出"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:53:40",
+      "time_end": "00:59:00",
+      "start_seconds": 3220.0,
+      "end_seconds": 3540.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Facebook",
+          "ticker": "META",
+          "parent": "Meta",
+          "type": "public"
+        },
+        {
+          "name": "Instagram",
+          "ticker": "META",
+          "parent": "Meta",
+          "type": "public"
+        }
+      ],
+      "signal_type": "regulation",
+      "claim": "为防御 AI Agent 带来的爬虫黑客行为和流量流失，Meta 严格限制了 Facebook 与 Instagram 的接口，拒绝向个人用户开放自动化发帖 API，仅允许创作者和商业账户使用，以捍卫 C 端用户的内容消费活跃度与广告基本盘。",
+      "evidence_seg_ids": [
+        41,
+        42,
+        43
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 42,
+          "quote": "他们不希望个人用户全都用这个去 post"
+        }
+      ],
+      "impact_path": [
+        "保护 Meta 的核心广告展现率（Impressions）",
+        "防止 C 端流量被 Agent 代理化而导致的流量空洞"
+      ],
+      "verification_steps": [
+        "查阅 Meta 开发者平台的最新 API 权限政策，确认个人账户与商业账户的功能隔离状况",
+        "监测第三方多功能 Agent 平台是否普遍无法实现普通个人社交账户的自动化发布"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "00:24:48",
+      "time_end": "00:26:55",
+      "start_seconds": 1488.0,
+      "end_seconds": 1615.0
+    },
+    {
+      "entities": [
+        {
+          "name": "高德地图",
+          "ticker": "BABA",
+          "parent": "阿里巴巴",
+          "type": "public"
+        }
+      ],
+      "signal_type": "product",
+      "claim": "在 MCP（Model Context Protocol）等通用协议的推动下，国内头部互联网企业开始改变封闭策略，阿里巴巴旗下的高德地图已率先全面开放地图生态接口，试图抢占 AI Agent 时代的调用流量入口。",
+      "evidence_seg_ids": [
+        47,
+        49
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 47,
+          "quote": "他们是首先把地图生态给完全打开的"
+        }
+      ],
+      "impact_path": [
+        "影响国内地图服务的 B 端调用市场份额",
+        "主动拥抱大模型生态可能让高德地图在 AI 应用中的预设集成率显著上升"
+      ],
+      "verification_steps": [
+        "核实高德地图在各大主流 AI 开发框架（如 MCP）中的集成热度及开发者调用量指标",
+        "对比百度地图、腾讯地图等竞品在开放接口协议上的跟进动作"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:28:00",
+      "time_end": "00:29:58",
+      "start_seconds": 1680.0,
+      "end_seconds": 1798.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Google",
+          "ticker": "GOOGL",
+          "parent": "Alphabet",
+          "type": "public"
+        },
+        {
+          "name": "Anthropic",
+          "ticker": null,
+          "parent": null,
+          "type": "private"
+        }
+      ],
+      "signal_type": "competition",
+      "claim": "AI Agent 将在未来 1-2 年内改变浏览器工作流，导致传统门户网站流量大幅下降；Google 和 Anthropic 等巨头正积极推行底层代理协议（如 Google 的 A2A 协议），旨在在新交互模式下抢夺“Agent 入口枢纽”的垄断地位。",
+      "evidence_seg_ids": [
+        50
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 50,
+          "quote": "Google 要推出这个 A2A 的协议"
+        }
+      ],
+      "impact_path": [
+        "可能彻底颠覆基于搜索框的数字广告变现模式",
+        "流量入口将由搜索引擎逐步转移到掌握底层通信协议的基座大模型或超级 Agent 平台"
+      ],
+      "verification_steps": [
+        "观测主流数字门户和传统搜索流量在未来两个季度的边际变化趋势",
+        "跟踪 W3C 或其他标准化组织对 Agent 通信协议（如 A2A 协议）的采纳和普及率"
+      ],
+      "confidence": "low",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "00:29:38",
+      "time_end": "00:32:10",
+      "start_seconds": 1778.0,
+      "end_seconds": 1930.0
+    }
+  ]
+}

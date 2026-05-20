@@ -1,0 +1,200 @@
+{
+  "metadata": {
+    "source": "output/sv101_ep229/229_transcript_gemini.json",
+    "method": "gemini_3_pro_full_context",
+    "model": "gemini-3.1-pro-preview",
+    "total_signals": 4,
+    "companies_mentioned": [
+      "Chanel",
+      "Hermès",
+      "Kering",
+      "LVMH"
+    ],
+    "context_length": 28643,
+    "publish_date": "2025-12-17",
+    "record_date": "",
+    "podcast_id": "sv101",
+    "episode_id": "229"
+  },
+  "signals": [
+    {
+      "entities": [
+        {
+          "name": "Hermès",
+          "ticker": "RMS",
+          "parent": "Hermès International S.C.A.",
+          "type": "public"
+        }
+      ],
+      "signal_type": "capital_action",
+      "claim": "为防御LVMH收购，爱马仕家族于2011年成立H51控股公司锁定了50.2%的股份，锁定期限为20年，这意味该绝对控股筹码将在2031年面临解禁，可能引发股权结构和流动性的重大变化。",
+      "evidence_seg_ids": [
+        233,
+        237
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 237,
+          "quote": "H51对它有20年的锁定权。在这20年里面公司的这些家族成员不能再出售"
+        }
+      ],
+      "impact_path": [
+        "影响爱马仕的长期股权结构和市场流动性",
+        "2031年解禁后，部分家族成员若套现可能引发控制权变动或二级市场阶段性抛压"
+      ],
+      "verification_steps": [
+        "查阅爱马仕2011年关于成立H51的官方公告及锁定条款细则",
+        "在2031年临近时，追踪家族成员是否签署新的锁定延期协议"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "00:48:27",
+      "time_end": "00:49:47",
+      "start_seconds": 2907.0,
+      "end_seconds": 2987.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Hermès",
+          "ticker": "RMS",
+          "parent": "Hermès International S.C.A.",
+          "type": "public"
+        }
+      ],
+      "signal_type": "risk",
+      "claim": "爱马仕家族成员皮埃奇原本持有的近6%（约608万股）不记名股票目前已下落不明，且自2016年起爱马仕已将这部分计入公众持股，这构成了一个庞大且难以追踪的隐匿流通盘，存在意外抛售冲击股价的尾部风险。",
+      "evidence_seg_ids": [
+        24,
+        71,
+        289,
+        295
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 289,
+          "quote": "我们按照他前一年申报的这个608万的持股总量计入到了公众持股一列"
+        }
+      ],
+      "impact_path": [
+        "可能在未来引发爱马仕股价的意外流动性冲击",
+        "如果不记名股票被金融机构或不明实体在二级市场集中抛售，将打破股票现有的低流通供需平衡"
+      ],
+      "verification_steps": [
+        "监测爱马仕财报中公众持股数量的异常波动",
+        "追踪欧洲市场关于大宗不记名股票的转让或抛售传闻"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "00:06:09",
+      "time_end": "00:59:10",
+      "start_seconds": 369.0,
+      "end_seconds": 3550.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Hermès",
+          "ticker": "RMS",
+          "parent": "Hermès International S.C.A.",
+          "type": "public"
+        },
+        {
+          "name": "LVMH",
+          "ticker": "MC",
+          "parent": "LVMH Moët Hennessy Louis Vuitton",
+          "type": "public"
+        },
+        {
+          "name": "Kering",
+          "ticker": "KER",
+          "parent": "Kering SA",
+          "type": "public"
+        }
+      ],
+      "signal_type": "competition",
+      "claim": "2024年奢侈品行业利润率出现严重分化，爱马仕净利润率高达30%，而LVMH为14.8%，开云降至6.6%，表明爱马仕通过严格控制产能（年增7%）和提价（年增6-7%）的模式在行业逆风中具备显著的抗击打与溢价能力。",
+      "evidence_seg_ids": [
+        336,
+        337,
+        344,
+        357
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 337,
+          "quote": "爱马仕的净利润率是30%，LVMH是14.8%，开云是6.6%"
+        },
+        {
+          "seg_id": 357,
+          "quote": "每年新增500个工匠...产能就是大概7%"
+        }
+      ],
+      "impact_path": [
+        "支撑在奢侈品板块内部进行多空配对交易（做多爱马仕，做空开云）",
+        "净利润率的分化反映了不同品牌模式（极致稀缺与ETF模式）在消费下行周期的防御力差异"
+      ],
+      "verification_steps": [
+        "比对三大奢侈品集团的当期财报利润率",
+        "追踪爱马仕每年实际新增工匠人数及对应产能释放速度"
+      ],
+      "confidence": "high",
+      "novelty": "low",
+      "actionability": "high",
+      "time_start": "01:05:07",
+      "time_end": "01:11:56",
+      "start_seconds": 3907.0,
+      "end_seconds": 4316.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Hermès",
+          "ticker": "RMS",
+          "parent": "Hermès International S.C.A.",
+          "type": "public"
+        },
+        {
+          "name": "LVMH",
+          "ticker": "MC",
+          "parent": "LVMH Moët Hennessy Louis Vuitton",
+          "type": "public"
+        },
+        {
+          "name": "Chanel",
+          "ticker": null,
+          "parent": "Chanel",
+          "type": "private"
+        }
+      ],
+      "signal_type": "demand",
+      "claim": "爱马仕手袋在二手市场的平均保值率升至110%左右，而香奈儿降至85%，LVMH在80%至85%之间，这种二级市场的保值率倒挂数据可作为核心前瞻指标，验证品牌的一级市场定价权是否受损。",
+      "evidence_seg_ids": [
+        341
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 341,
+          "quote": "爱马仕手袋...平均的保值率是提升到了110%左右"
+        }
+      ],
+      "impact_path": [
+        "用于前瞻判断奢侈品公司的财报营收指引",
+        "二手市场保值率直接影响高净值人群在一级市场的购买意愿和品牌可投资性"
+      ],
+      "verification_steps": [
+        "查阅Rebag及TheRealReal发布的最新年度二手奢侈品趋势报告",
+        "监测核心手袋款式在二手市场的溢价率走势"
+      ],
+      "confidence": "high",
+      "novelty": "low",
+      "actionability": "high",
+      "time_start": "01:06:30",
+      "time_end": "01:07:32",
+      "start_seconds": 3990.0,
+      "end_seconds": 4052.0
+    }
+  ]
+}

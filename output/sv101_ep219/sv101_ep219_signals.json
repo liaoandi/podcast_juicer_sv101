@@ -1,0 +1,249 @@
+{
+  "metadata": {
+    "source": "/Users/antonio/Desktop/podcast_juicer/output/sv101_ep219/219_transcript_gemini.json",
+    "method": "gemini_3_pro_full_context",
+    "model": "gemini-3.1-pro-preview",
+    "total_signals": 5,
+    "companies_mentioned": [
+      "Google",
+      "Isomorphic Labs",
+      "Mergelab",
+      "Neuralink",
+      "Notch",
+      "OpenAI",
+      "格式塔",
+      "脑虎科技"
+    ],
+    "context_length": 33049,
+    "publish_date": null,
+    "record_date": null,
+    "podcast_id": null,
+    "episode_id": null
+  },
+  "signals": [
+    {
+      "entities": [
+        {
+          "name": "Neuralink",
+          "ticker": null,
+          "parent": null,
+          "type": "private"
+        },
+        {
+          "name": "脑虎科技",
+          "ticker": null,
+          "parent": null,
+          "type": "private"
+        }
+      ],
+      "signal_type": "valuation",
+      "claim": "中美硬科技存在巨大估值落差，Neuralink 估值120亿美元，而中国同类脑机公司仅约3亿美元。尽管中国技术落后约三年，但凭借国内单例数十万人民币对标美国百万美元的极低临床成本优势，中国 BCI 企业具有显著的估值修复空间。",
+      "evidence_seg_ids": [
+        33,
+        186,
+        187,
+        191
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 186,
+          "quote": "国内的做电学脑机接口的公司，大家平均估值3亿美金。Neuralink 120亿美金。"
+        }
+      ],
+      "impact_path": [
+        "影响一级市场对中国本土脑机接口及硬科技公司的估值定价模型",
+        "因地缘政治脱钩导致的估值断层，结合中国极低的临床和研发成本，将吸引套利资本回归"
+      ],
+      "verification_steps": [
+        "查阅 Neuralink 及脑虎科技等头部国内企业最新一轮投后估值",
+        "对比中美医院脑部植入手术的单例临床试验综合花销明细"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "00:15:48",
+      "time_end": "01:09:37",
+      "start_seconds": 948.0,
+      "end_seconds": 4177.0
+    },
+    {
+      "entities": [
+        {
+          "name": "格式塔",
+          "ticker": null,
+          "parent": null,
+          "type": "private"
+        },
+        {
+          "name": "Neuralink",
+          "ticker": null,
+          "parent": null,
+          "type": "private"
+        }
+      ],
+      "signal_type": "regulation",
+      "claim": "超声脑机接口聚焦无创疼痛管理等适应症，商业化进程受制于医疗器械审批。由于药监局刚接受超声脑调控，最快拿证需到2026年底。同时 Neuralink 未完成安全性验证，普通患者获取其商业化服务预计需等到2029年之后。",
+      "evidence_seg_ids": [
+        73,
+        76,
+        78
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 73,
+          "quote": "中国跟美国，我个人觉得最快拿证都要 2026 年底或者 2027 年了。"
+        },
+        {
+          "seg_id": 78,
+          "quote": "去美国医院里面申请装 Neuralink？我说这个 29 年之后吧。"
+        }
+      ],
+      "impact_path": [
+        "推迟一二级市场对脑机接口设备产生规模化营收的时间表预期",
+        "医疗器械二/三类注册证的漫长审批周期将考验相关初创企业的资金储备（通常需准备7年/7亿资金）"
+      ],
+      "verification_steps": [
+        "追踪 FDA 对 Neuralink 临床受试者的长期安全性审查报告发布",
+        "监控 NMPA 对超声神经调控设备注册证受理和审批的官方公告"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:28:05",
+      "time_end": "00:30:32",
+      "start_seconds": 1685.0,
+      "end_seconds": 1832.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Isomorphic Labs",
+          "ticker": null,
+          "parent": "Alphabet",
+          "type": "private"
+        },
+        {
+          "name": "Google",
+          "ticker": "GOOGL",
+          "parent": "Alphabet",
+          "type": "public"
+        }
+      ],
+      "signal_type": "product",
+      "claim": "DeepMind创始人成立的 Isomorphic Labs 融6.5亿美元研发虚拟细胞技术。该技术通过 AI 模拟细胞反应，有望在进入动物实验前筛掉80%的无效药物成分，将极大颠覆现有新药研发成本周期，彰显 AI 医疗的深层价值。",
+      "evidence_seg_ids": [
+        159,
+        160,
+        162
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 160,
+          "quote": "药品可能在进到动物实验之前，在 AI 层面就筛掉了 80% 90% 不靠谱的成分。"
+        }
+      ],
+      "impact_path": [
+        "严重削弱传统依靠规模化动物实验的 CRO 企业的长期竞争力",
+        "提升 Alphabet (Google) 在 AI 驱动的新一代生命科学领域的远期估值"
+      ],
+      "verification_steps": [
+        "查阅 Isomorphic Labs 与大型药企合作管线的研发周期及失败率数据",
+        "跟踪 AI 虚拟细胞 (AIVC) 技术在药物筛选阶段的准确率验证论文"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "00:52:16",
+      "time_end": "00:54:25",
+      "start_seconds": 3136.0,
+      "end_seconds": 3265.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Notch",
+          "ticker": null,
+          "parent": null,
+          "type": "private"
+        },
+        {
+          "name": "Mergelab",
+          "ticker": null,
+          "parent": null,
+          "type": "private"
+        },
+        {
+          "name": "OpenAI",
+          "ticker": null,
+          "parent": null,
+          "type": "private"
+        }
+      ],
+      "signal_type": "capital_action",
+      "claim": "超声脑机接口正迎来硅谷 AI 巨头资本的密集布局。Sam Altman 成立 Mergelab 探索超声加基因疗法；Notch 近期获 Thrive Capital 一亿美元投资。这标志着 AI 阵营正真金白银地扶持独立于马斯克侵入式路线的替代方案。",
+      "evidence_seg_ids": [
+        103,
+        105,
+        122
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 103,
+          "quote": "这家 Notch 公司在两个月之前融了 1 亿美金的 A 轮，它这个 A 轮的投资人叫 Thrive Capital。"
+        }
+      ],
+      "impact_path": [
+        "资金与人才加速向非侵入式/超声波脑机接口路线分流",
+        "AI 资本的入局将加速大模型与脑部解码的跨学科底层融合"
+      ],
+      "verification_steps": [
+        "查阅 PitchBook 确认 Notch 近期 1 亿美元 A 轮融资的具体资金方",
+        "关注 Sam Altman 针对 Mergelab 或脑科学领域的资金注入情况"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "00:37:56",
+      "time_end": "00:41:55",
+      "start_seconds": 2276.0,
+      "end_seconds": 2515.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Neuralink",
+          "ticker": null,
+          "parent": null,
+          "type": "private"
+        }
+      ],
+      "signal_type": "risk",
+      "claim": "马斯克预测 Neuralink 2028年前实现知识记忆上传，但意识由全脑多脑区环路调控。由于现有电极仅覆盖大脑千分之一表面并做局部解码，机理上根本无法实现意识解码，其远期目标存在严重过度承诺的技术风险。",
+      "evidence_seg_ids": [
+        18,
+        202
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 202,
+          "quote": "从现在的这种局部放电极的方式，是永远没有办法解码意识的，这个话我可以放在这里。"
+        }
+      ],
+      "impact_path": [
+        "迫使市场对 Neuralink 短期内实现高阶数字意识下载的商业预期进行向下修正",
+        "警示资本警惕基于局部神经元电极插入路线的技术演进天花板"
+      ],
+      "verification_steps": [
+        "监控科学界关于意识与记忆多脑区环路存储机理的最新论断",
+        "观察 Neuralink 的脑电极通道数增长能否突破局部皮层限制进入全脑深层网络"
+      ],
+      "confidence": "low",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "00:12:25",
+      "time_end": "01:13:11",
+      "start_seconds": 745.0,
+      "end_seconds": 4391.0
+    }
+  ]
+}

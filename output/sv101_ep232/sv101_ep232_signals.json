@@ -1,0 +1,196 @@
+{
+  "metadata": {
+    "source": "output/sv101_ep232/232_transcript_gemini.json",
+    "method": "gemini_3_pro_full_context",
+    "model": "gemini-3.1-pro-preview",
+    "total_signals": 4,
+    "companies_mentioned": [
+      "Li Auto",
+      "Nvidia",
+      "Tesla",
+      "Waymo"
+    ],
+    "context_length": 15725,
+    "publish_date": "2026-01-14",
+    "record_date": "",
+    "podcast_id": "sv101",
+    "episode_id": "232"
+  },
+  "signals": [
+    {
+      "entities": [
+        {
+          "name": "Waymo",
+          "ticker": "GOOGL",
+          "parent": "Alphabet",
+          "type": "public"
+        }
+      ],
+      "signal_type": "valuation",
+      "claim": "Waymo正以超千亿美元估值寻求150亿美元融资。但其基于规则的自动驾驶路线面临严重的不经济性：机械雷达损耗快，且车队充电、维护等重资产环节需大量人工介入。高昂的边际成本使其难以实现真正的规模经济，该估值可能存在高估风险。",
+      "evidence_seg_ids": [
+        0,
+        14,
+        82,
+        85
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 0,
+          "quote": "融资额大概是150亿美元，它的估值是超过了千亿美元"
+        },
+        {
+          "seg_id": 85,
+          "quote": "Waymo这个rule-based路线它不是一个规模经济路线"
+        }
+      ],
+      "impact_path": [
+        "可能影响Alphabet在自动驾驶业务上的后续资本投入及分拆预期",
+        "因Waymo当前技术架构无法通过增加车队实现边际成本递减，持续的高额资本开支将拖累母公司现金流"
+      ],
+      "verification_steps": [
+        "核验Waymo最新一轮150亿美元融资的具体估值及领投方",
+        "调研Waymo在旧金山等地的单车运营人员配比及机械激光雷达的实际更换周期"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "00:01:50",
+      "time_end": "00:35:56",
+      "start_seconds": 110.0,
+      "end_seconds": 2156.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Tesla",
+          "ticker": "TSLA",
+          "parent": "Tesla",
+          "type": "public"
+        }
+      ],
+      "signal_type": "product",
+      "claim": "特斯拉无方向盘的Cybercab计划于2026年4月量产。目前在奥斯汀未彻底移除安全员主要受制于技术尚未完全达标。考虑到公司现金流风险，彻底去安全员的时间点大概率将与该量产车产能爬坡及产生实际运营现金流的时间节点对齐。",
+      "evidence_seg_ids": [
+        12,
+        13,
+        14,
+        22
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 13,
+          "quote": "真正无方向盘车的量产时间，这个马斯克确定是26年4月份"
+        },
+        {
+          "seg_id": 22,
+          "quote": "目前来讲我觉得它主要卡在技术上"
+        }
+      ],
+      "impact_path": [
+        "可能抑制市场对特斯拉短期内实现完全无人驾驶（Robotaxi）的过度乐观预期",
+        "技术瓶颈及现金流考量导致无安全员的商业化运营需等待至2026年Cybercab量产后才能大规模铺开"
+      ],
+      "verification_steps": [
+        "持续追踪特斯拉在得克萨斯州奥斯汀的无安全员测试牌照及实际上路情况",
+        "关注后续财报中对Cybercab 2026年4月量产时间表的重申或推迟说明"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:06:38",
+      "time_end": "00:08:56",
+      "start_seconds": 398.0,
+      "end_seconds": 536.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Tesla",
+          "ticker": "TSLA",
+          "parent": "Tesla",
+          "type": "public"
+        },
+        {
+          "name": "Nvidia",
+          "ticker": "NVDA",
+          "parent": "Nvidia",
+          "type": "public"
+        }
+      ],
+      "signal_type": "supply_chain",
+      "claim": "特斯拉内部的Dojo训练芯片项目已失败并被取消，核心负责人离职。特斯拉将彻底放弃训练端芯片的自研替代，专注于车载推理芯片设计。这意味着其端到端AI模型的云端训练算力将继续保持对英伟达GPU的高度且唯一的依赖。",
+      "evidence_seg_ids": [
+        67,
+        68
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 67,
+          "quote": "Dojo呢在今年已经被取消了，甚至它的负责人已经离职了"
+        },
+        {
+          "seg_id": 67,
+          "quote": "现在端到端呢，芯片还是都是来自英伟达"
+        }
+      ],
+      "impact_path": [
+        "消除市场对特斯拉自研Dojo芯片替代英伟达的担忧，巩固NVDA的算力垄断逻辑",
+        "因训练大模型复杂度极高，特斯拉内部放弃抵抗，将资本开支直接导向采购成熟的英伟达算力集群"
+      ],
+      "verification_steps": [
+        "核实原Dojo项目负责人Peter Bannon的离职信息及当前职业去向",
+        "分析特斯拉未来几个季度的资本开支（CAPEX）中用于采购Nvidia GPU的比例"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:25:25",
+      "time_end": "00:27:28",
+      "start_seconds": 1525.0,
+      "end_seconds": 1648.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Li Auto",
+          "ticker": "LI",
+          "parent": "Li Auto",
+          "type": "public"
+        }
+      ],
+      "signal_type": "product",
+      "claim": "理想汽车已放弃其早期宣传的端到端“双系统”（快慢思考）自动驾驶技术路线。试图在车端有限算力下部署大语言模型以提供驾驶决策“可解释性”的做法，被证明难度过高且无实际必要，凸显了国内车企在跟随端到端路线上仍在试错。",
+      "evidence_seg_ids": [
+        43,
+        45,
+        75
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 45,
+          "quote": "端到端系统叫双系统，一个慢思考，一个快思考"
+        },
+        {
+          "seg_id": 45,
+          "quote": "但是这个路线它已经放弃了"
+        }
+      ],
+      "impact_path": [
+        "可能影响市场对理想汽车智能驾驶技术实力的估值溢价",
+        "放弃无效的技术路线虽然止损，但也暗示其前期在自动驾驶核心算法架构上存在战略误判，与特斯拉差距拉大"
+      ],
+      "verification_steps": [
+        "查阅理想汽车最新一次OTA升级说明及技术发布会，观察其是否已停止提及“双系统”或“快慢思考”架构",
+        "调研理想智能驾驶研发团队近期的架构调整及人员变动"
+      ],
+      "confidence": "low",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "00:14:55",
+      "time_end": "00:30:48",
+      "start_seconds": 895.0,
+      "end_seconds": 1848.0
+    }
+  ]
+}

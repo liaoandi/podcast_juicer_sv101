@@ -1,0 +1,206 @@
+{
+  "metadata": {
+    "source": "/Users/antonio/Desktop/podcast_juicer/output/sv101_ep195/195_transcript_gemini.json",
+    "method": "gemini_3_pro_full_context",
+    "model": "gemini-3.1-pro-preview",
+    "total_signals": 4,
+    "companies_mentioned": [
+      "Circle",
+      "Mastercard",
+      "MoneyGram",
+      "Solana",
+      "Stellar",
+      "Visa"
+    ],
+    "context_length": 21558,
+    "publish_date": null,
+    "record_date": null,
+    "podcast_id": "sv101",
+    "episode_id": "195"
+  },
+  "signals": [
+    {
+      "entities": [
+        {
+          "name": "Visa",
+          "ticker": "V",
+          "parent": null,
+          "type": "public"
+        },
+        {
+          "name": "Mastercard",
+          "ticker": "MA",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "competition",
+      "claim": "Visa和万事达凭借庞大的银行网络，将主导全球稳定币发行规则，而非被去中心化网络颠覆。Visa已在测试USDC，引入公链及智能合约技术后，清算综合成本有望降至千分之三以下，这将进一步强化其开环网络的盈利能力和规模护城河。",
+      "evidence_seg_ids": [
+        8,
+        10,
+        53
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 10,
+          "quote": "Visa 一定是这些银行类金融机构发行稳定币的最大的利益代表"
+        },
+        {
+          "seg_id": 53,
+          "quote": "可以降到千分之三以下"
+        }
+      ],
+      "impact_path": [
+        "传统支付巨头的市占率和利润率",
+        "通过接纳稳定币和智能合约，极大降低清算交收成本的同时，维持对全球两万家银行的规则制定权"
+      ],
+      "verification_steps": [
+        "追踪Visa在其财报中披露的基于区块链和稳定币的结算交易量",
+        "观测主流商业银行在发行自身稳定币时是否首选接入Visa网络"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "00:05:58",
+      "time_end": "00:25:16",
+      "start_seconds": 358.0,
+      "end_seconds": 1516.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Circle",
+          "ticker": null,
+          "parent": null,
+          "type": "private"
+        },
+        {
+          "name": "Visa",
+          "ticker": "V",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "capital_action",
+      "claim": "USDC发行商Circle曾在2020-2021年间寻求出售给Visa，后因SPAC热潮追求独立上市。但在长期视角下，独立稳定币想要获得最大市场份额必须依赖传统银行资金池，因此仍存在被Visa等大型金融网络收购的战略合理性。",
+      "evidence_seg_ids": [
+        12,
+        14
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 12,
+          "quote": "实际上 Circle 当时在寻求卖给 Visa "
+        },
+        {
+          "seg_id": 14,
+          "quote": "当时被 Visa 收购掉是它最好的选择"
+        }
+      ],
+      "impact_path": [
+        "Circle的退出路径及传统支付巨头的并购战略",
+        "传统金融系统庞大的利益惯性使得原生的稳定币项目很难彻底独立成长，最终可能走向被收购"
+      ],
+      "verification_steps": [
+        "追踪Circle的IPO进展及在一级市场的估值变化",
+        "关注Visa/Mastercard在加密资产及稳定币领域的M&A动向"
+      ],
+      "confidence": "low",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "00:07:10",
+      "time_end": "00:08:10",
+      "start_seconds": 430.0,
+      "end_seconds": 490.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Solana",
+          "ticker": null,
+          "parent": null,
+          "type": "unknown"
+        }
+      ],
+      "signal_type": "valuation",
+      "claim": "Solana 正在定位为顺应美国利益的“自主可控”底层网络，与强调全球主义的以太坊形成对抗。在当前美国政府捍卫美元定价权及推行本土化金融政策的环境下，更容易获得美国监管机构和传统资金的背书与溢价。",
+      "evidence_seg_ids": [
+        33,
+        40,
+        42
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 40,
+          "quote": "Solana 呢就很像是美国版本的自主可控"
+        },
+        {
+          "seg_id": 42,
+          "quote": "它是对抗以太坊为代表的全球主义者的"
+        }
+      ],
+      "impact_path": [
+        "Solana相关资产的市场估值及机构采用率",
+        "符合美国政治与经济利益的叙事，能大幅降低合规阻力并吸引华尔街资金进场"
+      ],
+      "verification_steps": [
+        "关注美国SEC对基于Solana的现货ETF的审批进度",
+        "监控美国传统金融机构在Solana网络上的真实资产代币化（RWA）部署规模"
+      ],
+      "confidence": "low",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:18:16",
+      "time_end": "00:20:51",
+      "start_seconds": 1096.0,
+      "end_seconds": 1251.0
+    },
+    {
+      "entities": [
+        {
+          "name": "MoneyGram",
+          "ticker": null,
+          "parent": "Madison Dearborn Partners",
+          "type": "private"
+        },
+        {
+          "name": "Stellar",
+          "ticker": null,
+          "parent": null,
+          "type": "unknown"
+        }
+      ],
+      "signal_type": "competition",
+      "claim": "中东等地央行正积极讨论利用稳定币绕开Swift系统，传统跨境汇款巨头MoneyGram也已全面合作Stellar。这表明向区块链底层切换已进入实质落地阶段，长期可能对传统信息流结算网络造成份额挤压。",
+      "evidence_seg_ids": [
+        112
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 112,
+          "quote": "跟 Stella 做了全面的合作"
+        },
+        {
+          "seg_id": 112,
+          "quote": "开会讨论如何可以利用稳定币...绕开 Swift"
+        }
+      ],
+      "impact_path": [
+        "跨境支付服务商的市场份额",
+        "利用稳定币可显著降低汇款手续费、抵御弱势法币的汇率波动，从而重塑B2C/C2C汇款渠道格局"
+      ],
+      "verification_steps": [
+        "核实MoneyGram使用稳定币通道处理的汇款金额占比变化",
+        "关注中东央行出台的针对稳定币跨境结算的官方合作备忘录或指导意见"
+      ],
+      "confidence": "high",
+      "novelty": "low",
+      "actionability": "low",
+      "time_start": "00:53:10",
+      "time_end": "00:56:10",
+      "start_seconds": 3190.0,
+      "end_seconds": 3370.0
+    }
+  ]
+}

@@ -1,0 +1,697 @@
+{
+  "metadata": {
+    "source": "output/sv101_ep225/225_transcript_gemini.json",
+    "method": "gemini_3_pro_full_context",
+    "model": "gemini-3.1-pro-preview",
+    "total_signals": 5,
+    "companies_mentioned": [
+      "Blue Owl Capital",
+      "CleanSpark",
+      "CoreWeave",
+      "Crusoe Energy",
+      "GE Vernova",
+      "Hut 8",
+      "Iris Energy",
+      "Marathon Digital",
+      "Microsoft",
+      "Morgan Stanley",
+      "Oklo",
+      "Riot Platforms"
+    ],
+    "context_length": 31053,
+    "publish_date": "2025-11-20",
+    "record_date": "",
+    "podcast_id": "sv101",
+    "episode_id": "225",
+    "verification_date": "2026-03-10",
+    "verification_method": "gemini_3_pro + google_search + yahoo_finance",
+    "verification_status": "completed",
+    "verified_signals_count": 5
+  },
+  "signals": [
+    {
+      "entities": [
+        {
+          "name": "Morgan Stanley",
+          "ticker": "MS",
+          "type": "public"
+        }
+      ],
+      "signal_type": "demand",
+      "claim": "摩根士丹利预测AI数据中心将造成美国46-47GW的庞大电力缺口。由于核能和天然气发电短期扩张受限，比特币矿工转产AIDC成为最快的常规解法，预计可在18-24个月内释放约15GW电力。",
+      "evidence_seg_ids": [
+        4,
+        6
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 4,
+          "quote": "AI 数据中心导致的缺电，可能都高达 46 到 47 GW"
+        },
+        {
+          "seg_id": 4,
+          "quote": "比特币矿工的转产，可以释放 15 GW"
+        }
+      ],
+      "impact_path": [
+        "缺电将限制AI数据中心扩张速度，从而成为算力行业增长的核心瓶颈",
+        "加密矿场凭借存量电力资源，将在未来两年享有极高的稀缺性溢价"
+      ],
+      "verification_steps": [
+        "追踪北美重点电网(如PJM, ERCOT)的AI数据中心并网申请容量数据",
+        "验证公开宣布转型AIDC的头部加密矿企实际拿到的电力分配指引"
+      ],
+      "confidence": "high",
+      "novelty": "low",
+      "actionability": "low",
+      "time_start": "00:02:27",
+      "time_end": "00:05:10",
+      "start_seconds": 147.0,
+      "end_seconds": 310.0,
+      "verification": {
+        "verification_status": "verified",
+        "verified_claim": "摩根士丹利确实发布了相关研究报告，预测受AI算力需求激增驱动，2025-2028年美国数据中心将面临约44-47GW的庞大电力缺口。报告明确指出，由于新建电网和常规能源扩张面临漫长的审批延误，拥有现成并网许可的比特币矿场成为最快、执行风险最低的“Time to Power”解决方案，预计可在18-24个月内通过改造释放10-15GW的电力供应。",
+        "verified_impact_path": [
+          "影响路径1：从AI算力需求到电力瓶颈的传导机制。AI大模型的训练和推理需求呈非线性增长，导致数据中心耗电量远超电网短期承载能力。由于新建核电、天然气发电及电网升级审批缓慢，科技巨头面临严重的“电力获取时间（Time to Power）”瓶颈。",
+          "影响路径2：对加密货币挖矿及AI基础设施产业链的具体影响。拥有大规模并网许可和现成电力容量的比特币矿企（如Cipher Mining, TeraWulf等），其核心资产从“挖矿成本”重估为“稀缺的AI基础设施”。这促使大量矿企主动削减挖矿业务，投入18-24个月的改造期，向HPC（高性能计算）数据中心转型。",
+          "影响路径3：对投资者的实际意义。市场估值逻辑发生根本性转变，比特币矿企的估值模型从传统的加密货币价格周期驱动，转向基于“每瓦企业价值（EV/Watt）”的类REITs（基础设施信托）长期现金流估值。能够迅速提供电力解决方案的矿企和电力设备供应商将获得显著的估值溢价。"
+        ],
+        "verified_data": [
+          {
+            "source": "Investing.com",
+            "finding": "摩根士丹利分析师Stephen Byrd发布报告，将2025-2028年美国数据中心电力缺口预测上调至47GW。报告指出，由于AI算力需求呈非线性增长，基础设施建设速度无法跟上。比特币矿企拥有近20GW的并网许可场地，是解决AI电力瓶颈“最快的路径”（Time to Power），具有最低的执行风险。",
+            "url": "https://www.investing.com/news/stock-market-news/morgan-stanley-names-key-winners-amid-growing-ai-power-gap"
+          },
+          {
+            "source": "Bitget News / Wind Information",
+            "finding": "摩根士丹利研究指出，美国电网短期接入能力仅约15GW，导致高达45-47GW的电力缺口。将比特币矿场改造为AI数据中心通常需要18-24个月的建设周期，这完美契合了科技巨头对电力的迫切需求。报告强调，矿企的“每瓦企业价值”（EV/Watt）被市场严重低估，转型可创造巨大的股权价值。",
+            "url": "https://www.bitget.com/news/detail/114621"
+          },
+          {
+            "source": "Gate News",
+            "finding": "摩根士丹利给予Cipher Mining和TeraWulf等比特币矿企“超配”评级，目标价暗示超150%的上涨空间。分析指出，由于AI算力面临系统性电力短缺，超算云服务商（Hyperscalers）愿意为矿企提供的“Time to Power”解决方案支付高额溢价，这将成为矿企股票重新估值的核心驱动力。",
+            "url": "https://www.gate.io/news/article/morgan-stanley-picks-2-bitcoin-miners-to-double"
+          },
+          {
+            "source": "Moomoo Community",
+            "finding": "摩根士丹利分析显示，新建数据中心从拿地到并网需要数年时间，而美国比特币矿企已运营约6.3GW的大型电源，另有2.5GW在建。通过18-24个月的改造（包括增加冗余电源、液冷和光纤），这些矿场能最快转化为AI算力中心，填补短期电力供应的巨大缺口。",
+            "url": "https://www.moomoo.com/news/post/4235123"
+          }
+        ],
+        "verification_confidence": "high",
+        "verification_notes": "该投资信号被高度验证。摩根士丹利在2025年底的系列研报中确实验证了46-47GW的电力缺口数据，并明确将比特币矿场（预计释放10-15GW，改造期18-24个月）列为解决AI数据中心电力短缺的最快常规解法。",
+        "verification_date": "2026-03-10",
+        "signal_date": "2025-11-20",
+        "market_data": {
+          "MS": {
+            "current": {
+              "price": 160.45,
+              "change_percent": 0.11,
+              "market_cap": 254772166656,
+              "name": "Morgan Stanley"
+            },
+            "since_signal": {
+              "from_date": "2025-11-20",
+              "to_date": "2026-03-09",
+              "from_price": 158.7,
+              "to_price": 160.45,
+              "change": 1.75,
+              "change_percent": 1.1,
+              "trading_days": 73
+            },
+            "financials": {
+              "pe_ratio": 15.730392,
+              "forward_pe": 13.021678,
+              "profit_margin": 0.23986,
+              "revenue_growth": 0.11,
+              "52_week_high": 192.68,
+              "52_week_low": 94.33
+            }
+          }
+        }
+      }
+    },
+    {
+      "entities": [
+        {
+          "name": "GE Vernova",
+          "ticker": "GEV",
+          "type": "public"
+        },
+        {
+          "name": "Oklo",
+          "ticker": "OKLO",
+          "type": "public"
+        }
+      ],
+      "signal_type": "supply_chain",
+      "claim": "受历史周期亏损教训，GE等燃气轮机厂商拒绝大规模扩产天然气发电设备，导致当前订单排队期长达2-4年。这使得天然气与SMR核电一样，无法在短期内快速填补AI算力猛增带来的电力需求。",
+      "evidence_seg_ids": [
+        9,
+        13
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 13,
+          "quote": "燃气轮机厂家是非常谨慎的，基本上是不太愿意扩产的"
+        },
+        {
+          "seg_id": 13,
+          "quote": "现在这个订单的排队的队伍差不多 2 到 4 年"
+        }
+      ],
+      "impact_path": [
+        "限制了依赖天然气建设新型数据中心公司的扩张步伐",
+        "巩固了具备现有电网接入许可或存量发电设施企业的竞争壁垒"
+      ],
+      "verification_steps": [
+        "查阅GE Vernova财报中燃气轮机设备(Gas Power)的积压订单量(Backlog)与平均交付周期",
+        "监控大型数据中心运营商宣布的天然气电厂自建计划的时间表变化"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:06:05",
+      "time_end": "00:08:08",
+      "start_seconds": 365.0,
+      "end_seconds": 488.0,
+      "verification": {
+        "verification_status": "verified",
+        "verified_claim": "历史周期亏损使得GE Vernova等燃气轮机巨头对盲目扩产保持谨慎，导致当前燃气轮机订单积压长达3-7年（排期已至2028-2030年）。这证实了天然气发电设备与SMR核电一样面临严重的供应链瓶颈，短期内难以快速填补AI数据中心激增的电力需求。",
+        "verified_impact_path": [
+          "产能传导机制：燃气轮机制造商受2018年产能过剩引发巨额亏损的教训，当前选择限制产能扩张（如GE Vernova将年产能上限锁定在20GW左右），导致订单排队时间从原本的2-3年拉长至3-7年。",
+          "产业链影响：AI数据中心开发商被迫争夺有限的燃气轮机交付名额，甚至转向购买效率较低的小型单循环燃气轮机，推高了设备溢价并延缓了部分AI基础设施的落地速度。",
+          "对投资者的实际意义：由于短期内天然气和SMR核电均无法快速解决AI算力的电力缺口，拥有现有发电资产、排队名额或能提供快速交付方案的电力设备企业（如GEV）享有极高的定价权和利润弹性，而远期技术（如OKLO）在短期内面临预期降温。"
+        ],
+        "verified_data": [
+          {
+            "source": "Forbes",
+            "finding": "燃气轮机制造商目前报告了多年的订单积压，交货提前期延长至3到5年，客户甚至需要为加快交货支付溢价。AI数据中心的快速扩张是主要驱动力，由于可再生能源的间歇性，燃气轮机成为满足AI全天候电力需求的默认解决方案。",
+            "url": "https://www.forbes.com/sites/energyinnovation/2026/02/10/we-thought-gas-turbines-were-done-then-ai-came-along/"
+          },
+          {
+            "source": "RBN Energy",
+            "finding": "燃气轮机制造商因过去繁荣萧条周期的教训，不愿大规模投资扩产。GE Vernova未来五年的50GW产能中已有29GW被预订，新订单交付需等到2028或2030年。西门子和三菱重工同样面临15-30GW的庞大积压。",
+            "url": "https://rbnenergy.com/i-will-wait-backlog-for-natural-gas-turbines-expands-on-surging-demand-supply-constraints"
+          },
+          {
+            "source": "IEEFA",
+            "finding": "全球最大的燃气轮机制造商（GE Vernova、西门子能源和三菱重工）面临严重的生产积压，新燃气发电项目的开发商被建议提前7到8年进行采购规划。产能扩张在短期内无法解决交付瓶颈。",
+            "url": "https://ieefa.org/resources/global-gas-turbine-shortages-add-lng-challenges-vietnam-and-philippines"
+          },
+          {
+            "source": "EnergyNow",
+            "finding": "AI对电力的迫切需求促使数据中心开发商抢购燃气轮机，导致大型联合循环涡轮机积压3至5年。由于核电（如SMR）短期内无法提供新电力，开发商甚至开始抢购小型单循环燃气轮机以求快速并网。",
+            "url": "https://energynow.com/2024/05/ais-urgent-need-for-power-spurs-return-of-gas-turbines/"
+          }
+        ],
+        "verification_confidence": "high",
+        "verification_notes": "验证结果高度支持该投资信号。受历史周期亏损影响，GE Vernova等巨头对大幅扩产保持克制，导致燃气轮机订单积压长达3-7年（排期至2028-2030年）。这表明天然气发电与SMR核电一样面临短期交付瓶颈，拥有现有产能和排期优势的设备商（如GEV）享有显著溢价，而远期核电概念（如OKLO）短期内难以兑现业绩。",
+        "verification_date": "2026-03-10",
+        "signal_date": "2025-11-20",
+        "market_data": {
+          "GEV": {
+            "current": {
+              "price": 830.1,
+              "change_percent": 5.18,
+              "market_cap": 225223098368,
+              "name": "GE Vernova Inc."
+            },
+            "since_signal": {
+              "from_date": "2025-11-20",
+              "to_date": "2026-03-09",
+              "from_price": 557.62,
+              "to_price": 830.1,
+              "change": 272.48,
+              "change_percent": 48.86,
+              "trading_days": 73
+            },
+            "financials": {
+              "pe_ratio": 46.951355,
+              "forward_pe": 36.50301,
+              "profit_margin": 0.1283,
+              "revenue_growth": 0.038,
+              "52_week_high": 894.93,
+              "52_week_low": 252.25
+            }
+          },
+          "OKLO": {
+            "current": {
+              "price": 61.78,
+              "change_percent": 6.06,
+              "market_cap": 9652943872,
+              "name": "Oklo Inc."
+            },
+            "since_signal": {
+              "from_date": "2025-11-20",
+              "to_date": "2026-03-09",
+              "from_price": 88.0,
+              "to_price": 61.78,
+              "change": -26.22,
+              "change_percent": -29.8,
+              "trading_days": 73
+            },
+            "financials": {
+              "pe_ratio": null,
+              "forward_pe": -93.19656,
+              "profit_margin": 0.0,
+              "revenue_growth": null,
+              "52_week_high": 193.84,
+              "52_week_low": 17.42
+            }
+          }
+        }
+      }
+    },
+    {
+      "entities": [
+        {
+          "name": "Iris Energy",
+          "ticker": "IREN",
+          "type": "public"
+        },
+        {
+          "name": "Microsoft",
+          "ticker": "MSFT",
+          "type": "public"
+        }
+      ],
+      "signal_type": "capital_action",
+      "claim": "Iris Energy与微软的5年98亿美元合同要求IREN自掏58亿美元购买GPU。面对除微软预付款外的巨大资金缺口，市场担忧IREN将大量通过股票增发(ATM)融资，高昂的资本压力极大压制了其每瓦电力的估值。",
+      "evidence_seg_ids": [
+        43,
+        45,
+        46
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 43,
+          "quote": "这个合同金额里面是包含了买卡的钱"
+        },
+        {
+          "seg_id": 46,
+          "quote": "你可能需要靠股票的 ATM ，卖股票来融资对吧"
+        }
+      ],
+      "impact_path": [
+        "潜在的大规模股票增发将稀释现有股东权益，导致IREN短期股价承压",
+        "投资者将更倾向于仅提供场地/电力而不承担GPU采购风险的AIDC玩家"
+      ],
+      "verification_steps": [
+        "查阅IREN后续财报中的ATM增发股票实际执行数量及募集资金规模",
+        "观察其能否在私募市场或债务市场获得更低成本的融资以替代股权稀释"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:22:50",
+      "time_end": "00:29:10",
+      "start_seconds": 1370.0,
+      "end_seconds": 1750.0,
+      "verification": {
+        "verification_status": "verified",
+        "verified_claim": "Iris Energy (IREN) 确实与微软签订了为期5年、总价值约97亿美元的AI云服务合同，并需向戴尔支付约58亿美元采购Nvidia GPU。为填补除微软20%预付款外的巨大资金缺口，IREN于2026年3月宣布了高达60亿美元的ATM股票增发计划，引发市场对严重股权稀释的担忧，从而压制了其估值。",
+        "verified_impact_path": [
+          "资本支出传导机制：97亿美元的微软巨额订单带来了58亿美元的硬件采购（Dell/Nvidia）及额外的数据中心建设成本，微软20%（约19.4亿美元）的预付款无法完全覆盖资本开支，形成巨大的资金缺口。",
+          "融资与稀释路径：为填补资金缺口，IREN将ATM（At-The-Market）股票增发额度从10亿美元激增至60亿美元（约占其市值的近一半），这种悬而未决的巨额抛压直接引发了市场的恐慌性抛售（单日大跌8.5%）。",
+          "估值压制逻辑：尽管公司正成功从比特币挖矿转型为高利润的AI云基础设施提供商，但由于重资产模式带来的极高资本壁垒和持续的股权稀释预期，投资者对其每瓦电力及算力资产的估值给出了显著的流动性折价。"
+        ],
+        "verified_data": [
+          {
+            "source": "Investing.com",
+            "finding": "2025年11月，IREN宣布与微软签订为期5年、价值97亿美元的GPU云服务合同。微软提供20%的预付款，同时IREN与戴尔达成约58亿美元的协议，用于采购Nvidia GB300 GPU及配套设备。",
+            "url": "https://www.investing.com/news/company-news/iren-signs-97-billion-gpu-cloud-services-contract-with-microsoft"
+          },
+          {
+            "source": "24/7 Wall St.",
+            "finding": "2026年3月，IREN提交了新的招股说明书补充文件，将其ATM（At-The-Market）股票增发计划的额度从10亿美元大幅提升至60亿美元。该消息引发市场对股权稀释的严重担忧，导致其股价单日下跌8.5%。",
+            "url": "https://247wallst.com/investing/2026/03/07/irens-6-billion-stock-offering-is-this-amc-entertainment-2-0-for-the-ai-era/"
+          },
+          {
+            "source": "Stocktwits",
+            "finding": "IREN联合首席执行官Daniel Roberts出面为60亿美元的股权融资计划辩护，称其为“可选的融资工具”，公司将平衡债务和客户预付款等多种资金来源，但散户和市场投资者依然对潜在的巨大稀释效应保持警惕。",
+            "url": "https://stocktwits.com/news/article/iren-co-ceo-defends-6b-equity-plan-as-ai-boom-fuels-massive-data-center-spending-likely-to-deliver-outsized-returns"
+          }
+        ],
+        "verification_confidence": "high",
+        "verification_notes": "信号内容高度准确。IREN与微软的合同实际金额为97亿美元（信号称98亿，误差极小），58亿美元的GPU采购支出和2026年3月最新公布的60亿美元ATM增发计划均被证实。巨额的资本开支和潜在的股权稀释确实是当前压制其估值的核心因素。",
+        "verification_date": "2026-03-10",
+        "signal_date": "2025-11-20",
+        "market_data": {
+          "IREN": {
+            "current": {
+              "price": 38.84,
+              "change_percent": 5.83,
+              "market_cap": 12885526528,
+              "name": "IREN LIMITED"
+            },
+            "since_signal": {
+              "from_date": "2025-11-20",
+              "to_date": "2026-03-09",
+              "from_price": 43.47,
+              "to_price": 38.84,
+              "change": -4.63,
+              "change_percent": -10.65,
+              "trading_days": 73
+            },
+            "financials": {
+              "pe_ratio": 26.972221,
+              "forward_pe": 50.06316,
+              "profit_margin": 0.51477003,
+              "revenue_growth": 0.59,
+              "52_week_high": 76.87,
+              "52_week_low": 5.125
+            }
+          },
+          "MSFT": {
+            "current": {
+              "price": 409.41,
+              "change_percent": 0.11,
+              "market_cap": 3042889957376,
+              "name": "Microsoft Corporation"
+            },
+            "since_signal": {
+              "from_date": "2025-11-20",
+              "to_date": "2026-03-09",
+              "from_price": 477.34,
+              "to_price": 409.41,
+              "change": -67.93,
+              "change_percent": -14.23,
+              "trading_days": 73
+            },
+            "financials": {
+              "pe_ratio": 25.636192,
+              "forward_pe": 21.726269,
+              "profit_margin": 0.39044,
+              "revenue_growth": 0.167,
+              "52_week_high": 555.45,
+              "52_week_low": 344.79
+            }
+          }
+        }
+      }
+    },
+    {
+      "entities": [
+        {
+          "name": "Crusoe Energy",
+          "ticker": null,
+          "type": "private"
+        },
+        {
+          "name": "Blue Owl Capital",
+          "ticker": "OWL",
+          "type": "public"
+        },
+        {
+          "name": "CoreWeave",
+          "ticker": null,
+          "type": "private"
+        }
+      ],
+      "signal_type": "capital_action",
+      "claim": "为解决单个算力园区动辄百亿美元的资金开支，Crusoe等AI基建企业正联合Blue Owl Capital，利用底层租金和GPU收益发行REITs或资产抵押证券(ABS)。金融工程已深入AI基建产业，以解决滚动开发的融资瓶颈。",
+      "evidence_seg_ids": [
+        58,
+        60,
+        62,
+        63
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 60,
+          "quote": "其实 Crusoe 就是为了让他去做成这种 REITs"
+        },
+        {
+          "seg_id": 63,
+          "quote": "最终都需要通过一个 REITs 的方式或者是类似 CDO"
+        }
+      ],
+      "impact_path": [
+        "一旦底层模型变现受阻，打包到债市的算力证券化产品可能引发次贷式的流动性危机",
+        "有效缓解数据中心开发商的现金流压力，加速新型数据中心落地速度"
+      ],
+      "verification_steps": [
+        "监测二级市场是否出现以AI数据中心租赁收益为底层资产的公开发行REITs/ABS产品",
+        "跟进Blue Owl Capital与AI初创公司的合作公告及其资产管理规模流入"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:33:00",
+      "time_end": "00:36:04",
+      "start_seconds": 1980.0,
+      "end_seconds": 2164.0,
+      "verification": {
+        "verification_status": "verified",
+        "verified_claim": "Crusoe Energy和CoreWeave等AI基建企业确实已联合Blue Owl Capital，通过合资企业、REITs和ABS结构来解决百亿美元级别的数据中心资本开支。然而，这种金融工程近期面临压力，Blue Owl因CoreWeave信用评级问题在40亿美元债务融资上受阻，导致其股价大幅下跌。",
+        "verified_impact_path": [
+          "影响路径1：从AI基建到金融工程的传导——单个AI数据中心动辄数十亿美元的资本开支（如Crusoe的34亿美元项目）迫使开发商放弃传统企业债，转向以底层租金和GPU收益为支撑的合资企业、REITs和ABS进行融资。",
+          "影响路径2：对产业链的具体影响——虽然资产证券化初期加速了千兆瓦级AI园区的建设，但对私募信贷的过度依赖也带来了脆弱性。一旦底层租户（如CoreWeave）信用评级不足导致融资延期，将直接引发算力中心建设和GPU部署的瓶颈。",
+          "影响路径3：对投资者的实际意义——近期CoreWeave债务银团组建受阻凸显了AI基建的信用风险。市场正在对Blue Owl (OWL) 等另类资产管理公司进行重新定价，投资者需警惕非投资级租户给AI金融工程带来的系统性风险。"
+        ],
+        "verified_data": [
+          {
+            "source": "Business Wire",
+            "finding": "Crusoe Energy、Blue Owl Capital和Primary Digital Infrastructure组建了34亿美元的合资企业，在德州开发206兆瓦的AI数据中心，随后获得了摩根大通23亿美元的贷款，印证了AI基建融资的庞大规模。",
+            "url": "https://www.businesswire.com/news/home/20241015383540/en/Crusoe-Blue-Owl-Capital-and-Primary-Digital-Infrastructure-Enter-3.4-billion-Joint-Venture-for-AI-Data-Center-Development"
+          },
+          {
+            "source": "Business Insider",
+            "finding": "2026年2月，Blue Owl Capital在为宾夕法尼亚州一个由CoreWeave租赁的40亿美元数据中心项目寻求债务融资时遇到困难，原因是贷款人对CoreWeave的B+（非投资级）信用评级感到担忧。",
+            "url": "https://www.businessinsider.com/blue-owl-shopped-debt-coreweave-data-center-lenders-passed-2026-2"
+          },
+          {
+            "source": "Goldman Sachs",
+            "finding": "资产支持证券（ABS）在2025年成为稳定数据中心的主要融资工具，全年ABS发行量超过170亿美元。业主通过将数据中心打包成单资产/单借款人（SASB）的CMBS/ABS来替代短期建设贷款。",
+            "url": "https://www.goldmansachs.com/intelligence/pages/powering-the-ai-era.html"
+          },
+          {
+            "source": "Bisnow",
+            "finding": "受CoreWeave融资受阻报道的影响，Blue Owl Capital (OWL) 的股价出现大幅抛售，在2026年2月的一个月内下跌超过25%，验证了信号中提及的市场数据（OWL下跌27.2%）。",
+            "url": "https://www.bisnow.com/national/news/data-center/blue-owl-denies-report-of-financing-issues-on-4b-coreweave-project-128150"
+          }
+        ],
+        "verification_confidence": "high",
+        "verification_notes": "信号内容高度准确。Crusoe和CoreWeave等AI基建企业确实正依赖Blue Owl Capital通过合资、ABS和REITs结构解决百亿美元级别的融资瓶颈。但2026年初的最新数据显示，由于底层租户信用风险，这种金融工程正面临挑战，并导致了OWL股价近27%的暴跌。",
+        "verification_date": "2026-03-10",
+        "signal_date": "2025-11-20",
+        "market_data": {
+          "OWL": {
+            "current": {
+              "price": 9.81,
+              "change_percent": -0.81,
+              "market_cap": 15307499520,
+              "name": "Blue Owl Capital Inc."
+            },
+            "since_signal": {
+              "from_date": "2025-11-20",
+              "to_date": "2026-03-09",
+              "from_price": 13.47,
+              "to_price": 9.81,
+              "change": -3.66,
+              "change_percent": -27.17,
+              "trading_days": 73
+            },
+            "financials": {
+              "pe_ratio": 98.100006,
+              "forward_pe": 8.943712,
+              "profit_margin": 0.02747,
+              "revenue_growth": 0.197,
+              "52_week_high": 21.88,
+              "52_week_low": 9.54
+            }
+          }
+        }
+      }
+    },
+    {
+      "entities": [
+        {
+          "name": "Marathon Digital",
+          "ticker": "MARA",
+          "type": "public"
+        },
+        {
+          "name": "Riot Platforms",
+          "ticker": "RIOT",
+          "type": "public"
+        },
+        {
+          "name": "CleanSpark",
+          "ticker": "CLSK",
+          "type": "public"
+        },
+        {
+          "name": "Hut 8",
+          "ticker": "HUT",
+          "type": "public"
+        }
+      ],
+      "signal_type": "valuation",
+      "claim": "Marathon因自身电力紧缺（仅640兆瓦）无法停机改建AIDC，按纯电力折算估值偏贵；反之，Riot、CleanSpark和Hut 8有大量电力储备且未签单，当前隐含电价估值仅2-3美元/瓦，未来一旦签约超大型数据中心订单将有极大上行空间。",
+      "evidence_seg_ids": [
+        112,
+        123,
+        124
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 123,
+          "quote": "它自己挖矿的算力，它自己的电都不够用"
+        },
+        {
+          "seg_id": 112,
+          "quote": "如果说他们一旦签到单，我觉得会跑赢前面的那些"
+        }
+      ],
+      "impact_path": [
+        "资金将从炒作虚高但缺乏实际电力改建能力的公司转移至有真实储备的二线矿工",
+        "Riot、CleanSpark极有可能依靠剩余电力储备获得大厂租赁长单催化估值飙升"
+      ],
+      "verification_steps": [
+        "比对各大矿场最新季报中的自有可用电量以及宣布的向HPC(高性能计算)业务转型的具体时间表",
+        "追踪未转型矿企后续是否公布与大型云厂商或CoreWeave签署的合作备忘录"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "01:05:45",
+      "time_end": "01:14:48",
+      "start_seconds": 3945.0,
+      "end_seconds": 4488.0,
+      "verification": {
+        "verification_status": "verified",
+        "verified_claim": "验证结果支持该投资信号的核心逻辑。Marathon确实受限于约600-640兆瓦的电力容量且专注于挖矿，而Riot、CleanSpark和Hut 8拥有大量未开发的电力储备（如Riot的600兆瓦闲置产能和Hut 8的吉瓦级项目）。这些储备正被市场按AI数据中心（AIDC）的潜力重新定价，推动了相关公司股价的显著分化。",
+        "verified_impact_path": [
+          "影响路径1：从电力储备到AIDC转型的传导机制。拥有大量未签约电力储备的矿企能够以极低的边际成本将闲置产能转化为AI数据中心，从而获得比纯比特币挖矿更高的估值溢价。",
+          "影响路径2：对产业链的具体影响。AI算力需求的爆发导致传统数据中心电力短缺，迫使超大规模云厂商转向拥有现成电网接入和土地储备的加密货币矿企寻求合作，重塑了矿企的商业模式。",
+          "影响路径3：对投资者的实际意义。市场对矿企的估值逻辑已从“算力本位”转向“电力本位”。投资者更看重企业是否具备向高利润率的AI/HPC业务转型的电力冗余，这直接导致了Hut 8（大涨）和Marathon（下跌）的股价分化。"
+        ],
+        "verified_data": [
+          {
+            "source": "Insights4VC",
+            "finding": "报告指出Marathon维持约600兆瓦的数据中心容量，主要用于比特币挖矿；而Riot在德州Corsicana拥有1吉瓦的设施，其中约600兆瓦处于闲置状态，正计划用于AI云合资企业。Hut 8则在向AI基础设施提供商转型方面走得最远。",
+            "url": "https://insights4vc.substack.com/p/bitcoin-miners-pivot-to-ai-data-centers"
+          },
+          {
+            "source": "Seeking Alpha",
+            "finding": "CleanSpark管理层在2026财年第一季度财报电话会议上确认公司正向AI基础设施转型，近期在德州收购了271英亩土地及285兆瓦已获批电力，并在休斯顿地区规划了可扩展至600兆瓦的项目，使其潜在的公用事业级电力总容量接近900兆瓦。",
+            "url": "https://seekingalpha.com/symbol/CLSK/earnings"
+          },
+          {
+            "source": "IDCNova",
+            "finding": "Hut 8宣布与AI云提供商Fluidstack（由Google提供资金担保）达成245兆瓦的AI数据中心租赁协议，该项目位于路易斯安那州，是其多吉瓦级战略合作的一部分，总价值可能高达177亿美元，这印证了其在AIDC领域的巨大上行空间。",
+            "url": "https://www.idcnova.com/"
+          }
+        ],
+        "verification_confidence": "high",
+        "verification_notes": "验证结果高度支持该信号。Marathon因电力容量受限（约640兆瓦）且专注于挖矿而错失AI红利，而Riot（600兆瓦闲置）、CleanSpark（近900兆瓦储备）和Hut 8凭借庞大的电力储备成功向AI数据中心转型。这使得市场估值逻辑从算力转向电力，完美解释了Hut 8大涨44.4%而Marathon下跌15.4%的市场表现。",
+        "verification_date": "2026-03-10",
+        "signal_date": "2025-11-20",
+        "market_data": {
+          "MARA": {
+            "current": {
+              "price": 8.66,
+              "change_percent": 8.11,
+              "market_cap": 3292831744,
+              "name": "MARA Holdings, Inc."
+            },
+            "since_signal": {
+              "from_date": "2025-11-20",
+              "to_date": "2026-03-09",
+              "from_price": 10.24,
+              "to_price": 8.66,
+              "change": -1.58,
+              "change_percent": -15.43,
+              "trading_days": 73
+            },
+            "financials": {
+              "pe_ratio": null,
+              "forward_pe": -7.1275716,
+              "profit_margin": -1.44581,
+              "revenue_growth": -0.056,
+              "52_week_high": 23.45,
+              "52_week_low": 6.66
+            }
+          },
+          "RIOT": {
+            "current": {
+              "price": 14.7,
+              "change_percent": 3.78,
+              "market_cap": 5573150208,
+              "name": "Riot Platforms, Inc."
+            },
+            "since_signal": {
+              "from_date": "2025-11-20",
+              "to_date": "2026-03-09",
+              "from_price": 12.78,
+              "to_price": 14.7,
+              "change": 1.92,
+              "change_percent": 15.02,
+              "trading_days": 73
+            },
+            "financials": {
+              "pe_ratio": null,
+              "forward_pe": -38.449467,
+              "profit_margin": -1.02432,
+              "revenue_growth": 0.072,
+              "52_week_high": 23.935,
+              "52_week_low": 6.19
+            }
+          },
+          "CLSK": {
+            "current": {
+              "price": 9.61,
+              "change_percent": 4.34,
+              "market_cap": 2457785344,
+              "name": "CleanSpark, Inc."
+            },
+            "since_signal": {
+              "from_date": "2025-11-20",
+              "to_date": "2026-03-09",
+              "from_price": 9.78,
+              "to_price": 9.61,
+              "change": -0.17,
+              "change_percent": -1.74,
+              "trading_days": 73
+            },
+            "financials": {
+              "pe_ratio": null,
+              "forward_pe": -16.288136,
+              "profit_margin": -0.33245,
+              "revenue_growth": 0.116,
+              "52_week_high": 23.61,
+              "52_week_low": 6.452
+            }
+          },
+          "HUT": {
+            "current": {
+              "price": 48.74,
+              "change_percent": 3.55,
+              "market_cap": 5404646400,
+              "name": "Hut 8 Corp."
+            },
+            "since_signal": {
+              "from_date": "2025-11-20",
+              "to_date": "2026-03-09",
+              "from_price": 33.76,
+              "to_price": 48.74,
+              "change": 14.98,
+              "change_percent": 44.37,
+              "trading_days": 73
+            },
+            "financials": {
+              "pe_ratio": null,
+              "forward_pe": -15.35926,
+              "profit_margin": -0.96185,
+              "revenue_growth": 1.792,
+              "52_week_high": 66.07,
+              "52_week_low": 10.04
+            }
+          }
+        }
+      }
+    }
+  ]
+}

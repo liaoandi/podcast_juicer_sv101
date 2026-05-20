@@ -1,0 +1,139 @@
+{
+  "metadata": {
+    "source": "/Users/antonio/Desktop/podcast_juicer/output/sv101_ep212/212_transcript_gemini.json",
+    "method": "gemini_3_pro_full_context",
+    "model": "gemini-3.1-pro-preview",
+    "total_signals": 3,
+    "companies_mentioned": [
+      "DeepSeek",
+      "HashKey Group"
+    ],
+    "context_length": 25671,
+    "publish_date": null,
+    "record_date": null,
+    "podcast_id": "sv101",
+    "episode_id": "212"
+  },
+  "signals": [
+    {
+      "entities": [
+        {
+          "name": "HashKey Group",
+          "ticker": null,
+          "parent": null,
+          "type": "private"
+        }
+      ],
+      "signal_type": "capital_action",
+      "claim": "加密金融服务商 HashKey 正积极筹备在香港进行 IPO。作为全球极少数能连续3年提供四大会计师事务所审计报告的加密机构，其具备极强的合规与财务透明度壁垒，已为上市成为公众公司做好准备。",
+      "evidence_seg_ids": [
+        105,
+        106,
+        108
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 106,
+          "quote": "希望能够实现我们 IPO 的这样一个梦想"
+        },
+        {
+          "seg_id": 106,
+          "quote": "提供四大会计师事务所的连续 3 年以上的审计报告"
+        }
+      ],
+      "impact_path": [
+        "通过合规优势率先完成 IPO，进一步巩固其在亚洲加密金融市场的头部地位",
+        "作为稀缺的合规加密交易标的，上市后有望享受高确定性的合规溢价"
+      ],
+      "verification_steps": [
+        "持续跟踪香港港交所关于 HashKey 递交招股书的披露进展",
+        "关注 HashKey 上市前的新一轮重组或融资动向"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "01:17:40",
+      "time_end": "01:19:13",
+      "start_seconds": 4660.0,
+      "end_seconds": 4753.0
+    },
+    {
+      "entities": [
+        {
+          "name": "HashKey Group",
+          "ticker": null,
+          "parent": null,
+          "type": "private"
+        }
+      ],
+      "signal_type": "competition",
+      "claim": "HashKey 在香港合规虚拟资产交易市场具有垄断流动性的业务潜力。传统券商在升级相关牌照后，因自建流动性池成本极高且难见成效，普遍选择将订单直接路由至 HashKey 的交易系统，为其带来稳定的机构订单流。",
+      "evidence_seg_ids": [
+        72,
+        73,
+        74
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 73,
+          "quote": "经纪牌照升级之后的都把订单汇聚到我们这来"
+        },
+        {
+          "seg_id": 74,
+          "quote": "建一个流动性池子，是一个成本非常高的行为"
+        }
+      ],
+      "impact_path": [
+        "大幅降低了 HashKey 获取传统资金的获客成本，确立其作为底层流动性提供商的市场地位",
+        "形成券商与头部合规交易所共生的格局，加高了后来者的竞争壁垒"
+      ],
+      "verification_steps": [
+        "调查并验证香港主流传统券商开展虚拟资产交易背后的系统及流动性提供方",
+        "跟踪 HashKey 机构业务交易量和沉淀资产规模的增长数据"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "00:57:28",
+      "time_end": "00:59:31",
+      "start_seconds": 3448.0,
+      "end_seconds": 3571.0
+    },
+    {
+      "entities": [
+        {
+          "name": "DeepSeek",
+          "ticker": null,
+          "parent": null,
+          "type": "private"
+        }
+      ],
+      "signal_type": "valuation",
+      "claim": "DeepSeek 大模型的突破扭转了全球资本此前对中国 AI 及科技发展前景的悲观预期，成为促使海外资金重新调升中国科技类资产整体估值、重新配置回流香港市场的核心催化事件。",
+      "evidence_seg_ids": [
+        86
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 86,
+          "quote": "DeepSeek 导致全球对中国资产的估值发生了巨大变化"
+        }
+      ],
+      "impact_path": [
+        "改变全球对冲基金的风险偏好，带动中概互联网及核心科技类资产的整体估值修复",
+        "配合地缘政治避险需求，强化香港市场作为外资承接地的资金虹吸效应"
+      ],
+      "verification_steps": [
+        "观察外资流入港股核心科技板块（如恒生科技指数）的资金规模与持续性",
+        "追踪全球主流外资大行对中国 AI 产业链及核心科技股的评级调整"
+      ],
+      "confidence": "low",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "01:06:02",
+      "time_end": "01:08:10",
+      "start_seconds": 3962.0,
+      "end_seconds": 4090.0
+    }
+  ]
+}

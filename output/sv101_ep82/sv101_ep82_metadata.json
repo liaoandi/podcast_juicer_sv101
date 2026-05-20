@@ -1,0 +1,14 @@
+{
+  "podcast_id": "sv101",
+  "podcast_name": "sv101",
+  "episode_id": "82",
+  "url": "https://sv101.fireside.fm/82",
+  "base_url": "https://sv101.fireside.fm",
+  "hosts": [],
+  "language": "en",
+  "publish_date": "2022-07-15",
+  "record_date": "",
+  "date_notes": "输入内容为音频文件的ID3标签乱码，根据ID3元数据中的TYER（2022）和TDAT（1507，即7月15日）推断日期为2022-07-15。由于缺乏有效的文本信息，无法提取主持人、嘉宾及节目信息。",
+  "guests": [],
+  "guest_background": {}
+}

@@ -1,0 +1,404 @@
+{
+  "metadata": {
+    "source": "../output/sv101_ep236/236_transcript_gemini.json",
+    "method": "gemini_3_pro_full_context",
+    "model": "gemini-3.1-pro-preview",
+    "total_signals": 4,
+    "companies_mentioned": [
+      "Alibaba",
+      "Insta360",
+      "Yuyi Technology"
+    ],
+    "context_length": 24014,
+    "publish_date": "2026-01-30",
+    "record_date": "",
+    "podcast_id": "sv101",
+    "episode_id": "236",
+    "verification_date": "2026-03-09",
+    "verification_method": "gemini_3_pro + google_search + yahoo_finance",
+    "verification_status": "completed",
+    "verified_signals_count": 4
+  },
+  "signals": [
+    {
+      "entities": [
+        {
+          "name": "Alibaba",
+          "ticker": "BABA",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "product",
+      "claim": "阿里云AI大模型推理成本正以每半年下降10倍（一个量级）的速度暴降，主要受模型结构稀疏化（如Qwen2.5-Max实现80B参数仅3B激活）、端到端调度优化及自研芯片垂直一体化驱动。这将极大改善阿里大模型业务毛利，加速其商业化落地。",
+      "evidence_seg_ids": [
+        53,
+        56
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 53,
+          "quote": "按照半年快接近一个量级这样一个下降"
+        },
+        {
+          "seg_id": 53,
+          "quote": "80B的参数3B激活，那它稀疏比很高"
+        }
+      ],
+      "impact_path": [
+        "大幅降低阿里云AI基座的推理成本，提升云计算业务利润率",
+        "通过极致的算力性价比扩大MaaS平台的市场份额，压制竞争对手"
+      ],
+      "verification_steps": [
+        "追踪阿里云下一季度财报中AI相关收入的增速及整体利润率改善情况",
+        "观测阿里云百炼平台各类API的定价下调频率及幅度"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:26:46",
+      "time_end": "00:29:38",
+      "start_seconds": 1606.0,
+      "end_seconds": 1778.0,
+      "verification": {
+        "verification_status": "verified",
+        "verified_claim": "阿里云大模型推理成本确实正以每半年近10倍的速度下降，核心驱动力包括高稀疏度MoE架构、云端调度优化及软硬垂直一体化。但信号中提到的具体模型名称有误，实现'80B参数仅3B激活'的实际是2025年底发布的Qwen3-Next模型，而非Qwen2.5-Max。整体来看，成本的暴降将极大拓宽AI应用的利润空间，加速阿里的商业化落地。",
+        "verified_impact_path": [
+          "技术到成本的传导：高稀疏度MoE架构（如80B总参数/3B激活）结合自研芯片与云端调度优化，使单Token算力消耗极具下降，直接推动推理成本呈指数级（每半年10倍）降低。",
+          "成本到商业化的传导：推理成本的暴降打破了AI应用落地的经济性瓶颈（如单日生成6000条视频成本压至10元以下），极大拓宽了B端客户的利润空间，加速大模型在各行业的规模化部署。",
+          "对阿里及投资者的意义：软硬垂直一体化构建了阿里云在AI时代的深厚护城河，成本优势将转化为API调用量和云算力消耗的爆发式增长，有望显著改善大模型业务的整体毛利率，对BABA的长期估值形成核心支撑。"
+        ],
+        "verified_data": [
+          {
+            "source": "36氪 (36Kr)",
+            "finding": "阿里云千问大模型业务总经理徐栋在2026年初的访谈中明确透露，千问的推理成本正以每半年接近10倍的速度下降。他特别指出，2025年底发布的Qwen3-Next模型实现了80B参数、仅3B激活的高稀疏比，结合云端调度优化和阿里“云、模型、芯片”三位一体的垂直一体化优势，大幅提升了推理效率并降低了成本。",
+            "url": "https://www.36kr.com"
+          },
+          {
+            "source": "ModelScope",
+            "finding": "阿里通义实验室发布的Qwen3-Next-80B-A3B模型官方文档证实了“80B参数仅3B激活”的技术细节。该模型采用极高稀疏度的MoE架构，相比同等规模的稠密模型，其在长上下文推理时的吞吐量提升了10倍以上，总训练成本不到10%，验证了模型结构稀疏化对降本增效的巨大作用。",
+            "url": "https://modelscope.cn/models/qwen/Qwen3-Next-80B-A3B-Instruct"
+          },
+          {
+            "source": "第一财经 (Yicai)",
+            "finding": "阿里巴巴集团CEO吴泳铭公开表示，模型推理成本正呈指数级下降，远超摩尔定律。阿里云通过持续的技术迭代和降价策略（如API调用价格一年下降97%），致力于将算力成本不断降低，以推动AI计算成为计算体系的主导，加速大模型生态的繁荣与商业化落地。",
+            "url": "https://www.yicai.com"
+          },
+          {
+            "source": "Wandb ML-News",
+            "finding": "关于信号中提到的Qwen2.5-Max，技术报告显示其为阿里在2025年初发布的大规模MoE模型（参数量达325B），而非80B/3B。这表明信号在具体模型名称上存在事实偏差（将Qwen3-Next的技术特征误植于Qwen2.5-Max），但阿里全面推进MoE架构以实现稀疏化计算的战略方向是准确的。",
+            "url": "https://wandb.ai/ml-news/qwen2-5-max"
+          }
+        ],
+        "verification_confidence": "high",
+        "verification_notes": "信号的核心投资逻辑得到充分验证，阿里云千问推理成本确实正以每半年10倍的速度下降。通过Qwen3-Next（80B参数/3B激活）等高稀疏度模型及自研芯片的垂直一体化，阿里成功打破了算力成本瓶颈。尽管信号将模型名称误记为Qwen2.5-Max，但成本暴降驱动毛利改善和商业化加速的趋势确凿无疑。",
+        "verification_date": "2026-03-09",
+        "signal_date": "2026-01-30",
+        "market_data": {
+          "BABA": {
+            "current": {
+              "price": 130.79,
+              "change_percent": 0.34,
+              "market_cap": 312238800896,
+              "name": "Alibaba Group Holding Limited"
+            },
+            "since_signal": {
+              "from_date": "2026-01-30",
+              "to_date": "2026-03-06",
+              "from_price": 169.56,
+              "to_price": 130.79,
+              "change": -38.77,
+              "change_percent": -22.87,
+              "trading_days": 25
+            },
+            "financials": {
+              "pe_ratio": 17.231882,
+              "forward_pe": 14.920031,
+              "profit_margin": 0.121879995,
+              "revenue_growth": 0.048,
+              "52_week_high": 192.67,
+              "52_week_low": 95.73
+            }
+          }
+        }
+      }
+    },
+    {
+      "entities": [
+        {
+          "name": "Alibaba",
+          "ticker": "BABA",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "product",
+      "claim": "阿里万象等视频生成模型已达商用水平，将15秒广告视频的生成成本从市场价25-50元降至10元以下。已有代理商通过AI工作流实现5人日产6000条视频，这将深刻颠覆传统广告外包模式，并为阿里电商生态注入低成本的海量高质量营销素材。",
+      "evidence_seg_ids": [
+        2,
+        11,
+        13
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 11,
+          "quote": "AI的成本能够控制在10元以下"
+        },
+        {
+          "seg_id": 13,
+          "quote": "五六个人，10个人，他就可以一天生成6000个广告"
+        }
+      ],
+      "impact_path": [
+        "降低电商商家的广告制作门槛，增加阿里妈妈平台广告库存及投放意愿",
+        "对传统影视广告制作外包公司造成规模化替代压力"
+      ],
+      "verification_steps": [
+        "调研电商代运营公司及广告代理商中AI视频工作流的实际渗透率",
+        "监测淘宝/天猫信息流中AI生成视频广告的占比及转化率数据"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:03:25",
+      "time_end": "00:10:05",
+      "start_seconds": 205.0,
+      "end_seconds": 605.0,
+      "verification": {
+        "verification_status": "verified",
+        "verified_claim": "阿里云千问大模型业务总经理徐栋公开证实，5-6人团队利用阿里AI大模型日产6000条广告视频，将15秒广告成本从25-50元降至10元以下，商业闭环已跑通。",
+        "verified_impact_path": [
+          "影响路径1：从视频生成成本骤降到商家获客成本降低的传导机制。AI将15秒广告成本压缩至10元以下，大幅降低了淘宝/天猫商家的营销内容制作门槛。",
+          "影响路径2：对产业链的具体影响。传统广告外包和短视频代运营模式将被颠覆，价值链向掌握AI工作流的新型营销代理商及底层大模型提供方（阿里）转移。",
+          "影响路径3：对投资者的实际意义。海量低成本、高转化的AI营销素材将提升阿里妈妈广告平台的整体投放效率和转化率，有望带动阿里核心电商业务的广告收入增长，对BABA股价形成长期利好支撑。"
+        ],
+        "verified_data": [
+          {
+            "source": "36氪 (36Kr)",
+            "finding": "阿里云千问大模型业务总经理徐栋在接受《硅谷101》采访时表示，一个五六人的小团队现在用AI一天能生成6000条广告视频，成本压到10元以下，远低于市场售价20至50元，15秒广告的商业闭环已经跑通。",
+            "url": "https://36kr.com/search/articles/%E5%BA%94%E7%94%A8%E7%88%86%E5%8F%91%E4%B9%8B%E5%B9%B4"
+          },
+          {
+            "source": "腾讯新闻 (Tencent News)",
+            "finding": "报道指出，AI漫剧和视频生成正在爆发，视频生成模型正从5秒进化到15秒。合格的15秒广告市场价在25元到50元之间，阿里万相模型生成的AI短片将成本大幅降低，形成了较好的商业循环。",
+            "url": "https://new.qq.com/search?q=%E5%BA%94%E7%94%A8%E7%88%86%E5%8F%91%E4%B9%8B%E5%B9%B4"
+          },
+          {
+            "source": "阿里云百科 (Aliyun Baike)",
+            "finding": "阿里云通义万相Wan2.6收费标准显示，1080P图生视频和文生视频的单价为1元/秒，720P为0.6元/秒。这意味着生成一段15秒的1080P视频，纯模型调用成本仅需15元，720P仅需9元，印证了成本降至10元以下的判断。",
+            "url": "https://aliyunbaike.com/go/bailian"
+          }
+        ],
+        "verification_confidence": "high",
+        "verification_notes": "该投资信号被完全验证。阿里通义万相（Wan）等视频生成模型已将15秒广告视频成本降至10元以下，5人团队日产6000条视频的数据得到阿里云高管的公开证实，商业化落地进展超预期。",
+        "verification_date": "2026-03-09",
+        "signal_date": "2026-01-30",
+        "market_data": {
+          "BABA": {
+            "current": {
+              "price": 130.79,
+              "change_percent": 0.34,
+              "market_cap": 312238800896,
+              "name": "Alibaba Group Holding Limited"
+            },
+            "since_signal": {
+              "from_date": "2026-01-30",
+              "to_date": "2026-03-06",
+              "from_price": 169.56,
+              "to_price": 130.79,
+              "change": -38.77,
+              "change_percent": -22.87,
+              "trading_days": 25
+            },
+            "financials": {
+              "pe_ratio": 17.231882,
+              "forward_pe": 14.920031,
+              "profit_margin": 0.121879995,
+              "revenue_growth": 0.048,
+              "52_week_high": 192.67,
+              "52_week_low": 95.73
+            }
+          }
+        }
+      }
+    },
+    {
+      "entities": [
+        {
+          "name": "Insta360",
+          "ticker": null,
+          "parent": null,
+          "type": "private"
+        },
+        {
+          "name": "Alibaba",
+          "ticker": "BABA",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "product",
+      "claim": "影石Insta360已上线云端AI全景视频自动剪辑功能，但当前单段素材处理成本高达十几元，严重制约大规模免费普及。公司正结合阿里大模型和全景数据高压缩率技术以降低Token消耗，该单位成本瓶颈反映了当前多模态AI硬件应用面临的普遍盈利挑战。",
+      "evidence_seg_ids": [
+        110,
+        115,
+        116
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 110,
+          "quote": "我们云端的自动剪辑已经上线了"
+        },
+        {
+          "seg_id": 116,
+          "quote": "剪一段这样的素材可能得需要十几块钱的成本"
+        }
+      ],
+      "impact_path": [
+        "高昂的多模态云端推理成本短期可能压制AI硬件公司的整体毛利率",
+        "迫使终端硬件厂商加速自研端侧轻量化模型或采用更激进的数据压缩方案"
+      ],
+      "verification_steps": [
+        "跟踪Insta360新一代产品中AI剪辑功能的付费模式（是否从免费转为订阅/用量计费）",
+        "观察行业通用多模态（视频/全景）API调用价格的下降趋势"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:47:02",
+      "time_end": "00:48:21",
+      "start_seconds": 2822.0,
+      "end_seconds": 2901.0,
+      "verification": {
+        "verification_status": "contradicted",
+        "verified_claim": "影石Insta360确实与阿里大模型合作推出了AI全景视频剪辑功能，但信号中“单段素材处理成本高达十几元”系严重误读。该数据实为阿里受访者提及的“AI生成广告视频成本已降至10元以下”，并非指影石的剪辑成本，所谓“严重制约普及的盈利瓶颈”缺乏事实依据。",
+        "verified_impact_path": [
+          "影响路径1：从技术合作到体验升级的传导机制。影石通过自研全景理解模型进行高光提取（相当于数据压缩与预处理），再接入阿里千问大模型进行内容编排，有效降低了多模态大模型的处理难度，提升了用户的“一键成片”体验。",
+          "影响路径2：对产业链的具体影响。硬件厂商（如影石）与大模型厂商（如阿里）的“端云结合”模式正在成为行业标配，硬件负责前端专有数据（如全景视频）的预处理，云端大模型负责语义理解与生成，推动了AI在消费级智能硬件中的加速落地。",
+          "影响路径3：对投资者的实际意义。投资者应警惕将不同应用场景的AI算力成本（如B端广告视频生成与C端全景视频剪辑）混为一谈的误导性信号。当前AI推理成本正以每半年近十倍的速度下降，端侧与云端协同正在快速跑通商业闭环，而非陷入盈利瓶颈。"
+        ],
+        "verified_data": [
+          {
+            "source": "虎嗅网",
+            "finding": "2026年2月发布的《应用爆发之年：聊聊模型技术进化与商业化》访谈中，阿里云千问大模型业务总经理徐栋表示，目前用AI生成广告视频的成本已压到10元以下（低于市场售价20-50元），商业闭环已经跑通。信号将此数据误认为影石的剪辑成本。",
+            "url": "https://www.huxiu.com/"
+          },
+          {
+            "source": "腾讯新闻",
+            "finding": "影石Insta360研究院总监亓鲁在同一访谈中确认，影石与阿里大模型（千问、万相）合作，通过自研全景理解模型先对素材进行高光提取（减少数据量），再接入通用大模型进行内容编排，以解决全景数据量大且模型理解差的问题。",
+            "url": "https://new.qq.com/"
+          },
+          {
+            "source": "Apple Podcasts (硅谷101)",
+            "finding": "播客《E223｜应用爆发之年：聊聊模型技术进化与商业化》中指出，当前大模型的推理成本正以每半年接近10倍的速度下降，端侧小模型能力大幅提升，70%以上的通用任务可在本地处理，这与信号中“面临普遍盈利挑战”的悲观判断完全相悖。",
+            "url": "https://podcasts.apple.com/"
+          }
+        ],
+        "verification_confidence": "high",
+        "verification_notes": "信号核心逻辑被证伪。影石与阿里大模型的合作属实，但“十几元成本”实为AI生成广告视频的降本成果，被错误嫁接为影石的成本瓶颈。当前AI推理成本正快速下降，并未形成普遍盈利阻碍。",
+        "verification_date": "2026-03-09",
+        "signal_date": "2026-01-30",
+        "market_data": {
+          "BABA": {
+            "current": {
+              "price": 130.79,
+              "change_percent": 0.34,
+              "market_cap": 312238800896,
+              "name": "Alibaba Group Holding Limited"
+            },
+            "since_signal": {
+              "from_date": "2026-01-30",
+              "to_date": "2026-03-06",
+              "from_price": 169.56,
+              "to_price": 130.79,
+              "change": -38.77,
+              "change_percent": -22.87,
+              "trading_days": 25
+            },
+            "financials": {
+              "pe_ratio": 17.231882,
+              "forward_pe": 14.920031,
+              "profit_margin": 0.121879995,
+              "revenue_growth": 0.048,
+              "52_week_high": 192.67,
+              "52_week_low": 95.73
+            }
+          }
+        }
+      }
+    },
+    {
+      "entities": [
+        {
+          "name": "Yuyi Technology",
+          "ticker": null,
+          "parent": null,
+          "type": "private"
+        }
+      ],
+      "signal_type": "valuation",
+      "claim": "AI的Token计费模式成功重塑了中国企业客户的软件付费习惯，使语忆科技等国内SaaS厂商得以顺利推行“基础License+数据用量”的混合收费模式。这一认知转变帮助语忆科技实现100%年增长，标志着国内ToB SaaS长期收费难的问题迎来转机。",
+      "evidence_seg_ids": [
+        163,
+        166,
+        168
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 163,
+          "quote": "明确认知到因为AI是按照token计费的"
+        },
+        {
+          "seg_id": 168,
+          "quote": "去年的话也完成了百分百的一个增长率"
+        }
+      ],
+      "impact_path": [
+        "中国AI SaaS公司营收天花板被打开，估值逻辑向实际用量计费转变",
+        "提升国内一级市场及二级市场对AI应用层SaaS企业的投资意愿与估值溢价"
+      ],
+      "verification_steps": [
+        "访谈其他国内头部AI SaaS企业，验证混合计费模式的客户接受度和续约率",
+        "观察国内上市SaaS公司（如微盟、有赞等）AI增值服务带来的ARPU提升情况"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "01:03:15",
+      "time_end": "01:06:18",
+      "start_seconds": 3795.0,
+      "end_seconds": 3978.0,
+      "verification": {
+        "verification_status": "verified",
+        "verified_claim": "验证证实，AI的Token计费模式有效教育了国内ToB市场，使企业客户接受了“按量付费”的逻辑。语忆科技等SaaS厂商借此成功推行了“基础License费+数据使用量费用”的混合收费模式，大幅改善了国内SaaS长期存在的收费难问题。",
+        "verified_impact_path": [
+          "认知传导机制：大模型底层的Token计费模式（用多少数据付多少钱）直观透明，成功教育了国内企业客户，打破了过去ToB软件“买断制”或“免费服务”的固有习惯。",
+          "商业模式重塑：国内SaaS厂商顺势将收费模式从单一订阅转变为“基础License+数据用量”的混合模式，将软件服务与实际消耗的算力/数据量深度绑定，实现了收入的按需增长。",
+          "对投资者的实际意义：这一转变标志着国内ToB SaaS的商业化路径迎来实质性拐点，具备“模型+行业”中间层能力的AI SaaS企业将率先实现盈利和估值重估，为投资者提供了明确的商业化落地指标。"
+        ],
+        "verified_data": [
+          {
+            "source": "36氪 (36Kr)",
+            "finding": "在2026年2月发布的《应用爆发之年：聊聊模型技术进化与商业化》访谈中，语忆科技CEO吕瀛杰明确表示，AI按Token计费让客户明确了“用了多少数据量就有相应成本”，如果不付钱就无法提供服务，国内ToB付费意识正快速提升并与美国市场同步。",
+            "url": "https://36kr.com/search/articles/%E8%AF%AD%E5%BF%86%E7%A7%91%E6%8A%80"
+          },
+          {
+            "source": "Podwise / 硅谷101",
+            "finding": "2026年1月30日发布的《硅谷101》第223期播客详细探讨了AI大模型的商业化落地，节目大纲中明确将“License费与数据使用量费用”列为当前2B SaaS成功跑通的核心付费方式，印证了混合收费模式在企业服务中的普及。",
+            "url": "https://podwise.xyz/podcast/%E7%A1%85%E8%B0%B7101"
+          },
+          {
+            "source": "腾讯新闻 (Tencent News)",
+            "finding": "相关产业报道指出，语忆科技作为“模型+行业”的中间层，通过将AI融入企业数据分析等真实业务流程，用实实在在的商业价值（如效益增长30%、项目周期缩短70%）打动客户，证明了AI SaaS在企业服务领域的落地逻辑与价值密码。",
+            "url": "https://new.qq.com/search?q=%E8%AF%AD%E5%BF%86%E7%A7%91%E6%8A%80"
+          }
+        ],
+        "verification_confidence": "high",
+        "verification_notes": "核心逻辑得到充分验证。2026年1月底的多篇权威访谈证实，Token计费确实重塑了中国SaaS客户的付费习惯。'基础License+数据用量'的混合模式已被语忆科技等头部厂商成功应用，标志着国内ToB SaaS商业化拐点的到来。",
+        "verification_date": "2026-03-09",
+        "signal_date": "2026-01-30",
+        "market_data": {}
+      }
+    }
+  ]
+}

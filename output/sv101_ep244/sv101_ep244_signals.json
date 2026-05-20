@@ -1,0 +1,229 @@
+{
+  "metadata": {
+    "source": "output/sv101_ep244/244_transcript_gemini.json",
+    "method": "gemini_3_pro_full_context",
+    "model": "gemini-3.1-pro-preview",
+    "total_signals": 5,
+    "companies_mentioned": [
+      "Data Center Infrastructure",
+      "Groq",
+      "Intel",
+      "Micron",
+      "NVIDIA",
+      "Salesforce",
+      "TSMC"
+    ],
+    "context_length": 29323,
+    "publish_date": "2026-03-25",
+    "record_date": "",
+    "podcast_id": "sv101",
+    "episode_id": "244"
+  },
+  "signals": [
+    {
+      "entities": [
+        {
+          "name": "NVIDIA",
+          "ticker": "NVDA",
+          "parent": null,
+          "type": "public"
+        },
+        {
+          "name": "TSMC",
+          "ticker": "TSM",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "supply_chain",
+      "claim": "英伟达预计2027年Blackwell和Hopper累计订单将达1万亿美元，尽管台积电3nm制程产能足以支撑，但CoWoS先进封装产能即便在大幅扩产下仍存明显缺口，这将可能成为限制英伟达超大规模订单交付和业绩兑现的核心供应链瓶颈。",
+      "evidence_seg_ids": [
+        0,
+        7
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 7,
+          "quote": "但是CoWoS的产能就很难说了"
+        }
+      ],
+      "impact_path": [
+        "可能影响英伟达营收兑现速度和台积电的资本开支方向",
+        "CoWoS先进封装的真实落地产能直接决定了最高端AI芯片的最终出货量"
+      ],
+      "verification_steps": [
+        "追踪台积电季度财报中关于CoWoS产能扩张的具体指引",
+        "监测英伟达财报电话会上管理层对供应链瓶颈和交付周期的描述"
+      ],
+      "confidence": "high",
+      "novelty": "low",
+      "actionability": "high",
+      "time_start": "00:01:50",
+      "time_end": "00:08:10",
+      "start_seconds": 110.0,
+      "end_seconds": 490.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Groq",
+          "ticker": null,
+          "parent": null,
+          "type": "private"
+        },
+        {
+          "name": "NVIDIA",
+          "ticker": "NVDA",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "competition",
+      "claim": "Groq推出的LPU推理芯片采用纯SRAM架构去除了DRAM，极大降低数据通信延迟，在智能体应用中生成Token效率比GPU提升30倍，暴露传统GPU推理的通信瓶颈，未来将对英伟达高利润推理份额形成不对称竞争威胁。",
+      "evidence_seg_ids": [
+        13,
+        14,
+        15
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 13,
+          "quote": "Groq 就是剑走偏锋，完全去掉了 DRAM"
+        }
+      ],
+      "impact_path": [
+        "可能引发市场对纯SRAM架构初创企业估值重估以及加速GPU向推理端演进",
+        "以极低延迟抢占Agent推理场景，蚕食大厂高昂的GPU推理算力租赁市场"
+      ],
+      "verification_steps": [
+        "评估大模型应用公司在端到端推理时使用Groq LPU相比Nvidia H100的成本效益分析",
+        "追踪Groq产能释放节奏及三星为其代工的良率数据"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "00:10:50",
+      "time_end": "00:14:10",
+      "start_seconds": 650.0,
+      "end_seconds": 850.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Micron",
+          "ticker": "MU",
+          "parent": null,
+          "type": "public"
+        },
+        {
+          "name": "Intel",
+          "ticker": "INTC",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "supply_chain",
+      "claim": "由于AI集群建设狂潮与HBM产能的排挤效应，传统DDR内存受到挤压导致DDR4价格暴涨，且SSD、CX7交换机及Intel CPU、水冷设备开始全面告急，一线云厂商预测该基础设施的全线缺货状态将延续至2027年底。",
+      "evidence_seg_ids": [
+        82
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 82,
+          "quote": "像是 DDR 就开始缺，然后现在 SSD 也开始缺"
+        }
+      ],
+      "impact_path": [
+        "存储芯片大厂的利润率有望大幅反转，且液冷散热供应链公司迎来业绩爆发",
+        "HBM优先供货导致DDR与SSD传统产线长期紧缺，引发价格结构性暴涨"
+      ],
+      "verification_steps": [
+        "监测DDR4及企业级SSD最新现货市场合约价格的月度趋势",
+        "查询上游液冷部件及交换机零部件厂商的存货周转与在手订单量(Lead time)"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:57:15",
+      "time_end": "00:58:50",
+      "start_seconds": 3435.0,
+      "end_seconds": 3530.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Data Center Infrastructure",
+          "ticker": null,
+          "parent": null,
+          "type": "unknown"
+        }
+      ],
+      "signal_type": "other",
+      "claim": "美国输电网络面临严重瓶颈，新建数据中心难以从电网获取10兆瓦以上电力。目前90%的新建数据中心被迫采用表后发电模式，就地部署天然气发电机或核电机组，底层能源获取能力将成为决定大厂AI算力扩张的绝对天花板。",
+      "evidence_seg_ids": [
+        60,
+        62,
+        63
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 60,
+          "quote": "90%新的data center建设都是behind the meter"
+        }
+      ],
+      "impact_path": [
+        "直接刺激天然气发电设备、工业微电网及核能小堆(SMR)概念公司的估值抬升",
+        "主干电网审批流程长且容量干涸，只能转向非网格独立能源维持数据中心极速扩产"
+      ],
+      "verification_steps": [
+        "查阅北美新披露的大型数据中心租约中采用天然气及核能等独立发电方案的比重",
+        "监控通用电气(GE)或独立核能公司的增量项目订单以及监管审批进展"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:47:15",
+      "time_end": "00:50:40",
+      "start_seconds": 2835.0,
+      "end_seconds": 3040.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Salesforce",
+          "ticker": "CRM",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "risk",
+      "claim": "AI智能体的广泛部署正颠覆传统的SaaS商业模式，未来的企业级软件将从售卖标准化系统权限转向高度定制化的AI劳动力外包。若现有的SaaS厂商无法迅速整合底层AI算力并提供模型能力，其护城河和市场份额将被迅速蚕食并淘汰。",
+      "evidence_seg_ids": [
+        29,
+        30,
+        31
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 30,
+          "quote": "大概率未来可能就会被淘汰掉或者被替代掉"
+        }
+      ],
+      "impact_path": [
+        "缺乏AI算力融合与实质智能体功能的传统SaaS公司面临收入流失与估值系统性坍塌风险",
+        "新型Agent直接执行业务成果，导致原本基于账号(Seat)的软件订阅商业模式失效"
+      ],
+      "verification_steps": [
+        "监测主力SaaS企业的净收入留存率(NDR)并观察企业客户IT预算向AI算力转移的比例",
+        "分析行业头部公司在推出Agentic功能后的ARPU值(单用户平均收入)变动曲线"
+      ],
+      "confidence": "low",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:25:20",
+      "time_end": "00:28:55",
+      "start_seconds": 1520.0,
+      "end_seconds": 1735.0
+    }
+  ]
+}

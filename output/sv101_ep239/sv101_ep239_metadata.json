@@ -1,0 +1,18 @@
+{
+  "podcast_id": "sv101",
+  "podcast_name": "sv101",
+  "episode_id": "239",
+  "url": "https://sv101.fireside.fm/239",
+  "base_url": "https://sv101.fireside.fm",
+  "hosts": [],
+  "language": "en",
+  "publish_date": "2026-02-25",
+  "record_date": "",
+  "date_notes": "录制日期未在文本中明确提及，因此留空",
+  "guests": [
+    "周健工"
+  ],
+  "guest_background": {
+    "周健工": "未尽研究创始人，资深媒体人，《哈萨比斯：谷歌AI之脑》译者"
+  }
+}

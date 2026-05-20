@@ -1,0 +1,102 @@
+{
+  "metadata": {
+    "source": "230_transcript_gemini.json",
+    "method": "gemini_3_pro_full_context",
+    "model": "gemini-3.1-pro-preview",
+    "total_signals": 2,
+    "companies_mentioned": [
+      "Hyrox",
+      "小红书"
+    ],
+    "context_length": 21318,
+    "publish_date": "2025-12-28",
+    "record_date": "",
+    "podcast_id": "sv101",
+    "episode_id": "230"
+  },
+  "signals": [
+    {
+      "entities": [
+        {
+          "name": "Hyrox",
+          "ticker": null,
+          "parent": "Infront Sports & Media (盈方体育)",
+          "type": "private"
+        }
+      ],
+      "signal_type": "demand",
+      "claim": "盈方体育旗下的混合健身赛事IP Hyrox 正在经历爆发式增长，其伦敦站参赛人数4年内从600人激增至4万人，中国区授权健身房2024年内从不到20家增至近200家，验证了标准化健身赛事IP极高的商业潜力与场馆端的强劲需求。",
+      "evidence_seg_ids": [
+        161,
+        174,
+        185
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 174,
+          "quote": "4年的时间，伦敦从 600 人发展到 4 万人"
+        },
+        {
+          "seg_id": 185,
+          "quote": "到今年年底，我们现在将近 200 家"
+        }
+      ],
+      "impact_path": [
+        "提升赛事IP估值与母公司商业化收入",
+        "以场馆授权、教练培训、周边零售和赞助为核心的商业变现模式已被市场验证，带动盈方体育资产增值"
+      ],
+      "verification_steps": [
+        "追踪 Hyrox 赛事各城市站点的实际报名人数及售罄速度",
+        "核验其合作授权健身房（如加盟费、设备引入）的实际数量增长"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "00:41:48",
+      "time_end": "00:53:10",
+      "start_seconds": 2508.0,
+      "end_seconds": 3190.0
+    },
+    {
+      "entities": [
+        {
+          "name": "小红书",
+          "ticker": null,
+          "type": "private"
+        }
+      ],
+      "signal_type": "product",
+      "claim": "小红书已成为国内线下小众运动（如Hyrox）冷启动和引流的核心转化渠道。通过联合发起PFT体能测试话题与运动打卡节，小红书在几周内直接推动了赛事的破圈与门票转化，展现了其在潮流生活方式领域的强营销效能。",
+      "evidence_seg_ids": [
+        178,
+        179,
+        200
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 179,
+          "quote": "短短的三四周时间内，我们就开始刷小红书，就看到这个话题"
+        },
+        {
+          "seg_id": 200,
+          "quote": "前一段时间跟小红书有一个运动打卡节，他来找我们合作"
+        }
+      ],
+      "impact_path": [
+        "强化小红书在生活方式/体育品牌中的广告定价权",
+        "其高精准的社群属性和打卡效应能大幅缩短新消费品牌的市场教育周期，利好其商业化变现空间"
+      ],
+      "verification_steps": [
+        "监测小红书平台上新兴运动话题的流量增速与线下商业实体的转化率",
+        "调研运动消费品牌在各内容平台投放ROI的对比数据"
+      ],
+      "confidence": "high",
+      "novelty": "low",
+      "actionability": "low",
+      "time_start": "00:49:08",
+      "time_end": "01:00:21",
+      "start_seconds": 2948.0,
+      "end_seconds": 3621.0
+    }
+  ]
+}

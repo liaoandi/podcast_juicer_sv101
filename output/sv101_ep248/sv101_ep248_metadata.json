@@ -1,0 +1,18 @@
+{
+  "podcast_id": "sv101",
+  "podcast_name": "sv101",
+  "episode_id": "248",
+  "url": "https://sv101.fireside.fm/248",
+  "base_url": "https://sv101.fireside.fm",
+  "hosts": [],
+  "language": "en",
+  "publish_date": "2026-05-08",
+  "record_date": "",
+  "date_notes": "Show notes中未提供具体录制日期，故留空。",
+  "guests": [
+    "刘诚"
+  ],
+  "guest_background": {
+    "刘诚": "美国Eureka Therapeutics创始人兼CEO，Estrella Immunopharma（Nasdaq上市公司）创始人兼CEO，JW Therapeutics（药明巨诺，香港上市公司）董事会主席"
+  }
+}

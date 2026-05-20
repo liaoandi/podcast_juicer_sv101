@@ -1,0 +1,99 @@
+{
+  "metadata": {
+    "source": "/Users/antonio/Desktop/podcast_juicer_sv101/output/sv101_ep247/247_transcript_gemini.json",
+    "method": "gemini_3_pro_full_context",
+    "model": "gemini-3.1-pro-preview",
+    "total_signals": 1,
+    "companies_mentioned": [
+      "Midjourney"
+    ],
+    "context_length": 11739,
+    "publish_date": null,
+    "record_date": null,
+    "podcast_id": "sv101",
+    "episode_id": "247",
+    "verification_date": "2026-04-26",
+    "verification_method": "gemini_3_pro + google_search + yahoo_finance",
+    "verification_status": "completed",
+    "verified_signals_count": 1
+  },
+  "signals": [
+    {
+      "entities": [
+        {
+          "name": "Midjourney",
+          "ticker": null,
+          "type": "private"
+        }
+      ],
+      "signal_type": "supply_chain",
+      "claim": "AI图像生成工具正在重塑影视工业管线，将传统分镜和前期预览所需数十人耗时数月的工作量，大幅压缩至48到72小时完成，这将极大降低影视项目前期的试错成本与资金门槛。",
+      "evidence_seg_ids": [
+        15,
+        16,
+        17
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 16,
+          "quote": "像Midjourney的话是16秒四张图"
+        },
+        {
+          "seg_id": 17,
+          "quote": "最多三天，就基本上可以把这套预览就视觉化做出来了"
+        }
+      ],
+      "impact_path": [
+        "传统影视视效与前期预览（Previs）外包公司",
+        "影视前期开发阶段的重人力环节被AI替代，传统按人头和工时计费的外包商业模式和订单需求将面临大幅缩减"
+      ],
+      "verification_steps": [
+        "调研行业头部视效公司（如数字王国等）前期预览业务的营收占比及近期订单变动情况",
+        "追踪主流影视剧组在前期开发阶段对AI生成工具的采购比例与应用渗透率"
+      ],
+      "confidence": "high",
+      "novelty": "low",
+      "actionability": "low",
+      "time_start": "00:06:46",
+      "time_end": "00:11:18",
+      "start_seconds": 406.0,
+      "end_seconds": 678.0,
+      "verification": {
+        "verification_status": "verified",
+        "verified_claim": "Midjourney等AI图像生成工具确实正在重塑影视工业的前期管线。多项行业实践与知名导演访谈证实，AI能将传统耗时数月的前期视觉预览和分镜工作压缩至48到72小时，实现百倍增效，大幅降低了影视项目的试错成本与资金门槛。",
+        "verified_impact_path": [
+          "影响路径1：从技术工具到生产力释放的传导机制——Midjourney通过文本到图像的快速生成，替代了传统依赖大量画师和3D建模的前期视觉开发，实现“创意即数据”的即时转化。",
+          "影响路径2：对影视产业链的具体影响——大幅缩短前期筹备周期，将原本高昂的视觉预览（Pre-vis）成本平民化，使得独立制片人和中小型工作室能够以极低成本完成好莱坞级别的概念设计与分镜。",
+          "影响路径3：对投资者的实际意义——影视项目的早期试错成本急剧下降，投资风险前置且可控；同时，提供AI影视工作流解决方案（如AI分镜软件、算力服务）的初创公司将迎来投资机遇。"
+        ],
+        "verified_data": [
+          {
+            "source": "硅谷101 (Apple Podcasts)",
+            "finding": "在2026年4月的播客节目《未来实拍电影还存在吗？》中，编剧KiSA与导演陆川通过实践证实，AI能将传统需耗时数月（长达六个月）的视效预览缩短至48到72小时，实现百倍增效。Midjourney被广泛用于影视概念设计、分镜与场景可视化。",
+            "url": "https://podcasts.apple.com/us/podcast/%E7%A1%85%E8%B0%B7101/id1516166281"
+          },
+          {
+            "source": "Drawstory",
+            "finding": "行业AI前期预览工具Drawstory指出，传统的影视前期预览需要3D艺术家和昂贵的软件，耗时数周；而AI驱动的工具将这一过程从数周压缩至数小时，极大降低了独立电影人的预算门槛。",
+            "url": "https://drawstory.ai/"
+          },
+          {
+            "source": "Suora Studios",
+            "finding": "商业视频制作公司Suora Studios发布报告称，Midjourney等AI图像生成工具在商业视频工作流中提供了高精度的前期预览，显著节省了时间和成本，使团队能在相同预算下进行更多试错和实验。",
+            "url": "https://www.suorastudios.com/blog/precise-pre-visualization-ai-image-gen-in-commercial-video-workflows"
+          },
+          {
+            "source": "Medium",
+            "finding": "影视从业者Russell S.A. Palmer撰文指出，过去制作分镜需要雇佣艺术家或耗费数周时间，现在借助Midjourney等AI工具，任何电影人都能在几小时内以几乎零成本创建电影级分镜。",
+            "url": "https://medium.com/search?q=Using+AI+to+Storyboard+Your+Video+with+Midjourney+Images"
+          }
+        ],
+        "verification_confidence": "high",
+        "verification_notes": "该投资信号被高度验证。最新的行业访谈（如导演陆川的证实）和商业制作公司的实际应用均表明，Midjourney等AI工具已将影视前期分镜和预览的时间从数月压缩至48-72小时，显著降低了试错成本。",
+        "verification_date": "2026-04-26",
+        "signal_date": null,
+        "market_data": {}
+      }
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "metadata": {
+    "source": "/Users/antonio/Desktop/podcast_juicer_sv101/output/sv101_ep243/243_transcript_gemini.json",
+    "method": "gemini_3_pro_full_context",
+    "model": "gemini-3.1-pro-preview",
+    "total_signals": 4,
+    "companies_mentioned": [
+      "Alibaba",
+      "Amazon",
+      "Fireworks",
+      "Google",
+      "Together AI",
+      "Walmart"
+    ],
+    "context_length": 23760,
+    "publish_date": "2026-03-31",
+    "record_date": "",
+    "podcast_id": "sv101",
+    "episode_id": "243"
+  },
+  "signals": [
+    {
+      "entities": [
+        {
+          "name": "Alibaba",
+          "ticker": "BABA",
+          "parent": "Alibaba Group",
+          "type": "public"
+        }
+      ],
+      "signal_type": "product",
+      "claim": "阿里巴巴国际站推出的AI采购代理工具Accio表现强劲，截至今年3月MAU达1000万，将中小企业的平均采购寻源周期从5天缩短至1天。AI精准匹配带来的搜索与转化率提升，直接带动国际站今年EBITA实现约18%的快速增长，验证了AI工具对B2B电商核心业务的实质增收能力。",
+      "evidence_seg_ids": [
+        21,
+        22,
+        60,
+        94,
+        96
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 21,
+          "quote": "到今年 3 月份，它的 MAU 已经到 1000 万"
+        },
+        {
+          "seg_id": 96,
+          "quote": "我们今年 EBITA 大概增长到 18% 左右吧"
+        }
+      ],
+      "impact_path": [
+        "直接提升阿里巴巴国际商业板块(AIDC)的营收与利润规模估值",
+        "AI驱动产品显著优化了供需匹配效率并大幅降低使用门槛，极大缓解了市场对阿里在AI商业落地变现能力的担忧"
+      ],
+      "verification_steps": [
+        "追踪阿里巴巴下一季度财报中国际商业板块（AIDC）的收入与EBITA具体增速",
+        "监控 Accio 平台及 Alibaba.com 在海外的独立访问量(UV)及活跃买家数"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:12:18",
+      "time_end": "00:52:25",
+      "start_seconds": 738.0,
+      "end_seconds": 3145.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Google",
+          "ticker": "GOOGL",
+          "parent": "Alphabet Inc.",
+          "type": "public"
+        }
+      ],
+      "signal_type": "valuation",
+      "claim": "市场对生成式AI会冲击传统搜索引擎广告商业模式的担忧被证伪。Google财报数据表明，引入AI Overview后用户的停留时长与搜索请求数不降反升，且因AI提高了意图匹配的精准度，广告点击率和实际广告收入均实现同步增长。",
+      "evidence_seg_ids": [
+        63
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 63,
+          "quote": "它既做到了用户的停留时长和 query 数变多"
+        }
+      ],
+      "impact_path": [
+        "夯实并稳固Google在AI时代的广告业务估值倍数",
+        "AI技术实际上提升了效果广告引擎的ROI，广告主拥有更强烈的付费意愿，确保了搜索广告核心盈利逻辑未被颠覆"
+      ],
+      "verification_steps": [
+        "核对Google最新季度财报中Search & Other板块的收入变化与指引",
+        "调研大型广告代理商在Google AI搜索广告展示位上的转化率数据与预算分配"
+      ],
+      "confidence": "high",
+      "novelty": "low",
+      "actionability": "high",
+      "time_start": "00:35:16",
+      "time_end": "00:36:44",
+      "start_seconds": 2116.0,
+      "end_seconds": 2204.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Amazon",
+          "ticker": "AMZN",
+          "parent": "Amazon.com, Inc.",
+          "type": "public"
+        },
+        {
+          "name": "Walmart",
+          "ticker": "WMT",
+          "parent": "Walmart Inc.",
+          "type": "public"
+        },
+        {
+          "name": "Alibaba",
+          "ticker": "BABA",
+          "parent": "Alibaba Group",
+          "type": "public"
+        }
+      ],
+      "signal_type": "competition",
+      "claim": "亚马逊和沃尔玛等北美大型零售巨头仍高度依赖阿里巴巴国际站进行包装等自有产品的全球供应链采购。尽管市场预期亚马逊可能在内部开发B2B AI工具形成竞争，但阿里管理层认为其在全球多平台泛化调用及供应链全周期深层Know-how上具备极难被短期跨越的护城河。",
+      "evidence_seg_ids": [
+        49,
+        72,
+        73
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 49,
+          "quote": "Walmart 跟 Amazon...也在国际站上采购"
+        }
+      ],
+      "impact_path": [
+        "影响B2B跨境电商及企业级AI代理软件(Agent)的市场竞争预期",
+        "大平台虽有生态壁垒，但复杂的跨境交易、多边供应链整合及履约具有高度线下属性，长期沉淀的数据飞轮优势使老牌平台地位稳固"
+      ],
+      "verification_steps": [
+        "监控亚马逊AWS或其B2B业务线是否对外发布类似Accio的全链路AI采购平台",
+        "通过行业专家访谈观察大型零售商对阿里国际站采购的依赖度是否存在转移迹象"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "00:29:58",
+      "time_end": "00:43:18",
+      "start_seconds": 1798.0,
+      "end_seconds": 2598.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Together AI",
+          "ticker": null,
+          "parent": null,
+          "type": "private"
+        },
+        {
+          "name": "Fireworks",
+          "ticker": null,
+          "parent": null,
+          "type": "private"
+        }
+      ],
+      "signal_type": "product",
+      "claim": "北美AI基础设施赛道出现明显分层，针对模型推理的中间层生态已成规模。Together AI和Fireworks等初创公司通过帮助应用层企业更低成本获取底层模型并进行推理，成功在基础大模型厂商与顶层应用者之间占据了确定的商业生态位。",
+      "evidence_seg_ids": [
+        0
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 0,
+          "quote": "像 Together AI 、Fireworks ，这已经规模比较大了"
+        }
+      ],
+      "impact_path": [
+        "指引一级市场AI基础设施层的资金流向与投资布局",
+        "随着应用端并发量增长，能够大幅降低单Token运行成本和推理延迟的中间件/MaaS厂商将收获最确定的高速增长机会"
+      ],
+      "verification_steps": [
+        "跟踪Together AI及Fireworks等推理层厂商在一级市场的新一轮融资估值情况",
+        "观察主流开源模型(如Llama系列)的开发者社区对这两家推理提供商的采用比例变化"
+      ],
+      "confidence": "high",
+      "novelty": "low",
+      "actionability": "low",
+      "time_start": "00:01:50",
+      "time_end": "00:03:25",
+      "start_seconds": 110.0,
+      "end_seconds": 205.0
+    }
+  ]
+}

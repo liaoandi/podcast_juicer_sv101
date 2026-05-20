@@ -1,0 +1,112 @@
+{
+  "metadata": {
+    "source": "/Users/antonio/Desktop/podcast_juicer/output/sv101_ep239/239_transcript_gemini.json",
+    "method": "gemini_3_pro_full_context",
+    "model": "gemini-3.1-pro-preview",
+    "total_signals": 2,
+    "companies_mentioned": [
+      "DeepSeek",
+      "Google",
+      "Microsoft",
+      "OpenAI"
+    ],
+    "context_length": 12073,
+    "publish_date": "2026-02-25",
+    "record_date": "",
+    "podcast_id": "sv101",
+    "episode_id": "239"
+  },
+  "signals": [
+    {
+      "entities": [
+        {
+          "name": "Google",
+          "ticker": "GOOGL",
+          "parent": "Alphabet",
+          "type": "public"
+        },
+        {
+          "name": "OpenAI",
+          "ticker": null,
+          "parent": "Microsoft",
+          "type": "private"
+        },
+        {
+          "name": "DeepSeek",
+          "ticker": null,
+          "parent": null,
+          "type": "private"
+        }
+      ],
+      "signal_type": "product",
+      "claim": "大语言模型的技术演进正发生关键偏移，从纯Transformer架构向强化学习（RL）方向回摆。OpenAI o1和DeepSeek R1均开始借鉴AlphaGo的思路，这预示拥有深厚强化学习DNA的谷歌（DeepMind）在下一代推理模型竞争中可能具备底层技术优势。",
+      "evidence_seg_ids": [
+        23,
+        24,
+        27
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 23,
+          "quote": "都是在往强化学习的方向去回摆"
+        }
+      ],
+      "impact_path": [
+        "将影响下一代AI模型的算力结构需求及大厂间的技术代差",
+        "因为强化学习能有效补足大模型在长程逻辑推理和复杂规划上的短板"
+      ],
+      "verification_steps": [
+        "关注Google后续Gemini版本是否大幅提升多步推理与强化学习权重",
+        "追踪头部AI巨头资本支出中用于强化学习训练的算力分配比例"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "00:33:50",
+      "time_end": "00:42:25",
+      "start_seconds": 2030.0,
+      "end_seconds": 2545.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Microsoft",
+          "ticker": "MSFT",
+          "parent": "Microsoft",
+          "type": "public"
+        }
+      ],
+      "signal_type": "competition",
+      "claim": "DeepMind核心联合创始人Mustafa Suleyman现任微软AI负责人，由于其早期在DeepMind创业时就展现出极强的变现导向与商业组织能力，预计将直接加速微软Copilot等AI全家桶的商业化落地节奏，加剧应用层的激烈竞争。",
+      "evidence_seg_ids": [
+        31,
+        32
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 31,
+          "quote": "现在也是整个微软 AI 的负责人"
+        },
+        {
+          "seg_id": 32,
+          "quote": "第二个呢就是我们怎么去做生意"
+        }
+      ],
+      "impact_path": [
+        "提升微软AI产品的商业转化率与营收增速",
+        "Suleyman务实的商业风格将弥补前沿AI基础研究与实际产品变现之间的鸿沟"
+      ],
+      "verification_steps": [
+        "观测微软下季度财报中AI应用的商业收入增速（如Copilot订阅量）",
+        "关注Suleyman主导下微软AI产品线的定价策略和toB市场推进动作"
+      ],
+      "confidence": "high",
+      "novelty": "low",
+      "actionability": "low",
+      "time_start": "00:47:15",
+      "time_end": "00:47:48",
+      "start_seconds": 2835.0,
+      "end_seconds": 2868.0
+    }
+  ]
+}

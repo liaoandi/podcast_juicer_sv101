@@ -1,0 +1,182 @@
+{
+  "metadata": {
+    "source": "/Users/antonio/Desktop/podcast_juicer/output/sv101_ep238/238_transcript_gemini.json",
+    "method": "gemini_3_pro_full_context",
+    "model": "gemini-3.1-pro-preview",
+    "total_signals": 4,
+    "companies_mentioned": [
+      "DeepSeek",
+      "OpenAI",
+      "百融云创",
+      "通用汽车",
+      "麦肯锡"
+    ],
+    "context_length": 8857,
+    "publish_date": "2026-02-13",
+    "record_date": "",
+    "podcast_id": "sv101",
+    "episode_id": "238"
+  },
+  "signals": [
+    {
+      "entities": [
+        {
+          "name": "百融云创",
+          "ticker": "6608.HK",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "product",
+      "claim": "百融云创（6608.HK）正在积极向 AI Agent 及 RaaS（按结果付费）模式转型，其最新推出的“百鉴”法务/咨询智能体平台能将单份合同审核时间从56分钟降至4分钟，有望通过赋能专业人士并进行利益分成，显著提升其在企业级服务中的利润率与客单价。",
+      "evidence_seg_ids": [
+        0,
+        13,
+        14
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 14,
+          "quote": "以前一份合同他们要 56 分钟...降到了 4 分钟"
+        },
+        {
+          "seg_id": 0,
+          "quote": "我们做好了...赚到钱我们才收钱。你看这就是我们的 RaaS 模式"
+        }
+      ],
+      "impact_path": [
+        "影响百融云创的估值体系，从传统的软件授权模式（SaaS）转变为按业务结果分成的 RaaS 模式",
+        "极大提高法务、咨询等非结构化文本处理场景的工作效率，带动公司 AI PaaS 收入占比提升"
+      ],
+      "verification_steps": [
+        "观测百融云创下一份财报中 AI PaaS 业务的营收增速及利润率变化",
+        "验证“百鉴”平台在法务、财税领域的实际注册专业人士数量和转化率"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "01:03:50",
+      "time_end": "01:06:40",
+      "start_seconds": 3830.0,
+      "end_seconds": 4000.0
+    },
+    {
+      "entities": [
+        {
+          "name": "通用汽车",
+          "ticker": "GM",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "supply_chain",
+      "claim": "通用汽车（GM）正在强制要求其中国本土的压铸件等零部件供应商在三年内将产能转移出中国大陆，否则将取消订单。这一明确的时间表反映出美国传统车企在关键零部件环节正在加速实质性的供应链脱钩，不再只停留在口头规划阶段。",
+      "evidence_seg_ids": [
+        14
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 14,
+          "quote": "通用汽车要求我三年之内把产能转移出中国大陆"
+        }
+      ],
+      "impact_path": [
+        "直接影响高度依赖通用汽车及美国车企的中国本土汽车零部件供应商的订单预期",
+        "迫使相关中国企业在短期内显著增加海外建厂（如墨西哥、东南亚）的资本开支（Capex）"
+      ],
+      "verification_steps": [
+        "查阅通用汽车主要中系压铸件供应商的财报，关注其资本开支指引及海外产能规划",
+        "跟踪海外汽车制造业 FDI（外国直接投资）数据中来自中国汽车产业链的资金流向"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "01:27:50",
+      "time_end": "00:47:10",
+      "start_seconds": 5270.0,
+      "end_seconds": 2830.0
+    },
+    {
+      "entities": [
+        {
+          "name": "麦肯锡",
+          "ticker": null,
+          "parent": null,
+          "type": "private"
+        },
+        {
+          "name": "OpenAI",
+          "ticker": null,
+          "parent": null,
+          "type": "private"
+        }
+      ],
+      "signal_type": "demand",
+      "claim": "顶级咨询公司麦肯锡目前是 OpenAI 全球排名前五的企业客户。在其 6.5 万名员工中，已有 2.5 万个是 AI 智能体（硅基员工）。这表明大模型在高端咨询及非结构化数据处理行业的商业化落地已达到极高渗透率，正深刻重塑传统智力密集型行业的成本结构。",
+      "evidence_seg_ids": [
+        15
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 15,
+          "quote": "麦肯锡，是 OpenAI 全球排名前五的客户"
+        },
+        {
+          "seg_id": 15,
+          "quote": "全球 65000 位员工，但是 25000 个是硅基员工"
+        }
+      ],
+      "impact_path": [
+        "影响传统人力外包及高端咨询行业的利润模型，初级数据整理及报告撰写人员的需求将出现断崖式下跌",
+        "验证了 OpenAI 在 Enterprise ToB 市场的超高收入潜力"
+      ],
+      "verification_steps": [
+        "跟踪麦肯锡等头部咨询公司近两年的校招及初级分析师（Junior Analyst）岗位的招聘数量变化",
+        "跟进 OpenAI 披露的企业端（Enterprise）客户营收数据和头部客户用量"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "01:33:50",
+      "time_end": "01:35:25",
+      "start_seconds": 5630.0,
+      "end_seconds": 5725.0
+    },
+    {
+      "entities": [
+        {
+          "name": "DeepSeek",
+          "ticker": null,
+          "parent": "High-Flyer",
+          "type": "private"
+        }
+      ],
+      "signal_type": "product",
+      "claim": "尽管 DeepSeek 等开源大模型引发市场热情，但大量传统企业在近几个月尝试直接部署后发现完全无法落地业务。核心痛点在于企业缺乏将其封装为智能体（Agent）的执行层能力，这预示着底层大模型厂商难以直接通吃 ToB 市场，必须依赖中间层应用商。",
+      "evidence_seg_ids": [
+        22
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 22,
+          "quote": "下载一个 DeepSeek 就可以了...过了 3 个月根本不行"
+        }
+      ],
+      "impact_path": [
+        "说明纯开源大模型的普及不会直接转化为传统企业的生产力，利好具备系统集成和 Agent 编排能力的 PaaS/中间件供应商",
+        "降低市场对底层大模型厂商独立获取传统企业 IT 预算的乐观预期"
+      ],
+      "verification_steps": [
+        "调研传统制造、金融等行业对开源大模型的实际落地项目，统计其在业务侧实际调用量是否具备持续性",
+        "观测主流大模型项目招标中，基础模型与上层中间件/实施服务的预算分配比例"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "01:40:05",
+      "time_end": "01:42:40",
+      "start_seconds": 6005.0,
+      "end_seconds": 6160.0
+    }
+  ]
+}

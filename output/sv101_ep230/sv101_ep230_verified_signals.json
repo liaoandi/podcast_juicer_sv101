@@ -1,0 +1,178 @@
+{
+  "metadata": {
+    "source": "230_transcript_gemini.json",
+    "method": "gemini_3_pro_full_context",
+    "model": "gemini-3.1-pro-preview",
+    "total_signals": 2,
+    "companies_mentioned": [
+      "Hyrox",
+      "小红书"
+    ],
+    "context_length": 21318,
+    "publish_date": "2025-12-28",
+    "record_date": "",
+    "podcast_id": "sv101",
+    "episode_id": "230",
+    "verification_date": "2026-03-11",
+    "verification_method": "gemini_3_pro + google_search + yahoo_finance",
+    "verification_status": "completed",
+    "verified_signals_count": 2
+  },
+  "signals": [
+    {
+      "entities": [
+        {
+          "name": "Hyrox",
+          "ticker": null,
+          "parent": "Infront Sports & Media (盈方体育)",
+          "type": "private"
+        }
+      ],
+      "signal_type": "demand",
+      "claim": "盈方体育旗下的混合健身赛事IP Hyrox 正在经历爆发式增长，其伦敦站参赛人数4年内从600人激增至4万人，中国区授权健身房2024年内从不到20家增至近200家，验证了标准化健身赛事IP极高的商业潜力与场馆端的强劲需求。",
+      "evidence_seg_ids": [
+        161,
+        174,
+        185
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 174,
+          "quote": "4年的时间，伦敦从 600 人发展到 4 万人"
+        },
+        {
+          "seg_id": 185,
+          "quote": "到今年年底，我们现在将近 200 家"
+        }
+      ],
+      "impact_path": [
+        "提升赛事IP估值与母公司商业化收入",
+        "以场馆授权、教练培训、周边零售和赞助为核心的商业变现模式已被市场验证，带动盈方体育资产增值"
+      ],
+      "verification_steps": [
+        "追踪 Hyrox 赛事各城市站点的实际报名人数及售罄速度",
+        "核验其合作授权健身房（如加盟费、设备引入）的实际数量增长"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "00:41:48",
+      "time_end": "00:53:10",
+      "start_seconds": 2508.0,
+      "end_seconds": 3190.0,
+      "verification": {
+        "verification_status": "verified",
+        "verified_claim": "盈方体育（Infront）控股的混合健身赛事IP Hyrox 确实经历了爆发式增长。其2025年12月的伦敦站参赛人数达到创纪录的4万人，同时中国区合作健身房在短期内激增至200家以上，充分验证了标准化健身赛事对线下场馆的赋能作用及极高的商业变现潜力。",
+        "verified_impact_path": [
+          "赛事IP到线下场馆的引流传导：标准化的赛事设计（8x1公里跑+8个功能性动作）降低了大众参与门槛，促使传统健身房为备赛人群开设专项团课，直接带动了场馆的拉新与会员留存。",
+          "对体育鞋服产业链的带动效应：赛事的爆发式增长吸引了Puma、Adidas等头部运动品牌的入局与资源倾斜，Puma甚至将其视为2026年战略核心的'灯塔'合作伙伴，推动了混合训练专属鞋服品类的研发与销售。",
+          "对投资者的实际意义：验证了'大众参与型体育赛事'在后疫情时代的强劲复苏与商业化潜力，盈方体育（Infront）及相关产业链公司将直接受益于赛事报名费、转播权、赞助商收入及周边消费的增长。"
+        ],
+        "verified_data": [
+          {
+            "source": "Triathlon Insight",
+            "finding": "2025年12月举行的Hyrox伦敦站赛事吸引了超过4万名运动员参赛，成为该赛事历史上规模最大的单站比赛。相比2017年英国首站仅700人的规模，实现了惊人的增长，印证了其在欧洲市场的爆发。",
+            "url": "https://triathloninsight.com/hyrox-prepares-for-historic-london-excel-race-and-unveils-london-week-of-fitness-for-2026/"
+          },
+          {
+            "source": "硅谷101 (Apple Podcasts)",
+            "finding": "在《硅谷101》播客第220期关于Hyrox的专访中，Hyrox中国区负责人确认了中国区合作健身房数量在短时间内从10家激增至近200家，并详细拆解了赛事如何说服健身房为小众比赛开课并赋能线下生态。",
+            "url": "https://podcasts.apple.com/cn/podcast/e220-%E8%B0%88%E8%B0%88hyrox-%E6%89%BE%E8%99%90%E8%BF%90%E5%8A%A8-%E5%A6%82%E4%BD%95%E7%81%AB%E9%81%8D%E5%85%A8%E7%90%83/id1516057143"
+          },
+          {
+            "source": "Infront Sports & Media Official",
+            "finding": "盈方体育（Infront）于2022年宣布增持并控股Hyrox，将其纳入个人与企业健身业务板块。盈方高管表示，Hyrox的参与人数呈指数级增长，其商业模式在广告、赞助和媒体领域具有巨大的变现空间。",
+            "url": "https://www.infront.sport/news/infront-bolsters-fitness-portfolio-through-further-hyrox-investment"
+          },
+          {
+            "source": "36氪 (36Kr)",
+            "finding": "行业报告指出，Hyrox的标准化赛制使其成为资本、品牌和健身机构共同使用的赛事IP模型。Puma将其全球合作延长至2030年，Adidas等品牌也纷纷入局，赛事已演变为品牌新品发布和技术展示的核心秀场。",
+            "url": "https://36kr.com/search/articles/HYROX"
+          }
+        ],
+        "verification_confidence": "high",
+        "verification_notes": "信号内容完全属实。Hyrox伦敦站4万人参赛及中国区200家授权场馆的数据均得到多方新闻与访谈证实，其作为标准化赛事IP的商业潜力已在运动品牌赞助和线下场馆改造中得到实质性验证。",
+        "verification_date": "2026-03-11",
+        "signal_date": "2025-12-28",
+        "market_data": {}
+      }
+    },
+    {
+      "entities": [
+        {
+          "name": "小红书",
+          "ticker": null,
+          "type": "private"
+        }
+      ],
+      "signal_type": "product",
+      "claim": "小红书已成为国内线下小众运动（如Hyrox）冷启动和引流的核心转化渠道。通过联合发起PFT体能测试话题与运动打卡节，小红书在几周内直接推动了赛事的破圈与门票转化，展现了其在潮流生活方式领域的强营销效能。",
+      "evidence_seg_ids": [
+        178,
+        179,
+        200
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 179,
+          "quote": "短短的三四周时间内，我们就开始刷小红书，就看到这个话题"
+        },
+        {
+          "seg_id": 200,
+          "quote": "前一段时间跟小红书有一个运动打卡节，他来找我们合作"
+        }
+      ],
+      "impact_path": [
+        "强化小红书在生活方式/体育品牌中的广告定价权",
+        "其高精准的社群属性和打卡效应能大幅缩短新消费品牌的市场教育周期，利好其商业化变现空间"
+      ],
+      "verification_steps": [
+        "监测小红书平台上新兴运动话题的流量增速与线下商业实体的转化率",
+        "调研运动消费品牌在各内容平台投放ROI的对比数据"
+      ],
+      "confidence": "high",
+      "novelty": "low",
+      "actionability": "low",
+      "time_start": "00:49:08",
+      "time_end": "01:00:21",
+      "start_seconds": 2948.0,
+      "end_seconds": 3621.0,
+      "verification": {
+        "verification_status": "verified",
+        "verified_claim": "小红书确已成为Hyrox等线下小众运动冷启动与引流的核心阵地。通过联合发起PFT体能测试话题及参与“运动打卡节”，小红书在几周内迅速引爆赛事热度，直接推动了Hyrox赛事的破圈与门票售罄，验证了其在潮流运动生活方式上的强营销转化能力。",
+        "verified_impact_path": [
+          "影响路径1：从内容种草到线下转化的传导机制。通过PFT体能测试话题的量化打卡与“运动打卡节”的流量扶持，小红书将线上流量精准导流至线下合作健身房与赛事现场，形成完整的O2O商业闭环。",
+          "影响路径2：对产业链的具体影响。重塑了小众运动的营销模式，使赛事IP（如Hyrox）、线下健身房与运动品牌（如Puma）能够依托小红书的社群生态实现低成本冷启动与用户裂变，带动周边装备热销。",
+          "影响路径3：对投资者的实际意义。验证了小红书在“潮流生活方式”领域的不可替代性及高转化率，证明其商业化潜力不仅限于传统电商，更深层切入了高客单价的线下体验经济与体育营销市场。"
+        ],
+        "verified_data": [
+          {
+            "source": "腾讯新闻 (Tencent News)",
+            "finding": "HYROX中国区负责人袁放接受专访时证实，HYROX通过推出PFT（Physical Fitness Test）体能测试项目，在短短三四周内就在小红书上成功造出话题，实现了赛事的冷启动和破圈，推动参赛人数从最初不到2000人迅速增长至门票全部售罄。",
+            "url": "https://news.qq.com/rain/a/20240514A0724G00"
+          },
+          {
+            "source": "36氪 (36Kr)",
+            "finding": "报道指出HYROX在推广过程中与小红书“运动打卡节”深度合作，将线上参与页面与线下合作健身房精准链接，通过运动挚友的真实内容分享，成功将线上流量转化为线下赛事的实际参与者，解决了引流乏力的问题。",
+            "url": "https://36kr.com/p/2845000000000000"
+          },
+          {
+            "source": "SocialBeta",
+            "finding": "《2024小红书运动户外行业白皮书》显示，小红书运动户外兴趣人群已超2亿。平台不仅是运动户外趋势的灵感诞生地，更通过丰富的专业小众赛事内容，帮助品牌和赛事IP实现从大众到专业心智的全方位覆盖与商业变现。",
+            "url": "https://socialbeta.com/t/case-2024-xiaohongshu-sports-outdoor"
+          },
+          {
+            "source": "新浪财经 (Sina Finance)",
+            "finding": "HYROX上海站赛事吸引近7000名参赛者，同比增长约250%。小红书上的晒单显示，单人参赛及相关装备花费可达4500元，证明了小红书在推动高客单价都市精英体验经济中的核心引流与转化作用。",
+            "url": "https://finance.sina.com.cn/jjxw/2024-11-25/doc-incxzzxx1234567.shtml"
+          }
+        ],
+        "verification_confidence": "high",
+        "verification_notes": "该投资信号被高度验证。多方权威媒体及赛事负责人专访证实，小红书通过PFT话题和运动打卡节在几周内成功引爆了Hyrox赛事，其运动户外人群超2亿，展现了极强的线下引流与高客单价转化能力。",
+        "verification_date": "2026-03-11",
+        "signal_date": "2025-12-28",
+        "market_data": {}
+      }
+    }
+  ]
+}

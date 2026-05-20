@@ -1,0 +1,22 @@
+{
+  "podcast_id": "sv101",
+  "podcast_name": "硅谷101",
+  "episode_id": "233",
+  "url": "https://sv101.fireside.fm/233",
+  "base_url": "https://sv101.fireside.fm",
+  "hosts": [
+    "泓君"
+  ],
+  "language": "zh",
+  "publish_date": "2026-01-14",
+  "record_date": "",
+  "date_notes": "文中未明确提及具体录制日期，仅说明为新年直播精华系列，发布日期为2026年1月14日",
+  "guests": [
+    "Bruce Liu",
+    "Ren Yang"
+  ],
+  "guest_background": {
+    "Bruce Liu": "美国Esoterica Capital(济容投资)首席执行官兼首席投资官",
+    "Ren Yang": "美国Esoterica Capital(济容投资)联合创始人"
+  }
+}

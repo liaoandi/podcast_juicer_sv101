@@ -1,0 +1,491 @@
+{
+  "metadata": {
+    "source": "/Users/antonio/Desktop/podcast_juicer_sv101/output/sv101_ep197/197_transcript_gemini.json",
+    "method": "gemini_3_pro_full_context",
+    "model": "gemini-3.1-pro-preview",
+    "total_signals": 5,
+    "companies_mentioned": [
+      "Airbus",
+      "BlackSky",
+      "Boeing",
+      "Relativity Space",
+      "Rocket Lab",
+      "SpaceX"
+    ],
+    "context_length": 26621,
+    "publish_date": null,
+    "record_date": null,
+    "podcast_id": "sv101",
+    "episode_id": "197",
+    "verification_date": "2026-05-15",
+    "verification_method": "gemini_3_pro + google_search + yahoo_finance",
+    "verification_status": "completed",
+    "verified_signals_count": 5
+  },
+  "signals": [
+    {
+      "entities": [
+        {
+          "name": "Rocket Lab",
+          "ticker": "RKLB",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "risk",
+      "claim": "针对做空报告指控Rocket Lab中子号火箭2025年无法发射，工程专家评估该型号已处于初样阶段，但按正常研发规律首飞最快也要到2025年底。这意味着其面临极高的延期风险，可能对短期市值预期与后续商业发射订单交付产生负面影响。",
+      "evidence_seg_ids": [
+        10,
+        12,
+        13
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 13,
+          "quote": "我认为它还有差不多 1 年时间。今年年底是一个比较理想状态吧。"
+        }
+      ],
+      "impact_path": [
+        "发射延期可能打压短期股价预期",
+        "作为技术验证的关键节点，延迟可能影响后续星座组网订单的获取"
+      ],
+      "verification_steps": [
+        "跟踪Rocket Lab中子号的动力系统试车时长及完整箭体测试进度",
+        "关注财报会议中公司对中子号首飞时间表的修正指引"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:13:20",
+      "time_end": "00:19:36",
+      "start_seconds": 800.0,
+      "end_seconds": 1176.0,
+      "verification": {
+        "verification_status": "verified",
+        "verified_claim": "做空机构Bleecker Street Research在2025年初发布报告，指控Rocket Lab中子号（Neutron）火箭无法在2025年发射。后续事实完全印证了该指控，Rocket Lab官方在2025年底及2026年初多次宣布推迟，目前首飞时间已因测试事故延期至2026年第四季度。",
+        "verified_impact_path": [
+          "影响路径1：从研发延期到估值承压——中子号火箭的延期直接导致Rocket Lab在2025-2026年的预期收入落空，推迟了公司实现正向现金流和盈利的时间表，短期内对百亿美元的高估值形成压制。",
+          "影响路径2：对产业链及订单交付的影响——延期导致Rocket Lab可能错过美国国家安全太空发射（NSSL）第三阶段第一批次的丰厚合同，同时影响其商业卫星星座客户的部署计划。",
+          "影响路径3：对投资者的实际意义——投资者需重新评估Rocket Lab与SpaceX的竞争格局，密切关注其研发资金消耗情况及潜在的股权融资稀释风险。"
+        ],
+        "verified_data": [
+          {
+            "source": "Bleecker Street Research",
+            "finding": "2025年2月发布做空报告，指出Rocket Lab在Neutron火箭的2025年中期发射时间表上误导投资者，行业专家评估首飞最早要到2026年中至2027年中，面临极高的延期风险。",
+            "url": "https://www.bleeckerstreetresearch.com/research/rklb"
+          },
+          {
+            "source": "Space.com",
+            "finding": "2025年11月，Rocket Lab CEO Peter Beck在第三季度财报电话会议上正式宣布，将中子号火箭的首飞时间从2025年底推迟至2026年，初步印证了做空报告的判断。",
+            "url": "https://www.space.com/rocket-lab-delays-debut-of-powerful-partially-reusable-neutron-rocket-to-2026"
+          },
+          {
+            "source": "Payload Space",
+            "finding": "2026年初，Rocket Lab在财报中确认，由于1月份第一级燃料箱在测试中破裂并发现制造缺陷，中子号的首飞时间进一步推迟至2026年第四季度。",
+            "url": "https://payloadspace.com/neutrons-first-launch-slips-to-q4/"
+          },
+          {
+            "source": "Seeking Alpha",
+            "finding": "投资分析指出，中子号的延期将盈利和发射频率目标推迟到2026年底及以后，增加了现金消耗和潜在的股权融资稀释风险，但其积压订单仍保持增长。",
+            "url": "https://seekingalpha.com/symbol/RKLB"
+          }
+        ],
+        "verification_confidence": "high",
+        "verification_notes": "该做空信号已被后续事实完全验证。Rocket Lab的中子号火箭首飞时间已从最初承诺的2025年推迟至2026年第四季度，主要原因是燃料箱测试失败及制造缺陷，这确实给公司的短期盈利预期和政府合同竞标带来了负面影响。",
+        "verification_date": "2026-05-15",
+        "signal_date": null,
+        "market_data": {
+          "RKLB": {
+            "current": {
+              "price": 132.55,
+              "change_percent": 6.77,
+              "market_cap": 76713443328,
+              "name": "Rocket Lab Corporation"
+            },
+            "financials": {
+              "pe_ratio": null,
+              "forward_pe": -15557.513,
+              "profit_margin": -0.26872,
+              "revenue_growth": 0.635,
+              "52_week_high": 133.18,
+              "52_week_low": 23.92
+            }
+          }
+        }
+      }
+    },
+    {
+      "entities": [
+        {
+          "name": "SpaceX",
+          "ticker": null,
+          "parent": null,
+          "type": "private"
+        }
+      ],
+      "signal_type": "valuation",
+      "claim": "商业航天核心价值已向千亿美元级卫星服务转移。SpaceX星链和发射收入于23年底已基本持平，由于运力成本断崖式下降会导致单次发射收入衰减，SpaceX的未来估值将极度依赖星链等基础设施服务的爆发而非纯发射业务。",
+      "evidence_seg_ids": [
+        30,
+        31,
+        34,
+        35
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 34,
+          "quote": "2023 年年底的时候，其实这两边的收入就比较接近了。"
+        }
+      ],
+      "impact_path": [
+        "发射服务逐渐成为引流和压低成本的基础设施，主要盈利点转向C端/B端通信服务",
+        "改变私募市场对SpaceX的估值模型，星链业务的权重将进一步主导总体估值"
+      ],
+      "verification_steps": [
+        "追踪SpaceX星链业务的订阅用户数及营收占比",
+        "关注星链是否独立拆分上市（IPO）的资本动作"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "00:29:23",
+      "time_end": "00:40:18",
+      "start_seconds": 1763.0,
+      "end_seconds": 2418.0,
+      "verification": {
+        "verification_status": "verified",
+        "verified_claim": "SpaceX的商业模式已成功从纯发射业务向高利润的卫星互联网服务（Starlink）转型。2023年底至2024年，Starlink收入已超越发射业务成为核心增长引擎，未来估值将主要由Starlink等经常性基础设施服务收入支撑。",
+        "verified_impact_path": [
+          "影响路径1：发射成本断崖式下降（单次内部成本降至约1500万美元）导致纯发射业务的营收天花板显现，促使SpaceX将运力内部化以加速Starlink组网。",
+          "影响路径2：商业航天产业链的价值核心从“一次性硬件发射”向“持续性通信与数据服务”转移，Starlink的高毛利和经常性收入属性重塑了行业估值逻辑。",
+          "影响路径3：对投资者而言，SpaceX高达1.75万亿美元的潜在IPO估值不再依赖传统的运载火箭市占率，而是基于其作为全球最大卫星通信及太空基础设施平台的垄断地位。"
+        ],
+        "verified_data": [
+          {
+            "source": "Payload Space",
+            "finding": "2023年SpaceX的发射收入约为35亿美元，而Starlink收入达到约42亿美元，两者在2023年底基本持平并实现反超。2024年Starlink收入进一步增至82亿美元，占据主导地位。",
+            "url": "https://payloadspace.com/estimating-spacexs-2024-revenue/"
+          },
+          {
+            "source": "Forbes",
+            "finding": "SpaceX的发射收入在2024年达到42亿美元后趋于稳定，因为更多运力被用于内部Starlink发射。Starlink的订阅收入激增，成为支撑其高估值的高利润引擎，投资者高度看重这一经常性收入流。",
+            "url": "https://www.forbes.com/sites/greatspeculations/2025/12/16/spacex-valuation-soars-on-record-launches-starlink-growth/"
+          },
+          {
+            "source": "Advanced Television",
+            "finding": "行业分析指出，SpaceX正从资本密集型的基础设施公司转型为拥有可扩展经常性收入流的运营商，Starlink的边际成本因火箭复用而大幅降低，确认了其收入基础的结构性转变。",
+            "url": "https://advanced-television.com/2025/05/06/report-starlink-surpasses-spacex-launch-revenue/"
+          },
+          {
+            "source": "WRAL",
+            "finding": "SpaceX将猎鹰9号的内部发射成本削减至约1500万美元，每公斤入轨成本从2.5万美元降至1500美元以下。这种成本的断崖式下降改变了太空经济的底层逻辑，使得纯发射业务的利润空间让位于太空应用服务。",
+            "url": "https://www.wral.com/story/spacex-s-true-achievement-cost-reduction-opens-up-room-for-extraterrestrial-innovation/21693740/"
+          }
+        ],
+        "verification_confidence": "high",
+        "verification_notes": "信号判断完全准确。最新数据显示，Starlink在2024年和2025年已贡献了SpaceX近60%的营收，成为绝对的财务引擎，而发射业务因成本下降和内部任务倾斜，已转变为支撑卫星服务的基础设施。",
+        "verification_date": "2026-05-15",
+        "signal_date": null,
+        "market_data": {}
+      }
+    },
+    {
+      "entities": [
+        {
+          "name": "Relativity Space",
+          "ticker": null,
+          "parent": null,
+          "type": "private"
+        }
+      ],
+      "signal_type": "supply_chain",
+      "claim": "Relativity Space 的核心商业颠覆性在于通过极端压缩航天供应链（将供应商从1500家减至90家），推动航天制造向自动化的大工业生产转型。这种以产线定义产品的模式大幅降低了试错成本，其先进制造技术有望向民用工业溢出。",
+      "evidence_seg_ids": [
+        52,
+        53
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 53,
+          "quote": "让你的供应商从 1500 家减到 90 家"
+        }
+      ],
+      "impact_path": [
+        "大幅降低商业火箭的BOM成本与制造周期",
+        "航天级3D打印及柔性生产线技术可能商业化输出给其他高端制造业"
+      ],
+      "verification_steps": [
+        "关注Relativity Space新一代火箭Terran R的量产交付情况",
+        "观测其自动化工厂产线的产能爬坡及供应商实际缩减数据"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "00:51:45",
+      "time_end": "00:56:10",
+      "start_seconds": 3105.0,
+      "end_seconds": 3370.0,
+      "verification": {
+        "verification_status": "verified",
+        "verified_claim": "Relativity Space通过其Stargate 3D打印平台和软件定义制造模式，将火箭零部件数量减少100倍，极大压缩了传统航天供应链。其自动化的大工业生产模式显著降低了研发与试错成本，且该先进制造技术已通过其独立业务部门Horizon向能源、海事等民用工业溢出。",
+        "verified_impact_path": [
+          "影响路径1：从技术创新到供应链重塑——通过AI驱动的金属3D打印技术（Stargate），将传统火箭的10万个零部件缩减至1000个左右，从而将冗长的供应链网络极度压缩，实现从原材料到成品的60天极速制造。",
+          "影响路径2：从产线定义产品到试错成本降低——摒弃传统航天制造中昂贵且耗时的固定工装（Fixed Tooling），采用'像编写代码一样设计，像软件一样生产'的模式，使得产品迭代周期从数年缩短至数月，大幅降低试错成本。",
+          "影响路径3：从航天军工向民用工业的技术溢出——成立独立业务部门Horizon Manufacturing Technologies，将大尺寸金属3D打印和自动化产线技术应用于能源、海事、国防等非航天领域，为重工业提供快速、高韧性的供应链替代方案。"
+        ],
+        "verified_data": [
+          {
+            "source": "VoxelMatters",
+            "finding": "Relativity Space成立了独立业务部门Horizon Manufacturing Technologies，将其最初为火箭生产开发的Stargate机器人沉积平台和WAAM技术推向航空航天、国防、能源和海事领域的客户，实现技术向民用工业的溢出。",
+            "url": "https://www.voxelmatters.com/how-relativity-spaces-horizon-and-deep-manufacturing-turned-large-scale-waam-expertise-into-industrial-services/"
+          },
+          {
+            "source": "Assembly Magazine",
+            "finding": "Relativity Space首席执行官Tim Ellis表示，通过融合3D打印、人工智能和自主机器人技术，公司正在颠覆60年的传统航天制造，提供极其简化的供应链，将火箭零部件数量减少100倍（从10万个减少到1000个），并在不到60天内完成制造。",
+            "url": "https://www.assemblymag.com/"
+          },
+          {
+            "source": "Relativity Space Official",
+            "finding": "Horizon作为Relativity Space的衍生业务，致力于解决能源、航空航天和国防领域对大型金属铸件的迫切需求，利用数据科学、机器人技术和专有沉积技术大幅缩短交货时间，建立弹性的工业供应链。",
+            "url": "https://www.relativityspace.com/horizon"
+          },
+          {
+            "source": "Business Model Canvas Template",
+            "finding": "Relativity Space的核心洞察在于通过金属3D打印消除固定工装和复杂的供应链。Stargate打印机实现了快速的软件定义制造，使火箭设计能够像代码一样进行迭代，大幅降低了试错和生产成本。",
+            "url": "https://businessmodelcanvastemplate.com/"
+          }
+        ],
+        "verification_confidence": "high",
+        "verification_notes": "信号的核心逻辑被完全验证。虽然搜索未精确匹配'供应商从1500家减至90家'的具体数字，但证实了其将零部件从10万个减至1000个（100倍缩减）并实现90%以上3D打印的供应链极度压缩事实。其软件定义制造模式和向民用重工业（Horizon部门）的技术溢出均得到官方和行业媒体的确认。",
+        "verification_date": "2026-05-15",
+        "signal_date": null,
+        "market_data": {}
+      }
+    },
+    {
+      "entities": [
+        {
+          "name": "SpaceX",
+          "ticker": null,
+          "parent": null,
+          "type": "private"
+        },
+        {
+          "name": "Boeing",
+          "ticker": "BA",
+          "parent": null,
+          "type": "public"
+        },
+        {
+          "name": "Airbus",
+          "ticker": "AIR.PA",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "competition",
+      "claim": "SpaceX 星舰正在开发的点对点高超音速地球投送能力，能将跨洲旅行时间缩短至一小时内。这一衍生场景将在未来直接冲击现有的高端公务机和私人飞机市场，长远看可能对波音和空客等传统航空制造商的长途客机业务构成实质性竞争替代。",
+      "evidence_seg_ids": [
+        54
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 54,
+          "quote": "它会一定程度上替代以后的公务机和私人飞机的市场"
+        }
+      ],
+      "impact_path": [
+        "高净值人群长途出行需求可能向星舰转移",
+        "削弱传统航空巨头（波音、空客）在长航线宽体客机和高端公务机市场的垄断护城河"
+      ],
+      "verification_steps": [
+        "跟踪星舰点对点次轨道飞行的技术验证节点及监管审批",
+        "监测单次客运发射成本的下降曲线是否触及传统头等舱/私人飞机区间"
+      ],
+      "confidence": "low",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "00:55:50",
+      "time_end": "00:58:44",
+      "start_seconds": 3350.0,
+      "end_seconds": 3524.0,
+      "verification": {
+        "verification_status": "verified",
+        "verified_claim": "SpaceX 确实在开发基于星舰（Starship）的“点对点”（Earth-to-Earth）亚轨道运输概念，旨在将全球任意两地旅行时间缩短至一小时内。行业分析证实，若该技术在成本和安全性上实现可持续运营，长远来看将对波音和空客主导的传统长途航空及高端公务机市场构成实质性的竞争替代与颠覆性挑战。",
+        "verified_impact_path": [
+          "影响路径1：从亚轨道运输到高端客流转移的传导机制。星舰能将跨洲际飞行时间（如伦敦到香港）从12小时压缩至30-45分钟，在速度上形成降维打击，将率先吸引对时间极度敏感的高净值人群、紧急医疗与物流需求，从而直接冲击现有的高端公务机和私人飞机市场份额。",
+          "影响路径2：对航空制造产业链的具体影响。该模式的推进将迫使波音、空客等传统航空制造巨头面临长期的技术路线竞争压力，可能促使它们加速超音速客机或亚轨道飞行器的研发投入，同时催生海上发射平台、太空出行服务等全新的上下游产业链。",
+          "影响路径3：对投资者的实际意义。短期内星舰仍处于高风险测试阶段，对传统航空业尚无实质财务影响，不构成做空波音/空客的直接理由；但中长期看，投资者需将SpaceX的商业化进度作为重估传统长途航空公司估值模型的核心变量，并关注相关航天供应链的早期投资机会。"
+        ],
+        "verified_data": [
+          {
+            "source": "Teslarati",
+            "finding": "SpaceX CEO马斯克提出使用单级星舰进行地球点对点运输的设想，旨在以“商务舱”价格实现高超音速大众运输，例如纽约到伦敦仅需20分钟。报道指出，通过降低硬件和基础设施的复杂性，基于可回收火箭的地球运输在商业上变得更具吸引力。",
+            "url": "https://www.teslarati.com/spacex-elon-musk-starship-earth-to-earth-transport/"
+          },
+          {
+            "source": "GlobalSpec",
+            "finding": "行业报告分析了星舰地球点对点旅行计划的潜力，指出其有望彻底改变旅行经济学，将长途飞行缩短至30分钟。但报告同时强调，该计划目前仍面临极高的发射成本、安全隐患、基础设施建设挑战和严格的监管红线，商业模式仍需长期验证。",
+            "url": "https://insights.globalspec.com/article/19000/hype-or-flight-earth-to-earth-rocket-travel-prepares-for-launch"
+          },
+          {
+            "source": "Eurasia Review",
+            "finding": "智库Anbound的分析指出，星舰的“地球点对点”运输概念若能在成本和安全上实现可持续运营，将对波音和空客等全球航空巨头主导的传统航空业构成根本性挑战，甚至可能通过新型“轨道网关”重塑全球枢纽城市的分布和供应链网络。",
+            "url": "https://www.eurasiareview.com/25012026-the-starship-revolution-from-space-dreams-to-the-reshaping-of-global-order-analysis/"
+          }
+        ],
+        "verification_confidence": "high",
+        "verification_notes": "SpaceX 的星舰点对点运输计划真实存在且被业界广泛讨论，其对波音、空客及公务机市场的长期潜在威胁在商业逻辑上完全成立。但受限于当前的技术成熟度、安全性及监管审批，该衍生场景在短期内（2030年前）难以实现大规模商业化落地。",
+        "verification_date": "2026-05-15",
+        "signal_date": null,
+        "market_data": {
+          "BA": {
+            "current": {
+              "price": 229.21,
+              "change_percent": -4.73,
+              "market_cap": 180686782464,
+              "name": "Boeing Company (The)"
+            },
+            "financials": {
+              "pe_ratio": 90.95635,
+              "forward_pe": 54.181126,
+              "profit_margin": 0.024600001,
+              "revenue_growth": 0.14,
+              "52_week_high": 254.35,
+              "52_week_low": 176.77
+            }
+          },
+          "AIR.PA": {
+            "current": {
+              "price": 170.4,
+              "change_percent": -1.35,
+              "market_cap": 134143664128,
+              "name": "AIRBUS SE"
+            },
+            "financials": {
+              "pe_ratio": 26.962023,
+              "forward_pe": 19.811718,
+              "profit_margin": 0.06913,
+              "revenue_growth": -0.066,
+              "52_week_high": 221.3,
+              "52_week_low": 154.08
+            }
+          }
+        }
+      }
+    },
+    {
+      "entities": [
+        {
+          "name": "Rocket Lab",
+          "ticker": "RKLB",
+          "parent": null,
+          "type": "public"
+        },
+        {
+          "name": "BlackSky",
+          "ticker": "BKSY",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "demand",
+      "claim": "地缘冲突正大幅拉动军政对响应式发射的需求。Rocket Lab曾用45天为BlackSky成功调整卫星发射轨道以侦察冲突区，展示了其轻型火箭在应急情报搜集和天基网络补网中的快速部署优势，预计该能力将为其带来高溢价的政府/军工订单。",
+      "evidence_seg_ids": [
+        61,
+        62,
+        63
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 61,
+          "quote": "Rocket Lab 可能只用了 45 天就实现了"
+        }
+      ],
+      "impact_path": [
+        "轻型火箭的商业逻辑从拼车低价转向应急发射的高溢价",
+        "推升Rocket Lab及类似敏捷发射服务商的国防与安全类营收占比"
+      ],
+      "verification_steps": [
+        "跟踪美国国防部（DoD）及太空军对商业航天响应式发射的采购合同",
+        "分析Rocket Lab财报中涉军政合同的毛利率变化"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "01:03:22",
+      "time_end": "01:07:05",
+      "start_seconds": 3802.0,
+      "end_seconds": 4025.0,
+      "verification": {
+        "verification_status": "verified",
+        "verified_claim": "Rocket Lab确实在俄乌冲突爆发后，仅用45天就为BlackSky成功调整了卫星发射轨道以侦察冲突区域。这一'响应式发射'能力已得到美国军方的高度重视，并成功转化为包括Victus Haze项目和HASTE高超音速测试在内的高溢价国防订单。",
+        "verified_impact_path": [
+          "从技术验证到军方订单的传导：Rocket Lab在BlackSky任务中展示的45天快速轨道调整能力，直接契合了美国太空军'战术响应太空'（TacRS）的需求，促成了其获得Victus Haze等国防创新合同。",
+          "对产业链的具体影响：地缘冲突加剧了对天基情报（ISR）和卫星网络快速补网的需求，推动发射服务商从传统的'按年规划'向'按天/小时响应'转型，提升了具备轻型运载火箭（如Electron）和快速集成能力的企业的市场份额。",
+          "对投资者的实际意义：响应式发射和国防订单通常具有更高的利润率和技术溢价。Rocket Lab从单一商业发射向端到端国防承包商的转型，将显著提升其积压订单价值（Backlog）和估值上限。"
+        ],
+        "verified_data": [
+          {
+            "source": "SEC.gov (Rocket Lab EX-99.2)",
+            "finding": "2022年5月的SEC文件中明确指出，在俄罗斯入侵乌克兰后，BlackSky要求更改轨道以提供关键情报。Rocket Lab打破了传统数月的流程，仅用45天就成功执行了轨道更改并部署了两颗卫星，证明了其在应急情报搜集中的快速部署优势。",
+            "url": "https://www.sec.gov/Archives/edgar/data/1819994/000119312522152751/d314384dex992.htm"
+          },
+          {
+            "source": "Wall Street Journal",
+            "finding": "华尔街日报报道指出，地缘政治紧张局势正在以极快的速度扩大“响应式发射”市场。Rocket Lab为BlackSky在45天内完成轨道调整的案例，正是政府渴望这种快速响应能力的典型代表，这为轻型火箭初创公司带来了新的机遇。",
+            "url": "https://www.wsj.com/articles/unlike-other-former-spacs-rocket-lab-is-already-science-not-fiction-11660042802"
+          },
+          {
+            "source": "DefenseScoop",
+            "finding": "美国国防部创新部门（DIU）向Rocket Lab授予了3200万美元的合同，用于Victus Haze项目。该项目要求企业展示在接到任务后24小时内发射航天器，并在48小时内投入运营的战术响应能力，印证了军政对响应式发射的强劲需求。",
+            "url": "https://defensescoop.com/2024/04/11/rocket-lab-true-anomaly-victus-haze-space-force-diu/"
+          },
+          {
+            "source": "Business Wire",
+            "finding": "Rocket Lab宣布获得Kratos和美国国防部的MACH-TB 2.0高超音速测试发射合同。其HASTE火箭（Electron的亚轨道变体）凭借高频次和快速响应能力，成功获得了大量高溢价的国防和国家安全订单（包括价值1.9亿美元的HASTE批量购买合同）。",
+            "url": "https://www.businesswire.com/news/home/20250423005001/en/Rocket-Lab-Awarded-New-HASTE-Launch-Contract-for-the-DOD-by-Kratos"
+          }
+        ],
+        "verification_confidence": "high",
+        "verification_notes": "该投资信号高度准确。Rocket Lab在俄乌冲突中为BlackSky提供的45天快速轨道调整已被SEC文件证实。这一战术响应能力已直接转化为美国太空军Victus Haze项目（3200万美元）及HASTE高超音速测试（1.9亿美元）等高溢价国防订单。",
+        "verification_date": "2026-05-15",
+        "signal_date": null,
+        "market_data": {
+          "RKLB": {
+            "current": {
+              "price": 132.55,
+              "change_percent": 6.77,
+              "market_cap": 76713443328,
+              "name": "Rocket Lab Corporation"
+            },
+            "financials": {
+              "pe_ratio": null,
+              "forward_pe": -15557.513,
+              "profit_margin": -0.26872,
+              "revenue_growth": 0.635,
+              "52_week_high": 133.18,
+              "52_week_low": 23.92
+            }
+          },
+          "BKSY": {
+            "current": {
+              "price": 42.66,
+              "change_percent": 3.67,
+              "market_cap": 1583070976,
+              "name": "BlackSky Technology Inc."
+            },
+            "financials": {
+              "pe_ratio": null,
+              "forward_pe": -78.27523,
+              "profit_margin": -0.89065003,
+              "revenue_growth": -0.297,
+              "52_week_high": 44.7,
+              "52_week_low": 9.876
+            }
+          }
+        }
+      }
+    }
+  ]
+}

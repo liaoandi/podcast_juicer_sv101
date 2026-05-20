@@ -1,0 +1,26 @@
+{
+  "podcast_id": "sv101",
+  "podcast_name": "硅谷101",
+  "episode_id": "184",
+  "url": "https://sv101.fireside.fm/184",
+  "base_url": "https://sv101.fireside.fm",
+  "hosts": [
+    "泓君"
+  ],
+  "language": "zh",
+  "publish_date": "2025-01-06",
+  "record_date": "",
+  "date_notes": "录制日期未提供，使用发布日期作为参考",
+  "guests": [
+    "侯泰羽 Kolento",
+    "陈浩楠 Henry",
+    "王冉 Ran",
+    "左曜诚 Charles"
+  ],
+  "guest_background": {
+    "侯泰羽 Kolento": "纽约大学本科应用心理学 ，东非卢旺达 AI 创业者",
+    "陈浩楠 Henry": "哥伦比亚大学商学院会计硕士，AI产品爱好者",
+    "王冉 Ran": "NYU神经工程博士后，脑机接口项目创始人",
+    "左曜诚 Charles": "NYU 经济与哲学专业，NYU华人创业社群主席"
+  }
+}

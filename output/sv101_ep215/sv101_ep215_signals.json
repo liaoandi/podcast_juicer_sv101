@@ -1,0 +1,173 @@
+{
+  "metadata": {
+    "source": "/Users/antonio/Desktop/podcast_juicer/output/sv101_ep215/215_transcript_gemini.json",
+    "method": "gemini_3_pro_full_context",
+    "model": "gemini-3.1-pro-preview",
+    "total_signals": 4,
+    "companies_mentioned": [
+      "Alphabet Inc.",
+      "Eli Lilly",
+      "Meta Platforms",
+      "Neuralink",
+      "PepsiCo"
+    ],
+    "context_length": 25774,
+    "publish_date": null,
+    "record_date": null,
+    "podcast_id": "sv101",
+    "episode_id": "215"
+  },
+  "signals": [
+    {
+      "entities": [
+        {
+          "name": "Eli Lilly",
+          "ticker": "LLY",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "capital_action",
+      "claim": "礼来（Eli Lilly）近期收购了一家利用CRISPR基因编辑技术治疗心脑血管疾病的初创公司（已取得初步人体数据）。由于该疾病与礼来核心的减肥药在代谢适应症上高度相似，此举显示礼来正通过资本并购向基因编辑这一单次治愈性疗法领域进行战略扩张，以巩固其在代谢类疾病市场的长期霸主地位，构建超越传统GLP-1药物的下一代研发管线。",
+      "evidence_seg_ids": [
+        62
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 62,
+          "quote": "Eli Lilly 制药就把他收购了"
+        }
+      ],
+      "impact_path": [
+        "丰富礼来在心血管及代谢疾病领域的研发管线",
+        "以单次基因编辑疗法对冲长期服用减重药物可能面临的依从性或专利到期风险"
+      ],
+      "verification_steps": [
+        "查阅礼来近期关于心脑血管CRISPR基因编辑标的（如Verve Therapeutics等）的收购/合作公告细节",
+        "追踪该心脑血管基因疗法的临床一期/二期数据读出时间表及FDA审批进度"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:30:53",
+      "time_end": "00:32:10",
+      "start_seconds": 1853.0,
+      "end_seconds": 1930.0
+    },
+    {
+      "entities": [
+        {
+          "name": "PepsiCo",
+          "ticker": "PEP",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "supply_chain",
+      "claim": "基因编辑在农业领域的商业化落地速度快于人类医疗。百事可乐（PepsiCo）旗下的乐事品牌已在美国市场推出使用基因编辑土豆生产的薯片。这种改造大幅延长了土豆的保鲜期并优化了淀粉含量。这表明CRISPR技术已开始实质性降低食品巨头的供应链耗损与原材料仓储成本，为消费级食品公司带来了易被市场忽略的利润率优化空间。",
+      "evidence_seg_ids": [
+        51
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 51,
+          "quote": "乐事它就是用基因编辑的土豆生产出来的薯片"
+        }
+      ],
+      "impact_path": [
+        "降低百事可乐薯片产品线的农产品原材料损耗率和仓储物流成本",
+        "提升终端产品的淀粉质量和利润空间"
+      ],
+      "verification_steps": [
+        "查阅百事可乐/乐事关于北美供应链中应用基因编辑农作物的公开声明与ESG报告",
+        "分析百事可乐北美零食业务近年来的毛利率变化及成本拆解"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "00:25:50",
+      "time_end": "00:27:00",
+      "start_seconds": 1550.0,
+      "end_seconds": 1620.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Alphabet Inc.",
+          "ticker": "GOOGL",
+          "parent": null,
+          "type": "public"
+        },
+        {
+          "name": "Meta Platforms",
+          "ticker": "META",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "product",
+      "claim": "谷歌DeepMind正与学术界联合开发CRISPR GPT大语言模型智能体，旨在自动化指导科研人员的基因编辑实验。该底层基座率先采用了Meta开源的Llama大模型。这不仅反映出DeepMind正加速将其AI版图向生命科学基础设施领域全面渗透，也侧面印证了Meta的开源大模型正成功在垂直科研圈建立起强大的使用粘性与生态垄断优势。",
+      "evidence_seg_ids": [
+        95,
+        97
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 97,
+          "quote": "把Llama这样一个开源的大模型...做成基座"
+        }
+      ],
+      "impact_path": [
+        "强化Alphabet在AI for Science和计算生物学领域的绝对领先地位",
+        "扩大Meta Llama系列在专业垂直领域的开发者生态占有率"
+      ],
+      "verification_steps": [
+        "检索并阅读关于CRISPR GPT的学术论文及DeepMind官方博客描述",
+        "在GitHub或Hugging Face核实CRISPR GPT的底层架构对Llama模型权重的依赖情况"
+      ],
+      "confidence": "high",
+      "novelty": "low",
+      "actionability": "low",
+      "time_start": "00:43:54",
+      "time_end": "00:46:50",
+      "start_seconds": 2634.0,
+      "end_seconds": 2810.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Neuralink",
+          "ticker": null,
+          "parent": null,
+          "type": "private"
+        }
+      ],
+      "signal_type": "product",
+      "claim": "马斯克旗下的脑机接口公司Neuralink的人体临床试验进展迅速，目前其设备已成功植入9名人类患者体内。相较于依然处于理论早期的神经基因编辑技术，基于硅基芯片的脑机接口在精神疾病干预与大脑能力增强上落地更快，有望在此类高壁垒的神经医学与前沿科技交叉市场中率先跑通监管并垄断早期商业化场景。",
+      "evidence_seg_ids": [
+        55
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 55,
+          "quote": "脑机接口在Neuralink...进展很快已经上了9个人"
+        }
+      ],
+      "impact_path": [
+        "提升Neuralink私募市场估值及未来IPO的定价溢价",
+        "迫使神经系统罕见病及瘫痪治疗市场的资本向硅基植入物倾斜"
+      ],
+      "verification_steps": [
+        "核实Neuralink近期官方公布的PRIME研究人体临床试验最新植入人数",
+        "跟踪FDA对Neuralink后续临床规模扩大的批准情况及安全数据读出"
+      ],
+      "confidence": "high",
+      "novelty": "low",
+      "actionability": "low",
+      "time_start": "00:27:45",
+      "time_end": "00:29:00",
+      "start_seconds": 1665.0,
+      "end_seconds": 1740.0
+    }
+  ]
+}

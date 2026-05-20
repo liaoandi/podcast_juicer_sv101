@@ -1,0 +1,22 @@
+{
+  "podcast_id": "sv101",
+  "podcast_name": "sv101",
+  "episode_id": "245",
+  "url": "https://sv101.fireside.fm/245",
+  "base_url": "https://sv101.fireside.fm",
+  "hosts": [],
+  "language": "en",
+  "publish_date": "2026-04-09",
+  "record_date": "",
+  "date_notes": "Show notes中未提供具体录制日期，录制日期留空，发布日期提取自页面元数据。",
+  "guests": [
+    "Amy Duan",
+    "Cosmo Hu",
+    "Yuxuan Xiao (Henry)"
+  ],
+  "guest_background": {
+    "Amy Duan": "北美吃货传媒公司创始人，专注中餐出海、北美餐饮孵化落地投资",
+    "Cosmo Hu": "北美餐饮食品行业协会发起人、TOA中美餐饮大会执行主席、易升资本联合创始人",
+    "Yuxuan Xiao (Henry)": "AC Marketing营销传播公司CEO"
+  }
+}

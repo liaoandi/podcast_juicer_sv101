@@ -1,0 +1,210 @@
+{
+  "metadata": {
+    "source": "/Users/antonio/Desktop/podcast_juicer_sv101/output/sv101_ep245/245_transcript_gemini.json",
+    "method": "gemini_3_pro_full_context",
+    "model": "gemini-3.1-pro-preview",
+    "total_signals": 5,
+    "companies_mentioned": [
+      "Bibigo (必品阁)",
+      "Jollibee (快乐蜂)",
+      "海底捞 (特海国际)",
+      "贡茶 (Gong Cha)",
+      "霸王茶姬 (Chagee)"
+    ],
+    "context_length": 22434,
+    "publish_date": "2026-04-09",
+    "record_date": "",
+    "podcast_id": "sv101",
+    "episode_id": "245"
+  },
+  "signals": [
+    {
+      "entities": [
+        {
+          "name": "贡茶 (Gong Cha)",
+          "ticker": null,
+          "parent": "TA Associates",
+          "type": "private"
+        }
+      ],
+      "signal_type": "capital_action",
+      "claim": "私募股权机构 TA Associates 正寻求以 20 亿美元的整体估值出售茶饮品牌贡茶，较其 2019 年 2.88 亿美元的收购价实现巨幅溢价，这反映了北美餐饮地产点位稀缺性对规模化茶饮特许经营品牌估值的极大推高。",
+      "evidence_seg_ids": [
+        25,
+        27,
+        28
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 25,
+          "quote": "他们计划是以 20 亿美元的价格打包整个贡茶，他们在寻求买家。"
+        }
+      ],
+      "impact_path": [
+        "可能影响餐饮加盟与私募市场的估值标杆",
+        "因为美国优质餐饮商业地产具有极强的排他性和长租约，早期抢占点位的品牌享有极高的渠道溢价"
+      ],
+      "verification_steps": [
+        "查阅金融时报、彭博社关于 TA Associates 出售贡茶的 M&A 传闻及交易进展",
+        "核查贡茶北美门店数量、单店利润率以及长租约占比"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "00:13:50",
+      "time_end": "00:17:55",
+      "start_seconds": 830.0,
+      "end_seconds": 1075.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Bibigo (必品阁)",
+          "ticker": "097950.KS",
+          "parent": "CJ CheilJedang",
+          "type": "public"
+        }
+      ],
+      "signal_type": "competition",
+      "claim": "韩国 CJ 集团旗下的 Bibigo 成功占据北美速冻饺子市场 42% 的份额，其核心驱动力并非单纯的产品或文化输出，而是通过 2019 年斥资 20 亿美元收购美国本土冷冻食品巨头，直接打通了沃尔玛等主流商超渠道。",
+      "evidence_seg_ids": [
+        70,
+        71
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 71,
+          "quote": "花费将近 20 亿美元直接把美国本土的一家冷冻食品巨头给收购了"
+        }
+      ],
+      "impact_path": [
+        "可能影响出海食品消费企业的资本分配策略",
+        "揭示了在北美快消市场，斥资进行重资产渠道收购比单纯的文化营销或产品口味改良更容易建立绝对的市占率壁垒"
+      ],
+      "verification_steps": [
+        "查询美国商超渠道速冻饺子品类的市场份额数据（如 Nielsen 或 IRI 数据）",
+        "查阅 CJ 集团 2019 年对 Schwan's Company 财报披露的收购细节与并表后的北美营收增长"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "00:32:38",
+      "time_end": "00:34:30",
+      "start_seconds": 1958.0,
+      "end_seconds": 2070.0
+    },
+    {
+      "entities": [
+        {
+          "name": "海底捞 (特海国际)",
+          "ticker": "9658.HK",
+          "parent": "海底捞",
+          "type": "public"
+        }
+      ],
+      "signal_type": "product",
+      "claim": "海底捞在北美市场正在进行深度的本土化改造与成本削减，通过引入上菜和甩面机器人来应对极高的劳动力成本与合规风险，并推出符合欧美分餐习惯的“小锅”，向多族裔社交目的性消费转型。",
+      "evidence_seg_ids": [
+        100,
+        112,
+        113
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 113,
+          "quote": "把大锅变成了一个更符合北美消费人群所习惯的小锅，自己烫自己"
+        }
+      ],
+      "impact_path": [
+        "可能改善特海国际（海底捞海外）在北美单店的财务模型与利润率",
+        "由于北美面临高昂的人力成本和严格的劳工保护，采用自动化设备与改变就餐形态能有效降低人工成本占比，同时拓宽非华裔客群"
+      ],
+      "verification_steps": [
+        "翻阅特海国际（Super Hi）财报中北美地区门店的翻台率与人效数据",
+        "追踪北美海底捞自动化设备的普及率及资本支出情况"
+      ],
+      "confidence": "high",
+      "novelty": "low",
+      "actionability": "high",
+      "time_start": "00:47:50",
+      "time_end": "00:53:08",
+      "start_seconds": 2870.0,
+      "end_seconds": 3188.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Jollibee (快乐蜂)",
+          "ticker": "JFC.PS",
+          "parent": "Jollibee Foods Corporation",
+          "type": "public"
+        }
+      ],
+      "signal_type": "strategy",
+      "claim": "Jollibee 在北美采取了降维打击和产品微调策略抢占麦当劳等本土快餐的市场，其定价相比麦当劳同类套餐低 10% 到 15%，并推出了降低甜度、增加辣度的本地化 SKU，拥有极高的本土防御与扩张能力。",
+      "evidence_seg_ids": [
+        139,
+        142
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 142,
+          "quote": "定价也确实通常他是比麦当劳的同类的套餐也是低了10到15"
+        }
+      ],
+      "impact_path": [
+        "可能推动 Jollibee 在北美市场的同店销售额（SSSG）超预期增长",
+        "在通胀环境下，凭借极具侵略性的定价、微调的主流产品线以及坚实的移民基本盘，Jollibee 具备了穿越周期的抗风险能力"
+      ],
+      "verification_steps": [
+        "对比 Jollibee 与 McDonald's 在北美同地区的主力套餐定价数据",
+        "查看 Jollibee 财报中北美业务的单店营收与利润率增速"
+      ],
+      "confidence": "high",
+      "novelty": "low",
+      "actionability": "high",
+      "time_start": "01:01:56",
+      "time_end": "01:03:50",
+      "start_seconds": 3716.0,
+      "end_seconds": 3830.0
+    },
+    {
+      "entities": [
+        {
+          "name": "霸王茶姬 (Chagee)",
+          "ticker": null,
+          "parent": null,
+          "type": "private"
+        }
+      ],
+      "signal_type": "risk",
+      "claim": "霸王茶姬在美国出海初期存在战略失焦风险，其试图抛弃传统茶饮形象，强行拉高至“好莱坞/奢侈品”的轻奢时尚定位，这种生硬的阶层跃升与脱离大众日常消费习惯的打法可能导致高额营销打水漂并疏离潜在消费者。",
+      "evidence_seg_ids": [
+        131,
+        132,
+        134
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 134,
+          "quote": "还是按照国内的打法，要去寻找那种所谓时尚奢侈品的那种感觉"
+        }
+      ],
+      "impact_path": [
+        "可能导致霸王茶姬北美单店早期的现金流承压与客流不及预期",
+        "美国消费者对餐饮创新容忍度低且不盲目追新，过度拉高品牌势能反而会失去茶饮原本“高频低价”的核心消费群体"
+      ],
+      "verification_steps": [
+        "监测霸王茶姬北美首批门店开业3个月后的实际排队情况与社媒风评",
+        "调研其美国营销费率与门店坪效转化比"
+      ],
+      "confidence": "low",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "00:58:22",
+      "time_end": "01:01:50",
+      "start_seconds": 3502.0,
+      "end_seconds": 3710.0
+    }
+  ]
+}

@@ -1,0 +1,473 @@
+{
+  "metadata": {
+    "source": "output/sv101_ep232/232_transcript_gemini.json",
+    "method": "gemini_3_pro_full_context",
+    "model": "gemini-3.1-pro-preview",
+    "total_signals": 4,
+    "companies_mentioned": [
+      "Li Auto",
+      "Nvidia",
+      "Tesla",
+      "Waymo"
+    ],
+    "context_length": 15725,
+    "publish_date": "2026-01-14",
+    "record_date": "",
+    "podcast_id": "sv101",
+    "episode_id": "232",
+    "verification_date": "2026-03-10",
+    "verification_method": "gemini_3_pro + google_search + yahoo_finance",
+    "verification_status": "completed",
+    "verified_signals_count": 4
+  },
+  "signals": [
+    {
+      "entities": [
+        {
+          "name": "Waymo",
+          "ticker": "GOOGL",
+          "parent": "Alphabet",
+          "type": "public"
+        }
+      ],
+      "signal_type": "valuation",
+      "claim": "Waymo正以超千亿美元估值寻求150亿美元融资。但其基于规则的自动驾驶路线面临严重的不经济性：机械雷达损耗快，且车队充电、维护等重资产环节需大量人工介入。高昂的边际成本使其难以实现真正的规模经济，该估值可能存在高估风险。",
+      "evidence_seg_ids": [
+        0,
+        14,
+        82,
+        85
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 0,
+          "quote": "融资额大概是150亿美元，它的估值是超过了千亿美元"
+        },
+        {
+          "seg_id": 85,
+          "quote": "Waymo这个rule-based路线它不是一个规模经济路线"
+        }
+      ],
+      "impact_path": [
+        "可能影响Alphabet在自动驾驶业务上的后续资本投入及分拆预期",
+        "因Waymo当前技术架构无法通过增加车队实现边际成本递减，持续的高额资本开支将拖累母公司现金流"
+      ],
+      "verification_steps": [
+        "核验Waymo最新一轮150亿美元融资的具体估值及领投方",
+        "调研Waymo在旧金山等地的单车运营人员配比及机械激光雷达的实际更换周期"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "00:01:50",
+      "time_end": "00:35:56",
+      "start_seconds": 110.0,
+      "end_seconds": 2156.0,
+      "verification": {
+        "verification_status": "verified",
+        "verified_claim": "Waymo确实在2025年底寻求150亿美元融资，并于2026年2月超额完成160亿美元融资，估值达1260亿美元。同时，行业分析广泛认同其基于激光雷达等昂贵硬件及重资产车队运营（如充电、维修）的模式面临边际成本居高不下的挑战，难以实现真正的规模经济。",
+        "verified_impact_path": [
+          "影响路径1：从重资产模式到盈利预期的传导。Waymo高度依赖精密硬件及线下车队维护，导致单车运营和扩张的边际成本高昂，拖累了整体盈利预期和自由现金流转正的时间表。",
+          "影响路径2：对产业链的具体影响。高昂的硬件和运营成本促使Waymo向传感器供应商施压寻求降本，同时催生了对自动化充电、车队清洁和管理基础设施的庞大投资需求。",
+          "影响路径3：对投资者的实际意义。尽管Waymo在一级市场获得超千亿美元估值，但其重资产属性和规模不经济性引发了二级市场对母公司Alphabet（GOOGL）持续巨额资本开支的担忧，部分解释了近期股价的疲软表现。"
+        ],
+        "verified_data": [
+          {
+            "source": "TipRanks",
+            "finding": "2025年12月的报道证实，Alphabet旗下自动驾驶部门Waymo计划在2026年筹集高达150亿美元的资金，目标估值约为1000亿至1100亿美元。这笔巨额资金将主要用于扩大无人驾驶车队规模、应对高昂的硬件成本，并支持其在全美及海外新城市的商业化扩张。",
+            "url": "https://www.tipranks.com/news/alphabets-waymo-guns-for-110b-valuation-15b-raise-to-crush-tesla-zoox"
+          },
+          {
+            "source": "Electrek",
+            "finding": "2026年2月2日，Waymo正式宣布完成160亿美元的巨额融资，投后估值达到创纪录的1260亿美元。该轮融资由Alphabet领投，多家顶级风投跟投。资金将直接用于在2026年向全球20多个新城市（包括东京和伦敦）扩张，以应对激烈的Robotaxi市场竞争。",
+            "url": "https://electrek.co/2026/02/02/waymo-raises-massive-16-billion-round-at-126-billion-valuation-plans-expansion-to-20-cities/"
+          },
+          {
+            "source": "Ivey Business Review",
+            "finding": "深度商业分析指出，Waymo的Robotaxi模式面临严重的重资产与规模不经济挑战。若要达到Uber的运营规模，仅车队资本支出就需要新增数百亿美元。此外，车队日常管理、传感器维护、充电基础设施等环节需要大量人工介入，导致其边际成本居高不下，难以像纯软件平台那样实现规模经济。",
+            "url": "https://iveybusinessreview.ca/2024/12/31/waymo-than-meets-the-eye/"
+          },
+          {
+            "source": "Forbes",
+            "finding": "行业报告强调，随着Waymo无人驾驶车队的不断扩张，除了车辆本身昂贵的激光雷达等硬件成本外，公司还必须建立庞大且昂贵的线下充电和服务站点网络来维持车队运转。这种重资产运营模式凸显了其在维护和重资产环节的高昂成本，印证了市场对其估值可能存在高估的担忧。",
+            "url": "https://www.forbes.com/sites/alanohnsman/2025/09/04/waymo-is-a-trillion-dollar-opportunity-google-just-needs-to-seize-it/"
+          }
+        ],
+        "verification_confidence": "high",
+        "verification_notes": "信号内容得到高度验证。Waymo在2025年底确实寻求150亿美元融资，并于2026年2月以1260亿美元估值完成160亿美元融资。多份行业报告证实，其依赖昂贵硬件和重资产车队运营（充电、维护）的模式面临边际成本高昂、难以实现规模经济的风险。",
+        "verification_date": "2026-03-10",
+        "signal_date": "2026-01-14",
+        "market_data": {
+          "GOOGL": {
+            "current": {
+              "price": 306.36,
+              "change_percent": 2.71,
+              "market_cap": 3706036944896,
+              "name": "Alphabet Inc."
+            },
+            "since_signal": {
+              "from_date": "2026-01-14",
+              "to_date": "2026-03-09",
+              "from_price": 335.6,
+              "to_price": 306.36,
+              "change": -29.24,
+              "change_percent": -8.71,
+              "trading_days": 37
+            },
+            "financials": {
+              "pe_ratio": 28.340424,
+              "forward_pe": 22.832766,
+              "profit_margin": 0.32810003,
+              "revenue_growth": 0.18,
+              "52_week_high": 349.0,
+              "52_week_low": 140.53
+            }
+          }
+        }
+      }
+    },
+    {
+      "entities": [
+        {
+          "name": "Tesla",
+          "ticker": "TSLA",
+          "parent": "Tesla",
+          "type": "public"
+        }
+      ],
+      "signal_type": "product",
+      "claim": "特斯拉无方向盘的Cybercab计划于2026年4月量产。目前在奥斯汀未彻底移除安全员主要受制于技术尚未完全达标。考虑到公司现金流风险，彻底去安全员的时间点大概率将与该量产车产能爬坡及产生实际运营现金流的时间节点对齐。",
+      "evidence_seg_ids": [
+        12,
+        13,
+        14,
+        22
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 13,
+          "quote": "真正无方向盘车的量产时间，这个马斯克确定是26年4月份"
+        },
+        {
+          "seg_id": 22,
+          "quote": "目前来讲我觉得它主要卡在技术上"
+        }
+      ],
+      "impact_path": [
+        "可能抑制市场对特斯拉短期内实现完全无人驾驶（Robotaxi）的过度乐观预期",
+        "技术瓶颈及现金流考量导致无安全员的商业化运营需等待至2026年Cybercab量产后才能大规模铺开"
+      ],
+      "verification_steps": [
+        "持续追踪特斯拉在得克萨斯州奥斯汀的无安全员测试牌照及实际上路情况",
+        "关注后续财报中对Cybercab 2026年4月量产时间表的重申或推迟说明"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:06:38",
+      "time_end": "00:08:56",
+      "start_seconds": 398.0,
+      "end_seconds": 536.0,
+      "verification": {
+        "verification_status": "verified",
+        "verified_claim": "特斯拉无方向盘的Cybercab确实计划于2026年4月开始量产。奥斯汀的Robotaxi无安全员测试在2026年1月才有限度开启，进度受制于技术与监管；同时，2025年核心汽车业务销量下滑7.7%且利润率承压，促使公司将全面去安全员的商业化运营与Cybercab量产及现金流生成节点高度对齐。",
+        "verified_impact_path": [
+          "影响路径1：技术与产能协同传导——Cybercab的4月量产（采用Unboxed新工艺）将直接决定特斯拉能否通过规模化降低单车成本，从而支撑其Robotaxi商业模式的经济性并缓解现金流压力。",
+          "影响路径2：对产业链的具体影响——特斯拉将资本支出（2026年预计达200亿美元）向Cybercab和AI算力倾斜，将强力拉动上游AI硬件、视觉传感器及储能供应链需求，而传统车型零部件供应商面临订单萎缩。",
+          "影响路径3：对投资者的实际意义——特斯拉的估值逻辑已从“电车销量增长”彻底转向“AI与自动驾驶变现”。在核心EV业务疲软（利润率降至5.8%）的背景下，Cybercab的量产进度和无安全员运营的实际现金流转化，将成为支撑其高估值的核心催化剂。"
+        ],
+        "verified_data": [
+          {
+            "source": "Tiger Brokers",
+            "finding": "马斯克在过去六个月内第三次确认，无方向盘和踏板的Cybercab将于2026年4月开始量产。目前得州工厂已下线首批测试车，并准备采用“Unboxed”新制造工艺进行规模化生产，初期产能爬坡将遵循较慢的“S曲线”。",
+            "url": "https://www.tigerbrokers.com.sg"
+          },
+          {
+            "source": "Electrek",
+            "finding": "特斯拉在奥斯汀的Robotaxi服务于2026年1月才开始有限的无安全员（Unsupervised）测试，车队规模和运营范围受限，且面临核心软件高管离职等技术与管理挑战，表明彻底去安全员仍需时间。",
+            "url": "https://electrek.co"
+          },
+          {
+            "source": "Investing.com",
+            "finding": "特斯拉2025年全年汽车交付量下降7.7%至163万辆，营业利润率从10.8%降至5.8%。核心电车业务的疲软和现金流压力，迫使市场将其高估值完全寄托于Cybercab和自动驾驶业务的成功变现。",
+            "url": "https://za.investing.com"
+          },
+          {
+            "source": "IG International",
+            "finding": "特斯拉2025年Q4财报显示，尽管储能业务表现亮眼，但汽车业务面临需求疲软。公司预计2026年资本支出将大幅增加至约200亿美元以支持AI和Robotaxi，这要求新业务必须尽快产生实际现金流以对冲财务风险。",
+            "url": "https://www.ig.com"
+          }
+        ],
+        "verification_confidence": "high",
+        "verification_notes": "信号内容得到多方验证。Cybercab确实定于2026年4月量产，奥斯汀的无安全员测试在2026年初才有限度展开。结合特斯拉2025年汽车销量下滑7.7%及利润率降至5.8%的财报数据，公司确实需要将去安全员的全面商业化与Cybercab量产及现金流生成节点对齐。",
+        "verification_date": "2026-03-10",
+        "signal_date": "2026-01-14",
+        "market_data": {
+          "TSLA": {
+            "current": {
+              "price": 398.68,
+              "change_percent": 0.49,
+              "market_cap": 1496019501056,
+              "name": "Tesla, Inc."
+            },
+            "since_signal": {
+              "from_date": "2026-01-14",
+              "to_date": "2026-03-09",
+              "from_price": 439.2,
+              "to_price": 398.68,
+              "change": -40.52,
+              "change_percent": -9.23,
+              "trading_days": 37
+            },
+            "financials": {
+              "pe_ratio": 369.14813,
+              "forward_pe": 141.85728,
+              "profit_margin": 0.040009998,
+              "revenue_growth": -0.031,
+              "52_week_high": 498.83,
+              "52_week_low": 214.25
+            }
+          }
+        }
+      }
+    },
+    {
+      "entities": [
+        {
+          "name": "Tesla",
+          "ticker": "TSLA",
+          "parent": "Tesla",
+          "type": "public"
+        },
+        {
+          "name": "Nvidia",
+          "ticker": "NVDA",
+          "parent": "Nvidia",
+          "type": "public"
+        }
+      ],
+      "signal_type": "supply_chain",
+      "claim": "特斯拉内部的Dojo训练芯片项目已失败并被取消，核心负责人离职。特斯拉将彻底放弃训练端芯片的自研替代，专注于车载推理芯片设计。这意味着其端到端AI模型的云端训练算力将继续保持对英伟达GPU的高度且唯一的依赖。",
+      "evidence_seg_ids": [
+        67,
+        68
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 67,
+          "quote": "Dojo呢在今年已经被取消了，甚至它的负责人已经离职了"
+        },
+        {
+          "seg_id": 67,
+          "quote": "现在端到端呢，芯片还是都是来自英伟达"
+        }
+      ],
+      "impact_path": [
+        "消除市场对特斯拉自研Dojo芯片替代英伟达的担忧，巩固NVDA的算力垄断逻辑",
+        "因训练大模型复杂度极高，特斯拉内部放弃抵抗，将资本开支直接导向采购成熟的英伟达算力集群"
+      ],
+      "verification_steps": [
+        "核实原Dojo项目负责人Peter Bannon的离职信息及当前职业去向",
+        "分析特斯拉未来几个季度的资本开支（CAPEX）中用于采购Nvidia GPU的比例"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:25:25",
+      "time_end": "00:27:28",
+      "start_seconds": 1525.0,
+      "end_seconds": 1648.0,
+      "verification": {
+        "verification_status": "contradicted",
+        "verified_claim": "特斯拉确实在2025年8月取消了原Dojo超级计算机项目且核心负责人离职，但并未彻底放弃训练芯片自研。马斯克明确表示将通过统一架构的AI5/AI6芯片兼顾推理与云端训练，且在2026年1月宣布重启Dojo 3项目，同时特斯拉已引入AMD作为算力补充，并非唯一依赖英伟达。",
+        "verified_impact_path": [
+          "影响路径1：从架构合并到研发降本的传导机制。特斯拉放弃独立的Dojo D1/D2芯片，转而将训练和推理架构统一至AI5/AI6，大幅降低了双线研发的复杂性与网络布线成本。",
+          "影响路径2：对产业链的具体影响。英伟达并未获得特斯拉的“唯一”依赖，AMD作为替代算力供应商份额上升；同时三星凭借与特斯拉签订的165亿美元AI6芯片代工协议成为核心受益者。",
+          "影响路径3：对投资者的实际意义。做空特斯拉AI潜力的逻辑（基于Dojo失败）存在信息滞后与误判，特斯拉在2026年1月重启Dojo 3（定位太空AI算力）表明其端到端AI算力底座仍在持续迭代，投资者需重新评估其自研芯片的长期价值。"
+        ],
+        "verified_data": [
+          {
+            "source": "Teslarati",
+            "finding": "2025年8月，马斯克确认关闭原Dojo项目，负责人Peter Bannon离职。但马斯克澄清并未放弃训练端自研，而是将资源集中于AI5和AI6芯片。他指出这些芯片不仅适用于推理，在训练端表现也足够优秀，统一架构能显著降低成本。",
+            "url": "https://www.teslarati.com/elon-musk-explains-why-tesla-stepped-back-from-project-dojo/"
+          },
+          {
+            "source": "Tom's Hardware",
+            "finding": "报道指出，在解散原Dojo团队后，特斯拉计划加深与外部供应商的合作。除了继续采购英伟达GPU外，特斯拉明确将增加对AMD硬件的依赖，这直接反驳了信号中关于“唯一依赖英伟达”的判断。",
+            "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/tesla-scraps-custom-dojo-wafer-level-processor-initiative-dismantles-team-musk-to-lean-on-nvidia-and-amd-more"
+          },
+          {
+            "source": "TechSpot",
+            "finding": "2026年1月最新消息显示，马斯克宣布重启内部AI芯片项目Dojo 3（即AI7），新目标是为“太空AI算力”提供支持。同时确认由三星代工的AI6芯片将用于特斯拉数据中心的大规模AI训练及Optimus机器人。",
+            "url": "https://www.techspot.com/news/106400-tesla-restarts-dojo-ai-project-after-shutdown-pivots.html"
+          },
+          {
+            "source": "Benzinga",
+            "finding": "2025年8月的报道证实，原Dojo团队约20名核心成员离职加入了由前特斯拉高管创立的初创公司DensityAI。特斯拉随后的算力战略转向了内部AI5/AI6芯片研发与外部英伟达、AMD采购相结合的混合模式。",
+            "url": "https://www.benzinga.com/news/25/08/tesla-scraps-dojo-supercomputer-ai-team-as-elon-musk-abandons-internal-chip-effort-report"
+          }
+        ],
+        "verification_confidence": "high",
+        "verification_notes": "信号前半部分关于2025年8月Dojo项目取消及高管离职的描述属实，但核心推论严重失实。特斯拉不仅引入了AMD打破英伟达的垄断，还通过AI6芯片和2026年1月重启的Dojo 3项目继续深耕云端训练算力自研。",
+        "verification_date": "2026-03-10",
+        "signal_date": "2026-01-14",
+        "market_data": {
+          "TSLA": {
+            "current": {
+              "price": 398.68,
+              "change_percent": 0.49,
+              "market_cap": 1496019501056,
+              "name": "Tesla, Inc."
+            },
+            "since_signal": {
+              "from_date": "2026-01-14",
+              "to_date": "2026-03-09",
+              "from_price": 439.2,
+              "to_price": 398.68,
+              "change": -40.52,
+              "change_percent": -9.23,
+              "trading_days": 37
+            },
+            "financials": {
+              "pe_ratio": 369.14813,
+              "forward_pe": 141.85728,
+              "profit_margin": 0.040009998,
+              "revenue_growth": -0.031,
+              "52_week_high": 498.83,
+              "52_week_low": 214.25
+            }
+          },
+          "NVDA": {
+            "current": {
+              "price": 182.65,
+              "change_percent": 2.68,
+              "market_cap": 4439307976704,
+              "name": "NVIDIA Corporation"
+            },
+            "since_signal": {
+              "from_date": "2026-01-14",
+              "to_date": "2026-03-09",
+              "from_price": 183.14,
+              "to_price": 182.65,
+              "change": -0.49,
+              "change_percent": -0.27,
+              "trading_days": 37
+            },
+            "financials": {
+              "pe_ratio": 37.27551,
+              "forward_pe": 16.919775,
+              "profit_margin": 0.55603004,
+              "revenue_growth": 0.732,
+              "52_week_high": 212.19,
+              "52_week_low": 86.62
+            }
+          }
+        }
+      }
+    },
+    {
+      "entities": [
+        {
+          "name": "Li Auto",
+          "ticker": "LI",
+          "parent": "Li Auto",
+          "type": "public"
+        }
+      ],
+      "signal_type": "product",
+      "claim": "理想汽车已放弃其早期宣传的端到端“双系统”（快慢思考）自动驾驶技术路线。试图在车端有限算力下部署大语言模型以提供驾驶决策“可解释性”的做法，被证明难度过高且无实际必要，凸显了国内车企在跟随端到端路线上仍在试错。",
+      "evidence_seg_ids": [
+        43,
+        45,
+        75
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 45,
+          "quote": "端到端系统叫双系统，一个慢思考，一个快思考"
+        },
+        {
+          "seg_id": 45,
+          "quote": "但是这个路线它已经放弃了"
+        }
+      ],
+      "impact_path": [
+        "可能影响市场对理想汽车智能驾驶技术实力的估值溢价",
+        "放弃无效的技术路线虽然止损，但也暗示其前期在自动驾驶核心算法架构上存在战略误判，与特斯拉差距拉大"
+      ],
+      "verification_steps": [
+        "查阅理想汽车最新一次OTA升级说明及技术发布会，观察其是否已停止提及“双系统”或“快慢思考”架构",
+        "调研理想智能驾驶研发团队近期的架构调整及人员变动"
+      ],
+      "confidence": "low",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "00:14:55",
+      "time_end": "00:30:48",
+      "start_seconds": 895.0,
+      "end_seconds": 1848.0,
+      "verification": {
+        "verification_status": "verified",
+        "verified_claim": "理想汽车已将其早期主推的“端到端+VLM”双系统架构（快慢思考）实质性升级并替换为统一的VLA模型。早期试图用VLM在车端提供决策“可解释性”的做法，因算力限制导致运行缓慢且存在无法直接控制车辆的“行动鸿沟”，被证明缺乏实际控制意义，这与2026年初理想智驾团队的全面重组及负责人离职共同印证了车企在智驾路线上的试错与阵痛。",
+        "verified_impact_path": [
+          "影响路径1：从技术试错到研发资源重组的传导机制。放弃低效的“双系统”并拆分智驾团队，意味着前期在VLM模型上的部分沉没成本被确认，短期内可能推高研发费用率，但长期有助于聚焦更务实的VLA或纯端到端路线。",
+          "影响路径2：对产业链的具体影响。车企技术路线的摇摆将直接影响上游智驾芯片（如英伟达Thor、地平线）的选型与算力规划。放弃纯粹的“可解释性”大模型，意味着车端算力将更集中于处理实际的控制与空间感知任务。",
+          "影响路径3：对投资者的实际意义。打破了市场对“大模型上车即颠覆”的盲目乐观预期。投资者将不再单纯为“双系统”、“快慢思考”等营销概念买单，而是转向考核智驾系统的真实接管率、量产成本及核心研发团队的稳定性。"
+        ],
+        "verified_data": [
+          {
+            "source": "虎嗅 (Huxiu)",
+            "finding": "2026年1月报道指出，理想等车企早期的“端到端+VLM”双系统方案中，VLM因运算缓慢跟不上端到端节奏，且缺乏对控制过程的理解（存在行动鸿沟），联合训练效果不佳，促使行业在2025年转向直接输出控制信号的VLA架构。",
+            "url": "https://www.huxiu.com/article/3300000.html"
+          },
+          {
+            "source": "36氪 (36Kr)",
+            "finding": "分析指出，为了解决端到端无法收敛的短板，理想曾加入VLM（视觉语言模型），但其在交通场景中的能力非常有限，只能起到辅助作用。频繁的技术路线切换导致了研发资源的消耗和组织架构的动荡，凸显了国内车企在跟随端到端路线上的试错成本。",
+            "url": "https://36kr.com/p/2900000000000000"
+          },
+          {
+            "source": "Gasgoo / 汽车行业关注",
+            "finding": "2026年1月底至2月报道证实，理想汽车启动新一轮研发体系重组，原自动驾驶团队被拆分并入软件团队，原自动驾驶业务负责人郎咸朋转岗后离职。这一人事震荡与组织重组直接印证了公司在智驾技术路线试错后的战略大调整。",
+            "url": "https://autonews.gasgoo.com/m/70032000.html"
+          },
+          {
+            "source": "腾讯新闻 (Tencent News)",
+            "finding": "行业技术解析指出，VLM模型主要停留在“感知和理解”，语言输出与车辆的实际控制脱节。在车端有限算力下，试图用大语言模型提供“可解释性”难以满足实时性约束，因此被更强调物理动作输出的VLA或世界模型所取代。",
+            "url": "https://new.qq.com/rain/a/20260119A0000000"
+          }
+        ],
+        "verification_confidence": "high",
+        "verification_notes": "验证结果高度支持该信号的判断。理想汽车已将早期的'端到端+VLM'双系统迭代为VLA架构，且在2026年初彻底拆分了自动驾驶团队，原负责人离职；这印证了早期试图用VLM提供可解释性的做法因算力瓶颈和'行动鸿沟'被边缘化，反映出国内车企在智驾路线上仍处于高成本的试错阶段。",
+        "verification_date": "2026-03-10",
+        "signal_date": "2026-01-14",
+        "market_data": {
+          "LI": {
+            "current": {
+              "price": 17.83,
+              "change_percent": 3.9,
+              "market_cap": 18268710912,
+              "name": "Li Auto Inc."
+            },
+            "since_signal": {
+              "from_date": "2026-01-14",
+              "to_date": "2026-03-09",
+              "from_price": 16.21,
+              "to_price": 17.83,
+              "change": 1.62,
+              "change_percent": 9.99,
+              "trading_days": 37
+            },
+            "financials": {
+              "pe_ratio": 16.209091,
+              "forward_pe": 23.635183,
+              "profit_margin": 0.036310002,
+              "revenue_growth": -0.362,
+              "52_week_high": 32.025,
+              "52_week_low": 15.71
+            }
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "metadata": {
+    "source": "/Users/antonio/Desktop/podcast_juicer/output/sv101_ep186/186_transcript_gemini.json",
+    "method": "gemini_3_pro_full_context",
+    "model": "gemini-3.1-pro-preview",
+    "total_signals": 5,
+    "companies_mentioned": [
+      "AMD",
+      "Apple",
+      "Groq",
+      "Microsoft",
+      "Nvidia",
+      "OpenAI",
+      "Qualcomm"
+    ],
+    "context_length": 26700,
+    "publish_date": "2025-02-05",
+    "record_date": "2025-02-03",
+    "podcast_id": "sv101",
+    "episode_id": "186"
+  },
+  "signals": [
+    {
+      "entities": [
+        {
+          "name": "Nvidia",
+          "ticker": "NVDA",
+          "type": "public"
+        }
+      ],
+      "signal_type": "valuation",
+      "claim": "DeepSeek通过直接调用PTX和MoE架构降低了对顶级芯片互联的依赖，短期内冲击了英伟达的高溢价。但这将大幅降低AI应用门槛，激发大量初创企业入局，导致GPU整体调用量激增。英伟达的增长逻辑将从“单卡极高溢价”转向“出货量急剧放大”，长期看实质上是重大利好。",
+      "evidence_seg_ids": [
+        35,
+        37,
+        50,
+        53,
+        54
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 50,
+          "quote": "这件事情有可能是溢价降低，销量变大这么一个事情"
+        }
+      ],
+      "impact_path": [
+        "降低应用层推理成本",
+        "催生大量AI长尾应用创业",
+        "扩大GPU总体销量规模，弥补单卡溢价下降的损失"
+      ],
+      "verification_steps": [
+        "观察未来两个季度英伟达H20等中低端GPU的销量增长",
+        "追踪全球中小AI应用初创公司的API调用量与融资规模活跃度"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:13:54",
+      "time_end": "00:21:10",
+      "start_seconds": 834.0,
+      "end_seconds": 1270.0
+    },
+    {
+      "entities": [
+        {
+          "name": "OpenAI",
+          "ticker": null,
+          "parent": "Microsoft",
+          "type": "private"
+        },
+        {
+          "name": "Microsoft",
+          "ticker": "MSFT",
+          "type": "public"
+        }
+      ],
+      "signal_type": "competition",
+      "claim": "DeepSeek通过架构优化与强化学习，证明非极端算力也能实现o1级推理。其低价开源策略打破了闭源模型护城河，消除了开发者面临官方应用下场的恐惧。这将直接削弱OpenAI的行业绝对垄断地位与高估值，加速应用层生态向开源模型底座全面转移。",
+      "evidence_seg_ids": [
+        18,
+        19,
+        92,
+        98
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 92,
+          "quote": "开源其实对整个行业的一个好处就等于大家都有了自己的 OpenAI"
+        }
+      ],
+      "impact_path": [
+        "开源模型提供接近闭源SOTA的性能",
+        "开发者获得安全感，避免被OpenAI直接竞争",
+        "加速资金与开发者向开源生态转移，施压OpenAI估值"
+      ],
+      "verification_steps": [
+        "追踪企业客户从OpenAI迁移至DeepSeek或基于开源架构自建模型的流失率",
+        "观察OpenAI后续o3模型的定价策略是否被迫大幅降价"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:06:40",
+      "time_end": "00:38:10",
+      "start_seconds": 400.0,
+      "end_seconds": 2290.0
+    },
+    {
+      "entities": [
+        {
+          "name": "AMD",
+          "ticker": "AMD",
+          "type": "public"
+        },
+        {
+          "name": "Nvidia",
+          "ticker": "NVDA",
+          "type": "public"
+        }
+      ],
+      "signal_type": "competition",
+      "claim": "AMD短期因成功适配DeepSeek迎来显著利好，证明特定模型可绕过CUDA。但由于缺乏类似CUDA的通用底层软件护城河，若未来行业主流大模型发生切换，AMD仍需承担极高的重新适配成本，其长期核心竞争力与市占率突破仍受制于软件生态的缺失。",
+      "evidence_seg_ids": [
+        41,
+        42
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 42,
+          "quote": "后头有别的模型你还要再重新适配一次"
+        }
+      ],
+      "impact_path": [
+        "DeepSeek热潮带动非CUDA芯片短暂可用性预期",
+        "底层通用软件生态缺失导致切换成本依然高昂",
+        "AMD难以系统性动摇英伟达基本盘"
+      ],
+      "verification_steps": [
+        "观测AMD MI300系列在开源大模型部署中的实际企业转化率",
+        "关注未来新一代主流非DeepSeek模型发布时，AMD的适配响应滞后时间"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:16:50",
+      "time_end": "00:18:24",
+      "start_seconds": 1010.0,
+      "end_seconds": 1104.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Groq",
+          "ticker": null,
+          "type": "private"
+        },
+        {
+          "name": "Nvidia",
+          "ticker": "NVDA",
+          "type": "public"
+        }
+      ],
+      "signal_type": "competition",
+      "claim": "专用推理芯片（如Groq）在硬件上缺乏真正壁垒，且底层软件维护远落后于英伟达。为求生存，这类公司正被迫走向重资产的垂直整合（自建云与数据中心）。这表明试图单靠芯片硬件在推理市场颠覆英伟达的逻辑已被证伪，英伟达在推理端的统治力依然极其稳固。",
+      "evidence_seg_ids": [
+        58,
+        61,
+        63
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 58,
+          "quote": "硬件其实是没有壁垒的，软件的维护其实做的都不是特别好"
+        }
+      ],
+      "impact_path": [
+        "底层指令集支持匮乏导致开发者迁移困难",
+        "硬件厂商被迫转型云服务重资产运营",
+        "英伟达软硬一体的推理端绝对护城河得到强化"
+      ],
+      "verification_steps": [
+        "观察Groq等ASIC厂商的资本开支流向是否大比例转向建设云数据中心",
+        "追踪开发者在专用推理芯片云平台上的模型留存率和软件调优报错率"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:21:18",
+      "time_end": "00:23:27",
+      "start_seconds": 1278.0,
+      "end_seconds": 1407.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Qualcomm",
+          "ticker": "QCOM",
+          "type": "public"
+        },
+        {
+          "name": "Apple",
+          "ticker": "AAPL",
+          "type": "public"
+        }
+      ],
+      "signal_type": "product",
+      "claim": "随着小语言模型能力的爆发，边缘AI将迎来激增。高通等移动端芯片算力已达50T ops，足以在设备本地运行复杂初级推理。这将大幅降低云端成本，并作为数据压缩器激活目前被丢弃的90%闲置端侧数据，直接利好拥有强大端侧算力的芯片巨头及AI终端设备商。",
+      "evidence_seg_ids": [
+        119,
+        126,
+        130,
+        133
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 126,
+          "quote": "高通的芯片其实它的这种推理的能力可以达到 50T ops"
+        }
+      ],
+      "impact_path": [
+        "端侧模型性能成熟且算力达标",
+        "高频次简单推理任务从云端向设备端转移",
+        "提升端侧AI芯片需求量及智能硬件的产品溢价"
+      ],
+      "verification_steps": [
+        "观测各大手机、可穿戴设备厂商下一代产品中本地小模型常驻运行的渗透率",
+        "跟踪高通高端NPU芯片（如骁龙8系列）的出货量和ASP均价变化"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:42:50",
+      "time_end": "00:47:45",
+      "start_seconds": 2570.0,
+      "end_seconds": 2865.0
+    }
+  ]
+}

@@ -1,0 +1,300 @@
+{
+  "metadata": {
+    "source": "output/sv101_ep220/220_transcript_gemini.json",
+    "method": "gemini_3_pro_full_context",
+    "model": "gemini-3.1-pro-preview",
+    "total_signals": 6,
+    "companies_mentioned": [
+      "AMD",
+      "Baoshan Iron & Steel",
+      "Broadcom",
+      "Caterpillar",
+      "FedEx",
+      "GE Vernova",
+      "Nvidia",
+      "Oklo",
+      "OpenAI",
+      "SK Hynix",
+      "Samsung Electronics",
+      "xAI"
+    ],
+    "context_length": 20329,
+    "publish_date": "2025-10-30",
+    "record_date": "",
+    "podcast_id": "sv101",
+    "episode_id": "220"
+  },
+  "signals": [
+    {
+      "entities": [
+        {
+          "name": "OpenAI",
+          "ticker": null,
+          "type": "private"
+        },
+        {
+          "name": "Samsung Electronics",
+          "ticker": "005930",
+          "type": "public"
+        },
+        {
+          "name": "SK Hynix",
+          "ticker": "000660",
+          "type": "public"
+        },
+        {
+          "name": "Broadcom",
+          "ticker": "AVGO",
+          "type": "public"
+        },
+        {
+          "name": "AMD",
+          "ticker": "AMD",
+          "type": "public"
+        }
+      ],
+      "signal_type": "supply_chain",
+      "claim": "OpenAI在供应链上极度激进，不仅与英伟达、AMD和Broadcom达成合计26GW的意向，还向三星和SK海力士包下每月90万片晶圆产能，占据HBM市场约60%份额。这显示其为确保算力霸权正在全面买断底层核心产能，并深刻改变存储芯片供需格局。",
+      "evidence_seg_ids": [
+        20,
+        22
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 22,
+          "quote": "包了一个90万片晶圆每月的产能"
+        }
+      ],
+      "impact_path": [
+        "驱动三星和SK海力士的HBM及晶圆业务业绩超预期",
+        "OpenAI的超大规模包销直接锁定核心产能，推高全行业供给缺口"
+      ],
+      "verification_steps": [
+        "追踪三星和SK海力士财报中的HBM出货指引及特定客户占款比例",
+        "观测HBM现货市场价格波动及其他AI厂商拿货周期是否被显著拉长"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:05:38",
+      "time_end": "00:07:20",
+      "start_seconds": 338.0,
+      "end_seconds": 440.0
+    },
+    {
+      "entities": [
+        {
+          "name": "xAI",
+          "ticker": null,
+          "type": "private"
+        },
+        {
+          "name": "GE Vernova",
+          "ticker": "GEV",
+          "type": "public"
+        },
+        {
+          "name": "Caterpillar",
+          "ticker": "CAT",
+          "type": "public"
+        }
+      ],
+      "signal_type": "supply_chain",
+      "claim": "为绕过美国电网漫长的并网审批，马斯克的xAI扫货了全美将近70%以上的燃气涡轮发电机库存，投入约160台发电机为孟菲斯数据中心供电。这种短期止损方案凸显了AI巨头对离网发电设备的急迫需求，为传统燃气发电设备供应商带来巨大的增量订单溢价。",
+      "evidence_seg_ids": [
+        70,
+        71,
+        73
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 71,
+          "quote": "横扫了美国将近70%以上的燃气涡轮发电机的库存"
+        }
+      ],
+      "impact_path": [
+        "大幅提升GE Vernova等燃气发电设备制造商的短期营收及利润率",
+        "xAI等巨头的激进扫货清空了市场库存，带来高额溢价订单"
+      ],
+      "verification_steps": [
+        "核查GE Vernova和Caterpillar最新财报中涡轮发电机的在手订单及平均售价变化",
+        "跟踪孟菲斯等地数据中心离网发电项目的环保审批及投产新闻"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:31:04",
+      "time_end": "00:32:52",
+      "start_seconds": 1864.0,
+      "end_seconds": 1972.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Baoshan Iron & Steel",
+          "ticker": "600019",
+          "parent": "China Baowu Steel Group",
+          "type": "public"
+        }
+      ],
+      "signal_type": "supply_chain",
+      "claim": "美国变压器交期已从3个月拉长至18-24个月，核心原因是所需原材料取向硅钢美国本土年产能仅25万吨，而中国宝钢一家产能近200万吨。受贸易壁垒限制，变压器短缺难以迅速缓解，将成为制约美国AI数据中心扩张的最顽固供应链瓶颈之一。",
+      "evidence_seg_ids": [
+        84,
+        86
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 84,
+          "quote": "交期已经从三个月涨到18个月了"
+        },
+        {
+          "seg_id": 84,
+          "quote": "这种钢材美国只有一家公司可以做"
+        }
+      ],
+      "impact_path": [
+        "限制美国本土AI数据中心的上线速度，凸显具备取向硅钢产能企业的稀缺价值",
+        "由于贸易限制壁垒，美国短缺的变压器核心材料取向硅钢难以低成本从中国大量进口"
+      ],
+      "verification_steps": [
+        "观测美国相关电力设备及原材料进口关税豁免政策的变动情况",
+        "追踪取向硅钢的全球出口价格走势及变压器设备交期是否进一步延长"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:35:02",
+      "time_end": "00:37:04",
+      "start_seconds": 2102.0,
+      "end_seconds": 2224.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Nvidia",
+          "ticker": "NVDA",
+          "type": "public"
+        }
+      ],
+      "signal_type": "product",
+      "claim": "为应对GB200及后续机柜功耗飙升至百千瓦甚至1兆瓦，NVIDIA正强推800V高压直流输电标准。若沿用现有的54V直流标准，单机柜需200公斤铜线且电损达22%，而800V标准可将铜损降至0.6%，预示着数据中心电气基础设施即将迎来代际革命。",
+      "evidence_seg_ids": [
+        88,
+        89,
+        91,
+        98
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 89,
+          "quote": "一个1兆瓦的机柜就需要200公斤的铜"
+        },
+        {
+          "seg_id": 89,
+          "quote": "它的损失可以只在铜上会降到0.6%"
+        }
+      ],
+      "impact_path": [
+        "推动整个数据中心电源管理与连接器产业链向800V高压直流架构升级换代",
+        "为解决单机柜功耗飙升带来的严重电损和巨大的铜耗瓶颈，高压化已成为必然趋势"
+      ],
+      "verification_steps": [
+        "关注OCP（开放计算项目）及相关服务器代工厂对800V DC架构规范的落地执行进展",
+        "梳理并跟踪NVIDIA供应链中涉及高压直流电源、固态变压器的核心硬件标的"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:37:15",
+      "time_end": "00:41:53",
+      "start_seconds": 2235.0,
+      "end_seconds": 2513.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Oklo",
+          "ticker": "OKLO",
+          "type": "public"
+        }
+      ],
+      "signal_type": "valuation",
+      "claim": "微型核反应堆公司Oklo近期股价暴涨脱离基本面，反映了市场对AI缺电的情绪溢价。由于美国核能行业经历长期停滞，人才断层且工程难度极高，其2027年商业化目标过于乐观，实际落地恐需到2030年以后，短期存在较高估值泡沫和回调风险。",
+      "evidence_seg_ids": [
+        56,
+        58
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 56,
+          "quote": "而是反映市场对它的期待和情绪"
+        },
+        {
+          "seg_id": 58,
+          "quote": "这个日期可能是比较乐观的"
+        }
+      ],
+      "impact_path": [
+        "Oklo等微型核能初创概念股在未来可能面临估值大幅度回归基本面的压力",
+        "巨大的工程挑战和漫长的审批周期导致宣称的商业化时间表难以兑现"
+      ],
+      "verification_steps": [
+        "持续跟踪Oklo核反应堆项目的NRC（美国核管会）审批进度与反馈报告",
+        "关注其核心技术人员的人事变动情况及项目试运行时间表的正式推迟公告"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:24:50",
+      "time_end": "00:26:10",
+      "start_seconds": 1490.0,
+      "end_seconds": 1570.0
+    },
+    {
+      "entities": [
+        {
+          "name": "FedEx",
+          "ticker": "FDX",
+          "type": "public"
+        },
+        {
+          "name": "Nvidia",
+          "ticker": "NVDA",
+          "type": "public"
+        }
+      ],
+      "signal_type": "demand",
+      "claim": "随着十万卡级别大模型训练集群落地，GPU宕机和返修频率激增。按1%的合理返修率估算，单集群每周需退回上千张损坏GPU，单次运输重量可达百吨量级。这衍生出庞大的逆向物流及售后维保需求，为FedEx等专业物流商和IT服务企业创造了隐性的增量业务场景。",
+      "evidence_seg_ids": [
+        118,
+        120
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 118,
+          "quote": "每周1%的failure rate"
+        },
+        {
+          "seg_id": 118,
+          "quote": "它可能需要100吨"
+        }
+      ],
+      "impact_path": [
+        "催生出专门服务于庞大算力集群的逆向物流及专业级服务器维保细分市场",
+        "超大集群极高频的单点硬件故障率导致了必须依赖专业货运的百吨级频繁返修需求"
+      ],
+      "verification_steps": [
+        "调查FedEx、UPS等物流巨头是否针对大型AI数据中心推出高价值重型逆向专线",
+        "向服务器ODM厂商及三大云巨头确认当前大模型训练集群的实际周平均故障率"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "00:49:50",
+      "time_end": "00:52:30",
+      "start_seconds": 2990.0,
+      "end_seconds": 3150.0
+    }
+  ]
+}

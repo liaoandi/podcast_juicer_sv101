@@ -1,0 +1,218 @@
+{
+  "metadata": {
+    "source": "/Users/antonio/Desktop/podcast_juicer/output/sv101_ep198/198_transcript_gemini.json",
+    "method": "gemini_3_pro_full_context",
+    "model": "gemini-3.1-pro-preview",
+    "total_signals": 2,
+    "companies_mentioned": [
+      "Amazon",
+      "Costco",
+      "Google",
+      "Meta"
+    ],
+    "context_length": 22141,
+    "publish_date": null,
+    "record_date": null,
+    "podcast_id": "sv101",
+    "episode_id": "198",
+    "verification_date": "2026-03-20",
+    "verification_method": "gemini_3_pro + google_search + yahoo_finance",
+    "verification_status": "completed",
+    "verified_signals_count": 2
+  },
+  "signals": [
+    {
+      "entities": [
+        {
+          "name": "Meta",
+          "ticker": "META",
+          "parent": "Meta Platforms",
+          "type": "public"
+        },
+        {
+          "name": "Google",
+          "ticker": "GOOGL",
+          "parent": "Alphabet",
+          "type": "public"
+        },
+        {
+          "name": "Amazon",
+          "ticker": "AMZN",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "regulation",
+      "claim": "受特朗普政府禁止联邦采购考量DEI指标的新行政令影响，Meta、Google和Amazon等科技巨头正削减或终止其多元化招聘目标。此举旨在规避违规审查并保住联邦政府合同，反映出科技巨头面对政治压力迅速妥协的避险倾向。",
+      "evidence_seg_ids": [
+        5,
+        6,
+        7
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 6,
+          "quote": "Meta 和 Google 都已经援引联邦机构采购标准的变化"
+        },
+        {
+          "seg_id": 7,
+          "quote": "Meta 、 Amazon 都援引联邦政府的规定，在削减"
+        }
+      ],
+      "impact_path": [
+        "降低联邦政府相关业务的采购合规风险",
+        "新行政令明确要求联邦机构在采购决策中排除DEI指标，尽早取消该类目标可避免公司失去高价值的政府订单"
+      ],
+      "verification_steps": [
+        "查阅Meta、Google和Amazon最新更新的年度ESG报告和招聘政策声明",
+        "追踪联邦政府官方采购网站（SAM.gov）上上述企业的供应商合规状态变更"
+      ],
+      "confidence": "high",
+      "novelty": "low",
+      "actionability": "low",
+      "time_start": "00:02:22",
+      "time_end": "00:07:15",
+      "start_seconds": 142.0,
+      "end_seconds": 435.0,
+      "verification": {
+        "verification_status": "verified",
+        "verified_claim": "特朗普政府于2025年1月发布行政令，禁止联邦承包商实施DEI（多元、平等、包容）项目，并威胁以《虚假陈述法》追责。受此合规压力影响，Google、Meta和Amazon等科技巨头已相继削减或终止其多元化招聘目标，以规避审查并保住利润丰厚的联邦政府合同。",
+        "verified_impact_path": [
+          "政策合规传导：特朗普签署反DEI行政令 -> 联邦承包商面临违约及巨额罚款风险 -> 科技巨头为规避合规风险迅速修改内部招聘与企业文化政策",
+          "企业基本面影响：削减DEI部门和相关合规支出短期内有助于降低企业的运营成本，同时确保了核心的联邦政府合同（如国防和政务云服务采购）不受政治因素干扰",
+          "对投资者的实际意义：科技巨头展现出高度的政治敏锐度和避险妥协倾向，表明在当前政治周期内，这些公司将优先保障核心商业利益，大幅降低了因意识形态冲突带来的尾部政策风险"
+        ],
+        "verified_data": [
+          {
+            "source": "CBS News",
+            "finding": "Google在发给员工的邮件中宣布取消多元化招聘目标，并在年度10-K报告中删除了对DEI的承诺。Google发言人明确表示，作为联邦承包商，公司正在评估近期行政令带来的合规要求变化，以避免面临《虚假陈述法》下的三倍赔偿风险。",
+            "url": "https://www.cbsnews.com/news/google-scraps-diversity-hiring-goals-as-it-complies-with-trumps-new-government-contractor-rules/"
+          },
+          {
+            "source": "Al Jazeera",
+            "finding": "Meta在内部备忘录中宣布终止其DEI项目及多元化招聘策略；Amazon也在备忘录中表示将逐步取消与代表性和包容性相关的项目，以应对特朗普政府上台前后的保守派政治压力。",
+            "url": "https://www.aljazeera.com/economy/2025/1/10/meta-amazon-nix-diversity-inclusion-programmes-ahead-of-trump-term"
+          },
+          {
+            "source": "Seyfarth Shaw",
+            "finding": "特朗普于2025年1月签署第14173号行政令，撤销了要求联邦承包商采取平权行动的旧规定，并要求承包商证明其未运营违法的DEI项目，否则将面临政府执法和私人举报的严厉打击。",
+            "url": "https://www.seyfarth.com/news-insights/management-alert-trump-executive-order-eliminates-federal-contractor-affirmative-action-requirements-and-creates-new-dei-enforcement-framework.html"
+          },
+          {
+            "source": "Forbes",
+            "finding": "特朗普的行政令不仅针对联邦政府，还要求各机构提交针对私营部门（包括上市公司）DEI项目的民事合规调查建议，促使大量企业采取预防性措施以避免成为联邦调查的目标。",
+            "url": "https://www.forbes.com/sites/saradorn/2025/01/23/trumps-diversity-orders-rattle-ceos-what-companies-should-know-about-new-dei-rules/"
+          }
+        ],
+        "verification_confidence": "high",
+        "verification_notes": "该投资信号完全属实。特朗普于2025年1月签署的反DEI行政令直接将联邦合同与企业内部招聘政策挂钩，迫使Google、Meta和Amazon等依赖政府订单的科技巨头迅速妥协，取消了多元化招聘目标以规避合规与财务风险。",
+        "verification_date": "2026-03-20",
+        "signal_date": null,
+        "market_data": {
+          "META": {
+            "current": {
+              "price": 606.7,
+              "change_percent": -1.46,
+              "market_cap": 1534681284608,
+              "name": "Meta Platforms, Inc."
+            },
+            "financials": {
+              "pe_ratio": 25.839012,
+              "forward_pe": 16.909142,
+              "profit_margin": 0.30084,
+              "revenue_growth": 0.238,
+              "52_week_high": 796.25,
+              "52_week_low": 479.8
+            }
+          },
+          "GOOGL": {
+            "current": {
+              "price": 307.13,
+              "change_percent": -0.18,
+              "market_cap": 3715351707648,
+              "name": "Alphabet Inc."
+            },
+            "financials": {
+              "pe_ratio": 28.411655,
+              "forward_pe": 22.883314,
+              "profit_margin": 0.32810003,
+              "revenue_growth": 0.18,
+              "52_week_high": 349.0,
+              "52_week_low": 140.53
+            }
+          },
+          "AMZN": {
+            "current": {
+              "price": 208.76,
+              "change_percent": -0.53,
+              "market_cap": 2241021870080,
+              "name": "Amazon.com, Inc."
+            },
+            "financials": {
+              "pe_ratio": 29.156424,
+              "forward_pe": 22.336828,
+              "profit_margin": 0.108339995,
+              "revenue_growth": 0.136,
+              "52_week_high": 258.6,
+              "52_week_low": 161.38
+            }
+          }
+        }
+      }
+    },
+    {
+      "entities": [
+        {
+          "name": "Costco",
+          "ticker": "COST",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "risk",
+      "claim": "在科技巨头因合规压力削减DEI项目时，Costco仍逆势维持多元化议程。因特朗普新政明确要求司法部调查“最恶劣的DEI从业者”，Costco的逆向操作使其面临潜在的民事合规审查风险，并可能引发保守派的政治抵制。",
+      "evidence_seg_ids": [
+        5,
+        7
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 5,
+          "quote": "确定每个相关领域当中最恶劣的 DEI 从业者"
+        },
+        {
+          "seg_id": 7,
+          "quote": "存在一部分公司还在继续支持他的 DEI 的议程"
+        },
+        {
+          "seg_id": 7,
+          "quote": "最近一段时间里比较出名的是 Costco"
+        }
+      ],
+      "impact_path": [
+        "可能面临美国司法部的民事调查及品牌声誉受损",
+        "特朗普行政令直接指示针对坚持DEI的企业采取法律行动，Costco因其显著的坚持立场容易成为右翼文化战争的靶子"
+      ],
+      "verification_steps": [
+        "监测美国司法部（DOJ）近期发布的民事调查名单是否包含Costco",
+        "观察保守派媒体和政客群体是否开始针对Costco发起系统性的舆论攻击或抵制活动"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "00:02:22",
+      "time_end": "00:07:15",
+      "start_seconds": 142.0,
+      "end_seconds": 435.0,
+      "verification": {
+        "verification_status": "error",
+        "verification_date": "2026-03-20",
+        "verification_notes": "验证失败: JSON 解析失败",
+        "verified_claim": "",
+        "verified_impact_path": [],
+        "verified_data": [],
+        "verification_confidence": "low"
+      }
+    }
+  ]
+}

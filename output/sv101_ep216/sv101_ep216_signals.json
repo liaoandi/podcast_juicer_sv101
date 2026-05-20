@@ -1,0 +1,200 @@
+{
+  "metadata": {
+    "source": "/Users/antonio/Desktop/podcast_juicer/output/sv101_ep216/216_transcript_gemini.json",
+    "method": "gemini_3_pro_full_context",
+    "model": "gemini-3.1-pro-preview",
+    "total_signals": 4,
+    "companies_mentioned": [
+      "Covariant",
+      "Google",
+      "NVIDIA",
+      "Physical Intelligence",
+      "iRobot",
+      "自变量机器人"
+    ],
+    "context_length": 25148,
+    "publish_date": null,
+    "record_date": null,
+    "podcast_id": "sv101",
+    "episode_id": "216"
+  },
+  "signals": [
+    {
+      "entities": [
+        {
+          "name": "Google",
+          "ticker": "GOOGL",
+          "parent": "Alphabet",
+          "type": "public"
+        },
+        {
+          "name": "Physical Intelligence",
+          "ticker": null,
+          "parent": null,
+          "type": "private"
+        }
+      ],
+      "signal_type": "competition",
+      "claim": "头部机器人公司当前掌握的真实物理数据在几万到几十万小时量级。初创企业 Physical Intelligence 训练 Pi0 模型使用的数据量已超过 Google 研究院历史积累总和，凸显海量真实数据是具身智能最大护城河，巨头的数据壁垒正被打破。",
+      "evidence_seg_ids": [
+        49,
+        53
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 49,
+          "quote": "派零使用的数据其实比之前Google研究院收的加在一起还要多"
+        },
+        {
+          "seg_id": 53,
+          "quote": "头部的机器人公司的数据量大家可能都集中在几万到几十万"
+        }
+      ],
+      "impact_path": [
+        "可能影响市场对 Google 等传统科技巨头在机器人赛道绝对领先地位的估值溢价",
+        "因为新一代明星创业公司已跑通更具扩展性的数据采集飞轮，在核心数据规模上完成反超"
+      ],
+      "verification_steps": [
+        "对比 Google 新一代机器人模型（如 RT 系列更新）披露的训练数据量与开源社区/初创公司的增量",
+        "追踪 Physical Intelligence 后续论文公开的具体物理环境训练数据小时数"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "00:25:56",
+      "time_end": "00:29:10",
+      "start_seconds": 1556.0,
+      "end_seconds": 1750.0
+    },
+    {
+      "entities": [
+        {
+          "name": "NVIDIA",
+          "ticker": "NVDA",
+          "parent": null,
+          "type": "public"
+        },
+        {
+          "name": "自变量机器人",
+          "ticker": null,
+          "parent": null,
+          "type": "private"
+        }
+      ],
+      "signal_type": "product",
+      "claim": "具身智能目前处于验证 Scaling Law 的“GPT-2阶段”，算力和数据堆叠被确认为唯一可靠路径。预计未来 1 到 2 年内，机器人大模型将迎来能力涌现的“GPT-3时刻”，实现强泛化与复杂任务处理，这将直接催化极大的端侧与云端算力硬件需求。",
+      "evidence_seg_ids": [
+        91,
+        93
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 91,
+          "quote": "现在是在GPT-2阶段，知道规模化它是唯一的一个可靠路径"
+        },
+        {
+          "seg_id": 93,
+          "quote": "大概一到两年的时间，我们完全可以达到 GPT-3 的这个水平"
+        }
+      ],
+      "impact_path": [
+        "可能加速资本对 AI 算力（特别是边缘推理芯片及高密度训练集群）和数据采集硬件产业链的投资",
+        "因为明确了未来1-2年的技术涌现时间表，且唯一路径是极其依赖算力的大规模端到端训练"
+      ],
+      "verification_steps": [
+        "观察未来四到六个季度内，头部机器人公司发布的通用基础模型是否展现出 Zero-shot（零样本）跨场景操作能力",
+        "监测主流机器人厂商的算力资本支出（Capex）指引是否在近两个季度出现激增"
+      ],
+      "confidence": "low",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:43:58",
+      "time_end": "00:45:49",
+      "start_seconds": 2638.0,
+      "end_seconds": 2749.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Covariant",
+          "ticker": null,
+          "parent": null,
+          "type": "private"
+        }
+      ],
+      "signal_type": "competition",
+      "claim": "曾试图探索通用机器人的头部初创企业 Covariant 受制于资金压力，已全面转向物流垂直场景商业化。这表明纯通用机器人研发面临极高的试错和资金壁垒，过早的短期变现会阻碍通用能力研发，市场资源将进一步向少数获得巨额融资的企业集中。",
+      "evidence_seg_ids": [
+        103,
+        105
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 103,
+          "quote": "他深耕了商业点所以做成了，但是他通用可能就没有做得那么好"
+        },
+        {
+          "seg_id": 105,
+          "quote": "在物流上面做得太成功了，大家记得他们时是另外一种模样了"
+        }
+      ],
+      "impact_path": [
+        "影响一级市场对“通用”与“垂直”两条机器人路线的估值和投资策略",
+        "反映了在缺乏突破性大模型进展前，试图兼顾通用泛化与短期营收的初创公司最终往往会蜕变为系统集成商或单一场景方案商"
+      ],
+      "verification_steps": [
+        "追踪北美一线 VC 过去三个月在具身智能赛道的注资情况，验证资金是否向 Pi 等拒绝短期商业化妥协的公司集中",
+        "调查类似 Covariant 的技术路线企业近期的核心营收构成是否仍单一依赖物流仓储客户"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "00:49:50",
+      "time_end": "00:51:55",
+      "start_seconds": 2990.0,
+      "end_seconds": 3115.0
+    },
+    {
+      "entities": [
+        {
+          "name": "iRobot",
+          "ticker": "IRBT",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "product",
+      "claim": "通用型家庭服务机器人距完全落地仍需较长时间。业内预测模型将在 2-3 年内具备处理半结构化简单厨务的能力，但推出能够处理开放复杂家庭环境的初步商业化产品（类似早期扫地机器人容错水平）仍需要 5 到 10 年的时间窗口。",
+      "evidence_seg_ids": [
+        129,
+        131,
+        134
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 129,
+          "quote": "两三年以内可以在半结构化环境里做些事，完全开放需要5年"
+        },
+        {
+          "seg_id": 134,
+          "quote": "5到10年应该非常有可能会做出一个偶尔出错但用户能接受的产品"
+        }
+      ],
+      "impact_path": [
+        "抑制二级市场对当前人形机器人或家庭陪伴机器人在 C 端（家庭）快速商业化变现的过高预期",
+        "因为完全开放场景的长尾 case 挑战极大，现阶段算法无法提供足够的鲁棒性以支撑稳定可靠的消费级产品线"
+      ],
+      "verification_steps": [
+        "跟踪扫地机器人/小家电公司是否开始将部分通用机械臂技术引入产品原型，测试其功能冗余",
+        "观察特斯拉 Optimus 等先发产品是否在近 2 年内完全局限于结构化工厂，而推迟 C 端发布"
+      ],
+      "confidence": "low",
+      "novelty": "low",
+      "actionability": "low",
+      "time_start": "01:01:50",
+      "time_end": "01:05:30",
+      "start_seconds": 3710.0,
+      "end_seconds": 3930.0
+    }
+  ]
+}

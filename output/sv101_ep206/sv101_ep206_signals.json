@@ -1,0 +1,250 @@
+{
+  "metadata": {
+    "source": "/Users/antonio/Desktop/podcast_juicer/output/sv101_ep206/206_transcript_gemini.json",
+    "method": "gemini_3_pro_full_context",
+    "model": "gemini-3.1-pro-preview",
+    "total_signals": 5,
+    "companies_mentioned": [
+      "BNY Mellon",
+      "Binance",
+      "BlackRock",
+      "Circle",
+      "Coinbase",
+      "Meta",
+      "Tether"
+    ],
+    "context_length": 33582,
+    "publish_date": null,
+    "record_date": null,
+    "podcast_id": "sv101",
+    "episode_id": "206"
+  },
+  "signals": [
+    {
+      "entities": [
+        {
+          "name": "Circle",
+          "ticker": null,
+          "type": "private"
+        },
+        {
+          "name": "Coinbase",
+          "ticker": "COIN",
+          "type": "public"
+        }
+      ],
+      "signal_type": "valuation",
+      "claim": "Circle 和 Coinbase 之间存在一份自动无限制续期的主合作协议，Coinbase 仅凭提供 22% 的储备量就能抽走 Circle 约 56% 的总收入作为推广费。这不仅极大地压制了 Circle IPO 的估值上限，同时也构成了规避 FIT21 法案禁止直接向用户支付利息的变相合规通道。",
+      "evidence_seg_ids": [
+        56,
+        61,
+        64
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 61,
+          "quote": "拿走了 Circle 收入的 56%"
+        },
+        {
+          "seg_id": 64,
+          "quote": "自动续三年，而且不限续期的次数"
+        }
+      ],
+      "impact_path": [
+        "压低 Circle 独立上市的估值倍数",
+        "因为大部分利润通过推广费名义转移给了 Coinbase，Coinbase 的利息收入具有极强的粘性和确定性"
+      ],
+      "verification_steps": [
+        "查阅 Circle 提交的 S-1 招股书附件中与 Coinbase 签署的主协议细则",
+        "观测 Coinbase 财报中 Stablecoin revenue 占 Circle 总储备利息收入的比例变化"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:31:02",
+      "time_end": "00:38:10",
+      "start_seconds": 1862.0,
+      "end_seconds": 2290.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Tether",
+          "ticker": null,
+          "type": "private"
+        }
+      ],
+      "signal_type": "risk",
+      "claim": "Tether 去年约 140 亿美元的净利润中，高达 70 亿美元来源于仅占总储备 18% 的“不合规”高风险资产（如比特币、黄金、企业借贷等）。未来美国《天才法案》(FIT21) 的长臂管辖极可能迫使 Tether 剥离这部分资产，否则将面临被踢出美元结算体系的清算风险。",
+      "evidence_seg_ids": [
+        20,
+        105,
+        112
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 112,
+          "quote": "剩下 18% 不合规的部分给她贡献了 70 亿"
+        },
+        {
+          "seg_id": 110,
+          "quote": "天才法案完全不允许你备付金里面持有比特币"
+        }
+      ],
+      "impact_path": [
+        "影响 Tether 长期超额盈利能力",
+        "被迫合规化将抹平 Tether 相较于 USDC 的高收益护城河，长臂管辖一旦触发可能引发稳定币市场洗牌"
+      ],
+      "verification_steps": [
+        "追踪美国参众两院 FIT21 法案（天才法案）最终条款中对离岸稳定币的管辖权认定",
+        "监控 Tether 季度储备证明（Attestation）中比特币和担保贷款敞口的缩减情况"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:10:50",
+      "time_end": "01:08:09",
+      "start_seconds": 650.0,
+      "end_seconds": 4089.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Meta",
+          "ticker": "META",
+          "type": "public"
+        },
+        {
+          "name": "Circle",
+          "ticker": null,
+          "type": "private"
+        }
+      ],
+      "signal_type": "product",
+      "claim": "受限于金融法规，Meta 无法自行发行稳定币，目前正与 USDC 等合规稳定币发行商开展深度谈判，计划率先在 Instagram 平台上落地创作者打赏等支付试点，Meta 将转型为类似于 Coinbase 的渠道推广商以抽取通道费用。",
+      "evidence_seg_ids": [
+        81
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 81,
+          "quote": "跟 USDC 和其他的合规稳定币在谈合作"
+        },
+        {
+          "seg_id": 81,
+          "quote": "先用 Instagram 做试点"
+        }
+      ],
+      "impact_path": [
+        "大幅拓宽 USDC 在 C 端消费场景的使用量",
+        "Meta 将通过稳定币支付网关获得全新的无风险通道抽成收入，且规避了金融牌照合规成本"
+      ],
+      "verification_steps": [
+        "监测 Instagram 创作者激励工具的代码更新及内部测试泄露",
+        "关注 Meta 开发者大会关于 Web3 支付整合的官方公告"
+      ],
+      "confidence": "low",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:40:59",
+      "time_end": "00:43:35",
+      "start_seconds": 2459.0,
+      "end_seconds": 2615.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Circle",
+          "ticker": null,
+          "type": "private"
+        },
+        {
+          "name": "BlackRock",
+          "ticker": "BLK",
+          "type": "public"
+        },
+        {
+          "name": "BNY Mellon",
+          "ticker": "BK",
+          "type": "public"
+        }
+      ],
+      "signal_type": "competition",
+      "claim": "经历了硅谷银行暴雷脱锚危机后，Circle 进行了彻底的去风险化操作，将绝大部分备付金托管至纽约梅隆银行，并与贝莱德签署了四年期的独家管理协议。该协议硬性规定贝莱德不仅要管理其 85% 的备付金，且在此期间不得发行或支持其他竞争性稳定币。",
+      "evidence_seg_ids": [
+        102
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 102,
+          "quote": "85% 的备付金都给你贝莱德管"
+        },
+        {
+          "seg_id": 102,
+          "quote": "不能自己做稳定币，也不能支持别的"
+        }
+      ],
+      "impact_path": [
+        "彻底锁死了传统资管巨头亲自下场发行稳定币的竞争空间",
+        "增强了 USDC 资产端的极端风险抵御能力，消除机构采用顾虑"
+      ],
+      "verification_steps": [
+        "查阅 Circle 披露的储备托管机构明细及与 BlackRock 的合作协议年限",
+        "确认 BlackRock 的代币化基金（如 BUIDL）是否排他性地支持 USDC"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "00:58:50",
+      "time_end": "01:01:30",
+      "start_seconds": 3530.0,
+      "end_seconds": 3690.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Binance",
+          "ticker": null,
+          "type": "private"
+        },
+        {
+          "name": "Coinbase",
+          "ticker": "COIN",
+          "type": "public"
+        }
+      ],
+      "signal_type": "competition",
+      "claim": "由于 Circle 在推广费分配上严重偏向 Coinbase（近 9 亿美元对比给币安的 6000 万美元），币安已放弃扶持 USDC，转而结盟特朗普家族背景的 USD1 稳定币。币安通过接受 21 亿美元的 MGX 投资全额采用 USD1 结算，人为制造了 USD1 的初期天量发行。",
+      "evidence_seg_ids": [
+        65,
+        81,
+        126
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 65,
+          "quote": "你给 Coinbase 9亿，那我为什么要帮你推"
+        },
+        {
+          "seg_id": 126,
+          "quote": "MGX 投资币安，21 亿美元，就是用 USD1 支付"
+        }
+      ],
+      "impact_path": [
+        "USDC 在全球最大离岸交易所的流动性与份额将受限",
+        "稳定币赛道出现基于政治站队与利益分配格局的阵营撕裂"
+      ],
+      "verification_steps": [
+        "监测 Binance 上 USD1/USDT 交易对的流动性注入及手续费减免政策",
+        "追踪链上数据核实大额 USD1 向币安热钱包的转移记录"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:37:50",
+      "time_end": "01:18:02",
+      "start_seconds": 2270.0,
+      "end_seconds": 4682.0
+    }
+  ]
+}

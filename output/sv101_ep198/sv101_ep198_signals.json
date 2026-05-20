@@ -1,0 +1,120 @@
+{
+  "metadata": {
+    "source": "/Users/antonio/Desktop/podcast_juicer/output/sv101_ep198/198_transcript_gemini.json",
+    "method": "gemini_3_pro_full_context",
+    "model": "gemini-3.1-pro-preview",
+    "total_signals": 2,
+    "companies_mentioned": [
+      "Amazon",
+      "Costco",
+      "Google",
+      "Meta"
+    ],
+    "context_length": 22141,
+    "publish_date": null,
+    "record_date": null,
+    "podcast_id": "sv101",
+    "episode_id": "198"
+  },
+  "signals": [
+    {
+      "entities": [
+        {
+          "name": "Meta",
+          "ticker": "META",
+          "parent": "Meta Platforms",
+          "type": "public"
+        },
+        {
+          "name": "Google",
+          "ticker": "GOOGL",
+          "parent": "Alphabet",
+          "type": "public"
+        },
+        {
+          "name": "Amazon",
+          "ticker": "AMZN",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "regulation",
+      "claim": "受特朗普政府禁止联邦采购考量DEI指标的新行政令影响，Meta、Google和Amazon等科技巨头正削减或终止其多元化招聘目标。此举旨在规避违规审查并保住联邦政府合同，反映出科技巨头面对政治压力迅速妥协的避险倾向。",
+      "evidence_seg_ids": [
+        5,
+        6,
+        7
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 6,
+          "quote": "Meta 和 Google 都已经援引联邦机构采购标准的变化"
+        },
+        {
+          "seg_id": 7,
+          "quote": "Meta 、 Amazon 都援引联邦政府的规定，在削减"
+        }
+      ],
+      "impact_path": [
+        "降低联邦政府相关业务的采购合规风险",
+        "新行政令明确要求联邦机构在采购决策中排除DEI指标，尽早取消该类目标可避免公司失去高价值的政府订单"
+      ],
+      "verification_steps": [
+        "查阅Meta、Google和Amazon最新更新的年度ESG报告和招聘政策声明",
+        "追踪联邦政府官方采购网站（SAM.gov）上上述企业的供应商合规状态变更"
+      ],
+      "confidence": "high",
+      "novelty": "low",
+      "actionability": "low",
+      "time_start": "00:02:22",
+      "time_end": "00:07:15",
+      "start_seconds": 142.0,
+      "end_seconds": 435.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Costco",
+          "ticker": "COST",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "risk",
+      "claim": "在科技巨头因合规压力削减DEI项目时，Costco仍逆势维持多元化议程。因特朗普新政明确要求司法部调查“最恶劣的DEI从业者”，Costco的逆向操作使其面临潜在的民事合规审查风险，并可能引发保守派的政治抵制。",
+      "evidence_seg_ids": [
+        5,
+        7
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 5,
+          "quote": "确定每个相关领域当中最恶劣的 DEI 从业者"
+        },
+        {
+          "seg_id": 7,
+          "quote": "存在一部分公司还在继续支持他的 DEI 的议程"
+        },
+        {
+          "seg_id": 7,
+          "quote": "最近一段时间里比较出名的是 Costco"
+        }
+      ],
+      "impact_path": [
+        "可能面临美国司法部的民事调查及品牌声誉受损",
+        "特朗普行政令直接指示针对坚持DEI的企业采取法律行动，Costco因其显著的坚持立场容易成为右翼文化战争的靶子"
+      ],
+      "verification_steps": [
+        "监测美国司法部（DOJ）近期发布的民事调查名单是否包含Costco",
+        "观察保守派媒体和政客群体是否开始针对Costco发起系统性的舆论攻击或抵制活动"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "00:02:22",
+      "time_end": "00:07:15",
+      "start_seconds": 142.0,
+      "end_seconds": 435.0
+    }
+  ]
+}

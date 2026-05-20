@@ -1,0 +1,266 @@
+{
+  "metadata": {
+    "source": "/Users/antonio/Desktop/podcast_juicer_sv101/output/sv101_ep194/194_transcript_gemini.json",
+    "method": "gemini_3_pro_full_context",
+    "model": "gemini-3.1-pro-preview",
+    "total_signals": 6,
+    "companies_mentioned": [
+      "Alphabet",
+      "Amazon",
+      "Atom Computing",
+      "IBM",
+      "IonQ",
+      "Microsoft",
+      "QuEra",
+      "Rigetti"
+    ],
+    "context_length": 24542,
+    "publish_date": "2025-03-25",
+    "record_date": "",
+    "podcast_id": "sv101",
+    "episode_id": "194"
+  },
+  "signals": [
+    {
+      "entities": [
+        {
+          "name": "Microsoft",
+          "ticker": "MSFT",
+          "type": "public"
+        },
+        {
+          "name": "Alphabet",
+          "ticker": "GOOGL",
+          "type": "public"
+        }
+      ],
+      "signal_type": "competition",
+      "claim": "微软拓扑量子路线（马约拉纳零模）具天然抗噪优势，少许逻辑比特即可媲美谷歌百个物理比特。但该技术在学术界面临数据真实性争议，属高风险高回报路线，而谷歌超导成熟度目前领先。",
+      "evidence_seg_ids": [
+        11,
+        16,
+        19,
+        21
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 19,
+          "quote": "业界也比较谨慎，期待微软进一步公布更多的数据"
+        }
+      ],
+      "impact_path": [
+        "影响市场对微软量子硬件突破的预期估值",
+        "微软的路线如果被证实为假信号，资本将进一步向谷歌等超导路线集中"
+      ],
+      "verification_steps": [
+        "观察微软后续发布的新实验数据是否有实锤",
+        "跟踪是否有独立第三方实验室交叉验证马约拉纳零模"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "00:05:22",
+      "time_end": "00:13:56",
+      "start_seconds": 322.0,
+      "end_seconds": 836.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Amazon",
+          "ticker": "AMZN",
+          "type": "public"
+        }
+      ],
+      "signal_type": "product",
+      "claim": "亚马逊最新发布5个逻辑比特的Ocelot芯片，采用“猫态”技术大幅增强抗噪能力，使其寿命达到秒级，比传统量子比特稳定性提升千倍，展示了独特的低纠错成本商业潜能。",
+      "evidence_seg_ids": [
+        24,
+        25,
+        26,
+        30
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 24,
+          "quote": "稳定性比以前的稳定性好了 1000 倍左右"
+        }
+      ],
+      "impact_path": [
+        "提升亚马逊在量子硬件层面的技术话语权",
+        "通过减少物理纠错压力，可能缩短亚马逊提供高可用量子云服务的时间表"
+      ],
+      "verification_steps": [
+        "关注亚马逊Braket云平台上Ocelot芯片的开放使用反馈",
+        "跟踪其猫态逻辑比特扩容至几十个规模的研发时间表"
+      ],
+      "confidence": "high",
+      "novelty": "low",
+      "actionability": "low",
+      "time_start": "00:14:03",
+      "time_end": "00:17:19",
+      "start_seconds": 843.0,
+      "end_seconds": 1039.0
+    },
+    {
+      "entities": [
+        {
+          "name": "IonQ",
+          "ticker": "IONQ",
+          "type": "public"
+        },
+        {
+          "name": "Atom Computing",
+          "ticker": null,
+          "type": "private"
+        }
+      ],
+      "signal_type": "competition",
+      "claim": "离子阱路线（如IonQ）误码率极低但规模扩展受限且运算慢；中性原子路线易于扩展千个比特且控制灵活。两者的物理瓶颈将导致它们在商业化落地场景上产生明显的分化。",
+      "evidence_seg_ids": [
+        34,
+        37,
+        38,
+        41,
+        42
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 37,
+          "quote": "误码率可以比超导量子比特和中性原子比特都要低很多"
+        }
+      ],
+      "impact_path": [
+        "制约纯离子阱标的（IonQ）的长期估值天花板",
+        "因为其难以依靠单设备实现全局纠缠，必须依赖多芯片互联来突破扩展瓶颈"
+      ],
+      "verification_steps": [
+        "跟踪IonQ在32个量子比特之后的下一代扩展架构是否遭遇瓶颈",
+        "关注中性原子阵营在误码率层面的最新学术突破指标"
+      ],
+      "confidence": "high",
+      "novelty": "low",
+      "actionability": "high",
+      "time_start": "00:17:36",
+      "time_end": "00:24:31",
+      "start_seconds": 1056.0,
+      "end_seconds": 1471.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Rigetti",
+          "ticker": "RGTI",
+          "type": "public"
+        },
+        {
+          "name": "IBM",
+          "ticker": "IBM",
+          "type": "public"
+        }
+      ],
+      "signal_type": "competition",
+      "claim": "区别于谷歌IBM主攻单芯片规模的Transmon路线，Rigetti结合Flexon专注模块化与多芯片互联。此策略在分布式计算具差异化优势，但总线带宽将成为其核心技术压制点。",
+      "evidence_seg_ids": [
+        67,
+        69,
+        71
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 69,
+          "quote": "重视怎么去建立量子芯片之间的连接"
+        }
+      ],
+      "impact_path": [
+        "Rigetti可能在特定需要并行计算的小规模场景实现弯道超车",
+        "但面对复杂全局算法，其跨芯片总线数据传输效率可能导致性能大幅落后"
+      ],
+      "verification_steps": [
+        "观测Rigetti发布的多芯片互联系统的跨芯片带宽测试数据",
+        "对比其在复杂全局算法任务上与谷歌单芯片的效率差异"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:34:51",
+      "time_end": "00:37:47",
+      "start_seconds": 2091.0,
+      "end_seconds": 2267.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Alphabet",
+          "ticker": "GOOGL",
+          "type": "public"
+        }
+      ],
+      "signal_type": "product",
+      "claim": "谷歌DeepMind成功利用AI在真实设备数据中设计出量子纠错算法，证明真实环境数据驱动的AI方案优于人类理论设计，将极大加速谷歌超导硬件克服噪声瓶颈的商业化进度。",
+      "evidence_seg_ids": [
+        88,
+        89,
+        90
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 88,
+          "quote": "实际的数据进行训练的话，就能得到一个更好的纠错方案"
+        }
+      ],
+      "impact_path": [
+        "强化谷歌量子体系的技术护城河",
+        "通过AI自动化纠错，使得谷歌达到百万级物理比特以实现商业化应用的时间大幅缩短"
+      ],
+      "verification_steps": [
+        "跟踪DeepMind与Quantum AI联合发布的下一代表面码纠错率",
+        "观察谷歌软硬件协同架构下逻辑比特生成的转化率提升情况"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "00:46:50",
+      "time_end": "00:50:10",
+      "start_seconds": 2810.0,
+      "end_seconds": 3010.0
+    },
+    {
+      "entities": [
+        {
+          "name": "QuEra",
+          "ticker": null,
+          "type": "private"
+        }
+      ],
+      "signal_type": "product",
+      "claim": "尽管通用容错量子计算需10至15年落地，但QuEra等在图论组合优化及材料模拟应用上已展示出超越经典的优势。此类无须完全纠错的特定场景将率先实现垂直行业的商业化变现。",
+      "evidence_seg_ids": [
+        114,
+        129,
+        157
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 129,
+          "quote": "用他们的量子计算机去显示说比经典计算机要更加有效"
+        }
+      ],
+      "impact_path": [
+        "短期内刺激专注于量子模拟和特定优化问题初创公司的在一级市场的估值",
+        "使得金融投研和制药巨头提早介入量子算法的购买和部署"
+      ],
+      "verification_steps": [
+        "关注QuEra等初创企业与金融/化工领域客户签订的To-B合作订单数量",
+        "测试相关量子优化算法在真实业务场景中相比经典计算的成本节约率"
+      ],
+      "confidence": "high",
+      "novelty": "low",
+      "actionability": "low",
+      "time_start": "00:54:56",
+      "time_end": "01:15:28",
+      "start_seconds": 3296.0,
+      "end_seconds": 4528.0
+    }
+  ]
+}

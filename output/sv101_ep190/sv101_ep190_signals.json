@@ -1,0 +1,242 @@
+{
+  "metadata": {
+    "source": "/Users/antonio/Desktop/podcast_juicer/output/sv101_ep190/190_transcript_gemini.json",
+    "method": "gemini_3_pro_full_context",
+    "model": "gemini-3.1-pro-preview",
+    "total_signals": 5,
+    "companies_mentioned": [
+      "JPMorgan Chase & Co.",
+      "Mastercard",
+      "Northern Data AG",
+      "Paxos",
+      "PayPal Holdings, Inc.",
+      "Rumble Inc.",
+      "Tether",
+      "Visa"
+    ],
+    "context_length": 33337,
+    "publish_date": null,
+    "record_date": null,
+    "podcast_id": "sv101",
+    "episode_id": "190"
+  },
+  "signals": [
+    {
+      "entities": [
+        {
+          "name": "Northern Data AG",
+          "ticker": "NB2.DE",
+          "type": "public"
+        },
+        {
+          "name": "Tether",
+          "ticker": null,
+          "type": "private"
+        }
+      ],
+      "signal_type": "capital_action",
+      "claim": "Tether 正在通过巨额资本运作将其业务从稳定币拓展至 AI 算力基础设施，目前已斥资约 4.3 亿美元收购了德国上市公司 Northern Data 的大量股份并成为其最大股东，推动该公司从比特币挖矿全面转型为基于英伟达 H100 的 AI 云计算服务商。",
+      "evidence_seg_ids": [
+        186,
+        188,
+        190,
+        191
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 190,
+          "quote": "Tether 已经是德国这家上市公司 Northern Data 的最大的股东"
+        }
+      ],
+      "impact_path": [
+        "Northern Data 的估值逻辑将从加密货币挖矿股彻底转变为 AI 算力概念股",
+        "Tether 的巨额无抵押贷款和注资直接为其提供了采购昂贵 AI 硬件（英伟达 GPU）的资本壁垒"
+      ],
+      "verification_steps": [
+        "查阅 Northern Data 的股东结构披露确认 Tether 的持股比例",
+        "追踪 Northern Data 最新财报中的资本支出（Capex）及英伟达 GPU 集群的部署和收入占比"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "01:14:40",
+      "time_end": "01:17:14",
+      "start_seconds": 4480.0,
+      "end_seconds": 4634.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Rumble Inc.",
+          "ticker": "RUM",
+          "type": "public"
+        },
+        {
+          "name": "Tether",
+          "ticker": null,
+          "type": "private"
+        }
+      ],
+      "signal_type": "capital_action",
+      "claim": "美国右翼视频平台 Rumble 在获得 Tether 约 7.75 亿美元的巨额投资后，正加速向加密货币概念股转变，计划动用公司财库资金购买比特币，并推出支持 BTC 和 USDT 的加密钱包，打造独立于传统科技巨头的打赏与支付闭环。",
+      "evidence_seg_ids": [
+        202,
+        204,
+        206,
+        214
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 206,
+          "quote": "Tether 花了 7.75 亿美元买了这网站的一些股权"
+        },
+        {
+          "seg_id": 214,
+          "quote": "最近他们也宣布了，他们要用公司的财库的资金购买比特币"
+        }
+      ],
+      "impact_path": [
+        "Rumble 的股票将具备明显的比特币价格高 Beta 属性（类似 MicroStrategy 的早期逻辑）",
+        "由于特朗普支持者的大量涌入和加密货币打赏机制的引入，可能显著提升其平台的 ARPU 和资金流转量"
+      ],
+      "verification_steps": [
+        "查询 Rumble 向 SEC 提交的 8-K 文件，核实其资产负债表中的比特币购买记录和数量",
+        "跟踪 Rumble 平台加密钱包功能的上线时间线及实际用户转化率"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "01:19:50",
+      "time_end": "01:23:03",
+      "start_seconds": 4790.0,
+      "end_seconds": 4983.0
+    },
+    {
+      "entities": [
+        {
+          "name": "JPMorgan Chase & Co.",
+          "ticker": "JPM",
+          "type": "public"
+        },
+        {
+          "name": "Visa",
+          "ticker": "V",
+          "type": "public"
+        },
+        {
+          "name": "Mastercard",
+          "ticker": "MA",
+          "type": "public"
+        }
+      ],
+      "signal_type": "competition",
+      "claim": "区块链与稳定币技术正实质性威胁传统支付网络（如 Visa 和 Mastercard）的高手续费商业模式。以摩根大通为代表的传统银行已在内部许可链上实现每日万亿美元级别的结算，一旦美国稳定币法案落地，传统机构将快速接入公链重塑全球金融结算底层。",
+      "evidence_seg_ids": [
+        144,
+        146,
+        163,
+        167
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 146,
+          "quote": "已经在处理一天可能上万亿美金的结算量"
+        }
+      ],
+      "impact_path": [
+        "Visa 和 Mastercard 等中间清算网络的长期市占率和利润率可能受到去中心化/稳定币点对点支付的严重挤压",
+        "大型投行（如摩根大通）由于采用区块链结算，资金沉淀成本大幅降低，运营效率显著提升"
+      ],
+      "verification_steps": [
+        "监测美国国会《稳定币法案》的立法进度及华尔街银行的公开支持立场",
+        "跟踪 Visa 和 Mastercard 在公链稳定币结算领域的防御性投资和试点数据"
+      ],
+      "confidence": "high",
+      "novelty": "low",
+      "actionability": "low",
+      "time_start": "01:01:58",
+      "time_end": "01:10:34",
+      "start_seconds": 3718.0,
+      "end_seconds": 4234.0
+    },
+    {
+      "entities": [
+        {
+          "name": "PayPal Holdings, Inc.",
+          "ticker": "PYPL",
+          "type": "public"
+        },
+        {
+          "name": "Paxos",
+          "ticker": null,
+          "type": "private"
+        }
+      ],
+      "signal_type": "product",
+      "claim": "PayPal 正通过与合规基础设施提供商 Paxos 合作，在 Solana 和以太坊等公链上大力推广其自有稳定币 PYUSD，试图利用其现有庞大的 C 端网络在非许可的加密货币支付领域抢占市场份额。",
+      "evidence_seg_ids": [
+        147,
+        148,
+        157
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 147,
+          "quote": "PayPal 已经发行了自己的稳定币 PYUSD"
+        }
+      ],
+      "impact_path": [
+        "PYUSD 的普及可能为 PayPal 开辟新的利息收入来源（类似 Tether 的国债生息模式），并增强其在全球跨境支付中的竞争力",
+        "成功推广将证明传统 Web2 支付巨头能有效向 Web3 支付模式迁移"
+      ],
+      "verification_steps": [
+        "通过链上数据（如 DefiLlama）追踪 PYUSD 的总发行量及增速",
+        "查阅 PayPal 财报中关于 PYUSD 储备金收益对公司净利润的实际贡献"
+      ],
+      "confidence": "high",
+      "novelty": "low",
+      "actionability": "low",
+      "time_start": "01:04:40",
+      "time_end": "01:07:10",
+      "start_seconds": 3880.0,
+      "end_seconds": 4030.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Tether",
+          "ticker": null,
+          "type": "private"
+        }
+      ],
+      "signal_type": "other",
+      "claim": "随着美元稳定币规模突破 2000 亿美元，Tether 已成为美国国债前 20 大持有者（超 1000 亿美元）。这种基于链上的美元化趋势实质上是在为美国政府提供巨额非价格敏感型融资，结构性地压低了美债收益率。",
+      "evidence_seg_ids": [
+        104,
+        229,
+        230
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 230,
+          "quote": "如果没有泰达这个上千亿美元的去买，美国国债会出现资金缺口"
+        }
+      ],
+      "impact_path": [
+        "稳定币的持续扩张将成为美债的稳定买盘，增强美国在宏观层面对加密行业的容忍度甚至支持意愿",
+        "削弱其他主权国家（如中、韩、欧）的资本管制能力，引发防御性区域稳定币（如欧元稳定币）的加速发行"
+      ],
+      "verification_steps": [
+        "定期查阅 Tether 发布的由 BDO 出具的季度储备金审计证明",
+        "对比美国财政部 TIC 数据中主权国家减持趋势与稳定币美债持仓的对冲效应"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "00:49:20",
+      "time_end": "01:28:32",
+      "start_seconds": 2960.0,
+      "end_seconds": 5312.0
+    }
+  ]
+}

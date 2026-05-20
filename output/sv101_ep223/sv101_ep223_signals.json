@@ -1,0 +1,168 @@
+{
+  "metadata": {
+    "source": "output/sv101_ep223/223_transcript_gemini.json",
+    "method": "gemini_3_pro_full_context",
+    "model": "gemini-3.1-pro-preview",
+    "total_signals": 3,
+    "companies_mentioned": [
+      "PSA",
+      "The Pokemon Company",
+      "保粹",
+      "卡游"
+    ],
+    "context_length": 18891,
+    "publish_date": "2025-11-06",
+    "record_date": "",
+    "podcast_id": "sv101",
+    "episode_id": "223"
+  },
+  "signals": [
+    {
+      "entities": [
+        {
+          "name": "卡游",
+          "ticker": null,
+          "parent": null,
+          "type": "private"
+        }
+      ],
+      "signal_type": "competition",
+      "claim": "正在冲刺IPO的卡游具备极强的渠道铺货与供应链能力，通过快速套用热门IP实现规模变现，但由于受众极度低龄化，缺乏深度的文化沉淀与高净值用户。为打破增长天花板，卡游近期开始切入成人向及体育市场（如NBA、英雄联盟）并尝试出海，这不仅是其全年龄段转型的关键，也将直接决定其IPO的估值上限与长期商业壁垒。",
+      "evidence_seg_ids": [
+        189,
+        190,
+        194,
+        196,
+        199,
+        202
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 190,
+          "quote": "其实是一个搬运 IP，然后对接我成熟的经验、生产渠道"
+        },
+        {
+          "seg_id": 194,
+          "quote": "小学五六年级以前和上大学以后，中间那段人的消费能力...不在卡牌"
+        },
+        {
+          "seg_id": 202,
+          "quote": "马上要发英雄联盟的卡牌在国外发...算是中国卡牌在海外的第一枪"
+        }
+      ],
+      "impact_path": [
+        "影响卡游（Kayou）在私募市场或未来IPO的估值逻辑",
+        "市场将从关注其下沉渠道的铺货量，转向评估其在成人高净值玩家群体及海外市场的IP运营渗透率"
+      ],
+      "verification_steps": [
+        "追踪卡游10月份新发售的NBA球星卡在二级市场的流通溢价及评级数量",
+        "监测其《英雄联盟》卡牌在北美等海外市场的发售渠道铺货率及终端玩家评价"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:48:20",
+      "time_end": "00:53:10",
+      "start_seconds": 2900.0,
+      "end_seconds": 3190.0
+    },
+    {
+      "entities": [
+        {
+          "name": "The Pokemon Company",
+          "ticker": "NTDOY",
+          "parent": "Nintendo",
+          "type": "public"
+        }
+      ],
+      "signal_type": "competition",
+      "claim": "宝可梦卡牌在中国线下零售终端形成了极强的渠道排他性与统治力。近期通过推出中国独占卡以及错乱封装策略，有效提振了市场热度与开卡回报率。由于宝可梦卡牌具有最高的单店利润贡献率，线下实体店被迫将最优质的陈列位、比赛资源和时间向其倾斜，这在很大程度上挤压了其他竞品TCG卡牌的生存空间，形成深厚的商业护城河。",
+      "evidence_seg_ids": [
+        103,
+        167,
+        169,
+        170
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 103,
+          "quote": "把已知产品错乱封装...加很多独占卡...今年宝可梦热度还是非常高"
+        },
+        {
+          "seg_id": 169,
+          "quote": "最好的时间、座位、资源都留给宝可梦，因为宝可梦挣钱，养活了这家店"
+        }
+      ],
+      "impact_path": [
+        "巩固任天堂及宝可梦IP在中国乃至全球衍生品市场的长期变现能力与营收增长",
+        "通过高利润率死死绑定线下实体渠道网络，构筑起阻击其他卡牌游戏抢占市场份额的物理壁垒"
+      ],
+      "verification_steps": [
+        "草根调研国内核心卡牌店铺中，宝可梦产品与竞品（如游戏王、万智牌）的销售额占比及陈列面积比",
+        "观测宝可梦“151系列”等中国区独占卡牌在二手交易平台的价格走势及交易活跃度"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:33:15",
+      "time_end": "00:44:19",
+      "start_seconds": 1995.0,
+      "end_seconds": 2659.0
+    },
+    {
+      "entities": [
+        {
+          "name": "PSA",
+          "ticker": null,
+          "parent": "Collectors Universe",
+          "type": "private"
+        },
+        {
+          "name": "保粹",
+          "ticker": null,
+          "parent": null,
+          "type": "private"
+        }
+      ],
+      "signal_type": "supply_chain",
+      "claim": "卡牌评级与鉴定机构是当前卡牌投资热潮中利润确定性最高的“卖水人”环节。这些机构不仅通过打分（如10分完美品相）人为制造稀缺性，大幅拉升卡牌溢价，还利用当前严重的供需失衡，通过设置极大的服务时间差（如10天加急与50天普通排队）收取高额阶梯费用，处于无需承担卡价波动风险的“躺赚”状态，正吸引传统古币评级公司跨界抢占份额。",
+      "evidence_seg_ids": [
+        105,
+        108,
+        118,
+        122,
+        128,
+        130
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 118,
+          "quote": "牌的价格越贵，它收的钱越贵...50天内评出来和10天内评出来不是一个价"
+        },
+        {
+          "seg_id": 128,
+          "quote": "他们真的是躺着赚"
+        },
+        {
+          "seg_id": 130,
+          "quote": "保利保粹这些原来做那种古钱币评级的...现在也来评卡牌"
+        }
+      ],
+      "impact_path": [
+        "带动评级与鉴定服务产业链的营收爆发，行业内可能出现垂直整合与并购",
+        "提供鉴定服务的平台具有极强的现金流和议价权，因为其服务已成为高价值卡牌流通的必须前置条件"
+      ],
+      "verification_steps": [
+        "追踪国际头部评级机构PSA及国内保粹等机构的待处理订单量(积压量)及加急服务费率调整公告",
+        "观察一级市场对卡牌/潮玩鉴定评级赛道的投融资事件及估值变化"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "00:34:15",
+      "time_end": "00:37:44",
+      "start_seconds": 2055.0,
+      "end_seconds": 2264.0
+    }
+  ]
+}

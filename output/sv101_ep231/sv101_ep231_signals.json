@@ -1,0 +1,276 @@
+{
+  "metadata": {
+    "source": "output/sv101_ep231/231_transcript_gemini.json",
+    "method": "gemini_3_pro_full_context",
+    "model": "gemini-3.1-pro-preview",
+    "total_signals": 6,
+    "companies_mentioned": [
+      "Alphabet Inc.",
+      "Anthropic",
+      "DeepSeek",
+      "JPMorgan Chase & Co.",
+      "Meta Platforms",
+      "OpenAI"
+    ],
+    "context_length": 16599,
+    "publish_date": "2026-01-14",
+    "record_date": "",
+    "podcast_id": "sv101",
+    "episode_id": "231"
+  },
+  "signals": [
+    {
+      "entities": [
+        {
+          "name": "JPMorgan Chase & Co.",
+          "ticker": "JPM",
+          "type": "public"
+        }
+      ],
+      "signal_type": "demand",
+      "claim": "摩根大通的AI部署预算已超美国排名前十其他银行总和，且决策极快，数月内签下大单。这反映金融巨头正以极高投入加速垂直领域AI的实际落地，验证了B端AI SaaS的商业化拐点，将强力拉动底层算力和云厂商的业绩增长，具备极强确定性。",
+      "evidence_seg_ids": [
+        1,
+        43
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 43,
+          "quote": "预算比剩下其他的排名前十的银行的总和还要高"
+        }
+      ],
+      "impact_path": [
+        "推动垂直领域B端AI初创公司估值的快速上升",
+        "直接拉动为金融机构提供私有化部署和数据合规处理的云服务商收入"
+      ],
+      "verification_steps": [
+        "核对JPM近期财报中关于IT与AI基础设施CapEx指引的增长比例",
+        "追踪JPM与AI初创公司的合作公告以及相关云端供应商的订单量化数据"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:01:58",
+      "time_end": "00:37:55",
+      "start_seconds": 118.0,
+      "end_seconds": 2275.0
+    },
+    {
+      "entities": [
+        {
+          "name": "DeepSeek",
+          "ticker": null,
+          "type": "private"
+        },
+        {
+          "name": "OpenAI",
+          "ticker": null,
+          "type": "private"
+        }
+      ],
+      "signal_type": "competition",
+      "claim": "DeepSeek等开源模型打破了“基础模型将被四五家美国巨头垄断”的共识，证明小算力代价也能做出顶级模型。这大幅降低了企业端部署成本，意味着OpenAI等头部玩家的护城河正被削弱，底层模型趋于商品化，闭源大模型估值逻辑面临重估。",
+      "evidence_seg_ids": [
+        2,
+        3
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 3,
+          "quote": "并不是说我们2024年认为的这五家四家大厂所垄断"
+        }
+      ],
+      "impact_path": [
+        "压制闭源大模型公司（如OpenAI和Anthropic）的估值溢价与长期定价权",
+        "推动企业级市场广泛采用开源微调模型，降低全行业AI应用落地的推理成本"
+      ],
+      "verification_steps": [
+        "观测美国财富500强企业中企业级开源大模型（如Llama/DeepSeek）的部署采用比例",
+        "对比主流闭源API接口单token成本的后续降价幅度"
+      ],
+      "confidence": "high",
+      "novelty": "low",
+      "actionability": "low",
+      "time_start": "00:04:15",
+      "time_end": "00:06:38",
+      "start_seconds": 255.0,
+      "end_seconds": 398.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Alphabet Inc.",
+          "ticker": "GOOGL",
+          "type": "public"
+        },
+        {
+          "name": "OpenAI",
+          "ticker": null,
+          "type": "private"
+        }
+      ],
+      "signal_type": "competition",
+      "claim": "谷歌凭借Gemini确立了系统级AI的长期竞争优势。不同于仅拼算力的模型战，谷歌拥有极强的数据清洗能力与真实用户反馈闭环。目前其模型训练成本仅为OpenAI的不到30%，这种结构性降本优势将在后续规模战中显著拉高其AI业务的毛利水平。",
+      "evidence_seg_ids": [
+        11,
+        14,
+        30
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 14,
+          "quote": "谷歌还有一点优势是它的闭环，真实世界的一个用户反馈"
+        },
+        {
+          "seg_id": 30,
+          "quote": "他的训练的成本可能是OpenAI的不到30%"
+        }
+      ],
+      "impact_path": [
+        "提升谷歌在AI军备竞赛中的中长期胜率，修复市场对其AI落后预期的估值折价",
+        "基于成本优势，谷歌有望在B端云服务市场加速抢占OpenAI的商业化份额"
+      ],
+      "verification_steps": [
+        "在谷歌季度财报中拆解Google Cloud内AI贡献的收入增速与利润率变化",
+        "持续跟踪开发者平台中Gemini API调用量占比的环比增长趋势"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:11:32",
+      "time_end": "00:27:30",
+      "start_seconds": 692.0,
+      "end_seconds": 1650.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Meta Platforms",
+          "ticker": "META",
+          "type": "public"
+        }
+      ],
+      "signal_type": "risk",
+      "claim": "Meta过度重应用而轻底层推理模型的战略调整，导致其大模型表现掉出第一梯队。其近期斥资20-30亿美元火速收购中国团队Manas，凸显急于在应用端变现的焦虑。若长期缺乏自主可控的底层能力，Meta未来在基建层受制于人，估值可能长期承压。",
+      "evidence_seg_ids": [
+        16,
+        17,
+        21,
+        22
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 16,
+          "quote": "Meta收购了中国团队Manas"
+        },
+        {
+          "seg_id": 17,
+          "quote": "AI这边是从整个第一梯队完全掉下来了"
+        }
+      ],
+      "impact_path": [
+        "高昂的应用端并购支出若无法快速商业化，将直接拖累公司当期现金流及盈利预期",
+        "底层AI技术受制于竞争对手，可能削弱其产品核心竞争力并压制长期PE倍数"
+      ],
+      "verification_steps": [
+        "跟踪Manas团队整合后推出的具体应用产品的DAU/MAU留存活跃数据",
+        "关注下一代Llama模型发布后的实际市场推理表现及内部研发高管人员变动"
+      ],
+      "confidence": "low",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "00:16:50",
+      "time_end": "00:22:25",
+      "start_seconds": 1010.0,
+      "end_seconds": 1345.0
+    },
+    {
+      "entities": [
+        {
+          "name": "OpenAI",
+          "ticker": null,
+          "type": "private"
+        },
+        {
+          "name": "Alphabet Inc.",
+          "ticker": "GOOGL",
+          "type": "public"
+        }
+      ],
+      "signal_type": "valuation",
+      "claim": "OpenAI面临严峻的财务与竞争危机。因算力成本高昂、缺乏清晰盈利路径，加之其开发者及企业API份额正大量流失至Gemini等对手，导致基本面恶化。在规划转为营利性公司冲刺上市时，二级市场极可能无法支撑其当前的超高私募估值预期。",
+      "evidence_seg_ids": [
+        28,
+        29,
+        30
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 30,
+          "quote": "最新的这个batch大部分用的都是Gemini的API"
+        }
+      ],
+      "impact_path": [
+        "OpenAI在一级市场的估值泡沫面临破裂或在IPO阶段遭受严重定价降级",
+        "作为OpenAI底层算力捆绑方，微软Azure在AI相关增量收入上的兑现能力或不及预期"
+      ],
+      "verification_steps": [
+        "调研核心头部开发者（如YC孵化企业群）API调用接口转换至Gemini的留存流失率",
+        "跟踪泄漏的OpenAI私募融资财务报表，特别是利润空间和API调用边际成本的变化"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:24:50",
+      "time_end": "00:27:30",
+      "start_seconds": 1490.0,
+      "end_seconds": 1650.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Anthropic",
+          "ticker": null,
+          "type": "private"
+        },
+        {
+          "name": "OpenAI",
+          "ticker": null,
+          "type": "private"
+        }
+      ],
+      "signal_type": "competition",
+      "claim": "Anthropic凭借高度聚焦企业服务与高合规要求，正迅速蚕食B端市场，预计年内将在企业API调用量上彻底反超OpenAI。同时其免受单一云厂商绑定的灵活架构使其更具成本优势。这使其商业化确定性更高，未来IPO极具估值吸引力。",
+      "evidence_seg_ids": [
+        35,
+        38,
+        39
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 35,
+          "quote": "企业服务API这件事情到今年是铁板钉钉的事情"
+        },
+        {
+          "seg_id": 38,
+          "quote": "它并没有绑定到某一个云平台上"
+        }
+      ],
+      "impact_path": [
+        "确立Anthropic在B端大模型中的主导地位，大幅提升其一级市场与预期IPO估值",
+        "迫使OpenAI在企业端进行剧烈的价格战以挽留客户，拉低全行业基础模型利润率"
+      ],
+      "verification_steps": [
+        "统计《财富》500强企业中，采用Anthropic作为主力安全大模型供应商的绝对比例",
+        "观察Anthropic对各大云平台（AWS, GCP）的算力开支结构及其多云调度效率"
+      ],
+      "confidence": "low",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "00:29:44",
+      "time_end": "00:35:25",
+      "start_seconds": 1784.0,
+      "end_seconds": 2125.0
+    }
+  ]
+}

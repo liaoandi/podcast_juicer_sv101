@@ -1,0 +1,232 @@
+{
+  "metadata": {
+    "source": "output/sv101_ep228/228_transcript_gemini.json",
+    "method": "gemini_3_pro_full_context",
+    "model": "gemini-3.1-pro-preview",
+    "total_signals": 5,
+    "companies_mentioned": [
+      "HBO Max",
+      "Netflix",
+      "Paramount Global",
+      "Warner Bros. Discovery"
+    ],
+    "context_length": 20735,
+    "publish_date": "2025-12-14",
+    "record_date": "",
+    "podcast_id": "sv101",
+    "episode_id": "228"
+  },
+  "signals": [
+    {
+      "entities": [
+        {
+          "name": "Netflix",
+          "ticker": "NFLX",
+          "type": "public"
+        },
+        {
+          "name": "Warner Bros. Discovery",
+          "ticker": "WBD",
+          "type": "public"
+        }
+      ],
+      "signal_type": "capital_action",
+      "claim": "Netflix 对 WBD 的收购只涉及华纳影视工作室、HBO/Max 内容库及 DC 游戏部门，剥离了传统有线电视网络和新闻业务。此举使 Netflix 避免了不良资产拖累，同时由于不涉及新闻舆论，大幅降低了反垄断审查中的政治敏感风险。",
+      "evidence_seg_ids": [
+        7,
+        8,
+        9,
+        11
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 8,
+          "quote": "有线电视媒体的部门给拆分出来"
+        }
+      ],
+      "impact_path": [
+        "提升了并购审查通过的概率，改善长远现金流预期",
+        "剥离新闻业务规避了政府可能施加的政治压力"
+      ],
+      "verification_steps": [
+        "查阅并购协议中资产分拆的具体清单",
+        "跟踪联邦贸易委员会(FTC)对合并案反垄断立案的切入点"
+      ],
+      "confidence": "high",
+      "novelty": "low",
+      "actionability": "high",
+      "time_start": "00:03:06",
+      "time_end": "00:06:40",
+      "start_seconds": 186.0,
+      "end_seconds": 400.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Netflix",
+          "ticker": "NFLX",
+          "type": "public"
+        },
+        {
+          "name": "Warner Bros. Discovery",
+          "ticker": "WBD",
+          "type": "public"
+        }
+      ],
+      "signal_type": "regulation",
+      "claim": "合并案的反垄断审查面临市场定义的争议，监管方可能视其为流媒体垄断。但即便交易被否，Netflix 虽需支付58亿美元分手费，却也能在长达1-2年的审查期内冻结 WBD 的战略调整，严重削弱核心竞争对手的流媒体转型步伐。",
+      "evidence_seg_ids": [
+        15,
+        16,
+        21
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 15,
+          "quote": "可以把 WBD 的业务给冷冻住"
+        }
+      ],
+      "impact_path": [
+        "即便并购失败，Netflix 也能获得压制竞对的战略收益",
+        "WBD 长期处于战略瘫痪状态，HBO Max 发展受限"
+      ],
+      "verification_steps": [
+        "关注并购案提交后的审查时间表及监管方诉状定义的市场范围",
+        "追踪合并协议中的分手费条款和触发条件"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:10:50",
+      "time_end": "00:17:10",
+      "start_seconds": 650.0,
+      "end_seconds": 1030.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Netflix",
+          "ticker": "NFLX",
+          "type": "public"
+        },
+        {
+          "name": "HBO Max",
+          "ticker": "WBD",
+          "parent": "Warner Bros. Discovery",
+          "type": "public"
+        }
+      ],
+      "signal_type": "product",
+      "claim": "Netflix 计划改变单一订阅模式，将 HBO Max 作为独立的付费附加包引入。同时进行内容分级：高端剧集保留在 HBO，下饭长尾剧放入基础版 Netflix。这将显著提升合并后平台的客单价和用户留存，向传统有线电视商业模式回归。",
+      "evidence_seg_ids": [
+        34,
+        36,
+        37
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 34,
+          "quote": "把 HBO Max 作为一个 add-on"
+        }
+      ],
+      "impact_path": [
+        "提升合并后公司的整体用户平均收入(ARPU)",
+        "减少内容直接融合对 HBO 品牌价值的稀释"
+      ],
+      "verification_steps": [
+        "关注 Netflix 管理层对于合并后订阅层级设计的指引",
+        "跟踪合并落地后新套餐组合的定价和用户转化率"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:27:35",
+      "time_end": "00:29:55",
+      "start_seconds": 1655.0,
+      "end_seconds": 1795.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Netflix",
+          "ticker": "NFLX",
+          "type": "public"
+        },
+        {
+          "name": "Warner Bros. Discovery",
+          "ticker": "WBD",
+          "type": "public"
+        }
+      ],
+      "signal_type": "risk",
+      "claim": "合并后华纳电影的院线发行模式将发生根本改变。Netflix 可能只保留顶级 IP 的大面积院线发行以最大化盈利，而将中低成本影片的院线独家窗口期大幅压缩甚至直接转为线上播放，这对传统电影院线行业构成毁灭性打击。",
+      "evidence_seg_ids": [
+        26,
+        29
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 26,
+          "quote": "对于院线来说就是一个毁灭性的打击"
+        }
+      ],
+      "impact_path": [
+        "AMC等传统院线的票房收入和议价能力将急剧下降",
+        "改变华纳中低成本电影的投资回报模型"
+      ],
+      "verification_steps": [
+        "监测华纳未来一年内中等成本新片的院线发行排期和窗口期时长",
+        "观察好莱坞院线及导演群体对合并后发行策略的反应"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:19:50",
+      "time_end": "00:24:35",
+      "start_seconds": 1190.0,
+      "end_seconds": 1475.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Paramount Global",
+          "ticker": "PARA",
+          "type": "public"
+        },
+        {
+          "name": "Warner Bros. Discovery",
+          "ticker": "WBD",
+          "type": "public"
+        }
+      ],
+      "signal_type": "competition",
+      "claim": "派拉蒙未能竞标成功 WBD 将面临严峻生存危机。由于派拉蒙规模在巨头中最小，且过度依赖衰退的传统电视网络，其扩充规模的战略落空。加之收购方案严重依赖外部中东融资，暴露资金软肋，未来可能面临资产贱卖或被迫重启出售谈判。",
+      "evidence_seg_ids": [
+        50,
+        51,
+        53
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 50,
+          "quote": "这家公司的未来来说前景是非常不妙的"
+        }
+      ],
+      "impact_path": [
+        "派拉蒙股价可能因流媒体竞争劣势扩大而承受下行压力",
+        "派拉蒙可能被迫重启与其他买家(如Comcast)的合并谈判"
+      ],
+      "verification_steps": [
+        "跟踪派拉蒙财报中的现金流状况及传统电视网广告收入衰退幅度",
+        "关注其实际控制人 David Ellison 的下一步资本运作动作"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:35:55",
+      "time_end": "00:39:35",
+      "start_seconds": 2155.0,
+      "end_seconds": 2375.0
+    }
+  ]
+}

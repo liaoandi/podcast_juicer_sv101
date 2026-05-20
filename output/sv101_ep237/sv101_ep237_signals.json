@@ -1,0 +1,15 @@
+{
+  "metadata": {
+    "source": "/Users/antonio/Desktop/podcast_juicer/output/sv101_ep237/237_transcript_gemini.json",
+    "method": "gemini_3_pro_full_context",
+    "model": "gemini-3.1-pro-preview",
+    "total_signals": 0,
+    "companies_mentioned": [],
+    "context_length": 13260,
+    "publish_date": "2026-02-03",
+    "record_date": "",
+    "podcast_id": "sv101",
+    "episode_id": "237"
+  },
+  "signals": []
+}

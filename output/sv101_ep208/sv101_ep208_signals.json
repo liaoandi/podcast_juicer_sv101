@@ -1,0 +1,201 @@
+{
+  "metadata": {
+    "source": "/Users/antonio/Desktop/podcast_juicer/output/sv101_ep208/208_transcript_gemini.json",
+    "method": "gemini_3_pro_full_context",
+    "model": "gemini-3.1-pro-preview",
+    "total_signals": 3,
+    "companies_mentioned": [
+      "Amazon",
+      "Biogen",
+      "CVS Health",
+      "Cigna",
+      "Eli Lilly",
+      "Novartis",
+      "Novo Nordisk",
+      "UnitedHealth Group",
+      "Walmart"
+    ],
+    "context_length": 24425,
+    "publish_date": null,
+    "record_date": null,
+    "podcast_id": "sv101",
+    "episode_id": "208"
+  },
+  "signals": [
+    {
+      "entities": [
+        {
+          "name": "UnitedHealth Group",
+          "ticker": "UNH",
+          "parent": null,
+          "type": "public"
+        },
+        {
+          "name": "CVS Health",
+          "ticker": "CVS",
+          "parent": null,
+          "type": "public"
+        },
+        {
+          "name": "Cigna",
+          "ticker": "CI",
+          "parent": null,
+          "type": "public"
+        },
+        {
+          "name": "Walmart",
+          "ticker": "WMT",
+          "parent": null,
+          "type": "public"
+        },
+        {
+          "name": "Amazon",
+          "ticker": "AMZN",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "regulation",
+      "claim": "美国三大PBM（联合健康、CVS、Cigna）控制了80%的处方药市场并截留大量毛净差价。目前它们面临严峻的政策与商业双重挤压：国会两党对削减其中间商利润形成强共识，多州推进透明度立法；同时亚马逊和沃尔玛正采用直采模式绕过PBM，这将显著压缩PBM业务未来的利润空间。",
+      "evidence_seg_ids": [
+        139,
+        146,
+        160
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 139,
+          "quote": "超过50%直接变成了中间商主要是PBM的利润"
+        },
+        {
+          "seg_id": 146,
+          "quote": "这三家控制了80%的处方药市场"
+        },
+        {
+          "seg_id": 160,
+          "quote": "沃尔玛还有亚马逊...采用这种直采模式直接谈判来绕过PBM"
+        }
+      ],
+      "impact_path": [
+        "大幅降低CVS、联合健康、Cigna的中间商利润率估值",
+        "政策控费及大客户（沃尔玛/亚马逊）流失导致其议价权被削弱"
+      ],
+      "verification_steps": [
+        "追踪美国国会针对PBM透明度及限制返点回扣的联邦立法进展",
+        "监测沃尔玛与亚马逊直采处方药项目的市占率及PBM大客户流失率"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "01:01:50",
+      "time_end": "01:09:55",
+      "start_seconds": 3710.0,
+      "end_seconds": 4195.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Eli Lilly",
+          "ticker": "LLY",
+          "parent": null,
+          "type": "public"
+        },
+        {
+          "name": "Novo Nordisk",
+          "ticker": "NVO",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "product",
+      "claim": "礼来与诺和诺德的GLP-1减肥药标价虽高，但由于激烈的双寡头竞争和庞大使用基数给商业医保带来的巨大财务压力，实际净支付价格已在向500美元以下回落。投资者不可按公开挂网价线性外推其实际营收规模，需警惕净价下跌对未来单客利润率的潜在侵蚀风险。",
+      "evidence_seg_ids": [
+        20,
+        24,
+        34,
+        50
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 20,
+          "quote": "它的毛价和净价差距呢可以到一半"
+        },
+        {
+          "seg_id": 34,
+          "quote": "这个人口基数一大...这个是医保公司非常头疼的"
+        },
+        {
+          "seg_id": 50,
+          "quote": "它这个趋势已经在往500美元以下走"
+        }
+      ],
+      "impact_path": [
+        "可能引发市场下调对GLP-1药物长尾利润率的预期",
+        "医保通过要求更深折扣以缓解总体支付压力，导致药企毛利受损"
+      ],
+      "verification_steps": [
+        "拆解礼来及诺和诺德财报中GLP-1销量的增速与实际营收增速的背离度",
+        "跟进美国主要商业医保机构更新的GLP-1报销目录及附加条件"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:12:08",
+      "time_end": "00:25:00",
+      "start_seconds": 728.0,
+      "end_seconds": 1500.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Biogen",
+          "ticker": "BIIB",
+          "parent": null,
+          "type": "public"
+        },
+        {
+          "name": "Novartis",
+          "ticker": "NVS",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "valuation",
+      "claim": "罕见病药物具备极强的抗政策降价风险能力。以Biogen和诺华为例，因受众极少且无竞争，其药物可定价几十万至两百万美元。由于其在医保总开支中占比极低且具极高道德筹码，医保支付意愿极强。主攻罕见病管线的药企相比大众病药企享有更稳固的利润护城河及业绩确定性。",
+      "evidence_seg_ids": [
+        27,
+        29,
+        34
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 27,
+          "quote": "起始定价就可以定到40万美元、50万美元"
+        },
+        {
+          "seg_id": 29,
+          "quote": "212万美元一针"
+        },
+        {
+          "seg_id": 34,
+          "quote": "这个药医保公司包，而且医保公司会非常乐意包"
+        }
+      ],
+      "impact_path": [
+        "巩固Biogen、诺华等具备成熟罕见病管线药企的高估值倍数",
+        "免受药价谈判及PBM施压的核心波及，具备高收入转化率"
+      ],
+      "verification_steps": [
+        "对比近期美国IRA法案降价名单中罕见病药物与大众药物的比例",
+        "查看Biogen及诺华罕见病新药获批后的商业医保全额覆盖率"
+      ],
+      "confidence": "high",
+      "novelty": "low",
+      "actionability": "low",
+      "time_start": "00:15:28",
+      "time_end": "00:18:55",
+      "start_seconds": 928.0,
+      "end_seconds": 1135.0
+    }
+  ]
+}

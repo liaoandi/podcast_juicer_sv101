@@ -1,0 +1,321 @@
+{
+  "metadata": {
+    "source": "/Users/antonio/Desktop/podcast_juicer/output/sv101_ep199/199_transcript_gemini.json",
+    "method": "gemini_3_pro_full_context",
+    "model": "gemini-3.1-pro-preview",
+    "total_signals": 7,
+    "companies_mentioned": [
+      "Eli Lilly",
+      "Hims & Hers Health",
+      "Innovent Biologics",
+      "Novo Nordisk",
+      "Structure Therapeutics",
+      "The United Laboratories",
+      "WuXi AppTec"
+    ],
+    "context_length": 26242,
+    "publish_date": null,
+    "record_date": null,
+    "podcast_id": "sv101",
+    "episode_id": "199"
+  },
+  "signals": [
+    {
+      "entities": [
+        {
+          "name": "Novo Nordisk",
+          "ticker": "NVO",
+          "parent": null,
+          "type": "public"
+        },
+        {
+          "name": "Eli Lilly",
+          "ticker": "LLY",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "product",
+      "claim": "诺和诺德CagriSema三期减重仅达22%未及预期的25%，导致股价曾大跌。因允许患者自行调整剂量致使仅57%达到最高剂量，公司将启动严格剂量管控的Redefine 11临床再战礼来，该试验数据将是估值修复的关键催化剂。",
+      "evidence_seg_ids": [
+        22,
+        23,
+        24,
+        25
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 22,
+          "quote": "没有达到25%，只达到了22%"
+        },
+        {
+          "seg_id": 25,
+          "quote": "重新再做一个临床，叫做 Redefine 11"
+        }
+      ],
+      "impact_path": [
+        "影响诺和诺德(NVO)股价与估值",
+        "Redefine 11试验结果若能证明严格剂量下效果超越礼来替尔泊肽，将扭转市场对其管线研发落后的悲观预期"
+      ],
+      "verification_steps": [
+        "追踪诺和诺德Redefine 11临床试验的推进时间表",
+        "关注该试验后续读出的患者最高剂量耐受比例及最终减重数据是否达到25%"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:17:54",
+      "time_end": "00:21:05",
+      "start_seconds": 1074.0,
+      "end_seconds": 1265.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Eli Lilly",
+          "ticker": "LLY",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "product",
+      "claim": "礼来口服GLP-1三期临床预计在今年二季度读出，有望成为全球首款口服减肥药。口服剂型可避开冷链物流及复杂注射流程，触达轻症及下沉国家市场，预计将撬动500亿美元新增量，进一步巩固其领先地位。",
+      "evidence_seg_ids": [
+        64,
+        102
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 64,
+          "quote": "二季度...就会看到礼来口服药的三期结果"
+        }
+      ],
+      "impact_path": [
+        "影响礼来(LLY)估值与市场份额预期",
+        "口服药突破了冷链和医护干预限制，能有效渗透轻度肥胖患者及基础设施较弱的海外市场"
+      ],
+      "verification_steps": [
+        "等待今年第二季度礼来口服GLP-1三期临床数据的正式发布",
+        "评估口服剂型的减重效果与胃肠道副作用情况是否媲美注射剂"
+      ],
+      "confidence": "high",
+      "novelty": "low",
+      "actionability": "high",
+      "time_start": "00:38:31",
+      "time_end": "01:00:42",
+      "start_seconds": 2311.0,
+      "end_seconds": 3642.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Innovent Biologics",
+          "ticker": "1801.HK",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "product",
+      "claim": "信达生物GLP-1/Glucagon双靶点组合玛仕度肽减重效果突出，尤其在器官减脂方面具备优势，预计今年年中或夏季在国内获批上市，将成为中国首款本土原研减肥药，抢占国内庞大的减重与脂肪肝市场。",
+      "evidence_seg_ids": [
+        57
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 57,
+          "quote": "应该会在年中、夏天就能上市"
+        }
+      ],
+      "impact_path": [
+        "推高信达生物(1801.HK)的营收与股价",
+        "作为首款国产双靶点原研新药，上市后在本土市场具备价格和渠道优势，可迅速实现商业化放量"
+      ],
+      "verification_steps": [
+        "核实中国NMPA（国家药监局）关于玛仕度肽的审批进度",
+        "跟踪产品上市后的定价策略和首季度的处方量数据"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:35:10",
+      "time_end": "00:37:38",
+      "start_seconds": 2110.0,
+      "end_seconds": 2258.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Novo Nordisk",
+          "ticker": "NVO",
+          "parent": null,
+          "type": "public"
+        },
+        {
+          "name": "The United Laboratories",
+          "ticker": "3933.HK",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "capital_action",
+      "claim": "诺和诺德近期向联邦制药购买了处于一期临床的三靶点(GLP-1/GIP/Glucagon)管线，旨在防御礼来超强效的三靶点药物Retatrutide，表明下一代多靶点组合已成为大药企军备竞赛核心，联邦制药管线价值被低估。",
+      "evidence_seg_ids": [
+        57,
+        58,
+        59,
+        76
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 57,
+          "quote": "购买了一个...三组合产品"
+        }
+      ],
+      "impact_path": [
+        "提升联邦制药估值，稳固诺和诺德的远期管线",
+        "跨国药企重金Buy-in背书了中国早期管线的临床潜力，为诺和诺德对冲了单一机制被迭代的风险"
+      ],
+      "verification_steps": [
+        "查阅诺和诺德与联邦制药关于该资产收购的具体付款条款(首付款+里程碑金额)",
+        "跟进该三靶点药物进入全球二期临床的研发时间线"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "00:35:10",
+      "time_end": "00:45:42",
+      "start_seconds": 2110.0,
+      "end_seconds": 2742.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Structure Therapeutics",
+          "ticker": "GPCR",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "product",
+      "claim": "硕迪生物(Structure Tx)研发了全球首个口服小分子Amylin药物，目前处于临床前，预计今年年底进入临床试验。该分子填补了Amylin小分子赛道空白，有望解决大分子多肽耐受性及高昂生产成本的问题。",
+      "evidence_seg_ids": [
+        39,
+        41
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 39,
+          "quote": "有望在今年年底开始进入临床试验"
+        }
+      ],
+      "impact_path": [
+        "提振硕迪生物(GPCR)的市场关注度与估值",
+        "小分子更容易实现口服化且成本极低，若临床一期证实有效性和安全性，将引发市场对其成为重磅骨架疗法的预期"
+      ],
+      "verification_steps": [
+        "监控硕迪生物年内的IND（临床试验申请）递交情况",
+        "追踪后续一期临床中关于口服生物利用度及减重初步疗效的数据"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:26:12",
+      "time_end": "00:27:40",
+      "start_seconds": 1572.0,
+      "end_seconds": 1660.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Hims & Hers Health",
+          "ticker": "HIMS",
+          "parent": null,
+          "type": "public"
+        },
+        {
+          "name": "WuXi AppTec",
+          "ticker": "603259.SS",
+          "parent": null,
+          "type": "public"
+        },
+        {
+          "name": "Eli Lilly",
+          "ticker": "LLY",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "regulation",
+      "claim": "FDA已将两大减肥药移出产能短缺名单，将严重打击Hims等复方药房售卖仿制版(占据了5-20%份额)的合规性。此举将切断中国多肽原料药向美国非正规渠道的出口，同时利好礼来诺和推行的低价直销策略。",
+      "evidence_seg_ids": [
+        104,
+        105,
+        109,
+        118
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 105,
+          "quote": "把这两个产品从产能短缺的药品名单上拿掉"
+        }
+      ],
+      "impact_path": [
+        "重挫复方药房平台(如HIMS)营收，冲击中国多肽原料药出口，利好原研药企",
+        "缺乏短缺豁免后，销售仿制版面临专利侵权起诉，这部分被抢占的需求将流向药企的官方低价直销渠道"
+      ],
+      "verification_steps": [
+        "查阅FDA当前官方药品短缺清单(Drug Shortages List)最新状态",
+        "关注Hims & Hers下个季度财报中关于GLP-1销售指引的下调情况"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "01:00:41",
+      "time_end": "01:06:11",
+      "start_seconds": 3641.0,
+      "end_seconds": 3971.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Novo Nordisk",
+          "ticker": "NVO",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "competition",
+      "claim": "司美格鲁肽在中国的核心专利将于2-3年后(约2026年)率先到期，远早于欧美的2030+年。届时中国市场将快速涌入低价仿制药，月均费用从千元大幅降至几百元，将极大冲击诺和诺德在华的定价权与市场份额。",
+      "evidence_seg_ids": [
+        126,
+        127,
+        128
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 127,
+          "quote": "最快的专利到期就是在中国"
+        },
+        {
+          "seg_id": 127,
+          "quote": "中国在两三年后就会到期"
+        }
+      ],
+      "impact_path": [
+        "影响诺和诺德大中华区中长期的销售预期，带动中国本土多肽仿制药企业营收",
+        "专利悬崖会导致极其惨烈的价格战，原研高毛利时代结束，市场红利将转移至成本控制力强的本土药企"
+      ],
+      "verification_steps": [
+        "查阅司美格鲁肽中国核心化合物专利的确切失效日期",
+        "跟踪国内目前正在进行BE(生物等效性)试验的司美格鲁肽仿制药报产排队情况"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "01:08:25",
+      "time_end": "01:10:59",
+      "start_seconds": 4105.0,
+      "end_seconds": 4259.0
+    }
+  ]
+}

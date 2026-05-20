@@ -1,0 +1,766 @@
+{
+  "metadata": {
+    "source": "output/sv101_ep220/220_transcript_gemini.json",
+    "method": "gemini_3_pro_full_context",
+    "model": "gemini-3.1-pro-preview",
+    "total_signals": 6,
+    "companies_mentioned": [
+      "AMD",
+      "Baoshan Iron & Steel",
+      "Broadcom",
+      "Caterpillar",
+      "FedEx",
+      "GE Vernova",
+      "Nvidia",
+      "Oklo",
+      "OpenAI",
+      "SK Hynix",
+      "Samsung Electronics",
+      "xAI"
+    ],
+    "context_length": 20329,
+    "publish_date": "2025-10-30",
+    "record_date": "",
+    "podcast_id": "sv101",
+    "episode_id": "220",
+    "verification_date": "2026-03-10",
+    "verification_method": "gemini_3_pro + google_search + yahoo_finance",
+    "verification_status": "completed",
+    "verified_signals_count": 6
+  },
+  "signals": [
+    {
+      "entities": [
+        {
+          "name": "OpenAI",
+          "ticker": null,
+          "type": "private"
+        },
+        {
+          "name": "Samsung Electronics",
+          "ticker": "005930",
+          "type": "public"
+        },
+        {
+          "name": "SK Hynix",
+          "ticker": "000660",
+          "type": "public"
+        },
+        {
+          "name": "Broadcom",
+          "ticker": "AVGO",
+          "type": "public"
+        },
+        {
+          "name": "AMD",
+          "ticker": "AMD",
+          "type": "public"
+        }
+      ],
+      "signal_type": "supply_chain",
+      "claim": "OpenAI在供应链上极度激进，不仅与英伟达、AMD和Broadcom达成合计26GW的意向，还向三星和SK海力士包下每月90万片晶圆产能，占据HBM市场约60%份额。这显示其为确保算力霸权正在全面买断底层核心产能，并深刻改变存储芯片供需格局。",
+      "evidence_seg_ids": [
+        20,
+        22
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 22,
+          "quote": "包了一个90万片晶圆每月的产能"
+        }
+      ],
+      "impact_path": [
+        "驱动三星和SK海力士的HBM及晶圆业务业绩超预期",
+        "OpenAI的超大规模包销直接锁定核心产能，推高全行业供给缺口"
+      ],
+      "verification_steps": [
+        "追踪三星和SK海力士财报中的HBM出货指引及特定客户占款比例",
+        "观测HBM现货市场价格波动及其他AI厂商拿货周期是否被显著拉长"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:05:38",
+      "time_end": "00:07:20",
+      "start_seconds": 338.0,
+      "end_seconds": 440.0,
+      "verification": {
+        "verification_status": "verified",
+        "verified_claim": "OpenAI确实在全面买断底层算力与存储产能。其与英伟达、AMD、博通等达成了合计26GW的数据中心算力意向，并与三星、SK海力士签订了每月高达90万片DRAM晶圆的供应协议，此举正引发存储芯片市场的结构性短缺与价格飙升。",
+        "verified_impact_path": [
+          "影响路径1：产能挤压效应——OpenAI每月90万片晶圆的庞大需求直接占据了三星和SK海力士的绝大部分核心产能，导致传统DRAM和NAND等通用存储芯片产线被挤压，引发全行业供应短缺和价格大幅上涨（部分提价达30%-60%）。",
+          "影响路径2：产业链重塑与资本支出激增——为满足OpenAI的'星际之门'（Stargate）项目需求，存储巨头被迫大幅增加资本支出以扩充产线。算力霸权的竞争已从单纯的GPU采购延伸至对底层存储晶圆、先进封装乃至电力的全面买断。",
+          "影响路径3：对投资者的实际意义——存储芯片行业进入由AI驱动的'超级周期'，三星、SK海力士等核心供应商将迎来长期的量价齐升；而未能锁定长期产能的下游硬件厂商可能面临严重的成本上升和供应链断裂风险。"
+        ],
+        "verified_data": [
+          {
+            "source": "Tom's Hardware",
+            "finding": "OpenAI与三星和SK海力士达成初步协议，为其Stargate数据中心项目每月供应高达90万片DRAM晶圆。这一数字占全球DRAM总产量的40%以上，甚至超过当前全球HBM产能的两倍。",
+            "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openais-stargate-project-to-consume-up-to-40-of-global-dram-output"
+          },
+          {
+            "source": "Sacra",
+            "finding": "OpenAI的芯片战略涵盖了与英伟达、AMD、博通和Arm的合作，计划为其数据中心提供总计高达26GW的电力容量，预计建设成本将超过1万亿美元。",
+            "url": "https://sacra.com/research/openai-2026/"
+          },
+          {
+            "source": "Goldman Sachs / Moomoo",
+            "finding": "高盛测算OpenAI的90万片晶圆需求相当于三大存储巨头（三星、SK海力士、美光）合并产能的57%。受此合作刺激，SK海力士和三星股价大幅飙升，且由于产能向AI倾斜，传统DRAM和NAND产品面临30%以上的提价。",
+            "url": "https://www.moomoo.com/news/post/42185341"
+          },
+          {
+            "source": "EEWORLD",
+            "finding": "SK海力士目前占据HBM市场约60%的份额，其产能已被预订至2026年。OpenAI等巨头的激进采购使得存储芯片成为AI算力发展的核心瓶颈。",
+            "url": "https://www.eeworld.com.cn/news/article/20251103"
+          }
+        ],
+        "verification_confidence": "high",
+        "verification_notes": "信号核心内容得到全面验证。OpenAI确实与英伟达、AMD、博通达成26GW算力合作，并向三星和SK海力士包下每月90万片晶圆产能。关于'60%份额'，实际是指这90万片约占全球三大巨头总产能的57%，且SK海力士本身占据HBM市场约60%份额，OpenAI的激进采购正引发存储芯片超级周期。",
+        "verification_date": "2026-03-10",
+        "signal_date": "2025-10-30",
+        "market_data": {
+          "005930": {
+            "financials": {
+              "pe_ratio": null,
+              "forward_pe": null,
+              "profit_margin": null,
+              "revenue_growth": null,
+              "52_week_high": null,
+              "52_week_low": null
+            }
+          },
+          "000660": {
+            "financials": {
+              "pe_ratio": null,
+              "forward_pe": null,
+              "profit_margin": null,
+              "revenue_growth": null,
+              "52_week_high": null,
+              "52_week_low": null
+            }
+          },
+          "AVGO": {
+            "current": {
+              "price": 345.75,
+              "change_percent": 4.63,
+              "market_cap": 1639295352832,
+              "name": "Broadcom Inc."
+            },
+            "since_signal": {
+              "from_date": "2025-10-30",
+              "to_date": "2026-03-09",
+              "from_price": 375.75,
+              "to_price": 345.75,
+              "change": -30.0,
+              "change_percent": -7.98,
+              "trading_days": 88
+            },
+            "financials": {
+              "pe_ratio": 67.5293,
+              "forward_pe": 19.97412,
+              "profit_margin": 0.36571997,
+              "revenue_growth": 0.164,
+              "52_week_high": 414.61,
+              "52_week_low": 138.1
+            }
+          },
+          "AMD": {
+            "current": {
+              "price": 202.68,
+              "change_percent": 5.32,
+              "market_cap": 330451681280,
+              "name": "Advanced Micro Devices, Inc."
+            },
+            "since_signal": {
+              "from_date": "2025-10-30",
+              "to_date": "2026-03-09",
+              "from_price": 254.84,
+              "to_price": 202.68,
+              "change": -52.16,
+              "change_percent": -20.47,
+              "trading_days": 88
+            },
+            "financials": {
+              "pe_ratio": 77.655174,
+              "forward_pe": 18.619623,
+              "profit_margin": 0.12515001,
+              "revenue_growth": 0.341,
+              "52_week_high": 267.08,
+              "52_week_low": 76.48
+            }
+          }
+        }
+      }
+    },
+    {
+      "entities": [
+        {
+          "name": "xAI",
+          "ticker": null,
+          "type": "private"
+        },
+        {
+          "name": "GE Vernova",
+          "ticker": "GEV",
+          "type": "public"
+        },
+        {
+          "name": "Caterpillar",
+          "ticker": "CAT",
+          "type": "public"
+        }
+      ],
+      "signal_type": "supply_chain",
+      "claim": "为绕过美国电网漫长的并网审批，马斯克的xAI扫货了全美将近70%以上的燃气涡轮发电机库存，投入约160台发电机为孟菲斯数据中心供电。这种短期止损方案凸显了AI巨头对离网发电设备的急迫需求，为传统燃气发电设备供应商带来巨大的增量订单溢价。",
+      "evidence_seg_ids": [
+        70,
+        71,
+        73
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 71,
+          "quote": "横扫了美国将近70%以上的燃气涡轮发电机的库存"
+        }
+      ],
+      "impact_path": [
+        "大幅提升GE Vernova等燃气发电设备制造商的短期营收及利润率",
+        "xAI等巨头的激进扫货清空了市场库存，带来高额溢价订单"
+      ],
+      "verification_steps": [
+        "核查GE Vernova和Caterpillar最新财报中涡轮发电机的在手订单及平均售价变化",
+        "跟踪孟菲斯等地数据中心离网发电项目的环保审批及投产新闻"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:31:04",
+      "time_end": "00:32:52",
+      "start_seconds": 1864.0,
+      "end_seconds": 1972.0,
+      "verification": {
+        "verification_status": "contradicted",
+        "verified_claim": "信号中的核心投资逻辑（xAI使用燃气发电机绕过电网审批，利好传统发电设备商）属实，但关键数据严重失实。xAI实际部署了约62台燃气轮机（而非160台），“160”实为采购的Tesla Megapack电池组数量；同时没有任何证据表明xAI“扫货了全美70%的库存”。",
+        "verified_impact_path": [
+          "影响路径1：从AI算力需求到离网发电的传导——AI数据中心建设速度（数月）与传统电网并网审批（数年）存在严重错配，迫使科技巨头转向“表后”（Behind-the-Meter）自建天然气发电设施。",
+          "影响路径2：对产业链的具体影响——燃气涡轮发电机（如GE Vernova、Caterpillar）和储能设备需求激增，相关供应商订单积压已排至2030年，设备价格大幅上涨。",
+          "影响路径3：对投资者的实际意义——传统电力设备和发电机供应商正从“周期性工业股”重估为“AI基础设施概念股”，从而享有显著的估值溢价和业绩增长确定性。"
+        ],
+        "verified_data": [
+          {
+            "source": "Electrek",
+            "finding": "xAI在孟菲斯和密西西比州Southaven的两个数据中心实际部署了共计62台未获许可的甲烷燃气涡轮发电机（分别为35台和27台），远低于信号声称的160台。",
+            "url": "https://electrek.co/2026/03/03/elon-musks-xai-is-undoing-teslas-climate-work-all-in-the-name-of-ai-slop/"
+          },
+          {
+            "source": "Teslarati",
+            "finding": "孟菲斯商会确认，xAI为Colossus 2数据中心交付了160多台Tesla Megapack电池组。信号中的“160台发电机”系将储能电池组与燃气发电机数量混淆。",
+            "url": "https://www.teslarati.com/xai-supercomputer-faces-pushback-memphis-politicians/"
+          },
+          {
+            "source": "Energy News Beat",
+            "finding": "燃气轮机制造商（如GE Vernova和Caterpillar子公司Solar Turbines）正受益于AI电力繁荣。数据中心直接在现场部署燃气轮机导致设备价格翻倍，订单排期已延至2020年代末。",
+            "url": "https://energynewsbeat.co/gas-turbine-makers-are-rolling-with-the-ai-power-boom/"
+          },
+          {
+            "source": "Forbes",
+            "finding": "为应对长达4年的大型涡轮机等待时间，数据中心开发商正大量采购GE Vernova、Siemens和Caterpillar的燃气发电设备，天然气将为约60%的新增数据中心需求提供动力。",
+            "url": "https://www.forbes.com/sites/christopherhelman/2025/11/27/why-americas-power-grid-will-be-able-to-withstand-the-25-trillion-ai-datacenter-building-boom/"
+          }
+        ],
+        "verification_confidence": "high",
+        "verification_notes": "信号的投资逻辑正确，但数据存在明显夸大和张冠李戴。xAI确实通过部署数十台燃气发电机解决了短期电力瓶颈，这一趋势也确实为GE Vernova和Caterpillar带来了巨大的增量订单，但'70%库存'和'160台发电机'为虚假数据。",
+        "verification_date": "2026-03-10",
+        "signal_date": "2025-10-30",
+        "market_data": {
+          "GEV": {
+            "current": {
+              "price": 830.1,
+              "change_percent": 5.18,
+              "market_cap": 225223098368,
+              "name": "GE Vernova Inc."
+            },
+            "since_signal": {
+              "from_date": "2025-10-30",
+              "to_date": "2026-03-09",
+              "from_price": 573.65,
+              "to_price": 830.1,
+              "change": 256.45,
+              "change_percent": 44.7,
+              "trading_days": 88
+            },
+            "financials": {
+              "pe_ratio": 46.951355,
+              "forward_pe": 36.50301,
+              "profit_margin": 0.1283,
+              "revenue_growth": 0.038,
+              "52_week_high": 894.93,
+              "52_week_low": 252.25
+            }
+          },
+          "CAT": {
+            "current": {
+              "price": 704.82,
+              "change_percent": 3.51,
+              "market_cap": 329841377280,
+              "name": "Caterpillar, Inc."
+            },
+            "since_signal": {
+              "from_date": "2025-10-30",
+              "to_date": "2026-03-09",
+              "from_price": 581.79,
+              "to_price": 704.82,
+              "change": 123.03,
+              "change_percent": 21.15,
+              "trading_days": 88
+            },
+            "financials": {
+              "pe_ratio": 37.450584,
+              "forward_pe": 25.456446,
+              "profit_margin": 0.13144,
+              "revenue_growth": 0.18,
+              "52_week_high": 789.81,
+              "52_week_low": 267.3
+            }
+          }
+        }
+      }
+    },
+    {
+      "entities": [
+        {
+          "name": "Baoshan Iron & Steel",
+          "ticker": "600019",
+          "parent": "China Baowu Steel Group",
+          "type": "public"
+        }
+      ],
+      "signal_type": "supply_chain",
+      "claim": "美国变压器交期已从3个月拉长至18-24个月，核心原因是所需原材料取向硅钢美国本土年产能仅25万吨，而中国宝钢一家产能近200万吨。受贸易壁垒限制，变压器短缺难以迅速缓解，将成为制约美国AI数据中心扩张的最顽固供应链瓶颈之一。",
+      "evidence_seg_ids": [
+        84,
+        86
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 84,
+          "quote": "交期已经从三个月涨到18个月了"
+        },
+        {
+          "seg_id": 84,
+          "quote": "这种钢材美国只有一家公司可以做"
+        }
+      ],
+      "impact_path": [
+        "限制美国本土AI数据中心的上线速度，凸显具备取向硅钢产能企业的稀缺价值",
+        "由于贸易限制壁垒，美国短缺的变压器核心材料取向硅钢难以低成本从中国大量进口"
+      ],
+      "verification_steps": [
+        "观测美国相关电力设备及原材料进口关税豁免政策的变动情况",
+        "追踪取向硅钢的全球出口价格走势及变压器设备交期是否进一步延长"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:35:02",
+      "time_end": "00:37:04",
+      "start_seconds": 2102.0,
+      "end_seconds": 2224.0,
+      "verification": {
+        "verification_status": "verified",
+        "verified_claim": "美国变压器交期确实已延长至18-24个月甚至更久，核心瓶颈在于取向硅钢（GOES）的严重短缺。美国本土仅有Cleveland-Cliffs一家生产商，年产能约25万吨；而中国宝钢是全球最大供应商，其取向硅钢年产能已达116万吨，由于贸易壁垒限制，美国难以直接大规模进口，导致变压器短缺成为制约其AI数据中心扩张的顽固瓶颈。",
+        "verified_impact_path": [
+          "影响路径1：AI数据中心建设激增导致电力设备需求爆发，但核心原材料取向硅钢（GOES）产能受限且扩产周期长，直接导致变压器交期从数月大幅拉长至18-24个月甚至3年以上。",
+          "影响路径2：受制于美国本土仅约25万吨的取向硅钢产能及对华贸易壁垒，美国变压器供应链的供需缺口难以通过进口中国（如宝钢）的低成本高产能产品来迅速填补，加剧了本土供应链的脆弱性。",
+          "影响路径3：对投资者而言，变压器短缺将拖累美国AI数据中心的落地速度，同时凸显了具备全球核心原材料定价权和产能优势的中国头部硅钢企业（如宝钢股份）的长期战略价值与出海潜力。"
+        ],
+        "verified_data": [
+          {
+            "source": "S&P Global",
+            "finding": "美国本土唯一的电工钢生产商Cleveland-Cliffs满负荷运转的年产能仅约为25万吨，且面临廉价进口产品的竞争压力，美国商务部曾以国家安全为由对进口进行限制。",
+            "url": "https://www.spglobal.com/marketintelligence/en/news-insights/latest-news-headlines/biden-s-infrastructure-act-spurs-us-electrical-steel-imports-production-68240535"
+          },
+          {
+            "source": "CSG Talent",
+            "finding": "变压器交期已从历史的6-8个月大幅延长至18-24个月，高压变压器甚至长达3-4年。核心原因在于全球取向硅钢（GOES）和熟练劳动力的短缺，这已成为制约AI数据中心并网的最主要瓶颈。",
+            "url": "https://www.csgtalent.com/insights/data-centre-grid-challenges-powering-ai-infrastructure-at-scale/"
+          },
+          {
+            "source": "36氪",
+            "finding": "宝钢股份是全球最大的硅钢产品供应商，2024年6月其取向硅钢年产能已正式提升至116万吨，位居世界第一，总硅钢产能超400万吨，远超美国本土产能。",
+            "url": "https://36kr.com/newsflashes/2818579450377477"
+          },
+          {
+            "source": "pv magazine USA",
+            "finding": "随着AI数据中心和可再生能源的爆炸性增长，变压器需求处于“超级周期”，但由于定制化设计需求和核心材料取向硅钢的供应受限，美国变压器价格飙升且交期翻倍。",
+            "url": "https://pv-magazine-usa.com/2026/02/27/global-energy-transition-hits-a-hardware-bottleneck/"
+          }
+        ],
+        "verification_confidence": "high",
+        "verification_notes": "信号核心逻辑得到充分验证。美国变压器交期确实已拉长至18-24个月以上，核心原因是AI数据中心需求爆发与取向硅钢（GOES）产能受限的矛盾。美国本土GOES产能仅约25万吨，而宝钢股份取向硅钢产能已达116万吨（全球第一），受贸易壁垒影响，美国难以利用中国产能缓解短缺，变压器已成为AI基建的硬约束。",
+        "verification_date": "2026-03-10",
+        "signal_date": "2025-10-30",
+        "market_data": {
+          "600019": {
+            "current": {
+              "price": 7.0,
+              "change_percent": -0.71,
+              "market_cap": 152474599424,
+              "name": "BAOSHAN IRON & STEEL CO"
+            },
+            "since_signal": {
+              "from_date": "2025-10-30",
+              "to_date": "2026-03-09",
+              "from_price": 7.24,
+              "to_price": 7.05,
+              "change": -0.19,
+              "change_percent": -2.62,
+              "trading_days": 85
+            },
+            "financials": {
+              "pe_ratio": 15.909091,
+              "forward_pe": 13.802077,
+              "profit_margin": 0.030280001,
+              "revenue_growth": 0.018,
+              "52_week_high": 7.83,
+              "52_week_low": 6.46
+            }
+          }
+        }
+      }
+    },
+    {
+      "entities": [
+        {
+          "name": "Nvidia",
+          "ticker": "NVDA",
+          "type": "public"
+        }
+      ],
+      "signal_type": "product",
+      "claim": "为应对GB200及后续机柜功耗飙升至百千瓦甚至1兆瓦，NVIDIA正强推800V高压直流输电标准。若沿用现有的54V直流标准，单机柜需200公斤铜线且电损达22%，而800V标准可将铜损降至0.6%，预示着数据中心电气基础设施即将迎来代际革命。",
+      "evidence_seg_ids": [
+        88,
+        89,
+        91,
+        98
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 89,
+          "quote": "一个1兆瓦的机柜就需要200公斤的铜"
+        },
+        {
+          "seg_id": 89,
+          "quote": "它的损失可以只在铜上会降到0.6%"
+        }
+      ],
+      "impact_path": [
+        "推动整个数据中心电源管理与连接器产业链向800V高压直流架构升级换代",
+        "为解决单机柜功耗飙升带来的严重电损和巨大的铜耗瓶颈，高压化已成为必然趋势"
+      ],
+      "verification_steps": [
+        "关注OCP（开放计算项目）及相关服务器代工厂对800V DC架构规范的落地执行进展",
+        "梳理并跟踪NVIDIA供应链中涉及高压直流电源、固态变压器的核心硬件标的"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:37:15",
+      "time_end": "00:41:53",
+      "start_seconds": 2235.0,
+      "end_seconds": 2513.0,
+      "verification": {
+        "verification_status": "verified",
+        "verified_claim": "NVIDIA确实正在强推800V高压直流（HVDC）输电标准，以应对2027年Kyber等机柜高达1MW的功耗。现有的54V直流标准在兆瓦级功耗下会面临单机柜需200公斤铜排的物理极限及严重的电能损耗，800V架构通过降低15倍电流，极大减少了铜损并提升了端到端能效。",
+        "verified_impact_path": [
+          "影响路径1：从技术架构到物理瓶颈的突破——800V HVDC替代54V标准，大幅降低传输电流，解决单机柜1MW功耗下需200公斤铜排的物理极限与严重热损耗问题，端到端能效从约83%提升至92%以上。",
+          "影响路径2：对产业链的具体影响——重塑数据中心电源生态，直接带动高压功率半导体（SiC/GaN）、集中式整流器、液冷母线（Busbar）、固态变压器及备用电池（BBU）等环节的量价齐升。",
+          "影响路径3：对投资者的实际意义——电源基础设施从“配套设备”升级为“算力核心限制条件”，深度绑定Nvidia 800V生态的电源系统供应商（如台达电、光宝科、Vertiv）及功率芯片龙头将迎来戴维斯双击。"
+        ],
+        "verified_data": [
+          {
+            "source": "NVIDIA Technical Blog",
+            "finding": "NVIDIA官方发文指出，从2027年开始将率先向800V HVDC数据中心电力基础设施过渡，以支持1MW及以上的IT机架。若沿用54V直流配电，1MW机架需要多达200千克的铜母线，800V架构能消除机架级AC/DC转换，大幅提升能效并节省空间。",
+            "url": "https://developer.nvidia.com/zh-cn/blog/nvidia-800v-hvdc-architecture/"
+          },
+          {
+            "source": "21世纪经济报道",
+            "finding": "英伟达在OCP Global Summit上发布800VDC架构白皮书，指出相较传统54V架构，800VDC让电流降低15倍以上，铜损显著减少，布线更轻、更高效，并重点展示了氮化镓（GaN）等核心合作伙伴。",
+            "url": "https://www.21jingji.com/article/20251014/herald/"
+          },
+          {
+            "source": "TechNews 科技新报",
+            "finding": "随着NVIDIA机柜运算密度提升，2027年NVL576系统功耗将突破600kW甚至1MW。传统54V面临铜线过载（1MW铜线重达200公斤）及效率损失，业界正全面推行800V HVDC架构，台达电、光宝等已展出相关电源柜。",
+            "url": "https://technews.tw/2025/08/17/nvidia-hvdc-concept-stocks/"
+          },
+          {
+            "source": "S&P Global Ratings",
+            "finding": "标普全球评级报告指出，预计从2026年中期开始，数据中心将从415V AC/54V DC向800V DC架构过渡。800V DC架构可将铜材需求减少高达45%，并显著降低电缆中的热损耗，以支持0.5-1.0 MW的AI机架。",
+            "url": "https://www.spglobal.com/ratings/en/research/articles/260219-credit-faq-sector-update-data-center-demand"
+          }
+        ],
+        "verification_confidence": "high",
+        "verification_notes": "信号核心逻辑完全验证。NVIDIA确实正强推800V HVDC标准以应对1MW机柜功耗，54V架构下200公斤铜线物理极限与高损耗被多方证实，此举将引发数据中心电源架构及第三代半导体（SiC/GaN）的代际革命。",
+        "verification_date": "2026-03-10",
+        "signal_date": "2025-10-30",
+        "market_data": {
+          "NVDA": {
+            "current": {
+              "price": 182.65,
+              "change_percent": 2.68,
+              "market_cap": 4439307976704,
+              "name": "NVIDIA Corporation"
+            },
+            "since_signal": {
+              "from_date": "2025-10-30",
+              "to_date": "2026-03-09",
+              "from_price": 202.88,
+              "to_price": 182.65,
+              "change": -20.23,
+              "change_percent": -9.97,
+              "trading_days": 88
+            },
+            "financials": {
+              "pe_ratio": 37.27551,
+              "forward_pe": 16.919775,
+              "profit_margin": 0.55603004,
+              "revenue_growth": 0.732,
+              "52_week_high": 212.19,
+              "52_week_low": 86.62
+            }
+          }
+        }
+      }
+    },
+    {
+      "entities": [
+        {
+          "name": "Oklo",
+          "ticker": "OKLO",
+          "type": "public"
+        }
+      ],
+      "signal_type": "valuation",
+      "claim": "微型核反应堆公司Oklo近期股价暴涨脱离基本面，反映了市场对AI缺电的情绪溢价。由于美国核能行业经历长期停滞，人才断层且工程难度极高，其2027年商业化目标过于乐观，实际落地恐需到2030年以后，短期存在较高估值泡沫和回调风险。",
+      "evidence_seg_ids": [
+        56,
+        58
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 56,
+          "quote": "而是反映市场对它的期待和情绪"
+        },
+        {
+          "seg_id": 58,
+          "quote": "这个日期可能是比较乐观的"
+        }
+      ],
+      "impact_path": [
+        "Oklo等微型核能初创概念股在未来可能面临估值大幅度回归基本面的压力",
+        "巨大的工程挑战和漫长的审批周期导致宣称的商业化时间表难以兑现"
+      ],
+      "verification_steps": [
+        "持续跟踪Oklo核反应堆项目的NRC（美国核管会）审批进度与反馈报告",
+        "关注其核心技术人员的人事变动情况及项目试运行时间表的正式推迟公告"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:24:50",
+      "time_end": "00:26:10",
+      "start_seconds": 1490.0,
+      "end_seconds": 1570.0,
+      "verification": {
+        "verification_status": "verified",
+        "verified_claim": "Oklo的股价在2025年10月创下近194美元的历史新高后，因缺乏实质性收入支撑及估值过高，至2026年初已暴跌超60%。市场和专业机构普遍认为其2027年的商业化目标过于激进，受制于NRC监管审批、HALEU燃料供应链及工程落地难度，实际规模化并网发电预计将推迟至2030年及以后。",
+        "verified_impact_path": [
+          "影响路径1：从情绪溢价到估值回归的传导机制。AI数据中心缺电引发的炒作情绪降温，投资者意识到Oklo作为零收入的初创公司，其百亿美元估值缺乏基本面支撑，从而引发资金获利了结和股价大幅回调。",
+          "影响路径2：对产业链的具体影响。由于NRC审批缓慢及HALEU燃料供应链短缺，微型核反应堆的实际落地时间被推迟至2030年以后，促使科技巨头（如Meta）采取更长期的分阶段合作模式（2030-2034年）。",
+          "影响路径3：对投资者的实际意义。在核能商业化早期阶段，投资逻辑已从单纯的“概念炒作”转向“节点兑现”，投资者需警惕长周期项目在监管、资金消耗和技术迭代（如AI芯片能效大幅提升）方面的多重风险。"
+        ],
+        "verified_data": [
+          {
+            "source": "Forbes",
+            "finding": "Oklo在2025年10月股价达到194美元高点后，因缺乏实际收入和面临巨大的执行风险，股价暴跌超50%。市场分析指出其估值完全建立在“AI缺电”和“Sam Altman光环”的叙事上，存在明显的泡沫。",
+            "url": "https://www.forbes.com/sites/greatspeculations/2025/12/02/is-oklo-a-14-billion-paper-reactor-bubble/"
+          },
+          {
+            "source": "Nasdaq",
+            "finding": "Oklo的商业化时间表与NRC（美国核管会）的审批密切相关。尽管公司目标在2027年底至2028年初实现首个Aurora反应堆的商业运营，但由于监管审批、供应链和施工的复杂性，实际产生有意义的商业收入预计要到2030年左右。",
+            "url": "https://www.nasdaq.com/articles/oklo-business-model-explained-when-revenue-could-arrive"
+          },
+          {
+            "source": "TradingView",
+            "finding": "Oklo与Meta达成的1.2 GW核能合作协议明确了长期时间表：预计2026年开始前期建设，2030年实现初步电力交付，并在2034年达到全面产能。这印证了其短期内无法实现规模化商业落地的判断。",
+            "url": "https://www.tradingview.com/news/oklo-s-1-2-gw-meta-agreement-is-it-a-long-term-bet-or-risk/"
+          },
+          {
+            "source": "Kerrisdale Capital",
+            "finding": "专业机构指出Oklo的2027年部署目标“过于乐观且不可信”，前NRC委员表示获得商业许可至少需要4年时间。此外，公司缺乏HALEU核燃料的长期供应保障，进一步限制了其2030年前的商业化能力。",
+            "url": "https://www.kerrisdalecap.com/investments/oklo-inc-oklo/"
+          }
+        ],
+        "verification_confidence": "high",
+        "verification_notes": "信号判断被高度验证。Oklo股价在2025年10月触及194美元高点后，至2026年初已暴跌超60%，印证了短期估值泡沫破裂的风险。同时，多方行业分析和Meta合作协议的时间表均表明，受制于监管审批和工程难度，其规模化商业落地需等到2030年以后。",
+        "verification_date": "2026-03-10",
+        "signal_date": "2025-10-30",
+        "market_data": {
+          "OKLO": {
+            "current": {
+              "price": 61.78,
+              "change_percent": 6.06,
+              "market_cap": 9652943872,
+              "name": "Oklo Inc."
+            },
+            "since_signal": {
+              "from_date": "2025-10-30",
+              "to_date": "2026-03-09",
+              "from_price": 137.39,
+              "to_price": 61.78,
+              "change": -75.61,
+              "change_percent": -55.03,
+              "trading_days": 88
+            },
+            "financials": {
+              "pe_ratio": null,
+              "forward_pe": -93.19656,
+              "profit_margin": 0.0,
+              "revenue_growth": null,
+              "52_week_high": 193.84,
+              "52_week_low": 17.42
+            }
+          }
+        }
+      }
+    },
+    {
+      "entities": [
+        {
+          "name": "FedEx",
+          "ticker": "FDX",
+          "type": "public"
+        },
+        {
+          "name": "Nvidia",
+          "ticker": "NVDA",
+          "type": "public"
+        }
+      ],
+      "signal_type": "demand",
+      "claim": "随着十万卡级别大模型训练集群落地，GPU宕机和返修频率激增。按1%的合理返修率估算，单集群每周需退回上千张损坏GPU，单次运输重量可达百吨量级。这衍生出庞大的逆向物流及售后维保需求，为FedEx等专业物流商和IT服务企业创造了隐性的增量业务场景。",
+      "evidence_seg_ids": [
+        118,
+        120
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 118,
+          "quote": "每周1%的failure rate"
+        },
+        {
+          "seg_id": 118,
+          "quote": "它可能需要100吨"
+        }
+      ],
+      "impact_path": [
+        "催生出专门服务于庞大算力集群的逆向物流及专业级服务器维保细分市场",
+        "超大集群极高频的单点硬件故障率导致了必须依赖专业货运的百吨级频繁返修需求"
+      ],
+      "verification_steps": [
+        "调查FedEx、UPS等物流巨头是否针对大型AI数据中心推出高价值重型逆向专线",
+        "向服务器ODM厂商及三大云巨头确认当前大模型训练集群的实际周平均故障率"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "00:49:50",
+      "time_end": "00:52:30",
+      "start_seconds": 2990.0,
+      "end_seconds": 3150.0,
+      "verification": {
+        "verification_status": "contradicted",
+        "verified_claim": "虽然十万卡集群确实面临较高的硬件故障率，但信号中关于'单次运输百吨量级'和'为FedEx创造庞大增量业务'的判断严重夸大且违背商业常识。1000张GPU的实际重量仅约1.5-2吨，且企业级数据中心通常采用现场备件和NVIDIA企业级4小时RMA专线服务，对FedEx的财务影响微乎其微。",
+        "verified_impact_path": [
+          "硬件故障传导：十万卡集群（如xAI, Meta）确实存在高频宕机（超50%由GPU/HBM3引起），这推动了NVIDIA及OEM厂商提供更高级别的企业级维保服务（如4小时内RMA替换），而非依赖标准第三方快递。",
+          "物流需求证伪：按10万张GPU的1%返修率计算，约1000张GPU（单卡约3-4磅）总重量仅约1.5至2吨，与信号声称的'百吨量级'相差近百倍，无法构成大宗物流规模。",
+          "对FedEx的实际影响：FedEx近期的股价上涨主要源于其10亿美元的成本削减计划和国内包裹业务的利润率提升。AI硬件逆向物流在其日均1500万件的运量中占比极微，不存在所谓的'庞大隐性增量业务'。"
+        ],
+        "verified_data": [
+          {
+            "source": "Tom's Hardware",
+            "finding": "Meta在训练Llama 3时使用的1.6万卡H100集群在54天内经历了419次意外组件故障（平均每3小时一次），其中58.7%由GPU硬件问题引起，证实了大模型训练的高返修需求，10万卡集群预计每18-26分钟就会发生一次故障。",
+            "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/faulty-nvidia-h100-gpus-and-hbm3-memory-caused-half-of-failures-during-llama-3-training"
+          },
+          {
+            "source": "NVIDIA Official Documentation",
+            "finding": "针对关键任务部署，NVIDIA提供“企业级业务关键支持”（Enterprise Business Critical Support），包含24/7全天候技术支持和4小时内RMA（退货授权）硬件更换服务。超大规模数据中心通常依赖此类专线企业服务和现场备件，而非标准商业快递。",
+            "url": "https://docs.nvidia.com/enterprise-support-and-services-user-guide/index.html"
+          },
+          {
+            "source": "Investing.com",
+            "finding": "FedEx近期股价大涨和业绩提升主要归功于其超预期的财报表现、大规模的成本削减计划（削减资本支出）以及美国国内包裹服务收益的增长，没有任何财报或分析师会议提及GPU逆向物流是其业务增长的驱动力。",
+            "url": "https://www.investing.com/news/stock-market-news/sentiment-improves-amid-nvidia-recovery-fedex-earnings-3498114"
+          }
+        ],
+        "verification_confidence": "high",
+        "verification_notes": "信号的物理和财务逻辑均被证伪。1000张GPU的重量仅约2吨，远非'百吨量级'；且超算中心采用企业级专线维保，该逆向物流需求对FedEx超900亿美元的体量而言完全可以忽略不计，FedEx的股价上涨纯粹由其内部降本增效驱动。",
+        "verification_date": "2026-03-10",
+        "signal_date": "2025-10-30",
+        "market_data": {
+          "FDX": {
+            "current": {
+              "price": 361.1,
+              "change_percent": 0.96,
+              "market_cap": 85203517440,
+              "name": "FedEx Corporation"
+            },
+            "since_signal": {
+              "from_date": "2025-10-30",
+              "to_date": "2026-03-09",
+              "from_price": 246.66,
+              "to_price": 361.1,
+              "change": 114.44,
+              "change_percent": 46.4,
+              "trading_days": 88
+            },
+            "financials": {
+              "pe_ratio": 19.994463,
+              "forward_pe": 16.614788,
+              "profit_margin": 0.04814,
+              "revenue_growth": 0.139,
+              "52_week_high": 392.86,
+              "52_week_low": 194.3
+            }
+          },
+          "NVDA": {
+            "current": {
+              "price": 182.65,
+              "change_percent": 2.68,
+              "market_cap": 4439307976704,
+              "name": "NVIDIA Corporation"
+            },
+            "since_signal": {
+              "from_date": "2025-10-30",
+              "to_date": "2026-03-09",
+              "from_price": 202.88,
+              "to_price": 182.65,
+              "change": -20.23,
+              "change_percent": -9.97,
+              "trading_days": 88
+            },
+            "financials": {
+              "pe_ratio": 37.27551,
+              "forward_pe": 16.919775,
+              "profit_margin": 0.55603004,
+              "revenue_growth": 0.732,
+              "52_week_high": 212.19,
+              "52_week_low": 86.62
+            }
+          }
+        }
+      }
+    }
+  ]
+}

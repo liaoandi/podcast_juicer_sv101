@@ -1,0 +1,286 @@
+{
+  "metadata": {
+    "source": "/Users/antonio/Desktop/podcast_juicer/output/sv101_ep214/214_transcript_gemini.json",
+    "method": "gemini_3_pro_full_context",
+    "model": "gemini-3.1-pro-preview",
+    "total_signals": 6,
+    "companies_mentioned": [
+      "Adidas",
+      "Alo Yoga",
+      "Lululemon",
+      "Nike",
+      "Vuori",
+      "伯希和",
+      "凯乐石"
+    ],
+    "context_length": 20685,
+    "publish_date": null,
+    "record_date": null,
+    "podcast_id": "sv101",
+    "episode_id": "214"
+  },
+  "signals": [
+    {
+      "entities": [
+        {
+          "name": "Lululemon",
+          "ticker": "LULU",
+          "parent": "Lululemon Athletica Inc.",
+          "type": "public"
+        }
+      ],
+      "signal_type": "valuation",
+      "claim": "Lululemon 正面临成长股估值逻辑挑战：不仅Q1库存同比激增23%、美洲同店销售下滑2%，而且女装百亿营收逼近天花板。此外，新兴品牌 Alo 和 Vuori 紧贴其门店选址，通过差异化定位直接抢夺市场，持续蚕食其核心客户群。",
+      "evidence_seg_ids": [
+        2,
+        3,
+        4,
+        9
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 2,
+          "quote": "Lululemon 第一季度在美洲的同店销售额同比下滑了 2%"
+        },
+        {
+          "seg_id": 9,
+          "quote": "Alo 跟 Vuori 的门店在北美都是追着 Lululemon 开的"
+        }
+      ],
+      "impact_path": [
+        "影响Lululemon未来的估值乘数（PE）和利润率",
+        "由于库存高企及激烈竞争，未来可能有打折去库存风险，且长期被视作高成长的估值溢价将被重新定价为价值股"
+      ],
+      "verification_steps": [
+        "跟踪下一个财报季Lululemon的美洲同店销售数据及库存周转天数",
+        "追踪其男装及鞋类新业务的营收占比变化是否达到管理层目标"
+      ],
+      "confidence": "high",
+      "novelty": "low",
+      "actionability": "high",
+      "time_start": "00:02:39",
+      "time_end": "00:11:10",
+      "start_seconds": 159.0,
+      "end_seconds": 670.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Alo Yoga",
+          "ticker": null,
+          "parent": "ALO, LLC",
+          "type": "private"
+        },
+        {
+          "name": "Vuori",
+          "ticker": null,
+          "parent": "Vuori, Inc.",
+          "type": "private"
+        }
+      ],
+      "signal_type": "competition",
+      "claim": "新兴品牌正通过差异化策略瓜分 Lululemon 的份额。估值15亿美金的 Alo Yoga 借社媒红利主打时尚感爆发；而估值55亿美金的 Vuori 从男装起步，三年内将女装比例做到50%，其稳健的社群策略被认为具备比 Alo 更好的长期潜力。",
+      "evidence_seg_ids": [
+        9,
+        35,
+        40,
+        41
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 9,
+          "quote": "他们用了 3 年时间就把女装比例做到 50%"
+        },
+        {
+          "seg_id": 41,
+          "quote": "我觉得它比 Alo 的发展前景未来会更好"
+        }
+      ],
+      "impact_path": [
+        "削弱Lululemon在北美女性核心客群的统治力",
+        "Vuori和Alo成功建立强有力的社媒和社群连接，并在线下直接拦截Lululemon的客流，稀释其市场份额"
+      ],
+      "verification_steps": [
+        "监控软银对Vuori的后续投资动作及估值变化",
+        "观察Alo和Vuori在社交媒体的提及量与北美新增线下门店数量的增速"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "00:08:45",
+      "time_end": "00:37:36",
+      "start_seconds": 525.0,
+      "end_seconds": 2256.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Nike",
+          "ticker": "NKE",
+          "parent": "Nike, Inc.",
+          "type": "public"
+        },
+        {
+          "name": "Adidas",
+          "ticker": "ADDYY",
+          "parent": "adidas AG",
+          "type": "public"
+        }
+      ],
+      "signal_type": "competition",
+      "claim": "Nike 和 Adidas 的核心防御力在于技术门槛更高的鞋履品类（营收占比超50%）。相较于 Lululemon 等以服装起家、易受潮流波段影响的品牌，巨头能通过深厚的经典鞋款产品库（如 Samba、Dunk）形成规模效应，抵御新兴势力的周期冲击。",
+      "evidence_seg_ids": [
+        28,
+        29,
+        30,
+        32
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 29,
+          "quote": "鞋它其实是一个支撑性品类"
+        },
+        {
+          "seg_id": 32,
+          "quote": "最后卖的鞋肯定是超过衣服，一定是超过 50% 的"
+        }
+      ],
+      "impact_path": [
+        "影响市场对服装起家垂类品牌长期跨界竞争力的评估",
+        "鞋履的高壁垒和庞大产品库允许传统巨头容错率更高，在复古潮流等周期切换时快速调用库存资产变现"
+      ],
+      "verification_steps": [
+        "跟踪Nike和Adidas各季度财报中鞋履品类营收占比及利润贡献率",
+        "对比关注经典复刻款（Samba/Dunk）的二级市场溢价率，作为趋势衰减的先行指标"
+      ],
+      "confidence": "low",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "00:24:28",
+      "time_end": "00:30:45",
+      "start_seconds": 1468.0,
+      "end_seconds": 1845.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Adidas",
+          "ticker": "ADDYY",
+          "parent": "adidas AG",
+          "type": "public"
+        }
+      ],
+      "signal_type": "product",
+      "claim": "Adidas 将长期使用的品牌口号更改为“You got it（你行的）”，反映其敏锐捕捉到年轻消费者从追求极致竞技向追求轻松愉悦与松弛感转变的思潮。这一战略级叙事调整预示着品牌将更多资源倾斜于运动休闲与时尚穿搭品类。",
+      "evidence_seg_ids": [
+        46,
+        48,
+        50
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 48,
+          "quote": "阿迪在赌的是他认为思潮在发生变化"
+        }
+      ],
+      "impact_path": [
+        "可能带来Adidas产品线重心更偏向休闲穿搭领域",
+        "随着slogan和品牌叙事的改变，营销资源和设计理念将更贴合Z世代的躺平/反内卷情绪，有望拉动复古休闲款销售"
+      ],
+      "verification_steps": [
+        "观察Adidas后续赞助体育赛事与休闲潮流IP的营销预算分配比例变化",
+        "对比Adidas新推产品线的日常穿搭场景渗透率"
+      ],
+      "confidence": "low",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "00:53:02",
+      "time_end": "00:55:23",
+      "start_seconds": 3182.0,
+      "end_seconds": 3323.0
+    },
+    {
+      "entities": [
+        {
+          "name": "伯希和",
+          "ticker": null,
+          "parent": "伯希和户外装备股份有限公司",
+          "type": "private"
+        }
+      ],
+      "signal_type": "competition",
+      "claim": "正在申请IPO的国产户外品牌伯希和，凭借精准卡位凯乐石涨价后留下的中端价格带空档，叠加抖音渠道流量红利（2024年抖音收入达3.23亿，三年间翻倍增长），成功支撑起全年17.66亿的营收规模，展现极强商业转化力。",
+      "evidence_seg_ids": [
+        58,
+        65
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 65,
+          "quote": "卡住了凯乐石价格上调之后让出来的这个价格带嘛"
+        },
+        {
+          "seg_id": 65,
+          "quote": "24 年抖音的收入是 3 个亿出头，它全年的营收呢是 17.66 亿"
+        }
+      ],
+      "impact_path": [
+        "影响港股投资者对伯希和IPO估值的定价预期",
+        "公司在价格定位上的敏锐填空和对短视频渠道流量的转化能力是其业务高速增长的直接驱动力"
+      ],
+      "verification_steps": [
+        "核查其招股说明书中渠道销售占比及毛利率，确认抖音渠道获客成本变化",
+        "追踪其上市后首份财报的营收和净利润增速是否维持现有轨迹"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:56:05",
+      "time_end": "00:58:54",
+      "start_seconds": 3365.0,
+      "end_seconds": 3534.0
+    },
+    {
+      "entities": [
+        {
+          "name": "凯乐石",
+          "ticker": null,
+          "parent": "Kailas",
+          "type": "private"
+        }
+      ],
+      "signal_type": "valuation",
+      "claim": "国产户外品牌凯乐石精准把握了高净值人群将户外服饰向日常通勤渗透的趋势，在探路者掉队形成的竞争真空期，采取激进提价策略。提价获取的高毛利被用于反哺体育资源营销和社群运营，以此完成品牌高端化升级的闭环。",
+      "evidence_seg_ids": [
+        68,
+        70,
+        71
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 70,
+          "quote": "更现实的提价是为了利润，你品牌要向上"
+        },
+        {
+          "seg_id": 71,
+          "quote": "所以它敢于高举高打。然后确实在国内也没有对手"
+        }
+      ],
+      "impact_path": [
+        "决定其能否成功摆脱本土平价户外的标签，实现品牌跃迁",
+        "提价带来的高利润支持其扩展社群和赛事赞助，进一步增强高净值人群粘性，从而对抗其他海外昂贵户外品牌"
+      ],
+      "verification_steps": [
+        "调研核心线下商圈凯乐石门店的客单价及消费者画像变化",
+        "关注其在攀岩、登山等专业赛事的赞助投入及用户反馈指标"
+      ],
+      "confidence": "low",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "01:01:50",
+      "time_end": "01:06:11",
+      "start_seconds": 3710.0,
+      "end_seconds": 3971.0
+    }
+  ]
+}

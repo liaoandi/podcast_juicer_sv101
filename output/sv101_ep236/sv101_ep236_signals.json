@@ -1,0 +1,193 @@
+{
+  "metadata": {
+    "source": "../output/sv101_ep236/236_transcript_gemini.json",
+    "method": "gemini_3_pro_full_context",
+    "model": "gemini-3.1-pro-preview",
+    "total_signals": 4,
+    "companies_mentioned": [
+      "Alibaba",
+      "Insta360",
+      "Yuyi Technology"
+    ],
+    "context_length": 24014,
+    "publish_date": "2026-01-30",
+    "record_date": "",
+    "podcast_id": "sv101",
+    "episode_id": "236"
+  },
+  "signals": [
+    {
+      "entities": [
+        {
+          "name": "Alibaba",
+          "ticker": "BABA",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "product",
+      "claim": "阿里云AI大模型推理成本正以每半年下降10倍（一个量级）的速度暴降，主要受模型结构稀疏化（如Qwen2.5-Max实现80B参数仅3B激活）、端到端调度优化及自研芯片垂直一体化驱动。这将极大改善阿里大模型业务毛利，加速其商业化落地。",
+      "evidence_seg_ids": [
+        53,
+        56
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 53,
+          "quote": "按照半年快接近一个量级这样一个下降"
+        },
+        {
+          "seg_id": 53,
+          "quote": "80B的参数3B激活，那它稀疏比很高"
+        }
+      ],
+      "impact_path": [
+        "大幅降低阿里云AI基座的推理成本，提升云计算业务利润率",
+        "通过极致的算力性价比扩大MaaS平台的市场份额，压制竞争对手"
+      ],
+      "verification_steps": [
+        "追踪阿里云下一季度财报中AI相关收入的增速及整体利润率改善情况",
+        "观测阿里云百炼平台各类API的定价下调频率及幅度"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:26:46",
+      "time_end": "00:29:38",
+      "start_seconds": 1606.0,
+      "end_seconds": 1778.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Alibaba",
+          "ticker": "BABA",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "product",
+      "claim": "阿里万象等视频生成模型已达商用水平，将15秒广告视频的生成成本从市场价25-50元降至10元以下。已有代理商通过AI工作流实现5人日产6000条视频，这将深刻颠覆传统广告外包模式，并为阿里电商生态注入低成本的海量高质量营销素材。",
+      "evidence_seg_ids": [
+        2,
+        11,
+        13
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 11,
+          "quote": "AI的成本能够控制在10元以下"
+        },
+        {
+          "seg_id": 13,
+          "quote": "五六个人，10个人，他就可以一天生成6000个广告"
+        }
+      ],
+      "impact_path": [
+        "降低电商商家的广告制作门槛，增加阿里妈妈平台广告库存及投放意愿",
+        "对传统影视广告制作外包公司造成规模化替代压力"
+      ],
+      "verification_steps": [
+        "调研电商代运营公司及广告代理商中AI视频工作流的实际渗透率",
+        "监测淘宝/天猫信息流中AI生成视频广告的占比及转化率数据"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:03:25",
+      "time_end": "00:10:05",
+      "start_seconds": 205.0,
+      "end_seconds": 605.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Insta360",
+          "ticker": null,
+          "parent": null,
+          "type": "private"
+        },
+        {
+          "name": "Alibaba",
+          "ticker": "BABA",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "product",
+      "claim": "影石Insta360已上线云端AI全景视频自动剪辑功能，但当前单段素材处理成本高达十几元，严重制约大规模免费普及。公司正结合阿里大模型和全景数据高压缩率技术以降低Token消耗，该单位成本瓶颈反映了当前多模态AI硬件应用面临的普遍盈利挑战。",
+      "evidence_seg_ids": [
+        110,
+        115,
+        116
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 110,
+          "quote": "我们云端的自动剪辑已经上线了"
+        },
+        {
+          "seg_id": 116,
+          "quote": "剪一段这样的素材可能得需要十几块钱的成本"
+        }
+      ],
+      "impact_path": [
+        "高昂的多模态云端推理成本短期可能压制AI硬件公司的整体毛利率",
+        "迫使终端硬件厂商加速自研端侧轻量化模型或采用更激进的数据压缩方案"
+      ],
+      "verification_steps": [
+        "跟踪Insta360新一代产品中AI剪辑功能的付费模式（是否从免费转为订阅/用量计费）",
+        "观察行业通用多模态（视频/全景）API调用价格的下降趋势"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:47:02",
+      "time_end": "00:48:21",
+      "start_seconds": 2822.0,
+      "end_seconds": 2901.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Yuyi Technology",
+          "ticker": null,
+          "parent": null,
+          "type": "private"
+        }
+      ],
+      "signal_type": "valuation",
+      "claim": "AI的Token计费模式成功重塑了中国企业客户的软件付费习惯，使语忆科技等国内SaaS厂商得以顺利推行“基础License+数据用量”的混合收费模式。这一认知转变帮助语忆科技实现100%年增长，标志着国内ToB SaaS长期收费难的问题迎来转机。",
+      "evidence_seg_ids": [
+        163,
+        166,
+        168
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 163,
+          "quote": "明确认知到因为AI是按照token计费的"
+        },
+        {
+          "seg_id": 168,
+          "quote": "去年的话也完成了百分百的一个增长率"
+        }
+      ],
+      "impact_path": [
+        "中国AI SaaS公司营收天花板被打开，估值逻辑向实际用量计费转变",
+        "提升国内一级市场及二级市场对AI应用层SaaS企业的投资意愿与估值溢价"
+      ],
+      "verification_steps": [
+        "访谈其他国内头部AI SaaS企业，验证混合计费模式的客户接受度和续约率",
+        "观察国内上市SaaS公司（如微盟、有赞等）AI增值服务带来的ARPU提升情况"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "01:03:15",
+      "time_end": "01:06:18",
+      "start_seconds": 3795.0,
+      "end_seconds": 3978.0
+    }
+  ]
+}

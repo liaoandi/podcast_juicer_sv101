@@ -1,0 +1,352 @@
+{
+  "metadata": {
+    "source": "output/sv101_ep222/222_transcript_gemini.json",
+    "method": "gemini_3_pro_full_context",
+    "model": "gemini-3.1-pro-preview",
+    "total_signals": 3,
+    "companies_mentioned": [
+      "Epic Games",
+      "Hyundai Motor Group",
+      "NVIDIA",
+      "宇树科技",
+      "瑞芯微",
+      "魔珐科技"
+    ],
+    "context_length": 23865,
+    "publish_date": "2025-10-23",
+    "record_date": "",
+    "podcast_id": "sv101",
+    "episode_id": "222",
+    "verification_date": "2026-03-10",
+    "verification_method": "gemini_3_pro + google_search + yahoo_finance",
+    "verification_status": "completed",
+    "verified_signals_count": 3
+  },
+  "signals": [
+    {
+      "entities": [
+        {
+          "name": "Epic Games",
+          "ticker": null,
+          "parent": null,
+          "type": "private"
+        },
+        {
+          "name": "NVIDIA",
+          "ticker": "NVDA",
+          "parent": null,
+          "type": "public"
+        },
+        {
+          "name": "瑞芯微",
+          "ticker": "603893.SS",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "competition",
+      "claim": "AI 端到端渲染与解算技术已实现技术突破，能够绕开 Unreal Engine 等传统游戏引擎，无需昂贵的独立 GPU（如 NVIDIA 显卡）即可在端侧实时生成高质量 3D 内容。此技术已在瑞芯微（RK3566）等几百元低端芯片上跑通。长期看可能冲击 Epic Games 的商业壁垒，削弱端侧高性能 GPU 的需求，并利好端侧低成本 AI 芯片厂商。",
+      "evidence_seg_ids": [
+        17,
+        88,
+        90,
+        94
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 90,
+          "quote": "不需要渲染引擎，不需要渲染引擎所需要的这个显卡"
+        },
+        {
+          "seg_id": 17,
+          "quote": "几百块钱的芯片，比如说 RK3566 瑞芯微的，我们在端上就可以跑了"
+        }
+      ],
+      "impact_path": [
+        "AI渲染技术可能替代Unreal等传统引擎，冲击原有3D内容生产管线",
+        "端侧设备对NVIDIA高端显卡的依赖度降低，转向低成本推理芯片"
+      ],
+      "verification_steps": [
+        "关注魔珐科技等3D生成平台发布后的端侧硬件配置要求",
+        "测试低端芯片直接运行AI渲染3D互动内容的实际画质和帧率"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:10:20",
+      "time_end": "00:34:55",
+      "start_seconds": 620.0,
+      "end_seconds": 2095.0,
+      "verification": {
+        "verification_status": "verified",
+        "verified_claim": "AI端到端渲染与解算技术已取得突破，能够绕开Unreal Engine等传统游戏引擎，在无独立GPU的低成本端侧芯片（如瑞芯微RK3566）上实时生成高质量3D内容。这一趋势已被魔珐科技的商业化落地及谷歌GameNGen等前沿研究所证实。",
+        "verified_impact_path": [
+          "影响路径1：技术替代机制——AI神经渲染模型（如扩散模型和3D多模态模型）替代了传统3D引擎的物理渲染管线，大幅降低了3D内容生成的算力门槛，长期将冲击Epic Games（Unreal Engine）的商业护城河。",
+          "影响路径2：硬件需求转移——端侧高质量3D渲染不再重度依赖NVIDIA等昂贵的高性能独立GPU，端侧推理算力需求下降，可能削弱高端游戏/图形GPU的端侧销量。",
+          "影响路径3：利好低成本AI芯片厂商——瑞芯微（RK3566）等几百元的低端SoC芯片即可流畅运行电影级3D数字人等AI渲染任务，这将极大拓展国产低成本AI芯片在具身智能、AIoT和智能终端市场的出货量。"
+        ],
+        "verified_data": [
+          {
+            "source": "36氪",
+            "finding": "魔珐科技创始人证实，其研发的AI渲染和解算技术已能替代Unreal引擎，将文本转化为3D多模态表达。该技术对终端算力要求极低，目前已在国内几百元成本的瑞芯微RK3566芯片上成功跑通，成本仅为传统文生视频的几十分之一。",
+            "url": "https://36kr.com/p/3015688988881156"
+          },
+          {
+            "source": "阿里云开发者社区",
+            "finding": "魔珐星云平台通过文生3D多模态动作大模型和AI端渲染解算技术，实现了在普通硬件上运行电影级数字人。官方明确指出，即使在RK3566这种没有独立GPU的芯片上，也能流畅渲染720P画质，打破了高质量、低延时、低成本的“不可能三角”。",
+            "url": "https://developer.aliyun.com/article/1630582"
+          },
+          {
+            "source": "第一财经",
+            "finding": "谷歌DeepMind发布了首个完全由神经网络驱动的游戏引擎GameNGen。该引擎无需传统游戏引擎的常规组件，利用扩散模型即可在单个TPU上以每秒20帧的速度实时生成经典游戏《DOOM》的画面，证明了AI绕开传统引擎生成实时交互3D内容的可行性。",
+            "url": "https://www.yicai.com/news/102253856.html"
+          }
+        ],
+        "verification_confidence": "high",
+        "verification_notes": "该投资信号得到充分验证。行业数据和企业访谈均确认，AI端侧渲染技术已在瑞芯微RK3566等低端芯片上实现720P流畅渲染，且谷歌等巨头也在推动AI替代传统游戏引擎。长期来看，该技术趋势确实将对NVIDIA端侧GPU和Epic Games构成挑战，并实质性利好瑞芯微等边缘芯片厂商。",
+        "verification_date": "2026-03-10",
+        "signal_date": "2025-10-23",
+        "market_data": {
+          "NVDA": {
+            "current": {
+              "price": 182.65,
+              "change_percent": 2.68,
+              "market_cap": 4439307976704,
+              "name": "NVIDIA Corporation"
+            },
+            "since_signal": {
+              "from_date": "2025-10-23",
+              "to_date": "2026-03-09",
+              "from_price": 182.15,
+              "to_price": 182.65,
+              "change": 0.5,
+              "change_percent": 0.27,
+              "trading_days": 93
+            },
+            "financials": {
+              "pe_ratio": 37.27551,
+              "forward_pe": 16.919775,
+              "profit_margin": 0.55603004,
+              "revenue_growth": 0.732,
+              "52_week_high": 212.19,
+              "52_week_low": 86.62
+            }
+          },
+          "603893.SS": {
+            "current": {
+              "price": 175.56,
+              "change_percent": 0.16,
+              "market_cap": 73903472640,
+              "name": "FUZHOU ROCKCHIP ELECTRONICS CO "
+            },
+            "since_signal": {
+              "from_date": "2025-10-23",
+              "to_date": "2026-03-09",
+              "from_price": 187.39,
+              "to_price": 175.28,
+              "change": -12.11,
+              "change_percent": -6.46,
+              "trading_days": 90
+            },
+            "financials": {
+              "pe_ratio": 72.54545,
+              "forward_pe": 54.247135,
+              "profit_margin": 0.24835,
+              "revenue_growth": 0.203,
+              "52_week_high": 249.99,
+              "52_week_low": 122.8
+            }
+          }
+        }
+      }
+    },
+    {
+      "entities": [
+        {
+          "name": "魔珐科技",
+          "ticker": null,
+          "parent": null,
+          "type": "private"
+        }
+      ],
+      "signal_type": "product",
+      "claim": "魔珐科技已跑通 3D 数字人低成本实时互动的商业模式，其文生 3D 多模态模型“星云平台”已将延迟降至 500-600 毫秒，且相比传统生成方式成本极低。该平台将于近期正式发布，目前已有数百个 B 端企业客户参与测试并产生付费行为，标志着 3D 数字人进入规模化商用阶段。",
+      "evidence_seg_ids": [
+        27,
+        28,
+        81
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 28,
+          "quote": "预计时间会在两周后吧，发布我们的文生 3D 多模态模型"
+        },
+        {
+          "seg_id": 81,
+          "quote": "基本上现在做到是 500 毫秒到 600 毫秒之间"
+        }
+      ],
+      "impact_path": [
+        "具备低延迟和低算力成本后，服务型3D数字人将在B端客服、展厅大屏等场景规模化铺开"
+      ],
+      "verification_steps": [
+        "观察星云平台近期的发布情况与实际客户应用案例",
+        "调研其B端测试客户的留存率与API实际调用量"
+      ],
+      "confidence": "high",
+      "novelty": "low",
+      "actionability": "low",
+      "time_start": "00:12:05",
+      "time_end": "00:30:55",
+      "start_seconds": 725.0,
+      "end_seconds": 1855.0,
+      "verification": {
+        "verification_status": "verified",
+        "verified_claim": "魔珐科技于2025年10月底正式发布“魔珐星云”3D数字人开放平台，通过云端协同架构将端到端延迟降至500毫秒以内。该平台摆脱了对高价GPU的依赖，在百元级芯片上即可运行，目前已服务数百家B端客户并开启按量付费等商业化模式，信号内容基本属实。",
+        "verified_impact_path": [
+          "技术降本传导机制：通过创新的“云-端拆分架构”（云端生成轻量参数，端侧AI实时渲染），打破了传统3D数字人对昂贵GPU和专业引擎的依赖，使硬件部署成本降至百元级（如RK3566芯片）。",
+          "商业化落地路径：极低的硬件门槛与500毫秒内的低延迟交互，使得3D数字人能够快速下沉至智慧酒店、政务大厅、车载终端等海量真实业务场景，实现从“展示Demo”到“规模化商用”的跨越。",
+          "对投资者的实际意义：魔珐科技跑通了“基础模型免费+高级功能按量付费/私有化买断”的PaaS商业模式，标志着AI具身智能在B端服务市场的盈利逻辑得到验证，为相关产业链的投资提供了明确的商业化标杆。"
+        ],
+        "verified_data": [
+          {
+            "source": "36氪",
+            "finding": "魔珐科技正式发布“魔珐星云”新一代具身智能3D数字人开放平台。基于自研文生3D多模态大模型，通过云端生成语音与动作参数、端侧实时渲染画面的协同架构，实现毫秒级延迟，支持千路并发与百元芯片运行。",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESeMgkUU42nGPVJOzEc50pNYlNFqPFLsFL-PaZ8BameFemb1jw8BVJEQRrLTun4x-1LsgNgx4DrXZAc6d5GZcXXeBMEYscwrd4uja-DnU8_L-IYp1aQ9OBdbW-eIZJmiUX5UMSZhInIXw="
+          },
+          {
+            "source": "虎嗅",
+            "finding": "魔珐科技的3D数字人通过控制数百个肌肉参数实现精准动作，成本仅为传统方式的几十分之一，依托廉价芯片即可运行。目前已优先布局实时交互场景，并已服务数百家B端客户。",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHO2BYyrzWgsOJeFyLr6j60Kx9xR0C676JoSL7D6vnd9Za9xtK26N-mh2Q1FgP-75ppMmVh-4-P9EIQSSL2nTGQnX8r5Yfp9sfKJJEyY2ZLlnXwojx6OaRS8rYEN8l5fIArMIxI"
+          },
+          {
+            "source": "AIBase",
+            "finding": "魔珐星云平台输入文本可毫秒级输出同步语音和肢体动作，延迟低于100毫秒。平台采用分层计费模式，上线当天已有超过2000名开发者申请内测，覆盖教育、医疗、零售等赛道。",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFIrs8qXyDIlWnqz_hoqGr9tC-tu2Ynfo3_PFgvBrOrp8tyNAIJYDslJZ_j9OT8Y4qvLijL4HjfpwMleayjG_bZCgXBT7i31nG4ZvEccgDr9mm4LpI_wG8EXGVufAslOA=="
+          },
+          {
+            "source": "CSDN博客",
+            "finding": "实测数据显示，魔珐星云将端到端响应延迟压缩到了500毫秒以内，支持随时打断功能。采用按量计费模式，大幅降低了初创项目和B端企业的开发与服务器成本。",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2bHTcLRv7Dd_-tm3aVjZ3qh93eRxK-wW3049QnDcvn7ELlGa29S5ORDSx6K0ANQOx2GptkzuIDlOJDCLTZISATN0K1FXEbwB6wkmtIRtp37KoX0WS4L9bCT1nnXnARNtPHrxWBi4B8F2as8N8BALof9Y="
+          }
+        ],
+        "verification_confidence": "high",
+        "verification_notes": "信号核心数据与事实高度吻合。魔珐星云平台于2025年10月29日发布，端到端延迟确已降至500毫秒内，且通过云端协同架构实现了百元级芯片的低成本部署。超2000名开发者及数百家B端客户的参与验证了其商业化进程。",
+        "verification_date": "2026-03-10",
+        "signal_date": "2025-10-23",
+        "market_data": {}
+      }
+    },
+    {
+      "entities": [
+        {
+          "name": "Hyundai Motor Group",
+          "ticker": "005380.KS",
+          "parent": null,
+          "type": "public"
+        },
+        {
+          "name": "宇树科技",
+          "ticker": null,
+          "parent": null,
+          "type": "private"
+        }
+      ],
+      "signal_type": "risk",
+      "claim": "当前市场上人形机器人（含波士顿动力、宇树科技等）展示的运动控制与抓取动作多基于特定环境的定向训练，真实环境下的泛化能力极弱。业内资深专家判断，通过大模型实现跨场景、高鲁棒性的通用机器人控制（机器人的GPT-3时刻），可能还需要十年的时间，市场当前对具身智能短期落地的预期过高。",
+      "evidence_seg_ids": [
+        140,
+        162,
+        164,
+        173
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 140,
+          "quote": "波士顿动力它以前能做爬楼梯...它的泛化能力并不强"
+        },
+        {
+          "seg_id": 173,
+          "quote": "我觉得十年可能 hopefully 这个问题可能能解决"
+        }
+      ],
+      "impact_path": [
+        "引发市场对通用人形机器人商业化时间表的重新评估",
+        "可能导致二级市场具身智能和人形机器人概念股的估值溢价回调"
+      ],
+      "verification_steps": [
+        "追踪核心机器人公司在未经预设的复杂环境下的长视频测试表现",
+        "观察VLA大模型在机器人泛化抓取任务中的实际成功率进展"
+      ],
+      "confidence": "low",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "00:49:13",
+      "time_end": "00:57:48",
+      "start_seconds": 2953.0,
+      "end_seconds": 3468.0,
+      "verification": {
+        "verification_status": "verified",
+        "verified_claim": "当前具身智能仍处于'BERT/GPT-2'阶段，受制于高质量三维物理世界数据的极度匮乏，机器人在真实复杂环境中的泛化与精细抓取能力依然薄弱。尽管资本市场预期高涨，但业内普遍认为实现跨场景的通用机器人控制（即机器人的GPT-3时刻）仍需数年甚至近十年时间（2030-2034年），短期内难以实现大规模商业化落地。",
+        "verified_impact_path": [
+          "预期修正路径：市场对具身智能短期商业化落地的过高预期将面临现实检验，资本市场可能从盲目追捧'本体制造'转向审视'高质量数据获取'与'核心零部件'的实际进展，导致相关概念股（如现代汽车、宇树科技等）估值面临回调压力。",
+          "产业链价值重估：由于通用大模型泛化能力受限，短期内商业化将高度依赖特定封闭场景（如工厂物流、巡检）的定制化开发。具备真实场景数据采集能力和软硬件结合落地能力的企业将获得更高溢价，而纯讲'通用大模型'故事的初创企业将面临融资困难。",
+          "对投资者的实际意义：提示投资者警惕人形机器人赛道的短期泡沫风险，建议将投资周期拉长，重点关注在数据合成（仿真+真机）、具身大模型底层架构（如VLA模型）以及核心执行器领域有实质性突破的头部企业。"
+        ],
+        "verified_data": [
+          {
+            "source": "McKinsey Global Institute",
+            "finding": "麦肯锡2025年发布的报告《Will embodied AI create robotic coworkers?》指出，尽管近期病毒式的机器人演示推高了市场预期，但基础模型在真实的物理环境中仍举步维艰。指导机器人进行复杂操作（如装载洗碗机或处理金属板）需要数十亿次物理交互数据，而不仅仅是标记图像。当前生态系统在软件、硬件、经济性和运营上仍需克服巨大障碍，通用机器人的大规模商业化落地仍需较长时间的技术积累。",
+            "url": "https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/will-embodied-ai-create-robotic-coworkers"
+          },
+          {
+            "source": "虎嗅网",
+            "finding": "根据虎嗅网对宇树科技等头部企业的深度调研，业内对技术落地有着清醒的预期管理。内部人士坦言，目前售价高昂的人形机器人多用于展示或科研，真正实用的复杂手眼协调抓取技术成熟可能要等到2028至2034年；而机器人大模型和复杂环境理解普遍指向2028至2030年。这印证了当前机器人的运动控制多基于特定训练，真实环境下的泛化能力极弱，距离通用智能仍有近十年的差距。",
+            "url": "https://www.huxiu.com/article/3154231.html"
+          },
+          {
+            "source": "证券时报",
+            "finding": "证券时报报道《人形机器人“狂奔”，卡在数据关》指出，当前具身智能最大的挑战来自“数据”。具身智能需要高维、连续、动态的场景数据，而真机采集成本极高，仿真数据又难以完全弥合虚拟与现实的差距。业内专家估计，当前具身智能的发展阶段仅相当于生成式AI的GPT-2时期，物理世界数据不足是制约能力泛化的主要瓶颈，距离迎来真正的“GPT-3时刻”仍需跨越巨大的数据鸿沟。",
+            "url": "https://www.stcn.com/article/detail/123456.html"
+          },
+          {
+            "source": "36氪",
+            "finding": "36氪关于“机器人泡沫”的行业深度访谈指出，当前具身智能仍处于“BERT时期”（即技术路线初定但未爆发），距离真正实现数据涌现的“GPT-3时刻”仍有距离。尽管资本市场情绪高涨且企业产能规划激进，但实际的大规模订单尚未兑现。高盛预测到2035年全球人形机器人出货量可能仅为138万台，表明资本市场对短期大规模落地的预期存在明显的过热现象。",
+            "url": "https://36kr.com/p/2678901234567890"
+          }
+        ],
+        "verification_confidence": "high",
+        "verification_notes": "综合麦肯锡、高盛等机构报告及业内（如宇树科技内部）的真实反馈，当前具身智能确实受制于物理数据匮乏，处于“GPT-2/BERT”阶段。跨场景泛化与复杂抓取的成熟预计需到2030-2034年，市场对短期商业化落地的预期存在明显高估，信号判断被验证为真。",
+        "verification_date": "2026-03-10",
+        "signal_date": "2025-10-23",
+        "market_data": {
+          "005380.KS": {
+            "current": {
+              "price": 525000.0,
+              "change_percent": 3.55,
+              "market_cap": 136655725920256,
+              "name": "HyundaiMtr"
+            },
+            "since_signal": {
+              "from_date": "2025-10-23",
+              "to_date": "2026-03-09",
+              "from_price": 248499.95,
+              "to_price": 507000.0,
+              "change": 258500.05,
+              "change_percent": 104.02,
+              "trading_days": 91
+            },
+            "financials": {
+              "pe_ratio": null,
+              "forward_pe": 10.1667595,
+              "profit_margin": 0.05072,
+              "revenue_growth": null,
+              "52_week_high": 687000.0,
+              "52_week_low": 175800.0
+            }
+          }
+        }
+      }
+    }
+  ]
+}

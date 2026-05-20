@@ -1,0 +1,23 @@
+{
+  "podcast_id": "sv101",
+  "podcast_name": "硅谷101",
+  "episode_id": "187",
+  "url": "https://sv101.fireside.fm/187",
+  "base_url": "https://sv101.fireside.fm",
+  "hosts": [
+    "泓君"
+  ],
+  "language": "zh",
+  "publish_date": "2025-02-13",
+  "record_date": "2025-01-15",
+  "date_notes": "录制日期推断为谷歌宣布量子计算突破的同月",
+  "guests": [
+    "Roger Luo",
+    "Jared Ren"
+  ],
+  "guest_background": {
+    "Roger Luo": "Anyon Technologies 创始人兼CEO，加州理工博士与伯克利大学的博士后",
+    "Jared Ren": "Anyon Technologies 创始人兼CTO，加州理工博士与博士后"
+  },
+  "record_date_source": "transcript"
+}

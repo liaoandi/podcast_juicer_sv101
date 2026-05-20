@@ -1,0 +1,193 @@
+{
+  "metadata": {
+    "source": "/Users/antonio/Desktop/podcast_juicer_sv101/output/sv101_ep248/248_transcript_gemini.json",
+    "method": "gemini_3_pro_full_context",
+    "model": "gemini-3.1-pro-preview",
+    "total_signals": 4,
+    "companies_mentioned": [
+      "Azalea",
+      "Eli Lilly",
+      "Johnson & Johnson",
+      "Legend Biotech",
+      "药明巨诺"
+    ],
+    "context_length": 23738,
+    "publish_date": "2026-05-08",
+    "record_date": "",
+    "podcast_id": "sv101",
+    "episode_id": "248"
+  },
+  "signals": [
+    {
+      "entities": [
+        {
+          "name": "药明巨诺",
+          "ticker": "2126",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "supply_chain",
+      "claim": "药明巨诺等中国体外 CAR-T 企业的制备成本已降至约40万元。随着慢病毒载体等核心原料实现国产平替，未来生产成本仍有大幅下降空间。这不仅将显著改善国内细胞治疗企业的毛利率，还能通过降价覆盖更多患者，打破极高定价带来的商业化瓶颈，提升渗透率。",
+      "evidence_seg_ids": [
+        28,
+        29,
+        30
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 30,
+          "quote": "中国的整个 CAR-T 制备的供应链起来了"
+        },
+        {
+          "seg_id": 30,
+          "quote": "它的成本会有大幅度下降"
+        }
+      ],
+      "impact_path": [
+        "影响药明巨诺等国产 CAR-T 企业的财务模型",
+        "国产原料替代和规模化效应使得单客制造成本大幅低于欧美，毛利率存在巨大改善空间，有利于产品降价进入医保或扩大自费受众基数"
+      ],
+      "verification_steps": [
+        "关注药明巨诺历次财报中公布的单产品毛利率变化及成本拆分",
+        "调研国内慢病毒载体（Lentiviral vector）等核心试剂供应商的产能与价格下行趋势"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:22:50",
+      "time_end": "00:25:31",
+      "start_seconds": 1370.0,
+      "end_seconds": 1531.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Legend Biotech",
+          "ticker": "LEGN",
+          "parent": null,
+          "type": "public"
+        },
+        {
+          "name": "Johnson & Johnson",
+          "ticker": "JNJ",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "demand",
+      "claim": "传奇生物与强生合作的骨髓瘤 CAR-T 产品因疗效优异，已获 FDA 批准从四线前移至二线治疗。随着治疗线数前移，其可覆盖的存量及新增患者规模成倍增加，直接打破原先仅靠末线患者驱动的销售天花板，大幅提升该管线的商业价值上限与营收预期。",
+      "evidence_seg_ids": [
+        51,
+        52,
+        53
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 52,
+          "quote": "批准它用于治疗早期的多发性骨髓瘤"
+        },
+        {
+          "seg_id": 53,
+          "quote": "治疗的位置逐渐往前移，汇集的患者规模越来越大"
+        }
+      ],
+      "impact_path": [
+        "影响传奇生物与强生该款 CAR-T 产品的远期销售峰值",
+        "适应症从中末线拓展至二线，患者基数呈指数级扩大，直接转化为销量的快速爬坡"
+      ],
+      "verification_steps": [
+        "查阅强生每季度财报中公布的 CAR-T 疗法具体销售额（目前提及目标/已达近19亿美元）",
+        "跟踪处方医生将该 CAR-T 疗法作为二线首选方案的实际渗透率"
+      ],
+      "confidence": "high",
+      "novelty": "low",
+      "actionability": "low",
+      "time_start": "00:37:50",
+      "time_end": "00:40:18",
+      "start_seconds": 2270.0,
+      "end_seconds": 2418.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Eli Lilly",
+          "ticker": "LLY",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "capital_action",
+      "claim": "礼来近期斥巨资收购体内 CAR-T 公司，因其早期临床在骨髓瘤上展现出极佳的完全缓解疗效。这标志跨国药企正加速押注体内细胞改造路线，试图彻底解决体外 CAR-T 高成本与长周期的痛点，体内 CAR-T 管线将成为医药板块的核心并购与估值溢价方向。",
+      "evidence_seg_ids": [
+        23
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 23,
+          "quote": "花那么大价钱买 Colona 这个公司的体内 CAR-T"
+        },
+        {
+          "seg_id": 23,
+          "quote": "能够看到非常好的疗效"
+        }
+      ],
+      "impact_path": [
+        "影响创新药板块中体内 CAR-T 研发企业的估值",
+        "大药企（如礼来）的并购动作确认了体内细胞治疗在大幅降低成本（约10倍）和等待时间上的商业潜力，引发对同类技术管线的溢价追捧"
+      ],
+      "verification_steps": [
+        "关注礼来体内 CAR-T 管线在未来医学会议（如 ASCO/ASH）上的临床数据更新",
+        "跟踪同类拥有体内 CAR-T 递送平台初创公司的私募或 IPO 估值水平"
+      ],
+      "confidence": "high",
+      "novelty": "low",
+      "actionability": "low",
+      "time_start": "00:20:01",
+      "time_end": "00:21:22",
+      "start_seconds": 1201.0,
+      "end_seconds": 1282.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Azalea",
+          "ticker": null,
+          "parent": null,
+          "type": "private"
+        }
+      ],
+      "signal_type": "product",
+      "claim": "初创公司 Azalea 获8200万美元融资，将利用 CRISPR 技术实现 CAR 基因在体内的定点插入。该路线可解决当前慢病毒载体随机插入基因组导致的致癌风险与表达不稳定难题，代表了下一代安全性更高的体内细胞治疗技术迭代方向，值得关注相关管线进展。",
+      "evidence_seg_ids": [
+        43,
+        44
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 44,
+          "quote": "解决这样一个随机插入的问题"
+        },
+        {
+          "seg_id": 44,
+          "quote": "把它变成一个定点插入"
+        }
+      ],
+      "impact_path": [
+        "影响基因编辑与细胞治疗底层的技术竞争格局",
+        "解决基因随机插入的痛点能大幅降低 FDA 针对 CAR-T 的黑框警告（如次生肿瘤风险），提升体内疗法成药性"
+      ],
+      "verification_steps": [
+        "追踪 Azalea 等利用 CRISPR 的初创企业推进至 IND（新药临床试验申请）的时间表",
+        "观察 FDA 对非慢病毒介导定点插入基因疗法的监管态度及审批宽容度"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "00:30:55",
+      "time_end": "00:33:55",
+      "start_seconds": 1855.0,
+      "end_seconds": 2035.0
+    }
+  ]
+}

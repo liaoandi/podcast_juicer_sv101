@@ -1,0 +1,168 @@
+{
+  "metadata": {
+    "source": "output/sv101_ep222/222_transcript_gemini.json",
+    "method": "gemini_3_pro_full_context",
+    "model": "gemini-3.1-pro-preview",
+    "total_signals": 3,
+    "companies_mentioned": [
+      "Epic Games",
+      "Hyundai Motor Group",
+      "NVIDIA",
+      "宇树科技",
+      "瑞芯微",
+      "魔珐科技"
+    ],
+    "context_length": 23865,
+    "publish_date": "2025-10-23",
+    "record_date": "",
+    "podcast_id": "sv101",
+    "episode_id": "222"
+  },
+  "signals": [
+    {
+      "entities": [
+        {
+          "name": "Epic Games",
+          "ticker": null,
+          "parent": null,
+          "type": "private"
+        },
+        {
+          "name": "NVIDIA",
+          "ticker": "NVDA",
+          "parent": null,
+          "type": "public"
+        },
+        {
+          "name": "瑞芯微",
+          "ticker": "603893.SS",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "competition",
+      "claim": "AI 端到端渲染与解算技术已实现技术突破，能够绕开 Unreal Engine 等传统游戏引擎，无需昂贵的独立 GPU（如 NVIDIA 显卡）即可在端侧实时生成高质量 3D 内容。此技术已在瑞芯微（RK3566）等几百元低端芯片上跑通。长期看可能冲击 Epic Games 的商业壁垒，削弱端侧高性能 GPU 的需求，并利好端侧低成本 AI 芯片厂商。",
+      "evidence_seg_ids": [
+        17,
+        88,
+        90,
+        94
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 90,
+          "quote": "不需要渲染引擎，不需要渲染引擎所需要的这个显卡"
+        },
+        {
+          "seg_id": 17,
+          "quote": "几百块钱的芯片，比如说 RK3566 瑞芯微的，我们在端上就可以跑了"
+        }
+      ],
+      "impact_path": [
+        "AI渲染技术可能替代Unreal等传统引擎，冲击原有3D内容生产管线",
+        "端侧设备对NVIDIA高端显卡的依赖度降低，转向低成本推理芯片"
+      ],
+      "verification_steps": [
+        "关注魔珐科技等3D生成平台发布后的端侧硬件配置要求",
+        "测试低端芯片直接运行AI渲染3D互动内容的实际画质和帧率"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:10:20",
+      "time_end": "00:34:55",
+      "start_seconds": 620.0,
+      "end_seconds": 2095.0
+    },
+    {
+      "entities": [
+        {
+          "name": "魔珐科技",
+          "ticker": null,
+          "parent": null,
+          "type": "private"
+        }
+      ],
+      "signal_type": "product",
+      "claim": "魔珐科技已跑通 3D 数字人低成本实时互动的商业模式，其文生 3D 多模态模型“星云平台”已将延迟降至 500-600 毫秒，且相比传统生成方式成本极低。该平台将于近期正式发布，目前已有数百个 B 端企业客户参与测试并产生付费行为，标志着 3D 数字人进入规模化商用阶段。",
+      "evidence_seg_ids": [
+        27,
+        28,
+        81
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 28,
+          "quote": "预计时间会在两周后吧，发布我们的文生 3D 多模态模型"
+        },
+        {
+          "seg_id": 81,
+          "quote": "基本上现在做到是 500 毫秒到 600 毫秒之间"
+        }
+      ],
+      "impact_path": [
+        "具备低延迟和低算力成本后，服务型3D数字人将在B端客服、展厅大屏等场景规模化铺开"
+      ],
+      "verification_steps": [
+        "观察星云平台近期的发布情况与实际客户应用案例",
+        "调研其B端测试客户的留存率与API实际调用量"
+      ],
+      "confidence": "high",
+      "novelty": "low",
+      "actionability": "low",
+      "time_start": "00:12:05",
+      "time_end": "00:30:55",
+      "start_seconds": 725.0,
+      "end_seconds": 1855.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Hyundai Motor Group",
+          "ticker": "005380.KS",
+          "parent": null,
+          "type": "public"
+        },
+        {
+          "name": "宇树科技",
+          "ticker": null,
+          "parent": null,
+          "type": "private"
+        }
+      ],
+      "signal_type": "risk",
+      "claim": "当前市场上人形机器人（含波士顿动力、宇树科技等）展示的运动控制与抓取动作多基于特定环境的定向训练，真实环境下的泛化能力极弱。业内资深专家判断，通过大模型实现跨场景、高鲁棒性的通用机器人控制（机器人的GPT-3时刻），可能还需要十年的时间，市场当前对具身智能短期落地的预期过高。",
+      "evidence_seg_ids": [
+        140,
+        162,
+        164,
+        173
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 140,
+          "quote": "波士顿动力它以前能做爬楼梯...它的泛化能力并不强"
+        },
+        {
+          "seg_id": 173,
+          "quote": "我觉得十年可能 hopefully 这个问题可能能解决"
+        }
+      ],
+      "impact_path": [
+        "引发市场对通用人形机器人商业化时间表的重新评估",
+        "可能导致二级市场具身智能和人形机器人概念股的估值溢价回调"
+      ],
+      "verification_steps": [
+        "追踪核心机器人公司在未经预设的复杂环境下的长视频测试表现",
+        "观察VLA大模型在机器人泛化抓取任务中的实际成功率进展"
+      ],
+      "confidence": "low",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "00:49:13",
+      "time_end": "00:57:48",
+      "start_seconds": 2953.0,
+      "end_seconds": 3468.0
+    }
+  ]
+}

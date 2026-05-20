@@ -1,0 +1,182 @@
+{
+  "metadata": {
+    "source": "/Users/antonio/Desktop/podcast_juicer/output/sv101_ep203/203_transcript_gemini.json",
+    "method": "gemini_3_pro_full_context",
+    "model": "gemini-3.1-pro-preview",
+    "total_signals": 4,
+    "companies_mentioned": [
+      "Danone",
+      "Nestlé Health Science",
+      "Seed Health",
+      "Seres Therapeutics",
+      "Synlogic"
+    ],
+    "context_length": 28496,
+    "publish_date": null,
+    "record_date": null,
+    "podcast_id": "sv101",
+    "episode_id": "203"
+  },
+  "signals": [
+    {
+      "entities": [
+        {
+          "name": "Seres Therapeutics",
+          "ticker": "MCRB",
+          "parent": null,
+          "type": "public"
+        },
+        {
+          "name": "Nestlé Health Science",
+          "ticker": "NSRGY",
+          "parent": "Nestlé S.A.",
+          "type": "public"
+        }
+      ],
+      "signal_type": "product",
+      "claim": "2023年已有初创公司成功研发出名为 Vowst 的特定细菌药物并获批，用于预防艰难梭菌感染复发。这标志着临床治疗正从高风险、非标准化的传统粪菌移植（FMT）向可量产、标准化的口服活菌药物转型。",
+      "evidence_seg_ids": [
+        122,
+        123
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 122,
+          "quote": "做了一个药物是所谓的 Vowst"
+        },
+        {
+          "seg_id": 123,
+          "quote": "这个药物本身它能够预防复发"
+        }
+      ],
+      "impact_path": [
+        "影响活菌药物赛道估值",
+        "证明了特定细菌药物在预防艰难梭菌感染复发上的商业化可行性，有望逐步替代传统的粪菌移植疗法"
+      ],
+      "verification_steps": [
+        "核查 Vowst 的销售数据及 Seres Therapeutics 的商业化进展",
+        "对比医疗机构中传统粪菌移植与标准化活菌药物的处方比例变化"
+      ],
+      "confidence": "high",
+      "novelty": "low",
+      "actionability": "high",
+      "time_start": "01:09:10",
+      "time_end": "01:13:16",
+      "start_seconds": 4150.0,
+      "end_seconds": 4396.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Synlogic",
+          "ticker": "SYBX",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "risk",
+      "claim": "利用基因编辑肠道菌群引入特定代谢酶来治疗苯丙酮尿症的创新活菌药物在临床 3 期遭遇重大挫折。这表明尽管通过改造菌群代谢人体难消化的物质在理论上可行，但在后期临床的疗效转化与资金消耗仍面临极高风险。",
+      "evidence_seg_ids": [
+        123
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 123,
+          "quote": "目前好像他们在临床 3 期也是遇到了一些问题"
+        }
+      ],
+      "impact_path": [
+        "降低市场对合成生物学活菌药的短期预期",
+        "三期临床的受挫暴露了此类工程化修饰药物在人体内定植、稳定表达及资金链管理上的深层技术瓶颈"
+      ],
+      "verification_steps": [
+        "核查 Synlogic 关于苯丙酮尿症管线（如 SYNB1934）临床终止的具体公告与资金状况",
+        "跟踪同类基因编辑活菌药物（如草酸降解管线）的临床通过率与研发投入"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "01:10:50",
+      "time_end": "01:13:16",
+      "start_seconds": 4250.0,
+      "end_seconds": 4396.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Seed Health",
+          "ticker": null,
+          "parent": null,
+          "type": "private"
+        }
+      ],
+      "signal_type": "product",
+      "claim": "微生物健康初创公司 Seed Health 正以包含20多种不同益生菌组合的“复方益生菌”作为核心招牌产品。由于个体肠道菌群差异极大，复方制剂通过多菌株组合提升了产品在不同人体内定植的概率，代表了高端益生菌补剂的升级方向。",
+      "evidence_seg_ids": [
+        110
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 110,
+          "quote": "他们是专门做这种复方的益生菌"
+        }
+      ],
+      "impact_path": [
+        "影响益生菌补剂市场的竞争格局",
+        "多菌株复方产品相比传统单一菌株更具营销优势和潜在的人群适应性，将抢占高端保健品份额"
+      ],
+      "verification_steps": [
+        "查阅 Seed Health 核心产品 DS-01 的销售规模与融资估值",
+        "监测传统膳食补充剂品牌是否跟进推出类似的多菌株组合产品"
+      ],
+      "confidence": "high",
+      "novelty": "low",
+      "actionability": "low",
+      "time_start": "01:02:24",
+      "time_end": "01:03:39",
+      "start_seconds": 3744.0,
+      "end_seconds": 3819.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Danone",
+          "ticker": "DANOY",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "competition",
+      "claim": "以达能为代表的大型传统乳制品公司实质上占据了美国益生菌市场的最大份额。由于双歧杆菌等传统发酵菌种历史悠久且无需专利保护，传统乳企能够利用极低的监管门槛和成熟渠道，在大众消费市场占据绝对主导地位。",
+      "evidence_seg_ids": [
+        112,
+        117
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 112,
+          "quote": "美国最大的益生菌公司可能是达能"
+        },
+        {
+          "seg_id": 112,
+          "quote": "这些细菌呢目前基本上就已经不需要有专利了"
+        }
+      ],
+      "impact_path": [
+        "支撑乳制品巨头在健康食品板块的估值底盘",
+        "利用零专利成本的传统菌株和极其宽松的保健品监管（仅需证明无害，无需证明疗效），传统乳企能以低成本维持稳定利润"
+      ],
+      "verification_steps": [
+        "分析达能酸奶及益生菌相关产品线在美国市场的营收占比及利润率",
+        "对比处方级益生菌初创公司与传统食品级益生菌的研发和合规成本差异"
+      ],
+      "confidence": "high",
+      "novelty": "low",
+      "actionability": "low",
+      "time_start": "01:03:52",
+      "time_end": "01:08:10",
+      "start_seconds": 3832.0,
+      "end_seconds": 4090.0
+    }
+  ]
+}

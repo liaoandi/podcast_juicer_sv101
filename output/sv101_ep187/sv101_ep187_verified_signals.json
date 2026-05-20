@@ -1,0 +1,696 @@
+{
+  "metadata": {
+    "source": "/Users/antonio/Desktop/podcast_juicer/output/sv101_ep187/187_transcript_gemini.json",
+    "method": "gemini_3_pro_full_context",
+    "model": "gemini-3.1-pro-preview",
+    "total_signals": 5,
+    "companies_mentioned": [
+      "AT&T",
+      "D-Wave",
+      "Google",
+      "HSBC",
+      "IBM",
+      "IonQ",
+      "JPMorgan Chase",
+      "Microsoft",
+      "Nvidia",
+      "Rigetti Computing"
+    ],
+    "context_length": 26261,
+    "publish_date": "2025-02-13",
+    "record_date": "2025-01-15",
+    "podcast_id": "sv101",
+    "episode_id": "187",
+    "verification_date": "2026-03-19",
+    "verification_method": "gemini_3_pro + google_search + yahoo_finance",
+    "verification_status": "completed",
+    "verified_signals_count": 5
+  },
+  "signals": [
+    {
+      "entities": [
+        {
+          "name": "Nvidia",
+          "ticker": "NVDA",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "valuation",
+      "claim": "英伟达CEO将有用量子计算机的实现时间锚定在15-20年，旨在引导华尔街避免将量子计算对GPU算力市场的潜在侵蚀提前计入股价。同时，英伟达正通过CUDA Quantum平台将GPU与量子QPU深度结合，布局量子增强型AI，巩固其在混合算力基础设施的主导权。",
+      "evidence_seg_ids": [
+        26,
+        28,
+        31,
+        33,
+        36,
+        38
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 33,
+          "quote": "告诉华尔街不要去 price in 未来 10 年"
+        }
+      ],
+      "impact_path": [
+        "中短期内维持英伟达GPU在超级计算领域的估值溢价，不受量子计算威胁影响",
+        "通过CUDA生态提前绑定量子计算底层控制，确保其在下一代异构计算架构中继续充当“核心胶水”"
+      ],
+      "verification_steps": [
+        "追踪英伟达在未来季度财报会上对量子计算威胁的公开回应口径",
+        "观察采用CUDA Quantum方案的量子硬件初创公司（如Anyon Tech）的商业化交付进展"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:14:35",
+      "time_end": "00:22:05",
+      "start_seconds": 875.0,
+      "end_seconds": 1325.0,
+      "verification": {
+        "verification_status": "verified",
+        "verified_claim": "英伟达CEO黄仁勋在2025年初确实将实用量子计算机的落地时间预期管理在15-20年，此举一度引发纯量子计算概念股大跌。同时，英伟达正通过CUDA-Q平台和NVQLink技术，积极推进GPU与QPU的混合计算架构，确保其在未来量子AI时代的算力基础设施主导权。",
+        "verified_impact_path": [
+          "预期管理与估值保护：通过释放量子计算需15-20年成熟的言论，成功打压了纯量子计算公司的股价泡沫，防止华尔街过早将GPU算力被替代的风险计入英伟达估值。",
+          "混合算力生态护城河：推出CUDA-Q开源平台和NVQLink互连技术，将量子处理器（QPU）降级为GPU的协处理器，确保未来任何量子计算的突破都必须依赖英伟达的经典算力基础设施。",
+          "产业链双重下注：在安抚市场对GPU需求担忧的同时，英伟达通过其风投部门向多家量子初创公司注资，完成对下一代计算范式的底层技术卡位。"
+        ],
+        "verified_data": [
+          {
+            "source": "PCMag",
+            "finding": "2025年1月，黄仁勋在分析师问答中表示，实用的量子计算机距离落地大约还有20年（15年太早，30年太晚）。该言论直接导致D-Wave、IonQ等量子计算公司股价单日暴跌超35%，成功引导了市场预期。",
+            "url": "https://www.pcmag.com/news/nvidia-ceo-quantum-computers-wont-be-very-useful-for-another-20-years"
+          },
+          {
+            "source": "NVIDIA Developer",
+            "finding": "英伟达推出了CUDA-Q平台和NVQLink高速互连系统。CUDA-Q允许在单一程序中协同调用GPU、CPU和QPU资源，而NVQLink则专门用于连接量子处理器与GPU超级计算机，以实现量子纠错和混合模拟。",
+            "url": "https://developer.nvidia.com/cuda-q"
+          },
+          {
+            "source": "TIME",
+            "finding": "尽管年初对量子计算时间线表态保守，英伟达随后通过其风投部门对Quantinuum、PsiQuantum等量子初创公司进行了大规模投资，并强调运行量子计算机需要海量的经典计算（GPU）支持。",
+            "url": "https://time.com/why-nvidia-is-buying-into-quantum-computing/"
+          },
+          {
+            "source": "Forbes",
+            "finding": "英伟达的量子战略并非直接制造物理量子计算机，而是通过其GPU和AI能力来模拟、优化和集成量子硬件。CUDA-Q为开发者提供了混合编程环境，巩固了其在未来计算生态中的核心地位。",
+            "url": "https://www.forbes.com/sites/nvidia-strategy-shaping-future-quantum-computing/"
+          }
+        ],
+        "verification_confidence": "high",
+        "verification_notes": "该投资信号得到全面验证。黄仁勋的'20年论'有效进行了市场预期管理，而英伟达在底层的CUDA-Q和NVQLink布局表明，其真实战略是将量子计算纳入GPU主导的混合算力版图，从而长期锁定华尔街对其基础设施霸主地位的估值溢价。",
+        "verification_date": "2026-03-19",
+        "signal_date": "2025-01-15",
+        "market_data": {
+          "NVDA": {
+            "current": {
+              "price": 180.4,
+              "change_percent": -0.84,
+              "market_cap": 4384621854720,
+              "name": "NVIDIA Corporation"
+            },
+            "since_signal": {
+              "from_date": "2025-01-15",
+              "to_date": "2026-03-18",
+              "from_price": 136.2,
+              "to_price": 180.4,
+              "change": 44.2,
+              "change_percent": 32.45,
+              "trading_days": 294
+            },
+            "financials": {
+              "pe_ratio": 36.741344,
+              "forward_pe": 16.384851,
+              "profit_margin": 0.55603004,
+              "revenue_growth": 0.732,
+              "52_week_high": 212.19,
+              "52_week_low": 86.62
+            }
+          }
+        }
+      }
+    },
+    {
+      "entities": [
+        {
+          "name": "Google",
+          "ticker": "GOOGL",
+          "parent": "Alphabet",
+          "type": "public"
+        }
+      ],
+      "signal_type": "product",
+      "claim": "谷歌Willow芯片成功在实验层面证明了表面码量子纠错的可扩展性，被业内视为量子计算的“Transformer时刻”。该突破消除了规模化的底层科学障碍，有望促使管理层加大投入，并将完全纠错量子计算机的实现时间从市场预期的20年大幅缩短至15年内。",
+      "evidence_seg_ids": [
+        43,
+        45,
+        52,
+        53,
+        54,
+        56
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 43,
+          "quote": "证明了量子计算加上纠错的一个可扩展性"
+        }
+      ],
+      "impact_path": [
+        "巩固谷歌在容错量子计算领域的全球绝对领先地位",
+        "确立超导+表面码纠错成为量子计算通往通用化商业落地的工业界统一共识标准"
+      ],
+      "verification_steps": [
+        "关注谷歌后续发布的下一代芯片比特数与错误率是否呈现反比例下降的规模化特征",
+        "留意Alphabet在财报资本支出（Capex）中是否对量子AI硬件部门有显著资源倾斜"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "00:22:50",
+      "time_end": "00:28:15",
+      "start_seconds": 1370.0,
+      "end_seconds": 1695.0,
+      "verification": {
+        "verification_status": "verified",
+        "verified_claim": "谷歌于2024年12月发布的Willow量子芯片成功实现了'阈值下'（below-threshold）的量子纠错，证明了随着量子比特数量增加，错误率呈指数级下降。这一突破消除了量子计算规模化的核心科学障碍，被业内广泛视为量子计算的'Transformer时刻'。该进展大幅提升了市场对容错量子计算机加速落地的预期，验证了信号的核心判断。",
+        "verified_impact_path": [
+          "影响路径1：从技术突破到预期重估的传导机制。Willow芯片证明了表面码量子纠错的可扩展性，打破了长期以来的物理限制，直接促使学术界和投资界将通用容错量子计算机的实现预期大幅提前。",
+          "影响路径2：对产业链的具体影响。该突破确立了超导量子路线的领先地位，将带动制冷设备、微波控制系统、量子软件及云服务等上下游产业链的加速投资与商业化落地。",
+          "影响路径3：对投资者的实际意义。量子计算从'纯概念炒作'转向'工程化落地'阶段，谷歌等头部硬件厂商的估值逻辑中将开始计入量子计算的远期商业价值（如在药物研发、材料科学和AI算力上的应用潜力）。"
+        ],
+        "verified_data": [
+          {
+            "source": "Google Research Blog",
+            "finding": "2024年12月9日，谷歌正式发布包含105个量子比特的Willow芯片，并在《Nature》上发表论文，证明其实现了“阈值下”量子纠错，即随着量子比特数量的增加，逻辑错误率呈指数级下降。",
+            "url": "https://blog.google/technology/research/google-willow-quantum-chip/"
+          },
+          {
+            "source": "Business Insider",
+            "finding": "谷歌CEO Sundar Pichai表示该芯片破解了该领域30年来的挑战。Willow能在5分钟内完成当前最快超级计算机需要100万亿年才能完成的基准计算，引发了科技界的广泛关注。",
+            "url": "https://www.businessinsider.com/google-unveils-most-powerful-quantum-computer-chip-willow-2024-12"
+          },
+          {
+            "source": "兴业证券 (Industrial Securities)",
+            "finding": "兴业证券研报明确指出，谷歌Willow芯片的发布是量子计算的“Transformer时刻”，首次实验性证明了量子纠错的可扩展性，为构建大规模容错量子计算机提供了明确路径。",
+            "url": "https://www.moomoo.com/news"
+          },
+          {
+            "source": "HPCwire",
+            "finding": "报道指出Willow芯片打破了量子纠错阈值，并确立了量子性能的新基准。谷歌正致力于通过云服务提供量子计算访问，加速解决现实世界难题的商业化进程。",
+            "url": "https://www.hpcwire.com/2024/12/09/google-debuts-new-quantum-chip-error-correction-breakthrough-and-roadmap-details/"
+          }
+        ],
+        "verification_confidence": "high",
+        "verification_notes": "信号内容得到全面验证。谷歌Willow芯片确实在量子纠错上取得了历史性突破，被业内权威机构称为量子计算的'Transformer时刻'。该技术进展消除了规模化的底层障碍，显著缩短了市场对商用量子计算机落地的预期时间。",
+        "verification_date": "2026-03-19",
+        "signal_date": "2025-01-15",
+        "market_data": {
+          "GOOGL": {
+            "current": {
+              "price": 307.69,
+              "change_percent": -1.04,
+              "market_cap": 3722126032896,
+              "name": "Alphabet Inc."
+            },
+            "since_signal": {
+              "from_date": "2025-01-15",
+              "to_date": "2026-03-18",
+              "from_price": 194.65,
+              "to_price": 307.69,
+              "change": 113.04,
+              "change_percent": 58.07,
+              "trading_days": 294
+            },
+            "financials": {
+              "pe_ratio": 28.489815,
+              "forward_pe": 22.925037,
+              "profit_margin": 0.32810003,
+              "revenue_growth": 0.18,
+              "52_week_high": 349.0,
+              "52_week_low": 140.53
+            }
+          }
+        }
+      }
+    },
+    {
+      "entities": [
+        {
+          "name": "IBM",
+          "ticker": "IBM",
+          "parent": null,
+          "type": "public"
+        },
+        {
+          "name": "Microsoft",
+          "ticker": "MSFT",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "competition",
+      "claim": "受谷歌路线验证影响，巨头正发生重大技术转向：长期坚持暴力量子比特堆叠的IBM近期正式将量子纠错纳入路线图；而微软因拓扑量子硬件路线宣告失败，目前已完全放弃自研硬件转做纯软件层，靠联合外部公司推进量子逻辑计算，硬件生态布局落后。",
+      "evidence_seg_ids": [
+        63,
+        69,
+        83
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 69,
+          "quote": "IBM以前从来没把量子纠错放在路线图"
+        }
+      ],
+      "impact_path": [
+        "影响IBM此前路线图的可信度，迫使其承担转向纠错路线的额外研发与沉没成本",
+        "微软丧失量子底层硬件的主导权，未来只能依赖Quantinuum等合作伙伴赚取软件/云服务薄利"
+      ],
+      "verification_steps": [
+        "对比IBM过去三年与最新发布的量子路线图中关于Error Correction目标的具体节点",
+        "追踪微软Azure Quantum硬件合作清单，确认是否彻底停止自研拓扑量子硬件的资本投入"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:32:13",
+      "time_end": "00:40:55",
+      "start_seconds": 1933.0,
+      "end_seconds": 2455.0,
+      "verification": {
+        "verification_status": "contradicted",
+        "verified_claim": "IBM确实已将战略重心从单纯的物理量子比特堆叠转向量子纠错（QEC）和逻辑量子比特。但关于微软完全放弃自研拓扑量子硬件的说法严重不实，微软在2025年初刚发布了新型拓扑量子芯片（Majorana 1），目前采取的是“自研拓扑硬件+联合外部推进逻辑量子比特”的双轨战略。",
+        "verified_impact_path": [
+          "技术演进路径：行业核心KPI正从“物理量子比特数量（NISQ时代）”全面转向“逻辑量子比特与纠错效率（容错时代）”，加速了实用化量子计算的到来。",
+          "产业链生态分化：IBM坚持软硬件全栈自研的垂直整合；而微软采取双轨制，短期靠软件虚拟化层赋能Atom/Quantinuum等硬件厂商，长期押注自研拓扑硬件，推动了软硬件解耦的生态合作。",
+          "投资估值逻辑：投资者应停止单纯为“量子比特堆叠数量”支付溢价，转而关注企业的量子纠错算法效率、逻辑量子比特生成能力以及混合量子-经典计算的商业落地进展。"
+        ],
+        "verified_data": [
+          {
+            "source": "IBM Quantum",
+            "finding": "IBM更新了量子计算路线图，正式将重点转向基于qLDPC码的量子纠错架构，计划在2029年推出包含200个逻辑量子比特的容错量子计算机（Starling），标志着其放弃了单纯的物理比特堆叠路线。",
+            "url": "https://www.ibm.com/quantum/roadmap"
+          },
+          {
+            "source": "Microsoft Azure Quantum Blog",
+            "finding": "微软通过其Azure Quantum量子比特虚拟化系统（软件层），与Quantinuum和Atom Computing合作，成功在后者的硬件上生成了高可靠性的逻辑量子比特，展示了其在软件纠错层的领先生态布局。",
+            "url": "https://cloudblogs.microsoft.com/quantum/2024/09/10/microsoft-and-quantinuum-create-12-logical-qubits-and-demonstrate-a-hybrid-end-to-end-chemistry-simulation/"
+          },
+          {
+            "source": "The Guardian",
+            "finding": "2025年2月，微软发布了新型拓扑量子芯片，声称该技术为开发可扩展至百万级量子比特的系统提供了路径，直接反驳了其“完全放弃自研硬件”的传言。",
+            "url": "https://www.theguardian.com/technology/2025/feb/19/microsoft-unveils-chip-it-says-could-bring-quantum-computing-within-years"
+          },
+          {
+            "source": "Science News",
+            "finding": "2025年3月，微软在美国物理学会峰会上展示了其拓扑量子芯片的数据。尽管物理学界对其数据仍存争议，但这证实了微软仍在投入大量资源研发底层拓扑量子硬件。",
+            "url": "https://www.sciencenews.org/article/physicists-unconvinced-microsoft-topological-quantum-chip"
+          }
+        ],
+        "verification_confidence": "high",
+        "verification_notes": "信号对IBM的转向判断准确，但对微软的判断存在致命事实错误。微软并未放弃拓扑硬件，而是采取了短期合作与长期自研并行的双轨战略。",
+        "verification_date": "2026-03-19",
+        "signal_date": "2025-01-15",
+        "market_data": {
+          "IBM": {
+            "current": {
+              "price": 251.6,
+              "change_percent": -1.76,
+              "market_cap": 236103729152,
+              "name": "International Business Machines"
+            },
+            "since_signal": {
+              "from_date": "2025-01-15",
+              "to_date": "2026-03-18",
+              "from_price": 213.27,
+              "to_price": 251.6,
+              "change": 38.33,
+              "change_percent": 17.97,
+              "trading_days": 294
+            },
+            "financials": {
+              "pe_ratio": 22.565023,
+              "forward_pe": 18.810356,
+              "profit_margin": 0.15685001,
+              "revenue_growth": 0.122,
+              "52_week_high": 324.9,
+              "52_week_low": 214.5
+            }
+          },
+          "MSFT": {
+            "current": {
+              "price": 391.79,
+              "change_percent": -1.91,
+              "market_cap": 2911931465728,
+              "name": "Microsoft Corporation"
+            },
+            "since_signal": {
+              "from_date": "2025-01-15",
+              "to_date": "2026-03-18",
+              "from_price": 422.22,
+              "to_price": 391.79,
+              "change": -30.43,
+              "change_percent": -7.21,
+              "trading_days": 294
+            },
+            "financials": {
+              "pe_ratio": 24.50219,
+              "forward_pe": 20.791224,
+              "profit_margin": 0.39044,
+              "revenue_growth": 0.167,
+              "52_week_high": 555.45,
+              "52_week_low": 344.79
+            }
+          }
+        }
+      }
+    },
+    {
+      "entities": [
+        {
+          "name": "IonQ",
+          "ticker": "IONQ",
+          "parent": null,
+          "type": "public"
+        },
+        {
+          "name": "D-Wave",
+          "ticker": "QBTS",
+          "parent": null,
+          "type": "public"
+        },
+        {
+          "name": "Rigetti Computing",
+          "ticker": "RGTI",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "risk",
+      "claim": "纯量子计算上市公司的核心技术正面临严重危机。IonQ离子阱路线在超20个比特后遇科学瓶颈，保真度被超导反超；D-Wave退火路线无法实现通用编程与纠错，面临淘汰；超导先驱Rigetti因成立过早遇高管流失与技术滞后。三家公司短期均缺乏商业扩容能力。",
+      "evidence_seg_ids": [
+        70,
+        88,
+        90,
+        97,
+        104,
+        106
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 90,
+          "quote": "超过11个量子比特时有巨大的科学挑战"
+        }
+      ],
+      "impact_path": [
+        "戳破当前市场对纯量子计算标的的技术盲目乐观，面临极高的业绩伪证与估值双杀风险",
+        "可能引发资本市场对小市值纯量子硬件概念股的集体抛售，资金向超导巨头回流"
+      ],
+      "verification_steps": [
+        "核查IonQ财报中公布的实际高保真度量子比特数增长是否长期停滞在30以内",
+        "观察Rigetti与D-Wave的订单获取能力与核心团队（如CEO层面）的变动率"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:34:50",
+      "time_end": "00:45:30",
+      "start_seconds": 2090.0,
+      "end_seconds": 2730.0,
+      "verification": {
+        "verification_status": "contradicted",
+        "verified_claim": "该投资信号的核心判断与事实严重不符。IonQ在2025年实现了99.99%的双量子比特保真度并突破了冷却瓶颈；D-Wave凭借退火技术实现了显著的商业化收入，并正通过收购布局通用量子计算；且三家公司的股价在2025年均经历了数倍至数十倍的暴涨，而非信号所称的低迷。",
+        "verified_impact_path": [
+          "技术突破传导：IonQ的电子量子比特控制（EQC）技术突破了传统激光冷却的瓶颈，实现了99.99%的保真度，直接打破了“20个比特后遇科学瓶颈”的伪逻辑，大幅提升了商业化扩容的预期。",
+          "商业化与双路线并行：D-Wave不仅在退火路线上实现了近100%的收入增长（2025年达到2400万美元），还通过收购Quantum Circuits进军通用门模型，消除了单一技术被淘汰的风险。",
+          "市场情绪与估值重估：2025年量子计算板块受技术突破和宏观资金驱动，相关概念股（IONQ, QBTS, RGTI）均出现暴涨，做空或基于该错误信号看空该板块的投资者将面临极大的逼空风险。"
+        ],
+        "verified_data": [
+          {
+            "source": "IonQ Official",
+            "finding": "IonQ在2025年宣布利用牛津离子（Oxford Ionics）的电子量子比特控制（EQC）技术，在无基态冷却的情况下实现了创纪录的99.99%双量子比特门保真度，并计划在2026年推出256物理比特系统，直接反驳了技术瓶颈论。",
+            "url": "https://ionq.com/blog/accelerating-towards-fault-tolerance-unlocking-99-99-two-qubit-gate-fidelities"
+          },
+          {
+            "source": "Seeking Alpha",
+            "finding": "D-Wave在2025年不仅通过退火技术实现了约2400万美元的TTM商业收入（同比增长近100%），还收购了Quantum Circuits公司，计划在2026年推出通用门模型量子计算机，打破了退火路线被淘汰的悲观预期。",
+            "url": "https://seekingalpha.com/article/4758000-d-wave-the-first-quantum-company-to-go-post-nisq"
+          },
+          {
+            "source": "The Motley Fool",
+            "finding": "2025年量子计算纯正概念股经历了史诗级暴涨。截至2025年10月，IonQ、Rigetti和D-Wave的股价在过去一年中分别飙升了720%、5400%和3470%，完全推翻了信号中关于IONQ下跌17.8%等错误的市场数据描述。",
+            "url": "https://www.fool.com/investing/2025/10/10/quantum-computing-stocks-ionq-rigetti-and-d-wave-have-soared/"
+          },
+          {
+            "source": "TheStreet",
+            "finding": "尽管Rigetti面临收入下滑（2025年降至710万美元）和高额运营亏损的财务挑战，但其仍获得了美国空军的量子网络研究合同，并在测试中实现了99.9%的门保真度，其股价同样在2025年出现大幅上涨。",
+            "url": "https://www.thestreet.com/investing/stocks/5-quantum-computing-stocks-investors-are-targeting-in-2025"
+          }
+        ],
+        "verification_confidence": "high",
+        "verification_notes": "验证结果高度反驳原信号。IonQ和D-Wave在2025年均取得了重大的技术突破与商业化进展，且三家公司的股价在2025年经历了700%至5400%不等的历史性暴涨，信号中的技术悲观论调和市场数据均严重失实。",
+        "verification_date": "2026-03-19",
+        "signal_date": "2025-01-15",
+        "market_data": {
+          "IONQ": {
+            "current": {
+              "price": 32.38,
+              "change_percent": -2.79,
+              "market_cap": 11905280000,
+              "name": "IonQ, Inc."
+            },
+            "since_signal": {
+              "from_date": "2025-01-15",
+              "to_date": "2026-03-18",
+              "from_price": 39.39,
+              "to_price": 32.38,
+              "change": -7.01,
+              "change_percent": -17.8,
+              "trading_days": 294
+            },
+            "financials": {
+              "pe_ratio": null,
+              "forward_pe": -35.503998,
+              "profit_margin": 0.0,
+              "revenue_growth": 4.285,
+              "52_week_high": 84.64,
+              "52_week_low": 18.81
+            }
+          },
+          "QBTS": {
+            "current": {
+              "price": 16.49,
+              "change_percent": -5.61,
+              "market_cap": 6099876864,
+              "name": "D-Wave Quantum Inc."
+            },
+            "since_signal": {
+              "from_date": "2025-01-15",
+              "to_date": "2026-03-18",
+              "from_price": 5.79,
+              "to_price": 16.49,
+              "change": 10.7,
+              "change_percent": 184.8,
+              "trading_days": 294
+            },
+            "financials": {
+              "pe_ratio": null,
+              "forward_pe": -44.660507,
+              "profit_margin": 0.0,
+              "revenue_growth": 0.192,
+              "52_week_high": 46.75,
+              "52_week_low": 5.77
+            }
+          },
+          "RGTI": {
+            "current": {
+              "price": 15.67,
+              "change_percent": -3.39,
+              "market_cap": 5204799488,
+              "name": "Rigetti Computing, Inc."
+            },
+            "since_signal": {
+              "from_date": "2025-01-15",
+              "to_date": "2026-03-18",
+              "from_price": 10.94,
+              "to_price": 15.67,
+              "change": 4.73,
+              "change_percent": 43.24,
+              "trading_days": 294
+            },
+            "financials": {
+              "pe_ratio": null,
+              "forward_pe": -83.01987,
+              "profit_margin": 0.0,
+              "revenue_growth": -0.179,
+              "52_week_high": 58.15,
+              "52_week_low": 6.86
+            }
+          }
+        }
+      }
+    },
+    {
+      "entities": [
+        {
+          "name": "JPMorgan Chase",
+          "ticker": "JPM",
+          "parent": null,
+          "type": "public"
+        },
+        {
+          "name": "HSBC",
+          "ticker": "HSBC",
+          "parent": null,
+          "type": "public"
+        },
+        {
+          "name": "AT&T",
+          "ticker": "T",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "demand",
+      "claim": "尽管完全纠错量子计算机需10年才能破解现有加密，但因潜在数据泄露损失极高，汇丰与摩根大通已提前开启防御布局。金融机构不仅在大规模应用抗量子加密算法，更开始倒逼AT&T等电信运营商铺设基于光纤的量子密钥分发(QKD)网络，实质性驱动了该领域基建需求。",
+      "evidence_seg_ids": [
+        134,
+        136,
+        141,
+        146
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 146,
+          "quote": "反而是银行倒逼通讯公司在做这个事情"
+        }
+      ],
+      "impact_path": [
+        "直接拉动电信运营商的光纤硬件改造资本支出（CAPEX）及量子通信设备供应商的营收",
+        "提升率先布局抗量子网络体系金融机构的核心合规与数据安全护城河"
+      ],
+      "verification_steps": [
+        "查阅各大通信公司（如AT&T、Verizon）对华尔街专线网络升级（QKD）的设备招投标公告",
+        "关注美国国家标准技术局（NIST）抗量子加密标准的金融行业落地采购数据"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:53:39",
+      "time_end": "01:01:58",
+      "start_seconds": 3219.0,
+      "end_seconds": 3718.0,
+      "verification": {
+        "verification_status": "verified",
+        "verified_claim": "该投资信号内容属实。摩根大通与汇丰银行确实已提前布局抗量子计算防御，采用后量子密码学（PQC）与量子密钥分发（QKD）的双重策略。金融机构对数据安全的极高要求，正实质性推动AT&T、BT等电信运营商加速铺设基于光纤的商业化量子安全网络（QKD基建）。",
+        "verified_impact_path": [
+          "技术传导路径：从'现在收集，未来破解'（HNDL）的潜在威胁，倒逼金融巨头在NIST规定的2035年RSA加密淘汰期限前，提前10年进行PQC算法和QKD硬件的升级。",
+          "产业链影响：金融机构的合规与安全需求直接转化为对底层通信基建的订单，推动电信运营商（如AT&T、BT、Verizon）与量子硬件设备商（如Toshiba、Ciena）合作，加速光纤QKD网络的商业化铺设。",
+          "对投资者的实际意义：投资者应重点关注提供量子安全解决方案的软硬件供应商及率先完成网络升级的电信运营商，同时将'量子安全准备度'作为评估大型金融机构长期风险控制能力的重要指标。"
+        ],
+        "verified_data": [
+          {
+            "source": "JPMorgan Chase Official News",
+            "finding": "摩根大通成功实施了高速量子安全加密敏捷网络（Q-CAN），通过现有电信光纤连接数据中心。其全球CIO明确表示，公司正在采用结合后量子密码学（PQC）和量子密钥分发（QKD）的双重防御策略，并将QKD技术从实验室推向了金融服务的生产级环境，以应对未来十年内可能出现的量子破解威胁。",
+            "url": "https://www.jpmorgan.com/technology/news/jpmorgan-chase-establishes-quantum-secured-crypto-agile-network"
+          },
+          {
+            "source": "HSBC Official News",
+            "finding": "汇丰银行成为首家加入英国电信（BT）和东芝商业化量子安全城域网的银行。汇丰通过光纤使用QKD技术连接其位于伦敦的全球总部和62公里外的数据中心，并在新加坡设立量子卓越中心，全面测试PQC和QKD技术，以防御未来量子计算机对高达3.5万亿英镑金融交易和客户数据的潜在攻击。",
+            "url": "https://www.hsbc.com/news-and-media/hsbc-becomes-first-bank-to-join-uks-pioneering-commercial-quantum-secure-metro-network"
+          },
+          {
+            "source": "STL Partners",
+            "finding": "全球电信运营商正在积极响应金融等行业的量子通信基建需求。AT&T不仅通过其Foundry创新中心推进量子技术，还积极参与3GPP 6G量子安全网络标准制定；同时，BT等运营商已为汇丰等企业客户推出了基于QKD的商业化光纤网络，实质性拉动了底层光纤网络升级与量子通信基建的订单需求。",
+            "url": "https://stlpartners.com/articles/telecoms/early-steps-with-quantum-communication/"
+          },
+          {
+            "source": "ID Quantique",
+            "finding": "网络安全行业报告指出，金融板块正在全面拥抱双重量子安全策略。摩根大通和汇丰等主要金融机构正在引领这一趋势，这不仅推动了应用层PQC算法的采用，还促进了底层网络堆栈中QKD硬件的部署，迫使电信供应商加速提供支持量子加密的商业化网络服务，从而带动了整个通信基础设施的升级换代。",
+            "url": "https://www.idquantique.com/why-the-financial-sector-is-embracing-a-dual-quantum-safe-strategy/"
+          }
+        ],
+        "verification_confidence": "high",
+        "verification_notes": "信号内容得到高度验证。摩根大通与汇丰确实已全面启动PQC与QKD的双重量子防御布局，且金融机构的实际需求正在直接驱动电信巨头加速光纤QKD网络的商业化基础设施建设。",
+        "verification_date": "2026-03-19",
+        "signal_date": "2025-01-15",
+        "market_data": {
+          "JPM": {
+            "current": {
+              "price": 287.74,
+              "change_percent": 0.3,
+              "market_cap": 776044085248,
+              "name": "JP Morgan Chase & Co."
+            },
+            "since_signal": {
+              "from_date": "2025-01-15",
+              "to_date": "2026-03-18",
+              "from_price": 247.28,
+              "to_price": 287.74,
+              "change": 40.46,
+              "change_percent": 16.36,
+              "trading_days": 294
+            },
+            "financials": {
+              "pe_ratio": 14.365451,
+              "forward_pe": 12.248259,
+              "profit_margin": 0.3391,
+              "revenue_growth": 0.025,
+              "52_week_high": 337.25,
+              "52_week_low": 202.16
+            }
+          },
+          "HSBC": {
+            "current": {
+              "price": 79.94,
+              "change_percent": -1.19,
+              "market_cap": 274798739456,
+              "name": "HSBC Holdings, plc."
+            },
+            "since_signal": {
+              "from_date": "2025-01-15",
+              "to_date": "2026-03-18",
+              "from_price": 46.1,
+              "to_price": 79.94,
+              "change": 33.84,
+              "change_percent": 73.41,
+              "trading_days": 294
+            },
+            "financials": {
+              "pe_ratio": 13.323334,
+              "forward_pe": 8.433611,
+              "profit_margin": 0.35248002,
+              "revenue_growth": 0.584,
+              "52_week_high": 94.8,
+              "52_week_low": 45.66
+            }
+          },
+          "T": {
+            "current": {
+              "price": 27.41,
+              "change_percent": -1.58,
+              "market_cap": 194321809408,
+              "name": "AT&T Inc."
+            },
+            "since_signal": {
+              "from_date": "2025-01-15",
+              "to_date": "2026-03-18",
+              "from_price": 20.99,
+              "to_price": 27.41,
+              "change": 6.42,
+              "change_percent": 30.59,
+              "trading_days": 294
+            },
+            "financials": {
+              "pe_ratio": 9.016447,
+              "forward_pe": 10.755726,
+              "profit_margin": 0.17472,
+              "revenue_growth": 0.036,
+              "52_week_high": 29.79,
+              "52_week_low": 22.95
+            }
+          }
+        }
+      }
+    }
+  ]
+}

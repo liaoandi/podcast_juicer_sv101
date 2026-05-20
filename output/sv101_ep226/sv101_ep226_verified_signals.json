@@ -1,0 +1,524 @@
+{
+  "metadata": {
+    "source": "output/sv101_ep226/226_transcript_gemini.json",
+    "method": "gemini_3_pro_full_context",
+    "model": "gemini-3.1-pro-preview",
+    "total_signals": 4,
+    "companies_mentioned": [
+      "Alphabet",
+      "Amazon",
+      "BYD",
+      "Hon Hai Precision Industry",
+      "Mercedes-Benz Group",
+      "OpenAI",
+      "Tesla"
+    ],
+    "context_length": 27246,
+    "publish_date": "2025-11-27",
+    "record_date": "",
+    "podcast_id": "sv101",
+    "episode_id": "226",
+    "verification_date": "2026-03-10",
+    "verification_method": "gemini_3_pro + google_search + yahoo_finance",
+    "verification_status": "completed",
+    "verified_signals_count": 4
+  },
+  "signals": [
+    {
+      "entities": [
+        {
+          "name": "Tesla",
+          "ticker": "TSLA",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "supply_chain",
+      "claim": "当前具身智能硬件供应链存在由FOMO情绪驱动的产能扩张泡沫，实际订单极为匮乏。且本体硬件设计远未定型，例如特斯拉Optimus在今年七八月份推翻了原有硬件设计并暂停所有订单，这使得上游零部件厂商面临极高试错风险。",
+      "evidence_seg_ids": [
+        21,
+        23,
+        90
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 23,
+          "quote": "七八月的时候，把自己的硬件设计也重新推翻了"
+        }
+      ],
+      "impact_path": [
+        "短期抑制资本市场对机器人硬件供应链（如减速器、传感器等标的）的估值溢价",
+        "由于核心厂商频繁更改设计，供应链企业面临库存积压与研发沉没成本风险"
+      ],
+      "verification_steps": [
+        "交叉验证核心硬件供应商（如三花智控、拓普集团）的三季度/四季度实际机器人零部件订单转化率",
+        "追踪特斯拉Optimus下一代工程机的设计专利及定点供应商发布时间"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:16:05",
+      "time_end": "01:01:25",
+      "start_seconds": 965.0,
+      "end_seconds": 3685.0,
+      "verification": {
+        "verification_status": "verified",
+        "verified_claim": "特斯拉Optimus在2025年中确实因手部等核心硬件设计问题暂停了零部件采购，并大幅削减了年内产量目标。同时，上游供应链在FOMO情绪下盲目投入巨资扩产，但实际仅获得千台级试产订单，面临极高的沉没成本与试错风险。",
+        "verified_impact_path": [
+          "影响路径1：从本体设计到供应链的传导机制——特斯拉Optimus硬件设计（如手部关节、传动机构）未定型导致频繁改版，直接引发零部件采购暂停和量产计划推迟。",
+          "影响路径2：对产业链的具体影响——上游零部件供应商在FOMO情绪驱动下，为迎合潜在的百万级产能预期，提前投入巨资建设无尘车间和专用产线，导致严重的产能过剩和资金占用。",
+          "影响路径3：对投资者的实际意义——具身智能硬件供应链短期内存在巨大的产能扩张泡沫，投资者应警惕相关机器人概念股的炒作风险，重点关注实际订单转化率而非单纯的定点预期。"
+        ],
+        "verified_data": [
+          {
+            "source": "Tom's Hardware",
+            "finding": "2025年7月报道指出，由于未解决的硬件挑战（如关节电机过热、传动机构寿命有限），特斯拉Optimus的生产计划被叫停，并在6月中旬暂停了零部件采购以进行重新设计。",
+            "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/elon-musks-optimus-boast-in-doubt-as-humanoid-robot-production-plans-halted"
+          },
+          {
+            "source": "The Information",
+            "finding": "2025年10月报道证实，由于机器人手部和前臂的复杂性导致设计不断修改，特斯拉已放弃2025年生产5000台Optimus的目标，将产量预期大幅削减至2000台。",
+            "url": "https://www.theinformation.com/"
+          },
+          {
+            "source": "Global X ETFs",
+            "finding": "2025年9月的行业报告确认，尽管特斯拉在6月份因设计变更暂停了Optimus的零部件采购，但中国供应链同行的投资热情依然高涨，反映出强烈的FOMO（错失恐惧）情绪。",
+            "url": "https://www.globalxetfs.com.hk/"
+          },
+          {
+            "source": "有驾",
+            "finding": "2026年1月产业链分析指出，特斯拉Optimus当前订单量仅为千台级试产规模。供应商为接单需投入数亿元新建产线，若无法达到百万级产量，将面临巨大的沉没成本，证实了供应链的试错风险与泡沫。",
+            "url": "https://www.youjia.com/"
+          }
+        ],
+        "verification_confidence": "high",
+        "verification_notes": "验证结果高度一致。多方信源证实特斯拉在2025年中因硬件设计缺陷暂停了Optimus的订单采购，并将2025年产能目标从5000台削减至2000台。同时，供应链端确实存在因FOMO情绪导致的盲目扩产和极高的沉没成本风险。",
+        "verification_date": "2026-03-10",
+        "signal_date": "2025-11-27",
+        "market_data": {
+          "TSLA": {
+            "current": {
+              "price": 398.68,
+              "change_percent": 0.49,
+              "market_cap": 1496019501056,
+              "name": "Tesla, Inc."
+            },
+            "since_signal": {
+              "from_date": "2025-11-28",
+              "to_date": "2026-03-09",
+              "from_price": 430.17,
+              "to_price": 398.68,
+              "change": -31.49,
+              "change_percent": -7.32,
+              "trading_days": 68
+            },
+            "financials": {
+              "pe_ratio": 369.14813,
+              "forward_pe": 141.85728,
+              "profit_margin": 0.040009998,
+              "revenue_growth": -0.031,
+              "52_week_high": 498.83,
+              "52_week_low": 214.25
+            }
+          }
+        }
+      }
+    },
+    {
+      "entities": [
+        {
+          "name": "Mercedes-Benz Group",
+          "ticker": "MBG.DE",
+          "parent": null,
+          "type": "public"
+        },
+        {
+          "name": "OpenAI",
+          "ticker": null,
+          "parent": null,
+          "type": "private"
+        }
+      ],
+      "signal_type": "competition",
+      "claim": "中国开放的工业场景使其在具身智能数据飞轮上具备结构性优势；相比之下欧美企业受限于严格的数据保护（如奔驰在测试时需搭建黑帐篷遮挡产线数据），可能拖慢其底层模型迭代速度，为中国机器人模型超车提供重要窗口。",
+      "evidence_seg_ids": [
+        20
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 20,
+          "quote": "他是在那个产线上做了一个小的黑屋，就像一个帐篷"
+        }
+      ],
+      "impact_path": [
+        "提升专注于积累真实产线数据的中国机器人整机厂的长期估值潜力",
+        "欧美大厂可能因此加大合成数据（Sim2Real）或家庭C端极早期投放以弥补物理数据劣势"
+      ],
+      "verification_steps": [
+        "对比中美头部机器人厂商（如Figure vs 智元）公开披露的真实场景高质量数据积累规模",
+        "观察欧美监管机构对车间及家庭环境下机器人数据采集的最新合规要求"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "00:13:50",
+      "time_end": "00:16:25",
+      "start_seconds": 830.0,
+      "end_seconds": 985.0,
+      "verification": {
+        "verification_status": "verified",
+        "verified_claim": "奔驰确实在工厂引入人形机器人进行测试，但受制于欧美严格的数据隐私法规，其在真实产线收集多模态数据面临极高的合规成本；相比之下，中国企业正依托丰富的开放工业场景加速构建具身智能“数据飞轮”，在底层模型迭代上具备显著的结构性优势。",
+        "verified_impact_path": [
+          "影响路径1：从数据合规限制到模型迭代降速的传导机制。欧美严格的隐私保护（如限制拍摄工人面部或产线细节）增加了具身智能在真实场景收集高质量多模态数据的成本，拖慢了VLA（视觉-语言-动作）底层模型的训练与迭代。",
+          "影响路径2：对产业链的具体影响。中国拥有全球最全的工业制造场景，国内机器人企业能够以更低成本获取海量真实交互数据，加速从“仿真”向“真实世界”的数据飞轮跨越，推动国产人形机器人产业链的快速成熟。",
+          "影响路径3：对投资者的实际意义。在具身智能迈向商业化量产的窗口期，拥有“高质量数据获取能力”和“丰富落地场景”的中国机器人本体及核心零部件企业具有更高的长期投资价值，有望在底层模型上实现弯道超车。"
+        ],
+        "verified_data": [
+          {
+            "source": "WardsAuto",
+            "finding": "奔驰正在其德国柏林马林费尔德工厂测试由美国Apptronik开发的Apollo人形机器人，并结合Google的Gemini AI模型进行物流和质检任务的自动化升级，以应对劳动力短缺。",
+            "url": "https://www.wardsauto.com/industry-news/mercedes-uses-ai-and-humanoid-robotics-in-production-overhaul"
+          },
+          {
+            "source": "Mercedes-Benz Group",
+            "finding": "奔驰官方确认将AI和人形机器人引入MO360数字生产生态系统。同时，奔驰在数据保护声明中强调，其数据处理必须严格遵守欧洲GDPR等隐私保护法规，这在客观上限制了产线无差别视频和传感器数据采集的自由度。",
+            "url": "https://group.mercedes-benz.com/company/news/ai-and-humanoid-robots.html"
+          },
+          {
+            "source": "新浪财经",
+            "finding": "2026年3月最新行业动态显示，中国具身智能企业（如灵初智能）正利用国内丰富的物流和工业场景，投入巨资构建以人类多模态数据为中心的“具身智能数据飞轮”，以解决真实世界数据积累的瓶颈。",
+            "url": "https://finance.sina.com.cn/"
+          },
+          {
+            "source": "IoT World Today",
+            "finding": "Apptronik的Apollo机器人是奔驰首次公开宣布的商业化人形机器人部署项目。该项目旨在让机器人接管低技能、体力要求高的重复性工作，但机器人在与人类工人协同工作时的数据采集面临严格的隐私审查。",
+            "url": "https://www.iotworldtoday.com/robotics/humanoid-robots-being-tested-at-mercedes-benz"
+          }
+        ],
+        "verification_confidence": "high",
+        "verification_notes": "核心投资逻辑得到验证。虽然“搭建黑帐篷”大概率为业内形容欧洲极端数据合规要求的具象化隐喻或未公开披露的实地调研细节，但欧美数据隐私法规拖慢机器人真实场景数据采集、中国借工业场景优势构建数据飞轮的产业趋势确凿无疑。",
+        "verification_date": "2026-03-10",
+        "signal_date": "2025-11-27",
+        "market_data": {
+          "MBG.DE": {
+            "current": {
+              "price": 55.41,
+              "change_percent": 2.14,
+              "market_cap": 49029029888,
+              "name": "Mercedes-Benz Group AG        N"
+            },
+            "since_signal": {
+              "from_date": "2025-11-27",
+              "to_date": "2026-03-09",
+              "from_price": 58.13,
+              "to_price": 54.25,
+              "change": -3.88,
+              "change_percent": -6.67,
+              "trading_days": 68
+            },
+            "financials": {
+              "pe_ratio": 8.550926,
+              "forward_pe": 6.970811,
+              "profit_margin": 0.03888,
+              "revenue_growth": -0.124,
+              "52_week_high": 63.17,
+              "52_week_low": 45.6
+            }
+          }
+        }
+      }
+    },
+    {
+      "entities": [
+        {
+          "name": "Amazon",
+          "ticker": "AMZN",
+          "parent": null,
+          "type": "public"
+        },
+        {
+          "name": "Hon Hai Precision Industry",
+          "ticker": "2317.TW",
+          "parent": "Foxconn",
+          "type": "public"
+        },
+        {
+          "name": "BYD",
+          "ticker": "002594.SZ",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "demand",
+      "claim": "现阶段人形机器人的B端商业化实质上收敛于特定物流末端场景（如亚马逊物流翻箱子找条码、富士康外仓抽箱封带），而对泛化能力要求较高、被市场寄予厚望的复杂工业场景（如比亚迪产线打螺丝）因缺乏高质量数据短期难以落地。",
+      "evidence_seg_ids": [
+        63,
+        66,
+        70,
+        77
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 77,
+          "quote": "外仓库的话永远会站两到三个人...希望能用具身解决"
+        }
+      ],
+      "impact_path": [
+        "修正市场对通用人形机器人快速接管精密制造产线的过高预期",
+        "引导早期商业化投资重定向至解决仓储物流末端非标动作的机器人初创公司"
+      ],
+      "verification_steps": [
+        "跟踪亚马逊及富士康对外部仓库人形机器人测试的采购预算及试点推广进度",
+        "评估下一代端到端模型（VLA）在多步骤精密操作（如螺丝孔定位与受力反馈）上的成功率突破"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "00:46:35",
+      "time_end": "00:50:45",
+      "start_seconds": 2795.0,
+      "end_seconds": 3045.0,
+      "verification": {
+        "verification_status": "verified",
+        "verified_claim": "现阶段人形机器人的B端商业化确实主要集中在物流搬运、分拣等特定且容错率较高的场景（如亚马逊测试Digit、富士康部署仓储物流机器人）。而在比亚迪等汽车制造的复杂工业产线中，人形机器人目前多用于物料搬运和质检，复杂泛化操作（如打螺丝）仍受限于高质量数据不足，处于遥操作收集数据或早期测试阶段。",
+        "verified_impact_path": [
+          "技术传导路径：从特定场景（物流搬运）向泛化场景（复杂制造）演进。短期内，具备成熟物流自动化解决方案的机器人企业将率先实现商业化变现。",
+          "产业链影响：由于复杂场景落地受阻，资本和企业的重心将向数据采集（如遥操作设备）、核心零部件降本（减速器、传感器）以及具身智能大模型训练倾斜。",
+          "投资实际意义：投资者应降低对人形机器人在复杂工业制造中短期爆发的预期，转而关注在仓储物流、简单分拣等细分赛道已获得实质性订单的标的及相关供应链。"
+        ],
+        "verified_data": [
+          {
+            "source": "Business Insider",
+            "finding": "Agility Robotics的Digit机器人已在亚马逊和GXO物流等企业进行商业化部署，其核心应用场景主要集中在解决高度重复的物理任务和物流仓储中的劳动力短缺问题。这直接验证了现阶段人形机器人率先在容错率较高的物流末端场景实现落地的判断。",
+            "url": "https://www.businessinsider.com/agility-robotics-wants-humanoids-to-fill-labor-gaps-aging-workforce"
+          },
+          {
+            "source": "IDTechEx",
+            "finding": "知名研究机构IDTechEx发布的2026-2036年人形机器人行业报告明确指出，早期的工业部署主要集中在基础且可扩展的任务上，例如物料搬运、质检支持和简单的装配辅助。对于要求高泛化能力的复杂通用任务，短期内仍难以实现商业化落地。",
+            "url": "https://www.idtechex.com/en/research-report/humanoid-robots-2026-2036-technologies-markets-and-opportunities"
+          },
+          {
+            "source": "Sina Finance",
+            "finding": "据最新财经报道，优必选的Walker S系列机器人在比亚迪、富士康等头部企业的工厂中，目前主要承担搬运、分拣、质检等基础工位。对于复杂的工业操作，目前仍处于通过“人类操偶师”进行遥操作，以积累高质量工业AI训练数据的早期阶段。",
+            "url": "https://finance.sina.com.cn/"
+          },
+          {
+            "source": "Notebookcheck",
+            "finding": "富士康官方宣布将在其位于美国休斯顿的工厂内部署由Nvidia Isaac平台驱动的人形机器人。这些机器人将主要用于AI服务器的简单组装辅助、质量检测和物流自动化，进一步印证了B端商业化在特定制造和物流环节的收敛趋势。",
+            "url": "https://www.notebookcheck.net/"
+          }
+        ],
+        "verification_confidence": "high",
+        "verification_notes": "验证结果高度一致。多方行业报告和企业交付数据表明，2025-2026年人形机器人的商业化确实收敛于物流搬运和简单分拣。比亚迪等车企产线中的复杂操作仍受制于高质量AI训练数据的缺乏，目前多依赖遥操作收集数据。",
+        "verification_date": "2026-03-10",
+        "signal_date": "2025-11-27",
+        "market_data": {
+          "AMZN": {
+            "current": {
+              "price": 213.49,
+              "change_percent": 0.17,
+              "market_cap": 2291798376448,
+              "name": "Amazon.com, Inc."
+            },
+            "since_signal": {
+              "from_date": "2025-11-28",
+              "to_date": "2026-03-09",
+              "from_price": 233.22,
+              "to_price": 213.49,
+              "change": -19.73,
+              "change_percent": -8.46,
+              "trading_days": 68
+            },
+            "financials": {
+              "pe_ratio": 29.775454,
+              "forward_pe": 22.860931,
+              "profit_margin": 0.108339995,
+              "revenue_growth": 0.136,
+              "52_week_high": 258.6,
+              "52_week_low": 161.38
+            }
+          },
+          "2317.TW": {
+            "current": {
+              "price": 209.5,
+              "change_percent": -0.48,
+              "market_cap": 2925193854976,
+              "name": "HON HAI PRECISION INDUSTRY"
+            },
+            "since_signal": {
+              "from_date": "2025-11-27",
+              "to_date": "2026-03-09",
+              "from_price": 231.0,
+              "to_price": 210.5,
+              "change": -20.5,
+              "change_percent": -8.87,
+              "trading_days": 63
+            },
+            "financials": {
+              "pe_ratio": 15.599404,
+              "forward_pe": 12.025351,
+              "profit_margin": 0.02497,
+              "revenue_growth": 0.11,
+              "52_week_high": 265.0,
+              "52_week_low": 112.5
+            }
+          },
+          "002594.SZ": {
+            "current": {
+              "price": 96.6,
+              "change_percent": -0.94,
+              "market_cap": 899566600192,
+              "name": "BYD COMPANY LTD"
+            },
+            "since_signal": {
+              "from_date": "2025-11-27",
+              "to_date": "2026-03-09",
+              "from_price": 94.29,
+              "to_price": 97.52,
+              "change": 3.23,
+              "change_percent": 3.43,
+              "trading_days": 65
+            },
+            "financials": {
+              "pe_ratio": 69.4964,
+              "forward_pe": 18.16404,
+              "profit_margin": 0.04559,
+              "revenue_growth": -0.031,
+              "52_week_high": 138.70334,
+              "52_week_low": 85.88
+            }
+          }
+        }
+      }
+    },
+    {
+      "entities": [
+        {
+          "name": "Alphabet",
+          "ticker": "GOOGL",
+          "parent": "Google",
+          "type": "public"
+        },
+        {
+          "name": "Tesla",
+          "ticker": "TSLA",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "competition",
+      "claim": "具身智能的终局取决于核心瓶颈：若底层基础大模型能力是唯一壁垒，拥有DeepMind等深厚积累的Google相较特斯拉更具核心优势；但若商业化决胜点在于软硬系统的垂直整合，特斯拉仍将凭借其供应链闭环保持领先地位。",
+      "evidence_seg_ids": [
+        94
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 94,
+          "quote": "如果软件能统治一切的话，Tesla倒不一定比得过Google"
+        }
+      ],
+      "impact_path": [
+        "影响投资者在智能机器人赛道核心标的（软件霸主 vs 硬件系统集成王者）之间的资金配置倾斜",
+        "提示市场重新评估Google在泛化具身智能大模型（如RT系列）上的长期变现潜力"
+      ],
+      "verification_steps": [
+        "关注Google及DeepMind后续发布的机器人基座模型（如RT-3）的跨构型泛化能力",
+        "追踪Tesla FSD技术向Optimus大脑迁移时的参数规模扩展及实际任务成功率"
+      ],
+      "confidence": "low",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "01:02:03",
+      "time_end": "01:03:14",
+      "start_seconds": 3723.0,
+      "end_seconds": 3794.0,
+      "verification": {
+        "verification_status": "verified",
+        "verified_claim": "该投资信号的判断逻辑得到充分验证。当前行业确实分化为两条核心路线：Google DeepMind凭借Gemini Robotics系列模型确立了其在基础大模型（大脑）的横向平台优势；而特斯拉则依托FSD数据迁移、自研执行器及超级工厂的产能扩张，在软硬件垂直整合与供应链闭环上占据主导地位。",
+        "verified_impact_path": [
+          "影响路径1：从技术路线分化到商业模式的传导机制。Google倾向于成为“机器人界的安卓”（提供通用大脑），而特斯拉走“苹果模式”（软硬件垂直整合），这将决定未来行业利润在模型层与制造层的分配。",
+          "影响路径2：对产业链的具体影响。特斯拉的垂直整合将带动其自有供应链（如自研芯片、执行器、电池）的规模化降本；而Google的横向生态将赋能更多第三方硬件厂商（如Boston Dynamics等），加速通用硬件的商品化。",
+          "影响路径3：对投资者的实际意义。短期内特斯拉面临高昂的资本开支和量产爬坡风险（如2026年盈利能力测试），而Google的模型授权模式风险较低；但长期看，若特斯拉成功实现规模化量产，其软硬一体的护城河将带来极高的商业壁垒。"
+        ],
+        "verified_data": [
+          {
+            "source": "AI Business",
+            "finding": "Google DeepMind发布了Gemini Robotics 1.5及端侧模型，旨在为机器人提供强大的感知和“思考”能力，使其能够作为物理世界的通用基础模型（大脑），并已在不同形态的机器人（如ALOHA、Apollo）上实现技能的无缝迁移。",
+            "url": "https://aibusiness.com/robotics/deepminds-gemini-robotics-1-5-gives-robots-reasoning-powers"
+          },
+          {
+            "source": "Communications of the ACM",
+            "finding": "行业专家指出，Google DeepMind的Gemini Robotics试图将行业从为特定任务定制软硬件的“垂直栈”推向“横向平台”，即用一个通用大脑操作不同的机器人躯体，这凸显了其在底层大模型上的核心壁垒。",
+            "url": "https://cacm.acm.org/news/the-humanoid-robots-are-coming-this-time-for-real/"
+          },
+          {
+            "source": "Supply Chain Today",
+            "finding": "特斯拉Optimus的优势在于其强大的供应链和制造能力。特斯拉正在得州超级工厂建设年产千万台的机器人生产线，并通过自研执行器、传感器和AI芯片实现深度的软硬件垂直整合，以期在2026年实现规模化量产和成本控制。",
+            "url": "https://www.supplychaintoday.com/why-the-tesla-optimus-robot-will-take-over-in-2026/"
+          },
+          {
+            "source": "Breaking The News",
+            "finding": "马斯克在财报电话会议上明确表示，特斯拉在“真实世界AI（Real-World AI）”方面远超Google。特斯拉的护城河在于其FSD积累的海量真实世界数据与Optimus硬件的结合，而非单纯的实验室大模型。",
+            "url": "https://breakingthenews.net/Article/Musk:-Tesla-better-than-Google-at-real-world-AI/62458913"
+          }
+        ],
+        "verification_confidence": "high",
+        "verification_notes": "信号判断准确。2025-2026年的最新行业动态证实，Google正通过Gemini Robotics主攻通用大模型壁垒，而特斯拉则通过FSD数据复用和得州工厂的千万级产能规划，死磕软硬件垂直整合与供应链闭环。",
+        "verification_date": "2026-03-10",
+        "signal_date": "2025-11-27",
+        "market_data": {
+          "GOOGL": {
+            "current": {
+              "price": 306.36,
+              "change_percent": 2.71,
+              "market_cap": 3706036944896,
+              "name": "Alphabet Inc."
+            },
+            "since_signal": {
+              "from_date": "2025-11-28",
+              "to_date": "2026-03-09",
+              "from_price": 319.75,
+              "to_price": 306.36,
+              "change": -13.39,
+              "change_percent": -4.19,
+              "trading_days": 68
+            },
+            "financials": {
+              "pe_ratio": 28.340424,
+              "forward_pe": 22.832766,
+              "profit_margin": 0.32810003,
+              "revenue_growth": 0.18,
+              "52_week_high": 349.0,
+              "52_week_low": 140.53
+            }
+          },
+          "TSLA": {
+            "current": {
+              "price": 398.68,
+              "change_percent": 0.49,
+              "market_cap": 1496019501056,
+              "name": "Tesla, Inc."
+            },
+            "since_signal": {
+              "from_date": "2025-11-28",
+              "to_date": "2026-03-09",
+              "from_price": 430.17,
+              "to_price": 398.68,
+              "change": -31.49,
+              "change_percent": -7.32,
+              "trading_days": 68
+            },
+            "financials": {
+              "pe_ratio": 369.14813,
+              "forward_pe": 141.85728,
+              "profit_margin": 0.040009998,
+              "revenue_growth": -0.031,
+              "52_week_high": 498.83,
+              "52_week_low": 214.25
+            }
+          }
+        }
+      }
+    }
+  ]
+}

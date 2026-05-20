@@ -1,0 +1,108 @@
+{
+  "metadata": {
+    "source": "/Users/antonio/Desktop/podcast_juicer/output/sv101_ep184/184_transcript_gemini.json",
+    "method": "gemini_3_pro_full_context",
+    "model": "gemini-3.1-pro-preview",
+    "total_signals": 2,
+    "companies_mentioned": [
+      "Anthropic",
+      "Google",
+      "OpenAI",
+      "Perplexity"
+    ],
+    "context_length": 15716,
+    "publish_date": "2025-01-06",
+    "record_date": "",
+    "podcast_id": "sv101",
+    "episode_id": "184"
+  },
+  "signals": [
+    {
+      "entities": [
+        {
+          "name": "OpenAI",
+          "ticker": null,
+          "parent": null,
+          "type": "private"
+        },
+        {
+          "name": "Anthropic",
+          "ticker": null,
+          "parent": null,
+          "type": "private"
+        }
+      ],
+      "signal_type": "demand",
+      "claim": "由于 OpenAI o1 等高级推理模型存在严格的 Token 限额，单一平台难以满足重度用户的需求，促使他们同时订阅 OpenAI 和 Anthropic 等多个大模型服务。这表明高价值用户对优质算力极度渴求，打破了赢家通吃的逻辑，验证了多模型并存的高订阅收入潜力。",
+      "evidence_seg_ids": [
+        144,
+        146,
+        152
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 152,
+          "quote": "经常就是全用光了……所以会都订阅一下。"
+        }
+      ],
+      "impact_path": [
+        "提升头部 AI 基础模型公司的整体订阅收入上限",
+        "因为算力瓶颈和使用限额成为了天然的壁垒，驱动重度用户产生多重订阅（Multi-homing）行为"
+      ],
+      "verification_steps": [
+        "调研 AI 订阅用户的多重付费比例（同时订阅 ChatGPT Plus 和 Claude Pro）",
+        "追踪 OpenAI o1 及 Claude 3.5 额度限制政策变化对用户续费率的影响"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "00:56:39",
+      "time_end": "00:57:56",
+      "start_seconds": 3399.0,
+      "end_seconds": 3476.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Google",
+          "ticker": "GOOGL",
+          "parent": "Alphabet Inc.",
+          "type": "public"
+        },
+        {
+          "name": "Perplexity",
+          "ticker": null,
+          "parent": null,
+          "type": "private"
+        }
+      ],
+      "signal_type": "competition",
+      "claim": "在科研与深度信息检索场景中，带有强制溯源的 AI 搜索引擎（如 Perplexity）正在实质性替代传统谷歌搜索。高净值用户倾向于跳过谷歌的模糊探索阶段，直接向 AI 获取带引用源的精准答案，这直接威胁了谷歌在专业检索领域的搜索请求量及广告曝光基本盘。",
+      "evidence_seg_ids": [
+        140,
+        142
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 140,
+          "quote": "搜索的话我是只用 Perplexity。"
+        }
+      ],
+      "impact_path": [
+        "可能导致谷歌在高价值查询（如学术、科研、代码检索）领域的市场份额下降",
+        "因为 Perplexity 提供的可追溯直接答案大幅降低了专业人员的信息检索熵"
+      ],
+      "verification_steps": [
+        "跟踪 Perplexity 在高校、研究机构等学术类 IP 地址的流量占比",
+        "监控谷歌桌面端在长尾教育/学术类查询词汇上的搜索量和跳出率变化"
+      ],
+      "confidence": "high",
+      "novelty": "low",
+      "actionability": "low",
+      "time_start": "00:56:06",
+      "time_end": "00:56:58",
+      "start_seconds": 3366.0,
+      "end_seconds": 3418.0
+    }
+  ]
+}

@@ -1,0 +1,500 @@
+{
+  "metadata": {
+    "source": "/Users/antonio/Desktop/podcast_juicer/output/sv101_ep207/207_transcript_gemini.json",
+    "method": "gemini_3_pro_full_context",
+    "model": "gemini-3.1-pro-preview",
+    "total_signals": 4,
+    "companies_mentioned": [
+      "Bilibili",
+      "Hunyuan",
+      "Kling",
+      "Netflix",
+      "Sora",
+      "Suno",
+      "Tencent",
+      "Veo"
+    ],
+    "context_length": 24183,
+    "publish_date": null,
+    "record_date": null,
+    "podcast_id": "sv101",
+    "episode_id": "207",
+    "verification_date": "2026-03-12",
+    "verification_method": "gemini_3_pro + google_search + yahoo_finance",
+    "verification_status": "completed",
+    "verified_signals_count": 4
+  },
+  "signals": [
+    {
+      "entities": [
+        {
+          "name": "Bilibili",
+          "ticker": "BILI",
+          "parent": "Bilibili Inc.",
+          "type": "public"
+        },
+        {
+          "name": "Tencent",
+          "ticker": "0700.HK",
+          "parent": "Tencent Holdings",
+          "type": "public"
+        }
+      ],
+      "signal_type": "supply_chain",
+      "claim": "全球动漫需求保持10%以上年复合增长，但日本头部产能排期已满至2-3年后，叠加纯手工制作致单季耗时约3年，供需严重错配。日本2D动漫单集成本约40万美元，远低于欧美3D千万美元级成本。腾讯和B站正作为最大资方密集投资中国动画工作室以填补全球产能缺口，中国动漫产业链有望吃下溢出的需求红利。",
+      "evidence_seg_ids": [
+        2,
+        6,
+        8,
+        19,
+        21,
+        30
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 30,
+          "quote": "B站和腾讯应该是两个最大的投资"
+        },
+        {
+          "seg_id": 6,
+          "quote": "生产线基本上都要排队到两年之后"
+        }
+      ],
+      "impact_path": [
+        "提升中国动漫代工及原创IP出海的营收天花板",
+        "因结构性产能短缺，掌握优质低成本产能的B站/腾讯泛二次元业务利润率有望优化"
+      ],
+      "verification_steps": [
+        "查阅B站和腾讯视频年度动漫片单数量及海外发行收入增速",
+        "跟踪日本主要动画工作室（如MAPPA、飞碟社）的外包订单流向"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "00:01:58",
+      "time_end": "00:09:35",
+      "start_seconds": 118.0,
+      "end_seconds": 575.0,
+      "verification": {
+        "verification_status": "verified",
+        "verified_claim": "全球动漫市场正以约10%的复合年增长率扩张，而日本传统2D手绘产能因劳动力短缺和排期满载（已排至2-3年后甚至本年代末）面临严重瓶颈。日本动漫单集成本（约10-40万美元）远低于欧美千万级制作，腾讯和B站正通过密集投资中国动画工作室，推动中国动漫产业链承接全球溢出需求。",
+        "verified_impact_path": [
+          "影响路径1：从需求爆发到产能瓶颈的传导——全球流媒体对动漫需求激增（CAGR约10%），但日本受限于传统手绘工艺和画师短缺，头部工作室排期已满至数年后，导致供需严重失衡。",
+          "影响路径2：对中国动漫产业链的具体影响——由于日本产能溢出及中日制作成本优势（远低于欧美动画），中国动画工作室正从基础外包向核心制作方转型，承接大量国际订单和联合制作项目。",
+          "影响路径3：对投资者的实际意义——腾讯和B站作为核心资方，通过全产业链布局（投资工作室、IP孵化、流媒体分发）构建护城河，其在ACG领域的投资转化率和出海收入有望成为新的业绩增长引擎。"
+        ],
+        "verified_data": [
+          {
+            "source": "GlobeNewswire (Mordor Intelligence)",
+            "finding": "2026年最新报告指出，全球动漫市场规模预计将从2026年的299.7亿美元增长至2031年的496亿美元，复合年增长率（CAGR）达到10.6%，主要受全球流媒体平台消费激增的推动。",
+            "url": "https://www.globenewswire.com/news-release/2026/01/19/Anime-Market-Size-Forecast-2026-2031"
+          },
+          {
+            "source": "Cartoon Brew",
+            "finding": "2026年1月报道指出，日本动漫产业面临严重的劳动力短缺和产能紧缺（Crunch），几乎所有头部制作公司的排期已经满载至本年代末（2030年），导致制作周期拉长，加剧了全球供需错配。",
+            "url": "https://www.cartoonbrew.com/anime/anime-boom-meets-crunch-how-japans-labor-shortages-hurt-quality.html"
+          },
+          {
+            "source": "ResearchInChina",
+            "finding": "行业报告证实，腾讯和B站已成为动画投资领域的最重要参与者，密集投资了多家具备IP和制作能力的中国动画公司，以填补产能缺口并主导泛二次元（ACG）市场。",
+            "url": "https://www.researchinchina.com/Htmls/Report/2019/10055.html"
+          },
+          {
+            "source": "Crunchyroll / Industry Data",
+            "finding": "日本2D动漫单集制作成本通常在10万至40万美元之间（如《鬼灭之刃》等高质量作品约8-15万美元，部分顶配达40万），而欧美3D动画单集成本动辄超百万甚至千万美元，凸显了亚洲动漫产业链的巨大成本优势。",
+            "url": "https://www.crunchyroll.com/news/latest/2011/10/30/how-much-does-one-episode-of-anime-cost-to-make"
+          }
+        ],
+        "verification_confidence": "high",
+        "verification_notes": "信号核心逻辑得到全面验证。全球动漫市场CAGR确实在10%左右，日本产能排期已满且面临劳动力瓶颈；同时，腾讯与B站的密集投资逻辑及中日动漫相较于欧美的成本优势均有确凿数据支持。",
+        "verification_date": "2026-03-12",
+        "signal_date": null,
+        "market_data": {
+          "BILI": {
+            "current": {
+              "price": 25.05,
+              "change_percent": -1.82,
+              "market_cap": 10211341312,
+              "name": "Bilibili Inc."
+            },
+            "financials": {
+              "pe_ratio": 96.36539,
+              "forward_pe": 18.252201,
+              "profit_margin": 0.039330002,
+              "revenue_growth": 0.076,
+              "52_week_high": 36.4,
+              "52_week_low": 14.47
+            }
+          },
+          "0700.HK": {
+            "current": {
+              "price": 546.5,
+              "change_percent": -1.0,
+              "market_cap": 4930080342016,
+              "name": "TENCENT"
+            },
+            "financials": {
+              "pe_ratio": 21.712357,
+              "forward_pe": 15.400603,
+              "profit_margin": 0.29857,
+              "revenue_growth": 0.154,
+              "52_week_high": 683.0,
+              "52_week_low": 419.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "entities": [
+        {
+          "name": "Kling",
+          "ticker": "1024.HK",
+          "parent": "Kuaishou Technology",
+          "type": "public"
+        },
+        {
+          "name": "Hunyuan",
+          "ticker": "0700.HK",
+          "parent": "Tencent Holdings",
+          "type": "public"
+        },
+        {
+          "name": "Sora",
+          "ticker": null,
+          "parent": "OpenAI",
+          "type": "private"
+        },
+        {
+          "name": "Veo",
+          "ticker": "GOOGL",
+          "parent": "Alphabet Inc.",
+          "type": "public"
+        }
+      ],
+      "signal_type": "competition",
+      "claim": "在视频大模型赛道，中国模型（可灵、混元等）在动效生成及动漫二次元风格补全上已达到甚至超越美国竞品（Sora、Runway）的水平。且中国模型在版本迭代速度、C端产品体验上更优，生成成本显著更低。这意味着美国纯视觉AI初创公司在后续商业化普及及定价权上将面临中国大厂廉价高质量产品的严重冲击。",
+      "evidence_seg_ids": [
+        216,
+        222,
+        223,
+        225
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 223,
+          "quote": "中国的这些模型完全不输美国的模型"
+        },
+        {
+          "seg_id": 225,
+          "quote": "而且生成更快，而且更便宜一些"
+        }
+      ],
+      "impact_path": [
+        "压制海外视频大模型（Runway/Pika）的C端订阅提价空间",
+        "提升快手（可灵）及腾讯（混元）在大模型出海市场中的商业化估值预期"
+      ],
+      "verification_steps": [
+        "对比Kling、Sora、Runway相同Prompt下的单次生成API调用成本",
+        "监测主流视频生成平台海外月活用户（MAU）增量及留存率表现"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:46:12",
+      "time_end": "00:48:00",
+      "start_seconds": 2772.0,
+      "end_seconds": 2880.0,
+      "verification": {
+        "verification_status": "verified",
+        "verified_claim": "中国视频大模型（如可灵、混元、海螺等）在动效生成及动漫二次元风格上已具备专属引擎优化，表现比肩甚至超越Sora和Runway。且凭借极快的迭代速度、完善的C端定价体系和显著的成本优势，正对美国纯视觉AI初创公司的定价权和商业化普及形成严重冲击。",
+        "verified_impact_path": [
+          "影响路径1：从技术平权到定价权转移的传导机制。中国大厂通过开源（如腾讯混元）或极低API定价（如快手可灵）大幅拉低视频生成门槛，将迫使Runway、Pika等美国初创公司放弃高毛利定价模型，直接冲击其商业化营收预期。",
+          "影响路径2：对产业链的具体影响。电商、广告营销及动漫制作等对成本高度敏感的下游行业，将大规模向中国视频大模型迁移，导致美国纯视觉AI公司的B端市场份额快速流失。",
+          "影响路径3：对投资者的实际意义。市场需重新评估美国纯视觉AI初创公司的高估值逻辑，其技术护城河正在变浅；同时可重点关注快手、腾讯等中国科技巨头在AI应用层的商业化变现超预期机会。"
+        ],
+        "verified_data": [
+          {
+            "source": "TechNode",
+            "finding": "快手财报显示，Kling AI自推出以来保持约每两周一次的高频迭代（已超20次），并提供低至66元人民币（约9美元）的C端订阅服务。其极高的性价比使其商业化收入迅速突破1亿元人民币，展现出优于美国竞品的C端产品体验和商业化速度。",
+            "url": "https://technode.com/2025/03/26/kuaishou-reports-strong-2024-earnings-as-kling-ai-gains-traction/"
+          },
+          {
+            "source": "Yicai Global",
+            "finding": "腾讯发布了130亿参数的开源视频大模型HunyuanVideo。内部及行业评测显示，其在文本对齐、运动质量和视觉质量上均超越了美国的Runway GEN-3 Alpha和Luma等竞品，且开源策略大幅降低了开发者的生成成本。",
+            "url": "https://www.yicaiglobal.com/news/tencent-brings-out-open-source-text-to-video-tool-to-rival-openais-sora"
+          },
+          {
+            "source": "Apiyi Blog",
+            "finding": "行业对比评测指出，Kling 3.0 拥有专门的动漫引擎（dedicated anime engine），在二次元风格和商业生产力上优于Sora 2。同时，Kling的API调用成本显著低于Sora，4K分辨率的生成价格仅与Sora的720p相当，对商业用户极具吸引力。",
+            "url": "https://www.apiyi.com/blog/sora-2-vs-kling-3-0-a-practical-comparison-in-e-commerce-and-anime-domains/"
+          },
+          {
+            "source": "Politics UK",
+            "finding": "2026年3月的行业分析指出，由于中国AI模型具备“好用、快速且极其便宜”的特点，全球企业正大量采用中国模型。中国模型在视频生成等特定领域表现出色，其极低的成本正主导开源和商业应用市场，给美国AI公司带来巨大竞争压力。",
+            "url": "https://www.politics.co.uk/comment/2026/03/09/us-vs-china-who-is-really-winning-the-global-ai-race/"
+          }
+        ],
+        "verification_confidence": "high",
+        "verification_notes": "验证结果高度一致。快手可灵、腾讯混元及海螺等中国视频大模型在迭代速度、定价策略（极低成本或开源）及特定风格（如二次元动漫引擎）上确实已比肩或超越美国竞品，正对Runway等美国初创公司的商业化形成实质性冲击。",
+        "verification_date": "2026-03-12",
+        "signal_date": null,
+        "market_data": {
+          "1024.HK": {
+            "current": {
+              "price": 60.2,
+              "change_percent": -1.07,
+              "market_cap": 262012469248,
+              "name": "KUAISHOU-W"
+            },
+            "financials": {
+              "pe_ratio": 14.471154,
+              "forward_pe": 9.669543,
+              "profit_margin": 0.12524,
+              "revenue_growth": 0.142,
+              "52_week_high": 92.6,
+              "52_week_low": 42.9
+            }
+          },
+          "0700.HK": {
+            "current": {
+              "price": 546.5,
+              "change_percent": -1.0,
+              "market_cap": 4930080342016,
+              "name": "TENCENT"
+            },
+            "financials": {
+              "pe_ratio": 21.712357,
+              "forward_pe": 15.400603,
+              "profit_margin": 0.29857,
+              "revenue_growth": 0.154,
+              "52_week_high": 683.0,
+              "52_week_low": 419.0
+            }
+          },
+          "GOOGL": {
+            "current": {
+              "price": 301.58,
+              "change_percent": -2.31,
+              "market_cap": 3648213221376,
+              "name": "Alphabet Inc."
+            },
+            "financials": {
+              "pe_ratio": 27.924072,
+              "forward_pe": 22.486872,
+              "profit_margin": 0.32810003,
+              "revenue_growth": 0.18,
+              "52_week_high": 349.0,
+              "52_week_low": 140.53
+            }
+          }
+        }
+      }
+    },
+    {
+      "entities": [
+        {
+          "name": "Sora",
+          "ticker": null,
+          "parent": "OpenAI",
+          "type": "private"
+        },
+        {
+          "name": "Veo",
+          "ticker": "GOOGL",
+          "parent": "Alphabet Inc.",
+          "type": "public"
+        }
+      ],
+      "signal_type": "product",
+      "claim": "尽管视频大模型进步极快，但短期内极难打入高净值的影视B端核心工作流（如生成中间帧）。AI由于无法稳定控制物理细节（约5%的随机闪烁或错误），且难以通过文字指令进行局部精准修改，导致画师审阅和修图的沟通成本往往高于从零手绘。此技术瓶颈将严重推迟视频大模型在专业影视工业级的商业化变现节奏。",
+      "evidence_seg_ids": [
+        76,
+        87,
+        89,
+        93
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 87,
+          "quote": "在不同的地方出现了5%的误差"
+        },
+        {
+          "seg_id": 89,
+          "quote": "可能有些时候还真不如自己画来得更快"
+        }
+      ],
+      "impact_path": [
+        "降低市场对AI视频工具短期获取好莱坞/顶级动漫工作室规模化B端授权费的预期",
+        "AI算力消耗可能更多停留在C端试错或短视频轻量级场景"
+      ],
+      "verification_steps": [
+        "调研头部视觉特效公司及动画工作室的实际AI采购合同与使用渗透率",
+        "测试主流大模型最新版本对指定视频帧局部微调的成功率"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "00:20:20",
+      "time_end": "00:25:51",
+      "start_seconds": 1220.0,
+      "end_seconds": 1551.0,
+      "verification": {
+        "verification_status": "verified",
+        "verified_claim": "Sora和Veo等视频大模型在短期内难以打入专业影视制作的核心工作流（如直接输出成品素材或中间帧）。其主要瓶颈在于时空一致性差、物理规律模拟不准确（导致闪烁或形变），以及缺乏精准的局部可控性，导致实际修改和沟通成本过高，目前多局限于动态分镜和灵感参考阶段。",
+        "verified_impact_path": [
+          "影响路径1：从技术瓶颈到应用受限的传导机制。由于AI视频模型缺乏对物理规律的真正理解和精准的局部修改能力（如通过文本指令微调特定细节），导致创作者需要大量试错（'抽卡'），反而增加了时间与沟通成本。",
+          "影响路径2：对影视产业链的具体影响。短期内，AI视频工具将主要停留在影视制作的前期阶段（如概念设计、动态分镜、预演），难以替代后期特效、中间帧生成等高净值的核心工业级环节。",
+          "影响路径3：对投资者的实际意义。视频大模型在B端专业影视领域的商业化变现（如高昂的API调用和SaaS订阅）将面临落地延迟，投资者应降低对该领域短期内爆发式营收增长的预期，转而关注其在短视频、广告等容错率较高的C端或轻量级B端市场的变现潜力。"
+        ],
+        "verified_data": [
+          {
+            "source": "Business Insider",
+            "finding": "好莱坞电影制作人和顶尖电影学院教授指出，尽管Sora等AI视频生成器具有极大潜力，但由于图像质量仍处于'恐怖谷'效应中，且难以在场景中稳定控制多个角色。目前该技术主要用于前期视觉预览和动画分镜，短期内不会广泛应用于最终的电影成品中。",
+            "url": "https://www.businessinsider.com/sora-openai-ai-video-generator-filmmaking-limitations-2024-12"
+          },
+          {
+            "source": "Forbes",
+            "finding": "AI视频生成器面临严重的技术局限性。机器学习模型经常在技术限制中挣扎，导致角色尴尬地变形、物体扭曲、光照突然变化以及角色之间发生不自然的互动。这些物理细节的失控和缺乏真实生活深度的表现，严重阻碍了其在专业影视叙事和核心工作流中的应用。",
+            "url": "https://www.forbes.com/sites/geruiwang/2024/12/12/how-sora-and-ai-videos-transform-media-strengths-and-challenges/"
+          },
+          {
+            "source": "36氪 (36Kr)",
+            "finding": "真正的影视工作流中，由于AI生成内容难以保持角色一致性和场景连续性，导致其目前只能充当'动态分镜脚本'或'灵感参考'，很难直接输出成品素材。行业内很少有人能彻底解决'可控性'这一导演与创作者最在意的核心命题，导致商业化变现路径依然狭窄。",
+            "url": "https://36kr.com/p/2833150500881544"
+          },
+          {
+            "source": "腾讯新闻 (Tencent News)",
+            "finding": "AI视频生成目前面临高成本、高难度、实用性差的痛点。特别是保持时空一致性是最大难关，早期AI生成视频中人物脸部突变、物体凭空消失或改变形态等问题频发。由于缺乏精准的局部修改能力，导致实际修改成本极高，真正实现工业级商业化非一日之功。",
+            "url": "https://new.qq.com/rain/a/20240508A07H8B00"
+          }
+        ],
+        "verification_confidence": "high",
+        "verification_notes": "多方权威媒体和行业报告高度一致地验证了该信号。尽管Sora和Veo在视频生成长度和画质上取得突破，但时空一致性差、物理规律模拟错误（如形变、闪烁）以及局部可控性弱仍是未解的技术瓶颈。这导致AI生成的修改与沟通成本过高，严重制约了其在专业影视B端核心工作流中的商业化进程。",
+        "verification_date": "2026-03-12",
+        "signal_date": null,
+        "market_data": {
+          "GOOGL": {
+            "current": {
+              "price": 301.58,
+              "change_percent": -2.31,
+              "market_cap": 3648213221376,
+              "name": "Alphabet Inc."
+            },
+            "financials": {
+              "pe_ratio": 27.924072,
+              "forward_pe": 22.486872,
+              "profit_margin": 0.32810003,
+              "revenue_growth": 0.18,
+              "52_week_high": 349.0,
+              "52_week_low": 140.53
+            }
+          }
+        }
+      }
+    },
+    {
+      "entities": [
+        {
+          "name": "Netflix",
+          "ticker": "NFLX",
+          "parent": "Netflix, Inc.",
+          "type": "public"
+        },
+        {
+          "name": "Suno",
+          "ticker": null,
+          "parent": null,
+          "type": "private"
+        }
+      ],
+      "signal_type": "product",
+      "claim": "相较于核心动作视频，AI在影视边缘素材和音频生成中已率先实现商业化落地。Netflix已在自制剧《Pluto》中正式部署AI生成静态环境背景。同时，AI语音和音乐生成质量已达到可直接替代真人的商业级水准，其规模化应用的核心阻力已从技术短板转移至版权纠纷与配音工会的伦理抵制。",
+      "evidence_seg_ids": [
+        129,
+        131,
+        273,
+        275,
+        301
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 131,
+          "quote": "Netflix公开声称在背景制作中引入AI"
+        },
+        {
+          "seg_id": 273,
+          "quote": "尖端的模型已经跟真人无异了"
+        }
+      ],
+      "impact_path": [
+        "流媒体平台（如Netflix）将系统性削减背景绘制及音频后期外包成本",
+        "音乐及配音行业将面临结构性失业，引发行业罢工及版权诉讼风险"
+      ],
+      "verification_steps": [
+        "查阅Netflix等流媒体新财季财报中单集内容制作成本（外包占比）的变动指引",
+        "跟踪海外演员工会（SAG-AFTRA）及声优协会对AI声音授权的监管诉讼案例"
+      ],
+      "confidence": "high",
+      "novelty": "low",
+      "actionability": "low",
+      "time_start": "00:30:12",
+      "time_end": "01:00:36",
+      "start_seconds": 1812.0,
+      "end_seconds": 3636.0,
+      "verification": {
+        "verification_status": "contradicted",
+        "verified_claim": "信号中关于AI音频生成达到商业级水准并面临版权与工会抵制的核心判断属实，但关于Netflix在自制剧《Pluto》中部署AI生成背景的说法严重失实。Netflix实际是在2023年的三分钟实验短片《犬与少年》中使用了AI背景，而《Pluto》是一部探讨AI主题的传统手绘动画，其原作者甚至对AI作画表达过担忧。",
+        "verified_impact_path": [
+          "影响路径1：从技术突破到版权合规的传导机制。AI音频（如Suno、Udio）生成质量的提升直接引发了三大唱片公司及GEMA等版权机构的侵权诉讼，迫使AI公司从野蛮生长转向授权付费模式。",
+          "影响路径2：对影视制作产业链的具体影响。虽然AI在边缘素材中展现出降本增效潜力，但由于演员工会（如SAG-AFTRA）的强烈抵制和长达近一年的罢工，AI在核心配音和动作捕捉领域的规模化应用被迫放缓，需建立严格的同意与补偿机制。",
+          "影响路径3：对投资者的实际意义。投资AI内容生成赛道的逻辑应从单纯的技术领先性转向合规与版权壁垒。具备合法训练数据来源或已完成版权利益分配的AI公司将享有更高的商业化确定性，而面临工会抵制和诉讼风险的企业则存在估值折价。"
+        ],
+        "verified_data": [
+          {
+            "source": "The Guardian",
+            "finding": "2024年6月，全球三大唱片公司（索尼、环球、华纳）对AI音乐生成平台Suno和Udio提起大规模版权侵权诉讼，指控其未经许可使用受版权保护的录音进行AI训练。2025年至2026年，德国音乐版权机构GEMA也对Suno提起诉讼，标志着AI音乐的商业化阻力已全面转向版权纠纷。",
+            "url": "https://www.theguardian.com/technology/article/2024/jun/25/music-labels-sue-ai-song-generators-suno-and-udio-for-copyright-infringement"
+          },
+          {
+            "source": "Wikipedia (SAG-AFTRA Strike)",
+            "finding": "美国演员工会（SAG-AFTRA）因未能与游戏公司就AI语音和动作捕捉的保护条款达成一致，于2024年7月发起针对电子游戏行业的罢工。工会要求公司在训练AI复制演员声音或创建数字替身时必须获得同意并提供公平补偿，罢工持续至2025年中才达成初步协议。",
+            "url": "https://en.wikipedia.org/wiki/2024%E2%80%932025_SAG-AFTRA_video_game_strike"
+          },
+          {
+            "source": "Mashable",
+            "finding": "Netflix确实在动画制作中尝试了AI生成背景，但并非用于核心自制剧《Pluto》，而是用于2023年初发布的三分钟实验性短片《犬与少年》（The Dog & The Boy）。该短片的背景设计师被标记为“AI (+Human)”，此举当时引发了动画界的广泛批评与争议。",
+            "url": "https://mashable.com/article/netflix-ai-art-anime-the-dog-and-the-boy"
+          },
+          {
+            "source": "GIGAZINE",
+            "finding": "《Pluto》的原作者浦泽直树在接受采访时明确表示对AI作画感到“不寒而栗”。《Pluto》是一部探讨AI与人类共存主题的传统手绘主导作品，并未在制作中正式部署AI生成静态环境背景，信号中的相关描述系将动画的“AI主题”与“AI制作手段”混淆。",
+            "url": "https://gigazine.net/gsc_news/en/20231026-pluto-naoki-urasawa-interview/"
+          }
+        ],
+        "verification_confidence": "high",
+        "verification_notes": "该投资信号存在关键事实错误，整体评定为矛盾。AI音频生成面临版权诉讼（Suno被诉）及工会抵制（SAG-AFTRA罢工）的判断完全准确；但Netflix并未在旗舰剧《Pluto》中使用AI背景，仅在实验短片《犬与少年》中进行了测试，信号夸大了AI在核心影视制作中的实际渗透率。",
+        "verification_date": "2026-03-12",
+        "signal_date": null,
+        "market_data": {
+          "NFLX": {
+            "current": {
+              "price": 94.85,
+              "change_percent": -0.03,
+              "market_cap": 402343231488,
+              "name": "Netflix, Inc."
+            },
+            "financials": {
+              "pe_ratio": 37.49012,
+              "forward_pe": 24.71365,
+              "profit_margin": 0.24304001,
+              "revenue_growth": 0.176,
+              "52_week_high": 134.115,
+              "52_week_low": 75.01
+            }
+          }
+        }
+      }
+    }
+  ]
+}

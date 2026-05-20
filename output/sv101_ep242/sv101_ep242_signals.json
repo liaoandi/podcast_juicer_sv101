@@ -1,0 +1,283 @@
+{
+  "metadata": {
+    "source": "/Users/antonio/Desktop/podcast_juicer/output/sv101_ep242/242_transcript_gemini.json",
+    "method": "gemini_3_pro_full_context",
+    "model": "gemini-3.1-pro-preview",
+    "total_signals": 5,
+    "companies_mentioned": [
+      "AM Batteries",
+      "Ascend Elements",
+      "Lithium Americas",
+      "NVIDIA",
+      "Oracle",
+      "QuantumScape",
+      "Tesla",
+      "天目先导",
+      "宁德时代",
+      "容百科技"
+    ],
+    "context_length": 22300,
+    "publish_date": null,
+    "record_date": null,
+    "podcast_id": null,
+    "episode_id": null
+  },
+  "signals": [
+    {
+      "entities": [
+        {
+          "name": "宁德时代",
+          "ticker": "300750.SZ",
+          "type": "public"
+        },
+        {
+          "name": "容百科技",
+          "ticker": "688005.SH",
+          "type": "public"
+        },
+        {
+          "name": "天目先导",
+          "ticker": null,
+          "type": "private"
+        }
+      ],
+      "signal_type": "product",
+      "claim": "未来5到10年内，钠离子电池可能取代超30%甚至一半的磷酸铁锂市场份额。宁德时代已投资90亿元人民币投产硬碳负极（如投资天目湖地区企业），容百科技等正极头部企业也已积极布局钠电正极，显示钠电商业化进程比市场预期更快。",
+      "evidence_seg_ids": [
+        52,
+        53
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 52,
+          "quote": "现在的铁锂超过30%甚至一半的市场份额"
+        },
+        {
+          "seg_id": 52,
+          "quote": "都会被钠离子电池取代"
+        },
+        {
+          "seg_id": 53,
+          "quote": "宁德时代最近投资天目湖做负极材料"
+        },
+        {
+          "seg_id": 53,
+          "quote": "容百这种头部的做正极材料的公司"
+        }
+      ],
+      "impact_path": [
+        "钠电池产业链商业化加速，可能削弱对传统磷酸铁锂（LFP）及碳酸锂的长期需求",
+        "宁德时代、容百科技等前瞻布局钠电的头部材料与电芯企业有望获得电网储能新市场的先发份额"
+      ],
+      "verification_steps": [
+        "追踪宁德时代90亿元硬碳负极项目的实际产能释放和良率情况",
+        "跟进大型电网储能项目招标中钠离子电池的渗透率及实际装机比例",
+        "查阅容百科技最新财报中关于钠电正极出货量及毛利率的指引"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:54:54",
+      "time_end": "00:59:10",
+      "start_seconds": 3294.0,
+      "end_seconds": 3550.0
+    },
+    {
+      "entities": [
+        {
+          "name": "QuantumScape",
+          "ticker": "QS",
+          "type": "public"
+        },
+        {
+          "name": "宁德时代",
+          "ticker": "300750.SZ",
+          "type": "public"
+        }
+      ],
+      "signal_type": "risk",
+      "claim": "固态电池的大规模商业化预计要等到2030年前后，且当前面临严峻挑战。上市公司 QuantumScape 的真实数据显示其能量密度优势并不明显，已被掺硅负极的液态电池追赶，且测试需外加3个大气压，应用难度极高，行业巨头对此持谨慎态度。",
+      "evidence_seg_ids": [
+        49,
+        51,
+        52
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 49,
+          "quote": "QuantumScape的话你看它的能量密度其实并不高"
+        },
+        {
+          "seg_id": 49,
+          "quote": "它现在可能还需要外加压力3个大气压"
+        },
+        {
+          "seg_id": 52,
+          "quote": "他其实本人都不是特别看好固态电池"
+        }
+      ],
+      "impact_path": [
+        "固态电池的工程化障碍（如加压需求、低能量密度增量）可能导致市场对相关概念股（如 QS）的估值泡沫破裂",
+        "液态锂电池（加硅负极）将在更长周期内维持主导地位，利好现有产业链"
+      ],
+      "verification_steps": [
+        "持续监测 QuantumScape 每季度公布的测试条件（特别是所需环境压力条件）是否放宽",
+        "跟踪车企（如大众、丰田）关于固态电池定点及实际量产时间表的更新/推迟情况"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:49:58",
+      "time_end": "00:56:10",
+      "start_seconds": 2998.0,
+      "end_seconds": 3370.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Oracle",
+          "ticker": "ORCL",
+          "type": "public"
+        },
+        {
+          "name": "NVIDIA",
+          "ticker": "NVDA",
+          "type": "public"
+        }
+      ],
+      "signal_type": "demand",
+      "claim": "AI数据中心（如Oracle的AI工厂和英伟达GPU集群）将带来百兆瓦级的电压尖峰和负载波动，对老旧电网造成巨大冲击。由于电网基建缓慢，抗微观充放电负载波动能力更强的钠离子电池结合光伏，将成为AI时代最佳的储能解决方案。",
+      "evidence_seg_ids": [
+        53,
+        54
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 54,
+          "quote": "会有上百个兆瓦的电压的voltage spike"
+        },
+        {
+          "seg_id": 54,
+          "quote": "钠离子电池呢会更有能够处理和buffer"
+        },
+        {
+          "seg_id": 53,
+          "quote": "Oracle 建这种超级 AI 工厂"
+        }
+      ],
+      "impact_path": [
+        "由于传统电网无法承受AI算力中心带来的微观充放电负载波动，自带储能将成为数据中心的刚需配套",
+        "具备高循环寿命、耐尖峰波动的钠离子电池企业将迎来AI储能这个高成长性增量市场"
+      ],
+      "verification_steps": [
+        "追踪北美超算中心（如Oracle、Microsoft等）在规划新建数据中心时的Capex支出中关于配储比例的变化",
+        "验证头部储能供应商推出的针对AI数据中心“尖峰缓冲”场景的定制化产品路线图"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:55:50",
+      "time_end": "01:02:10",
+      "start_seconds": 3350.0,
+      "end_seconds": 3730.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Lithium Americas",
+          "ticker": "LAC",
+          "type": "public"
+        },
+        {
+          "name": "Ascend Elements",
+          "ticker": null,
+          "type": "private"
+        }
+      ],
+      "signal_type": "supply_chain",
+      "claim": "美国本土传统锂矿开发周期极长（如 Lithium Americas 开发七八年仍未产出）。废旧电池回收正成为获取关键材料的捷径，初创公司 Ascend Elements 已成为美国首家能从黑粉中直接提取碳酸锂的企业，绕开了漫长的传统矿业开发周期。",
+      "evidence_seg_ids": [
+        55
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 55,
+          "quote": "Lithium Americas它现在有七八年了吧"
+        },
+        {
+          "seg_id": 55,
+          "quote": "它现在还没有产出"
+        },
+        {
+          "seg_id": 55,
+          "quote": "Ascend Elements是一家做电池回收的公司"
+        }
+      ],
+      "impact_path": [
+        "美国本土传统提锂项目（如 LAC）可能面临长期的资金消耗和投产延误风险，影响市场估值",
+        "直接锂提取和电池回收初创企业（如 Ascend Elements）可能更快获得政策补贴、车企订单和高额估值"
+      ],
+      "verification_steps": [
+        "查阅 Lithium Americas 最新季度财报及投产时间表是否有继续推迟的迹象",
+        "追踪美国能源部（DOE）对本土电池回收企业（如 Ascend Elements 等）的拨款支持及其实际产能释放情况"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "01:01:50",
+      "time_end": "01:03:18",
+      "start_seconds": 3710.0,
+      "end_seconds": 3798.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Tesla",
+          "ticker": "TSLA",
+          "type": "public"
+        },
+        {
+          "name": "AM Batteries",
+          "ticker": null,
+          "type": "private"
+        }
+      ],
+      "signal_type": "competition",
+      "claim": "极片湿法涂布工艺是电池制造的核心壁垒且被中国企业高度垄断，特斯拉等美国企业试图通过投资布局干法电极技术（如 AM Batteries），跨越传统湿法涂布工艺，以期实现电池制造环节的弯道超车并降低能耗与成本。",
+      "evidence_seg_ids": [
+        25,
+        26,
+        54
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 25,
+          "quote": "它其实最难控制的就是前面极片的涂覆过程"
+        },
+        {
+          "seg_id": 25,
+          "quote": "我们能不能通过干电极"
+        },
+        {
+          "seg_id": 25,
+          "quote": "AM Battery，它是做干法电极"
+        }
+      ],
+      "impact_path": [
+        "干法电极技术若获得实质性突破，将大幅降低生产设备Capex及能耗成本，冲击现有湿法涂布设备及粘结剂（如NMP溶剂）供应商",
+        "特斯拉通过干法电极技术有望提升4680电池的自研量产良率，增强本土制造的护城河"
+      ],
+      "verification_steps": [
+        "跟踪特斯拉奥斯汀工厂4680电池采用干法电极的下线良率和产能爬坡数据",
+        "监测 AM Batteries 等初创公司的新一轮融资进展或设备采购订单"
+      ],
+      "confidence": "high",
+      "novelty": "low",
+      "actionability": "low",
+      "time_start": "00:22:50",
+      "time_end": "01:02:10",
+      "start_seconds": 1370.0,
+      "end_seconds": 3730.0
+    }
+  ]
+}

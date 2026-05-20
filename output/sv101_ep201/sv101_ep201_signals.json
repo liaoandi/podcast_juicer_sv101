@@ -1,0 +1,287 @@
+{
+  "metadata": {
+    "source": "/Users/antonio/Desktop/podcast_juicer/output/sv101_ep201/201_transcript_gemini.json",
+    "method": "gemini_3_pro_full_context",
+    "model": "gemini-3.1-pro-preview",
+    "total_signals": 5,
+    "companies_mentioned": [
+      "Alphabet Inc.",
+      "Amazon.com, Inc.",
+      "Meta Platforms, Inc.",
+      "Microsoft Corporation",
+      "NVIDIA Corporation",
+      "OpenAI",
+      "Perplexity"
+    ],
+    "context_length": 40487,
+    "publish_date": null,
+    "record_date": null,
+    "podcast_id": "sv101",
+    "episode_id": "201"
+  },
+  "signals": [
+    {
+      "entities": [
+        {
+          "name": "Alphabet Inc.",
+          "ticker": "GOOGL",
+          "parent": null,
+          "type": "public"
+        },
+        {
+          "name": "OpenAI",
+          "ticker": null,
+          "parent": null,
+          "type": "private"
+        },
+        {
+          "name": "Perplexity",
+          "ticker": null,
+          "parent": null,
+          "type": "private"
+        }
+      ],
+      "signal_type": "business_model",
+      "claim": "谷歌向 AI 模式搜索转型虽提升了用户体验（如闭环购物），但因 GPU 推理导致单次搜索算力成本飙升。同时，业界尚未跑通在 AI 聊天框中自然嵌入并转化高毛利广告的商业模式。这种自我革命面临毛利率压缩和份额流失给新兴竞品的双重风险，深刻重塑了其收入基石。",
+      "evidence_seg_ids": [
+        18,
+        32,
+        38,
+        144
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 18,
+          "quote": "它其实从AI mode的角度来说，就把传统的广告模式，它的营收模式完全就改变了。"
+        },
+        {
+          "seg_id": 38,
+          "quote": "现在这个成本就突然一下高了很多...它靠什么赚钱呢？"
+        },
+        {
+          "seg_id": 144,
+          "quote": "大家还都没有figure out怎么做这个事情...你看不到任何能够放广告的地方。"
+        }
+      ],
+      "impact_path": [
+        "影响谷歌核心搜索广告收入及整体利润率，因其商业模式的核心转化链路被打破",
+        "改变原有的传统网页 SEO 产业链，流量分配权向大模型生成结果集中"
+      ],
+      "verification_steps": [
+        "观察谷歌后续财报中对 AI Overview/AI Mode 的资本支出及整体业务毛利率的指引变化",
+        "追踪核心广告主在 AI 搜索界面中的单次点击成本 (CPC) 和实际转化率数据表现"
+      ],
+      "confidence": "high",
+      "novelty": "low",
+      "actionability": "low",
+      "time_start": "00:07:50",
+      "time_end": "01:06:25",
+      "start_seconds": 470.0,
+      "end_seconds": 3985.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Alphabet Inc.",
+          "ticker": "GOOGL",
+          "parent": null,
+          "type": "public"
+        },
+        {
+          "name": "NVIDIA Corporation",
+          "ticker": "NVDA",
+          "parent": null,
+          "type": "public"
+        },
+        {
+          "name": "OpenAI",
+          "ticker": null,
+          "parent": null,
+          "type": "private"
+        }
+      ],
+      "signal_type": "supply_chain",
+      "claim": "谷歌长达十年的自研 TPU 软硬件协同积累和底层算力基础设施，使其成功避开了“英伟达税”。这种结构性成本优势允许谷歌以接近成本价提供 Gemini API，试图通过价格战抢占开发者生态，对目前依赖外部算力且维持高毛利的闭源初创公司形成降维打击。",
+      "evidence_seg_ids": [
+        90,
+        91,
+        93
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 90,
+          "quote": "它自己own这个TPU，它就避免了很多这种Nvidia的tax"
+        },
+        {
+          "seg_id": 93,
+          "quote": "它可以相当于是只是charge你一个白菜价，保证它不是break even"
+        }
+      ],
+      "impact_path": [
+        "可能压低整个基础大模型 API 市场的价格中枢，挤压纯模型层初创公司的生存空间",
+        "长期将减少云厂商侧对英伟达硬件生态的绝对依赖"
+      ],
+      "verification_steps": [
+        "对比三大公有云大模型 API 每百万 Token 的降价趋势及更新频率",
+        "跟踪谷歌云 TPU 的外部算力租赁占比及开发者生态迁移情况"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:39:55",
+      "time_end": "00:43:00",
+      "start_seconds": 2395.0,
+      "end_seconds": 2580.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Alphabet Inc.",
+          "ticker": "GOOGL",
+          "parent": null,
+          "type": "public"
+        },
+        {
+          "name": "Meta Platforms, Inc.",
+          "ticker": "META",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "valuation",
+      "claim": "华尔街目前给予谷歌约17倍的估值，显著低于 Meta 的23倍。核心在于 Meta 明确受益于 AI 赋能核心业务，而谷歌则陷入防守搜索基本盘的困境。在谷歌证明其全栈式 AI 布局能跑通高盈利的商业化路径之前，市场对其市占率流失和边际效益变差的担忧将持续压制其估值。",
+      "evidence_seg_ids": [
+        138,
+        141,
+        152,
+        155
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 141,
+          "quote": "当你从一个躺着赚钱的一个时候...不管怎么样，这个边际变化对Google来讲都是变差的。"
+        },
+        {
+          "seg_id": 152,
+          "quote": "17倍估值...Meta是23倍的估值...Meta是很清晰的一个它是要受益AI的"
+        }
+      ],
+      "impact_path": [
+        "限制 GOOGL 股价的短期上涨空间，成为科技巨头中相对承压的标的",
+        "形成市场资金在广告科技股中的明确偏好分化（做多 META，低配 GOOGL）"
+      ],
+      "verification_steps": [
+        "追踪 GOOGL 与 META 的 Forward P/E 差值变化趋势",
+        "关注下个季度财报会议上关于 AI 搜索对核心搜索市占率带来的量化影响指标"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:58:50",
+      "time_end": "01:15:23",
+      "start_seconds": 3530.0,
+      "end_seconds": 4523.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Alphabet Inc.",
+          "ticker": "GOOGL",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "regulation",
+      "claim": "资本市场尚未充分定价美国司法部可能强制拆分谷歌广告技术（Ad Tech）业务的尾部风险。根据分部估值法，若被拆分其估值底线约在140美元，存在显著下行空间。叠加宏观关税预期导致的跨境出海广告投放收缩，双重压力将加剧该公司的向下重估风险。",
+      "evidence_seg_ids": [
+        149,
+        150,
+        152,
+        170
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 150,
+          "quote": "Google真的是有风险被break down...市场我认为还没有price in这个东西。"
+        },
+        {
+          "seg_id": 152,
+          "quote": "如果Google真的拆分，你sum of the parts...大概值140块钱。"
+        }
+      ],
+      "impact_path": [
+        "反垄断实质落地将摧毁谷歌广告生态的协同护城河，带来估值中枢直接下移",
+        "出海电商因关税削减预算将直接冲击谷歌短期财报营收表现"
+      ],
+      "verification_steps": [
+        "紧密跟踪 DOJ 针对 Ad Tech 反垄断诉讼的法庭听证会进展及最终裁决时间线",
+        "观测中国跨境电商（如 Temu、SHEIN）在北美社媒和搜索渠道的广告大盘投放数据"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "01:09:15",
+      "time_end": "01:21:53",
+      "start_seconds": 4155.0,
+      "end_seconds": 4913.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Microsoft Corporation",
+          "ticker": "MSFT",
+          "parent": null,
+          "type": "public"
+        },
+        {
+          "name": "Amazon.com, Inc.",
+          "ticker": "AMZN",
+          "parent": null,
+          "type": "public"
+        },
+        {
+          "name": "Alphabet Inc.",
+          "ticker": "GOOGL",
+          "parent": null,
+          "type": "public"
+        },
+        {
+          "name": "NVIDIA Corporation",
+          "ticker": "NVDA",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "demand",
+      "claim": "四大云厂商2025年的 AI 资本支出预期极高（微软850亿、亚马逊1000亿、谷歌750亿），这种防守型军备竞赛短期锁定了上游硬件业绩。但华尔街正高度担忧 2026 年面临资本支出减速的“真空期（Air Pocket）”，因为缺乏应用端爆款支撑的庞大基建投入难以持续线性增长。",
+      "evidence_seg_ids": [
+        157
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 157,
+          "quote": "大家都不知道26年是不是会有一个air pocket...对于Nvidia的影响更大一点"
+        },
+        {
+          "seg_id": 157,
+          "quote": "Google保持每年75个billion...Microsoft 85，Amazon 100个billion"
+        }
+      ],
+      "impact_path": [
+        "影响半导体硬件供应商（如英伟达及产业链）在2025年下半年的远期估值和订单预期",
+        "云厂商可能在2026年面临沉重的设备折旧压力，拖累自身自由现金流表现"
+      ],
+      "verification_steps": [
+        "观测台积电 CoWoS 扩产规划及大客户下单的边际节奏变化",
+        "跟踪北美核心云厂商 2025 年 Q3/Q4 财报中给出的 2026 年 Capex 前瞻指引是否出现下调"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "01:15:20",
+      "time_end": "01:17:10",
+      "start_seconds": 4520.0,
+      "end_seconds": 4630.0
+    }
+  ]
+}

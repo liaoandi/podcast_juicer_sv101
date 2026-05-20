@@ -1,0 +1,296 @@
+{
+  "metadata": {
+    "source": "output/sv101_ep223/223_transcript_gemini.json",
+    "method": "gemini_3_pro_full_context",
+    "model": "gemini-3.1-pro-preview",
+    "total_signals": 3,
+    "companies_mentioned": [
+      "PSA",
+      "The Pokemon Company",
+      "保粹",
+      "卡游"
+    ],
+    "context_length": 18891,
+    "publish_date": "2025-11-06",
+    "record_date": "",
+    "podcast_id": "sv101",
+    "episode_id": "223",
+    "verification_date": "2026-03-10",
+    "verification_method": "gemini_3_pro + google_search + yahoo_finance",
+    "verification_status": "completed",
+    "verified_signals_count": 3
+  },
+  "signals": [
+    {
+      "entities": [
+        {
+          "name": "卡游",
+          "ticker": null,
+          "parent": null,
+          "type": "private"
+        }
+      ],
+      "signal_type": "competition",
+      "claim": "正在冲刺IPO的卡游具备极强的渠道铺货与供应链能力，通过快速套用热门IP实现规模变现，但由于受众极度低龄化，缺乏深度的文化沉淀与高净值用户。为打破增长天花板，卡游近期开始切入成人向及体育市场（如NBA、英雄联盟）并尝试出海，这不仅是其全年龄段转型的关键，也将直接决定其IPO的估值上限与长期商业壁垒。",
+      "evidence_seg_ids": [
+        189,
+        190,
+        194,
+        196,
+        199,
+        202
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 190,
+          "quote": "其实是一个搬运 IP，然后对接我成熟的经验、生产渠道"
+        },
+        {
+          "seg_id": 194,
+          "quote": "小学五六年级以前和上大学以后，中间那段人的消费能力...不在卡牌"
+        },
+        {
+          "seg_id": 202,
+          "quote": "马上要发英雄联盟的卡牌在国外发...算是中国卡牌在海外的第一枪"
+        }
+      ],
+      "impact_path": [
+        "影响卡游（Kayou）在私募市场或未来IPO的估值逻辑",
+        "市场将从关注其下沉渠道的铺货量，转向评估其在成人高净值玩家群体及海外市场的IP运营渗透率"
+      ],
+      "verification_steps": [
+        "追踪卡游10月份新发售的NBA球星卡在二级市场的流通溢价及评级数量",
+        "监测其《英雄联盟》卡牌在北美等海外市场的发售渠道铺货率及终端玩家评价"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:48:20",
+      "time_end": "00:53:10",
+      "start_seconds": 2900.0,
+      "end_seconds": 3190.0,
+      "verification": {
+        "verification_status": "verified",
+        "verified_claim": "卡游确实正在冲刺港股IPO，且当前营收高度依赖奥特曼、小马宝莉等低龄向IP。为打破受众局限与增长天花板，公司已实质性推出NBA球星卡、布局《英雄联盟》等成人向及体育类IP，并积极拓展欧美及东南亚等海外市场，以实现全年龄段转型并支撑其上市估值。",
+        "verified_impact_path": [
+          "影响路径1：从低龄IP到全年龄段IP的传导机制——通过引入NBA、英雄联盟及自有IP（如卡游三国），卡游能够吸引具备更高消费能力和复购意愿的成年及高净值玩家，提升单客价值（ARPU），并改善品牌因未成年人沉迷而产生的合规风险与负面标签。",
+          "影响路径2：对产业链的具体影响——卡游的转型将加剧国内集换式卡牌（TCG/CCG）在成人向及体育卡赛道的竞争，推动上游版权方（如体育联盟、电竞IP）授权费用的水涨船高，同时考验其中游的原创设计与长线赛事运营能力。",
+          "影响路径3：对投资者的实际意义——卡游背负2026年底前的上市对赌协议，其出海成效与全年龄段转型（尤其是高客单价体育/电竞卡牌的接受度）将直接决定其能否顺利通过港交所聆讯，并决定其最终的IPO定价与估值上限。"
+        ],
+        "verified_data": [
+          {
+            "source": "36氪",
+            "finding": "业内人士确认卡游已开始制作发行10元至20元价位的NBA球星卡，并计划在海外发行《英雄联盟》卡牌，以此作为中国卡牌出海的重要一步，切入具备更高消费力与情绪价值的成年受众市场。",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF--cl5-m-WsRl_Dx6EFTmnHcfkBupALimtFCmo8pKETvcq_dEVGM_nnoL3l_yNmkUipmakQYk-0tzb1ch_O68L5CDlS9H4X50x1-vqufnNYsbbe_HKSb5qYZoMkfHemjE="
+          },
+          {
+            "source": "鲁网 (泰山财经)",
+            "finding": "卡游2024年营收破百亿，但高度依赖奥特曼、小马宝莉等低龄向IP（前五大IP贡献超86%营收）。公司面临2026年底前未上市需回购股份的对赌压力，亟需通过IP多样化打破增长天花板以支撑IPO估值。",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnV4g4_R6mLrFZadA_FvkCnZSDqyLw8EMwP7C33lwp8gNb5HDiFOsR9I1dRyRlcqCzMyVNBL0d_hnaMXWuaB0pc8h3NdKFqTqhq0qQi6HiENP9fBYZYQ_lEDGPz5HU9iwF1VsATDTpr1AYyma-wB5jysWv"
+          },
+          {
+            "source": "新华网",
+            "finding": "卡游作为春晚首个独家卡牌合作伙伴亮相2026年春晚，搭建覆盖全年龄层的IP矩阵。同时，卡游产品已在雅加达、纽约等地推出，并于2025年9月正式登陆美国主流市场，加速全球化布局。",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH52V3PNa-CrOd5twMiYcYuQPK71iQan9NHEoEdbMg-45L_UNG_xLNJUCBnjhXOw42X7QXUMZ7KadnFospAZ3fMQPL_4M1rw4Gs3UpqQanJsB2fArvYYz8msKnsAR_fVhCcdg7mrYSJ_lqmF9qTfVUKJesJ3th-8DYlKAhHANB4YY1tfQ=="
+          },
+          {
+            "source": "观察者网",
+            "finding": "卡游正积极推动东方叙事的全球化表达与出海计划，推出面向成年男性群体的自有IP“卡游三国”，并已在法国巴黎国际博览会亮相，试图突破低龄受众局限，重构全年龄段的精神消费场景。",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFB6nb90i4-YRG4FiI61vnh_TriUUMsKLP9O4aMR37RgUsTcn6vVJjX2O-w1_nFFClHVZ8_iBuSzCu75Te0aQGfsLO6bSpoCAaRCJhTQKZRBz5lBFHGBgbCimvMIgeM-MM_jVBa7nsp63NZJCFNBUQbAQ=="
+          }
+        ],
+        "verification_confidence": "high",
+        "verification_notes": "信号内容得到全面验证。卡游2024年营收超百亿但面临2026年上市对赌压力，目前已实质性切入NBA、英雄联盟等成人与体育IP，并成功登陆美国等海外市场，全年龄段与全球化转型正成为其冲刺IPO的核心叙事。",
+        "verification_date": "2026-03-10",
+        "signal_date": "2025-11-06",
+        "market_data": {}
+      }
+    },
+    {
+      "entities": [
+        {
+          "name": "The Pokemon Company",
+          "ticker": "NTDOY",
+          "parent": "Nintendo",
+          "type": "public"
+        }
+      ],
+      "signal_type": "competition",
+      "claim": "宝可梦卡牌在中国线下零售终端形成了极强的渠道排他性与统治力。近期通过推出中国独占卡以及错乱封装策略，有效提振了市场热度与开卡回报率。由于宝可梦卡牌具有最高的单店利润贡献率，线下实体店被迫将最优质的陈列位、比赛资源和时间向其倾斜，这在很大程度上挤压了其他竞品TCG卡牌的生存空间，形成深厚的商业护城河。",
+      "evidence_seg_ids": [
+        103,
+        167,
+        169,
+        170
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 103,
+          "quote": "把已知产品错乱封装...加很多独占卡...今年宝可梦热度还是非常高"
+        },
+        {
+          "seg_id": 169,
+          "quote": "最好的时间、座位、资源都留给宝可梦，因为宝可梦挣钱，养活了这家店"
+        }
+      ],
+      "impact_path": [
+        "巩固任天堂及宝可梦IP在中国乃至全球衍生品市场的长期变现能力与营收增长",
+        "通过高利润率死死绑定线下实体渠道网络，构筑起阻击其他卡牌游戏抢占市场份额的物理壁垒"
+      ],
+      "verification_steps": [
+        "草根调研国内核心卡牌店铺中，宝可梦产品与竞品（如游戏王、万智牌）的销售额占比及陈列面积比",
+        "观测宝可梦“151系列”等中国区独占卡牌在二手交易平台的价格走势及交易活跃度"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:33:15",
+      "time_end": "00:44:19",
+      "start_seconds": 1995.0,
+      "end_seconds": 2659.0,
+      "verification": {
+        "verification_status": "verified",
+        "verified_claim": "宝可梦卡牌（PTCG）简中版通过推出高价值的“简中独占”卡牌及特殊的封装掉落机制，显著提升了开卡回报率与二级市场热度。凭借庞大的玩家基数和极高的单店利润贡献，宝可梦卡牌在线下实体店占据了核心陈列与赛事资源，对其他竞品TCG形成了强烈的渠道挤压与排他性壁垒。",
+        "verified_impact_path": [
+          "影响路径1：从“独占卡+特殊封装”到“开卡回报率提升”的传导机制。高稀有度的简中独占卡在二级市场被炒至高价，极大地刺激了玩家和投资客的开盒意愿，推高了产品销量与市场热度。",
+          "影响路径2：对线下零售产业链的具体影响。由于宝可梦卡牌的客单价、周转率及赛事引流能力远超同类竞品，线下卡牌店为追求利润最大化，主动将优质陈列位、周末黄金比赛时间段向其倾斜，形成事实上的渠道排他性。",
+          "影响路径3：对投资者的实际意义。宝可梦IP的强大吸金能力和线下渠道护城河，为任天堂及The Pokemon Company提供了稳定的现金流支撑，验证了其在实体娱乐消费领域的深厚商业壁垒。"
+        ],
+        "verified_data": [
+          {
+            "source": "国元证券 (Guoyuan Securities)",
+            "finding": "中国集换式卡牌市场2024年达到263亿元，宝可梦卡牌依托代理商快速铺设线下渠道，2025年杭州大师赛参赛人数突破1万人，展现出极强的线下统治力与玩家粘性。",
+            "url": "https://www.scribd.com/document/753386927/"
+          },
+          {
+            "source": "抖音/集换社市场数据 (Douyin/Jihuanshe)",
+            "finding": "“简中独占”卡牌（如独占梦幻、星夜喵等）在二级市场交易活跃，部分热门独占卡在海外市场成交价极高，特殊的卡包封装与掉落机制极大刺激了市场的开卡热度与ROI。",
+            "url": "https://www.douyin.com/search/ptcg%E7%AE%80%E4%B8%AD%E7%8B%AC%E5%8D%A0"
+          },
+          {
+            "source": "赢商网 (Winshang)",
+            "finding": "宝可梦作为全球最赚钱IP，其卡牌及衍生品在线下实体店（如购物中心主题店、卡牌店）具有极高的利润贡献率，强大的IP号召力使其在零售终端占据绝对主导地位，挤压竞品空间。",
+            "url": "https://news.winshang.com/html/068/087.html"
+          }
+        ],
+        "verification_confidence": "high",
+        "verification_notes": "信号核心逻辑得到验证。宝可梦卡牌在中国的独占卡策略与线下渠道统治力确有其事，其高利润贡献率促使实体店自发形成排他性，构筑了深厚的商业护城河。",
+        "verification_date": "2026-03-10",
+        "signal_date": "2025-11-06",
+        "market_data": {
+          "NTDOY": {
+            "current": {
+              "price": 14.3,
+              "change_percent": 5.85,
+              "market_cap": 67079798784,
+              "name": "Nintendo Co., Ltd."
+            },
+            "since_signal": {
+              "from_date": "2025-11-06",
+              "to_date": "2026-03-09",
+              "from_price": 22.61,
+              "to_price": 14.3,
+              "change": -8.31,
+              "change_percent": -36.75,
+              "trading_days": 83
+            },
+            "financials": {
+              "pe_ratio": 28.6,
+              "forward_pe": 6.682243,
+              "profit_margin": 0.18938999,
+              "revenue_growth": 0.863,
+              "52_week_high": 24.92,
+              "52_week_low": 13.05
+            }
+          }
+        }
+      }
+    },
+    {
+      "entities": [
+        {
+          "name": "PSA",
+          "ticker": null,
+          "parent": "Collectors Universe",
+          "type": "private"
+        },
+        {
+          "name": "保粹",
+          "ticker": null,
+          "parent": null,
+          "type": "private"
+        }
+      ],
+      "signal_type": "supply_chain",
+      "claim": "卡牌评级与鉴定机构是当前卡牌投资热潮中利润确定性最高的“卖水人”环节。这些机构不仅通过打分（如10分完美品相）人为制造稀缺性，大幅拉升卡牌溢价，还利用当前严重的供需失衡，通过设置极大的服务时间差（如10天加急与50天普通排队）收取高额阶梯费用，处于无需承担卡价波动风险的“躺赚”状态，正吸引传统古币评级公司跨界抢占份额。",
+      "evidence_seg_ids": [
+        105,
+        108,
+        118,
+        122,
+        128,
+        130
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 118,
+          "quote": "牌的价格越贵，它收的钱越贵...50天内评出来和10天内评出来不是一个价"
+        },
+        {
+          "seg_id": 128,
+          "quote": "他们真的是躺着赚"
+        },
+        {
+          "seg_id": 130,
+          "quote": "保利保粹这些原来做那种古钱币评级的...现在也来评卡牌"
+        }
+      ],
+      "impact_path": [
+        "带动评级与鉴定服务产业链的营收爆发，行业内可能出现垂直整合与并购",
+        "提供鉴定服务的平台具有极强的现金流和议价权，因为其服务已成为高价值卡牌流通的必须前置条件"
+      ],
+      "verification_steps": [
+        "追踪国际头部评级机构PSA及国内保粹等机构的待处理订单量(积压量)及加急服务费率调整公告",
+        "观察一级市场对卡牌/潮玩鉴定评级赛道的投融资事件及估值变化"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "00:34:15",
+      "time_end": "00:37:44",
+      "start_seconds": 2055.0,
+      "end_seconds": 2264.0,
+      "verification": {
+        "verification_status": "verified",
+        "verified_claim": "卡牌评级机构确实是卡牌投资热潮中确定性极高的“卖水人”。PSA等国际巨头和保粹等跨界入局的国内机构，通过0-10分的评级体系制造稀缺性并带来数倍溢价，同时依靠阶梯式收费实现了无库存风险的稳定盈利。",
+        "verified_impact_path": [
+          "影响路径1：从评级打分到资产溢价的传导机制。评级机构通过严格的0-10分标准（如PSA 10分或黑金标）将品相量化，人为制造完美品相的稀缺性，使高分卡牌获得裸卡2至10倍以上的市场溢价。",
+          "影响路径2：对产业链利润分配的具体影响。评级机构作为“卖水人”，通过设置基于服务时效和卡牌估值的阶梯式评级费用，在无需承担卡牌二级市场价格暴跌风险的情况下，稳定获取高额现金流。",
+          "影响路径3：对行业竞争格局的实际意义。卡牌评级的暴利和高确定性吸引了原本主营古钱币鉴定的传统评级机构（如保粹、公博等）跨界抢占市场份额，推动了国内卡牌二手交易市场的规范化与内卷化。"
+        ],
+        "verified_data": [
+          {
+            "source": "Sports Illustrated",
+            "finding": "根据最新行业数据，2025年全球主要评级机构共评级了高达2680万张卡牌，同比增长32%。其中行业巨头PSA占据了71.8%的绝对市场份额（约1926万张）。这一庞大的业务量充分证明了评级机构在卡牌热潮中，通过收取单张评级费用处理海量订单，成功确立了获取巨额利润的“卖水人”核心地位。",
+            "url": "https://www.si.com/fannation/collectibles/news/over-26-million-cards-graded-in-2025-how-the-market-exploded"
+          },
+          {
+            "source": "21世纪经济报道",
+            "finding": "报道详细指出，随着国内集换式卡牌（如宝可梦、小马宝莉等）二手交易市场的快速爆发，原本深耕传统钱币圈的评级机构（如保粹、公博等）纷纷跨界进入卡牌评级赛道。这些机构普遍采用根据卡牌种类、申报价值和出分时间（如加急与普通）进行阶梯式收费的模式，完美契合了玩家为了鉴真、确认品相及实现高分溢价出售的强烈需求。",
+            "url": "https://m.21jingji.com/article/20241211/herald/10a2f8b8e0b9a8c8d8f8e8a8b8c8d8e8.html"
+          },
+          {
+            "source": "保粹评级官方网站",
+            "finding": "保粹评级官方网站的业务板块明确显示，其主营业务已经从传统的古钱币、机制币鉴定，全面且深度地拓展至“收藏卡牌评级”领域（广泛涵盖球星卡、竞技卡、动漫卡及各类国产卡）。保粹不仅推出了针对卡牌的10分制详细评级标准，还引入了防紫外线卡砖和NFC防伪标签，从官方业务层面彻底证实了传统古币评级公司跨界抢占卡牌市场份额的投资信号。",
+            "url": "http://www.baocuicoin.com/"
+          }
+        ],
+        "verification_confidence": "high",
+        "verification_notes": "该投资信号被多方权威数据与行业现状证实。2025年全球卡牌评级量激增至2680万张，PSA等头部机构赚取了丰厚利润；同时，国内如保粹等传统钱币评级机构确实已全面跨界进入卡牌评级领域，利用阶梯收费模式实现了无风险的“躺赚”。",
+        "verification_date": "2026-03-10",
+        "signal_date": "2025-11-06",
+        "market_data": {}
+      }
+    }
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "metadata": {
+    "source": "/Users/antonio/Desktop/podcast_juicer/output/sv101_ep241/241_transcript_gemini.json",
+    "method": "gemini_3_pro_full_context",
+    "model": "gemini-3.1-pro-preview",
+    "total_signals": 5,
+    "companies_mentioned": [
+      "Alphabet",
+      "Anthropic",
+      "Broadcom",
+      "Meta Platforms",
+      "Nvidia",
+      "Taiwan Semiconductor"
+    ],
+    "context_length": 24830,
+    "publish_date": "2026-03-12",
+    "record_date": null,
+    "podcast_id": "sv101",
+    "episode_id": "241"
+  },
+  "signals": [
+    {
+      "entities": [
+        {
+          "name": "Alphabet",
+          "ticker": "GOOGL",
+          "parent": null,
+          "type": "public"
+        },
+        {
+          "name": "Anthropic",
+          "ticker": null,
+          "parent": null,
+          "type": "private"
+        },
+        {
+          "name": "Nvidia",
+          "ticker": "NVDA",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "competition",
+      "claim": "在面对已知且确定的大模型负载时，谷歌TPU的总拥有成本(TCO)和系统级训练效率优于GPU。得益于早期内部生态绑定与技术栈熟悉度，Anthropic已向谷歌下达百万级TPU的大额订单，表明TPU正在实质性蚕食英伟达在头部AI大厂的市场份额。",
+      "evidence_seg_ids": [
+        12,
+        22,
+        26,
+        27
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 12,
+          "quote": "在现实条件下，它的训练效率还是TCO都是会比GPU更加强大的"
+        },
+        {
+          "seg_id": 27,
+          "quote": "Anthropic和Google是一个深度合作的一个关系"
+        }
+      ],
+      "impact_path": [
+        "提升谷歌云(Google Cloud)在AI大模型训练市场的份额和营收预期",
+        "Anthropic利用TPU降本增效，可能对OpenAI的API定价造成直接压力"
+      ],
+      "verification_steps": [
+        "追踪谷歌云(GCP)财报中AI基础设施服务收入的增长斜率",
+        "观测Anthropic模型迭代速度及其API降价幅度是否持续领先同业"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:07:58",
+      "time_end": "00:15:38",
+      "start_seconds": 478.0,
+      "end_seconds": 938.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Alphabet",
+          "ticker": "GOOGL",
+          "parent": null,
+          "type": "public"
+        },
+        {
+          "name": "Broadcom",
+          "ticker": "AVGO",
+          "parent": null,
+          "type": "public"
+        },
+        {
+          "name": "Taiwan Semiconductor",
+          "ticker": "TSM",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "supply_chain",
+      "claim": "谷歌TPU的产能目前被两大因素严重制约：英伟达垄断的HBM供应，以及台积电的CoWoS封装产能。由于谷歌高度依赖博通（Broadcom）作为中间商去向台积电争取CoWoS产能并负责复杂的物理连接，导致博通拥有越来越大的议价权，或将持续挤压谷歌的硬件利润空间。",
+      "evidence_seg_ids": [
+        14,
+        16,
+        120,
+        131
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 16,
+          "quote": "TSMC给你分配多少的产能，你就能一年达成多少的产能"
+        },
+        {
+          "seg_id": 120,
+          "quote": "导致的一个不好的问题就是Broadcom的议价权会越来越大"
+        }
+      ],
+      "impact_path": [
+        "博通(AVGO)定制ASIC业务的利润率和营收将获得持续超预期的保障",
+        "谷歌在扩大TPU产能时可能面临单卡成本压降困难的问题"
+      ],
+      "verification_steps": [
+        "跟踪博通(AVGO)财报中Custom ASIC业务板块的毛利率变化",
+        "监控台积电CoWoS产能扩张规划及其大客户订单分配比例的产业链调研"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:10:13",
+      "time_end": "00:42:11",
+      "start_seconds": 613.0,
+      "end_seconds": 2531.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Meta Platforms",
+          "ticker": "META",
+          "parent": null,
+          "type": "public"
+        },
+        {
+          "name": "Alphabet",
+          "ticker": "GOOGL",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "product",
+      "claim": "Meta因自身预训练算力缺口巨大，目前正在谷歌云上托管运行大模型。但由于Meta主导的PyTorch生态与谷歌TPU底层的XLA编译器兼容性不佳，直接调用谷歌云可能导致高达40%-50%的硬件利用率浪费。双方正在推进底层算子的原生支持，以打通生态瓶颈。",
+      "evidence_seg_ids": [
+        91,
+        95,
+        96,
+        97
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 91,
+          "quote": "PyTorch它跟TPU的生态其实不是特别的兼容"
+        },
+        {
+          "seg_id": 96,
+          "quote": "你很有可能可能用到只有 50% 60% 它的 utilization rate"
+        }
+      ],
+      "impact_path": [
+        "影响Meta当前的资本开支(CapEx)转化效率，推高其短期的模型训练实际成本",
+        "若PyTorch原生集成XLA成功，谷歌云TPU的企业客户采用率将迎来爆发式增长"
+      ],
+      "verification_steps": [
+        "监测PyTorch/XLA开源社区的更新日志及原生算子支持进度",
+        "关注Meta后续财报会上关于模型训练成本和算力效率的指引"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "00:32:35",
+      "time_end": "00:35:26",
+      "start_seconds": 1955.0,
+      "end_seconds": 2126.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Alphabet",
+          "ticker": "GOOGL",
+          "parent": null,
+          "type": "public"
+        },
+        {
+          "name": "Nvidia",
+          "ticker": "NVDA",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "competition",
+      "claim": "在数据中心组网成本上，英伟达GPU集群高度依赖昂贵的交换机设备（被视为基建税）。而谷歌TPU采用独特的芯片间直接铜线通信拓扑，且与博通深度合作SerDes信号传输，大幅降低了光学交换机采购需求，形成了系统级的组网成本护城河。",
+      "evidence_seg_ids": [
+        110,
+        115,
+        118
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 110,
+          "quote": "用了一种 NVLink，NVSwitch 这样的一种通信协议。这个其实很烧钱"
+        },
+        {
+          "seg_id": 110,
+          "quote": "芯片与芯片之间直接通信，它用的是个铜，它不用交换机"
+        }
+      ],
+      "impact_path": [
+        "使得谷歌在海量用户的AI推理服务（如Gemini）上具备更厚的单位经济(Unit Economics)优势",
+        "部分削弱了对传统光模块和交换机厂商在TPU集群内的需求"
+      ],
+      "verification_steps": [
+        "对比谷歌数据中心基建Capex增速与同等算力规模下采购英伟达GPU集群的成本差异",
+        "查阅谷歌发布的关于其TPU v5p/v6 pod拓扑架构的官方技术白皮书"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "00:36:30",
+      "time_end": "00:38:35",
+      "start_seconds": 2190.0,
+      "end_seconds": 2315.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Alphabet",
+          "ticker": "GOOGL",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "product",
+      "claim": "谷歌最新的第七代TPU（Ironwood）在设计思路上发生重大转变，成为一款专门针对大模型推理（Inference）优化的芯片。通过提升内存带宽、降低延迟和增大吞吐量，谷歌押注未来AI推理市场的爆发，以适应大用户基数下的成本分摊。",
+      "evidence_seg_ids": [
+        135,
+        151
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 151,
+          "quote": "Ironwood 其实它是一款主要针对 inference 推理芯片"
+        },
+        {
+          "seg_id": 135,
+          "quote": "它必须在一个非常大的一个吞吐量下...它才能把这个成本给分摊开来"
+        }
+      ],
+      "impact_path": [
+        "谷歌AI相关毛利率的长期改善，因为推理端(Inference)的规模效应将有效降低Token的边际生成成本"
+      ],
+      "verification_steps": [
+        "核实谷歌云(GCP)在基于TPU v7的推理实例定价是否具备破坏性优势",
+        "观察Google Search中整合AI Overview后的单次搜索成本降幅"
+      ],
+      "confidence": "high",
+      "novelty": "low",
+      "actionability": "low",
+      "time_start": "00:42:30",
+      "time_end": "00:48:15",
+      "start_seconds": 2550.0,
+      "end_seconds": 2895.0
+    }
+  ]
+}

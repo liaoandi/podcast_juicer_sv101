@@ -1,0 +1,15 @@
+{
+  "host": [
+    "泓君"
+  ],
+  "guests": [
+    "彭雷"
+  ],
+  "episode_info": "硅谷101 #E209 - 挑战Neuralink，硅谷大佬争相涌入的超声脑机接口是什么？",
+  "guest_background": {
+    "彭雷": "格式塔Gestala创始人兼CEO，脑虎，客如云创始人，复旦类脑院博士，天府锦城实验室研究员"
+  },
+  "publish_date": "2025-10-12",
+  "record_date": "",
+  "date_notes": "Show notes中未提供明确的录制日期，故留空处理。发布日期直接从页面元数据提取。"
+}

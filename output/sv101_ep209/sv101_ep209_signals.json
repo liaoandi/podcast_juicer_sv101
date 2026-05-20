@@ -1,0 +1,136 @@
+{
+  "metadata": {
+    "source": "/Users/antonio/Desktop/podcast_juicer/output/sv101_ep209/209_transcript_gemini.json",
+    "method": "gemini_3_pro_full_context",
+    "model": "gemini-3.1-pro-preview",
+    "total_signals": 3,
+    "companies_mentioned": [
+      "Altos Labs",
+      "Eli Lilly",
+      "Longeveron",
+      "Novo Nordisk"
+    ],
+    "context_length": 25353,
+    "publish_date": null,
+    "record_date": null,
+    "podcast_id": "sv101",
+    "episode_id": "209"
+  },
+  "signals": [
+    {
+      "entities": [
+        {
+          "name": "Novo Nordisk",
+          "ticker": "NVO",
+          "type": "public"
+        },
+        {
+          "name": "Eli Lilly",
+          "ticker": "LLY",
+          "type": "public"
+        }
+      ],
+      "signal_type": "demand",
+      "claim": "GLP-1 类药物正突破减重和降糖的传统适应症，被多个前沿科研团队作为抗衰干预手段参与 XPRIZE 健康寿命赛。这表明 GLP-1 的多效性正得到学术界广泛共识，若能在后续临床中证明逆转衰老标志物的有效性，将大幅拓宽相关药企的长寿医疗新市场。",
+      "evidence_seg_ids": [
+        13,
+        15
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 15,
+          "quote": "可能他就叫 GLP1 longevity"
+        }
+      ],
+      "impact_path": [
+        "提升诺和诺德及礼来等 GLP-1 巨头的长期估值天花板",
+        "抗衰老适应症的拓展将成倍增加该类药物的长期目标适用人群规模"
+      ],
+      "verification_steps": [
+        "追踪 XPRIZE 挑战赛中采用 GLP-1 疗法的团队在 2026 年的概念验证（POC）结果",
+        "关注头部药企关于司美格鲁肽或替尔泊肽对全因发病率及寿命影响的长期临床数据"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:10:10",
+      "time_end": "00:12:15",
+      "start_seconds": 610.0,
+      "end_seconds": 735.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Altos Labs",
+          "ticker": null,
+          "type": "private"
+        }
+      ],
+      "signal_type": "product",
+      "claim": "获得巨额融资的抗衰新贵 Altos Labs 正全力推进基于细胞重编程的疗法，并计划利用突破性疗法通道加速临床。但由于该技术高度个性化且标准化难度极大，业内判断其难以像传统生物药一样实现普适化应用，未来商业落地面临极高的定制成本与监管挑战。",
+      "evidence_seg_ids": [
+        91,
+        98,
+        100
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 100,
+          "quote": "它不太能够大规模的应用"
+        }
+      ],
+      "impact_path": [
+        "可能抑制一级市场对细胞重编程技术短期商业化落地及财务回报的估值预期",
+        "技术高度个性化导致无法复用传统生物药的规模化生产与标准化审批路径"
+      ],
+      "verification_steps": [
+        "追踪 Altos Labs 在 FDA 或其他监管机构申请的 IND 及突破性疗法认定进度",
+        "关注其工艺开发（CMC）中关于细胞重编程标准化及低成本量产的专利披露"
+      ],
+      "confidence": "low",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "01:02:12",
+      "time_end": "01:08:10",
+      "start_seconds": 3732.0,
+      "end_seconds": 4090.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Longeveron",
+          "ticker": "LGVN",
+          "type": "public"
+        }
+      ],
+      "signal_type": "valuation",
+      "claim": "纳斯达克公司 Longeveron 估值大幅缩水至两千万美元，凸显干细胞抗衰赛道的二元风险。因衰老尚未被监管界认定为适应症，且抗衰标志缺乏公认评价体系，导致相关管线在临床设计与终点验证上面临极高失败概率，机制不确定性极易引发二级市场剧烈震荡。",
+      "evidence_seg_ids": [
+        18,
+        19,
+        20
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 19,
+          "quote": "最终它的市场的表现都会大幅地跳水"
+        }
+      ],
+      "impact_path": [
+        "抑制二级市场对微盘抗衰生物科技公司（特别是干细胞疗法）的炒作溢价",
+        "抗衰终点缺乏监管共识，导致靶向衰老的新药临床研发面临极高沉没成本"
+      ],
+      "verification_steps": [
+        "查阅 FDA 最新关于衰老作为临床适应症（Indication）的指导原则与学术共识",
+        "追踪 Longeveron 等微盘干细胞公司的二期或三期临床试验数据披露及对应股价异动"
+      ],
+      "confidence": "high",
+      "novelty": "low",
+      "actionability": "high",
+      "time_start": "00:12:04",
+      "time_end": "00:15:01",
+      "start_seconds": 724.0,
+      "end_seconds": 901.0
+    }
+  ]
+}

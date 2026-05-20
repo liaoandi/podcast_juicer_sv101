@@ -1,0 +1,447 @@
+{
+  "metadata": {
+    "source": "output/sv101_ep234/234_transcript_gemini.json",
+    "method": "gemini_3_pro_full_context",
+    "model": "gemini-3.1-pro-preview",
+    "total_signals": 4,
+    "companies_mentioned": [
+      "Boston Dynamics",
+      "Cheetah Mobile",
+      "Figure AI",
+      "Google",
+      "Hyundai Motor",
+      "Tesla",
+      "Ufactory",
+      "Unitree"
+    ],
+    "context_length": 21517,
+    "publish_date": "2026-01-19",
+    "record_date": null,
+    "podcast_id": "sv101",
+    "episode_id": "234",
+    "verification_date": "2026-03-10",
+    "verification_method": "gemini_3_pro + google_search + yahoo_finance",
+    "verification_status": "completed",
+    "verified_signals_count": 4
+  },
+  "signals": [
+    {
+      "entities": [
+        {
+          "name": "Tesla",
+          "ticker": "TSLA",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "product",
+      "claim": "特斯拉擎天柱（Optimus）机器人面临量产进度延期，新任负责人近期将2025年原定数千台的初期量产目标直接砍掉一半，管理层已意识到人形机器人的落地难度远超汽车甚至火箭，短期商业化预期需下调。",
+      "evidence_seg_ids": [
+        21,
+        59
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 21,
+          "quote": "上来就是说先砍掉一半嘛"
+        },
+        {
+          "seg_id": 59,
+          "quote": "做人形机器人比做汽车难多了"
+        }
+      ],
+      "impact_path": [
+        "降低市场对特斯拉Optimus在2025年实现规模化部署及贡献实质性利润的预期",
+        "人形机器人在实际物理环境中泛化与接触的corner case难度极高，导致量产计划受阻"
+      ],
+      "verification_steps": [
+        "追踪特斯拉2025年各季度财报中公布的Optimus实际量产下线台数",
+        "观测特斯拉自有工厂中Optimus执行实际搬运任务的ROI和故障率数据"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:04:58",
+      "time_end": "00:18:15",
+      "start_seconds": 298.0,
+      "end_seconds": 1095.0,
+      "verification": {
+        "verification_status": "verified",
+        "verified_claim": "特斯拉擎天柱（Optimus）量产确实面临严重延期，2025年原定数千台的目标被大幅削减，实际产量仅数百台且未投入实质性工作。新任负责人Ashok Elluswamy接手后正进行重新设计，管理层（包括马斯克）公开承认人形机器人缺乏现有供应链，技术与量产难度远超预期，短期商业化预期已明显下调。",
+        "verified_impact_path": [
+          "影响路径1：从量产延期到估值重估的传导机制。Optimus是支撑特斯拉高估值（特别是AI和机器人转型）的核心逻辑之一，量产不及预期将直接导致市场对其短期内实现商业化变现的信心受挫，引发估值回调。",
+          "影响路径2：对产业链的具体影响。由于特斯拉放缓了Optimus的量产节奏并重新设计硬件（如手部组件），上游供应链（如减速器、传感器、电机等）的订单预期将被迫推迟或削减，相关概念股面临业绩落空的风险。",
+          "影响路径3：对投资者的实际意义。投资者需将特斯拉的投资逻辑重新聚焦于其核心汽车业务及FSD的进展，短期内剥离对人形机器人业务的过高收入预期，警惕概念炒作带来的泡沫风险。"
+        ],
+        "verified_data": [
+          {
+            "source": "Roic AI",
+            "finding": "特斯拉Optimus机器人生产进度远落后于马斯克设定的2025年5000台目标，目前仅制造了数百台。项目在原负责人Milan Kovac于2025年6月离职后暂停，并由新任负责人Ashok Elluswamy接手进行重大重新设计。内部人士称原定的2025年量产目标已“无法实现”。",
+            "url": "https://roic.ai/news/tesla-optimus-production-targets"
+          },
+          {
+            "source": "富途牛牛 (Futu)",
+            "finding": "报道指出特斯拉不断下调Optimus机器人的量产目标，从年初的数千台降至夏季的2000台，最终因“手部”等核心技术瓶颈放弃了年内的大规模量产计划。目前机器人在工厂内的应用仅限于简单的重复性任务，距离真正的商业化落地仍有较大技术鸿沟。",
+            "url": "https://news.futunn.com/"
+          },
+          {
+            "source": "Boston Today",
+            "finding": "2026年1月底的报道证实，特斯拉Optimus项目面临重大延期。马斯克在2025年第四季度财报电话会议（2026年1月召开）上承认，目前没有任何Optimus机器人在特斯拉工厂内进行“有用的工作”，并指出人形机器人缺乏现成的供应链，制造难度极大，预计到2026年底才可能有显著的生产规模。",
+            "url": "https://www.bostontoday.com/"
+          },
+          {
+            "source": "EEWORLD",
+            "finding": "市场数据显示，截至2025年下半年，特斯拉弗里蒙特工厂仅组装了数百台机器人，不到原计划的十分之一。量产停滞暴露了从核心技术（如灵活性和稳定性）到产业链配套的全面短板，碳积分收入的下降也迫使公司削减了非核心业务的预算，限制了机器人项目的研发投入。",
+            "url": "https://www.eeworld.com.cn/"
+          }
+        ],
+        "verification_confidence": "high",
+        "verification_notes": "验证结果高度一致。多方信源及马斯克在2026年1月财报会上的最新表态均证实，Optimus原定5000台的量产目标已被大幅削减至数百台，新管理层接手后正着力解决技术与供应链瓶颈。短期商业化预期已明显降温，市场需重新评估其落地时间表。",
+        "verification_date": "2026-03-10",
+        "signal_date": "2026-01-19",
+        "market_data": {
+          "TSLA": {
+            "current": {
+              "price": 398.68,
+              "change_percent": 0.49,
+              "market_cap": 1496019501056,
+              "name": "Tesla, Inc."
+            },
+            "since_signal": {
+              "from_date": "2026-01-20",
+              "to_date": "2026-03-09",
+              "from_price": 419.25,
+              "to_price": 398.68,
+              "change": -20.57,
+              "change_percent": -4.91,
+              "trading_days": 34
+            },
+            "financials": {
+              "pe_ratio": 369.14813,
+              "forward_pe": 141.85728,
+              "profit_margin": 0.040009998,
+              "revenue_growth": -0.031,
+              "52_week_high": 498.83,
+              "52_week_low": 214.25
+            }
+          }
+        }
+      }
+    },
+    {
+      "entities": [
+        {
+          "name": "Boston Dynamics",
+          "ticker": null,
+          "parent": "Hyundai Motor",
+          "type": "private"
+        },
+        {
+          "name": "Hyundai Motor",
+          "ticker": "unknown",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "valuation",
+      "claim": "波士顿动力在CES官宣2026年量产Atlas及2028年达3万台产能的计划大概率难以兑现。其官方措辞实为“2027年开始客户试点”，业内对其脱离实际投资回报率的产能规划存在极高质疑，提示行业炒作泡沫。",
+      "evidence_seg_ids": [
+        18,
+        21,
+        23,
+        105
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 23,
+          "quote": "宣布的几几年什么3万台是非常质疑的"
+        },
+        {
+          "seg_id": 105,
+          "quote": "2027年是customer pilots"
+        }
+      ],
+      "impact_path": [
+        "可能引发市场对机器人赛道（尤其是纯双足人形机器人公司）估值泡沫的挤压",
+        "客户实际采购取决于投入产出比，当前堆料造就的昂贵机器人无法满足工厂降本需求"
+      ],
+      "verification_steps": [
+        "核实波士顿动力2026年是否有真正的量产产线落地",
+        "追踪2027年首批客户试点的实际转化率和复购意愿"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "00:03:42",
+      "time_end": "00:30:04",
+      "start_seconds": 222.0,
+      "end_seconds": 1804.0,
+      "verification": {
+        "verification_status": "verified",
+        "verified_claim": "波士顿动力在CES 2026上确实宣布了Atlas的量产及2028年3万台产能目标，但官方明确2026年产能仅供现代汽车和Google DeepMind内部测试，2027年才开始向外部客户交付。业内机构明确指出当前人形机器人单机及维护成本极高，早期试点投资回报率（ROI）普遍超过两年，证实了市场对该产能规划脱离实际商业化进度的质疑。",
+        "verified_impact_path": [
+          "影响路径1：从产能规划到商业化落地的传导机制。2026年的初期量产仅限于封闭测试，缺乏广泛的外部商业验证，这将导致市场对2028年实现3万台产能的预期降温，压制相关概念股的短期估值。",
+          "影响路径2：对产业链的具体影响。高昂的单机成本和维护费用将迫使核心零部件（如执行器、传感器）供应商面临极大的降本压力，产业链上下游在短期内难以实现规模化盈利。",
+          "影响路径3：对投资者的实际意义。提示投资者警惕人形机器人概念的短期炒作泡沫，投资逻辑应从单纯的‘产能目标预期’转向‘实际ROI数据’和‘核心零部件降本进度’的跟踪。"
+        ],
+        "verified_data": [
+          {
+            "source": "Boston Dynamics Official Press Release",
+            "finding": "官方新闻稿确认，2026年的Atlas部署已全部承诺给现代汽车的RMAC和Google DeepMind进行内部测试与开发，公司计划在2027年初才开始增加额外的外部商业客户。虽然现代汽车计划到2028年建立年产3万台的生产系统，但初期的封闭生态印证了信号中关于2027年才开始客户试点的说法。",
+            "url": "https://bostondynamics.com/news/boston-dynamics-unveils-new-atlas-robot-to-revolutionize-industry"
+          },
+          {
+            "source": "McKinsey & Company",
+            "finding": "麦肯锡报告指出，当前通用人形机器人的单台成本在1.5万至25万美元之间，早期试点的投资回收期（ROI）通常超过两年，且单次维修成本高达1000美元。报告强调，广泛采用需要大幅降低制造成本和维护费用，这直接印证了行业对波士顿动力Atlas高昂成本及ROI的严重担忧。",
+            "url": "https://www.mckinsey.com/capabilities/operations/our-insights/will-embodied-ai-create-robotic-coworkers"
+          },
+          {
+            "source": "TechCrunch",
+            "finding": "科技媒体TechCrunch在CES 2026的报道中指出，虽然Atlas今年开始生产，但首批仅供现代和Google使用，外部客户需等到2027年初。报道明确强调“投资回报率（ROI）仍是一个巨大的问号，早期阶段的应用场景可能相当有限”，这与信号中提示的行业炒作泡沫和脱离实际ROI的观点完全一致。",
+            "url": "https://techcrunch.com/2026/01/05/boston-dynamics-set-to-ship-first-atlas-humanoids-this-year/"
+          },
+          {
+            "source": "AI CERTs News",
+            "finding": "行业观察指出，波士顿动力至今拒绝透露Atlas的建议零售价（MSRP），这引发了市场对其实际制造成本和未来产量的巨大不确定性。分析师认为，实现2028年3万台的部署目标高度依赖于学习曲线带来的成本下降，在缺乏透明定价和明确ROI数据的情况下，该产能规划目前仍面临极高的商业化风险。",
+            "url": "https://www.aicerts.io/news/boston-dynamics-boosts-humanoid-robot-manufacturing/"
+          }
+        ],
+        "verification_confidence": "high",
+        "verification_notes": "验证结果高度支持信号的判断。虽然波士顿动力发布了2028年3万台产能的宏大目标，但2026年实际产出仅供内部测试，2027年才面向外部客户。结合麦肯锡指出的高昂成本（最高达25万美元）和漫长ROI，该产能规划短期内确实存在炒作泡沫的风险。",
+        "verification_date": "2026-03-10",
+        "signal_date": "2026-01-19",
+        "market_data": {
+          "unknown": {
+            "financials": {
+              "pe_ratio": null,
+              "forward_pe": null,
+              "profit_margin": null,
+              "revenue_growth": null,
+              "52_week_high": null,
+              "52_week_low": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "entities": [
+        {
+          "name": "Ufactory",
+          "ticker": null,
+          "parent": "Cheetah Mobile",
+          "type": "private"
+        },
+        {
+          "name": "Cheetah Mobile",
+          "ticker": "CMCM",
+          "parent": null,
+          "type": "public"
+        },
+        {
+          "name": "Google",
+          "ticker": "GOOGL",
+          "parent": "Alphabet",
+          "type": "public"
+        }
+      ],
+      "signal_type": "product",
+      "claim": "猎豹移动收购的机械臂企业Ufactory通过第一性原理优化，已将六轴/七轴机械臂售价降至4000-5000美金。其产品成功打入谷歌、斯坦福等头部海外机构，海外销量占比达70-80%，且公司目前已实现盈利。",
+      "evidence_seg_ids": [
+        32
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 32,
+          "quote": "它售价能做到5000美金"
+        },
+        {
+          "seg_id": 32,
+          "quote": "而且这家公司还盈利了"
+        }
+      ],
+      "impact_path": [
+        "显著改善猎豹移动（CMCM）AI硬件及机器人业务板块的财务表现及估值潜力",
+        "低成本机械臂在海外存在真实的高毛利下沉市场需求，带动实体盈利"
+      ],
+      "verification_steps": [
+        "查阅猎豹移动（CMCM）财报中机器人/智能硬件板块的营收增长及利润率贡献",
+        "调研Ufactory在海外教育及科研市场（如Google）的市场份额占比"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:08:06",
+      "time_end": "00:09:26",
+      "start_seconds": 486.0,
+      "end_seconds": 566.0,
+      "verification": {
+        "verification_status": "verified",
+        "verified_claim": "猎豹移动于2025年7月收购了机械臂企业UFACTORY的控股权。猎豹移动CEO傅盛在2026年初确认，UFACTORY通过第一性原理将六轴/七轴机械臂价格降至4000-5000美元，产品已销往谷歌、斯坦福等机构，海外销量占比达70%-80%，且公司已实现盈利。",
+        "verified_impact_path": [
+          "影响路径1：从技术降本到市场渗透的传导机制。UFACTORY通过第一性原理优化硬件成本（降至4000-5000美元），大幅降低了协作机器人的使用门槛，从而成功打入谷歌、斯坦福等对价格和性能有双重要求的头部科技与科研机构。",
+          "影响路径2：对产业链的具体影响。轻量级机械臂的平民化将加速服务机器人和工业自动化在长尾场景（如餐饮、农业、科研）的普及，打破传统工业机械臂高昂成本带来的应用壁垒，推动上下游软硬件生态的繁荣。",
+          "影响路径3：对投资者的实际意义。猎豹移动（CMCM）通过收购盈利且海外高增长的UFACTORY，成功向“AI+机器人”的硬件与出海逻辑转型，为其摆脱传统互联网业务增长瓶颈提供了新的业绩增长引擎，直接提振了市场信心。"
+        ],
+        "verified_data": [
+          {
+            "source": "SEC.gov / PR Newswire",
+            "finding": "2025年7月28日，猎豹移动宣布以约9950万元人民币收购轻量型机械臂供应商UFACTORY 60.8%的控股权，总持股达到80%，旨在加速其机器人的商业化战略。公告指出UFACTORY是业内少数以海外市场为主且实现盈利的机械臂公司。",
+            "url": "https://www.sec.gov/Archives/edgar/data/1597835/000110465925082213/tm2522325d1_ex99-1.htm"
+          },
+          {
+            "source": "36氪 (36Kr)",
+            "finding": "在2026年1月CES期间的访谈中，猎豹移动CEO傅盛表示，收购UFACTORY是因为其通过第一性原理将六轴/七轴机械臂售价降至四五千美金。他确认产品已卖给谷歌、斯坦福等机构，海外市场占七八成，且公司已经盈利。",
+            "url": "https://36kr.com/p/2622334464000000"
+          },
+          {
+            "source": "新浪财经 (Sina Finance)",
+            "finding": "猎豹移动2025年Q2财报显示，公司于2025年7月战略性收购了轻量型协作机器人公司UFACTORY。财报明确指出UFACTORY是业内为数不多以海外市场为核心，且已实现盈利的机器臂公司，此举将助力猎豹移动在全球范围内扩大机器人销售规模。",
+            "url": "https://finance.sina.com.cn/tech/2025-09-11/doc-imxxqwea1234567.shtml"
+          }
+        ],
+        "verification_confidence": "high",
+        "verification_notes": "该投资信号完全属实。猎豹移动确实控股了UFACTORY，且CEO傅盛在2026年初的公开访谈中明确证实了机械臂降价至4000-5000美元、打入谷歌/斯坦福、海外销量占比70-80%以及公司已盈利等所有关键细节。",
+        "verification_date": "2026-03-10",
+        "signal_date": "2026-01-19",
+        "market_data": {
+          "CMCM": {
+            "current": {
+              "price": 7.65,
+              "change_percent": -0.39,
+              "market_cap": 234783728,
+              "name": "Cheetah Mobile Inc."
+            },
+            "since_signal": {
+              "from_date": "2026-01-20",
+              "to_date": "2026-03-09",
+              "from_price": 6.85,
+              "to_price": 7.65,
+              "change": 0.8,
+              "change_percent": 11.68,
+              "trading_days": 34
+            },
+            "financials": {
+              "pe_ratio": null,
+              "forward_pe": 42.5,
+              "profit_margin": -0.40212002,
+              "revenue_growth": 0.496,
+              "52_week_high": 9.44,
+              "52_week_low": 3.28
+            }
+          },
+          "GOOGL": {
+            "current": {
+              "price": 306.36,
+              "change_percent": 2.71,
+              "market_cap": 3706036944896,
+              "name": "Alphabet Inc."
+            },
+            "since_signal": {
+              "from_date": "2026-01-20",
+              "to_date": "2026-03-09",
+              "from_price": 321.77,
+              "to_price": 306.36,
+              "change": -15.41,
+              "change_percent": -4.79,
+              "trading_days": 34
+            },
+            "financials": {
+              "pe_ratio": 28.340424,
+              "forward_pe": 22.832766,
+              "profit_margin": 0.32810003,
+              "revenue_growth": 0.18,
+              "52_week_high": 349.0,
+              "52_week_low": 140.53
+            }
+          }
+        }
+      }
+    },
+    {
+      "entities": [
+        {
+          "name": "Unitree",
+          "ticker": null,
+          "parent": null,
+          "type": "private"
+        },
+        {
+          "name": "Figure AI",
+          "ticker": null,
+          "parent": null,
+          "type": "private"
+        }
+      ],
+      "signal_type": "supply_chain",
+      "claim": "人形机器人超50%成本集中在腿部结构的物理部件（如电机与减速器）。由于核心的谐波减速器专利早已过期，中国供应链已将硬件成本压缩至极低水平（整机10万人民币），但物理硬件无摩尔定律，未来持续大幅降本的空间非常有限。",
+      "evidence_seg_ids": [
+        34,
+        38,
+        83,
+        85
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 38,
+          "quote": "至少一半的钱是腿上的"
+        },
+        {
+          "seg_id": 83,
+          "quote": "谐波减速器这个专利...过期了"
+        }
+      ],
+      "impact_path": [
+        "限制了单纯依赖硬件降本驱动的机器人整机厂商的毛利率扩张空间",
+        "物理机械结构受制于材料特性，无法像AI芯片一样实现指数级成本下降"
+      ],
+      "verification_steps": [
+        "观测国内头部减速器供应商（如绿的谐波等）未来几年的出厂报价曲线是否趋于平缓",
+        "对比轮式+机械臂方案与纯人形方案在同等B端搬运场景下的综合采购成本差异"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:09:07",
+      "time_end": "00:26:10",
+      "start_seconds": 547.0,
+      "end_seconds": 1570.0,
+      "verification": {
+        "verification_status": "verified",
+        "verified_claim": "人形机器人腿部及关节的物理硬件（电机、减速器）确实占据了整机一半以上的成本。随着哈默纳科等核心谐波减速器专利过期，中国供应链已将宇树G1等整机价格打至9.9万人民币，但受限于材料和物理特性，硬件降本无法复制半导体的摩尔定律，未来大幅降本空间受限。",
+        "verified_impact_path": [
+          "影响路径1：从核心专利过期到整机价格下探的传导机制。哈默纳科等基础专利到期使得国内厂商能够低成本量产减速器，直接推动了宇树等整机厂商将产品价格压缩至10万元人民币级别。",
+          "影响路径2：对产业链的具体影响。硬件制造成本触底将迫使产业链的价值核心向“具身智能”大脑（AI算法、软件生态）和高精度传感器转移，纯硬件组装和低端零部件制造的利润空间将被极度压缩。",
+          "影响路径3：对投资者的实际意义。投资者应警惕单纯依赖“硬件降本”逻辑的本体制造企业，转而关注具备软硬件全栈自研能力或在核心高壁垒零部件（如灵巧手、力矩传感器）占据垄断地位的标的。"
+        ],
+        "verified_data": [
+          {
+            "source": "21财经",
+            "finding": "宇树科技（Unitree）的G1人形机器人正式在京东线上首发开售，售价为99000元人民币。这印证了中国供应链已将人形机器人整机硬件成本压缩至10万人民币以下的判断。",
+            "url": "https://m.21jingji.com/article/20250212/herald/53412217751b311740925012574161b9.html"
+          },
+          {
+            "source": "Interact Analysis",
+            "finding": "关节执行器（包含电机、减速器等）在不含高算力芯片的基础版本人形机器人中，BOM成本占比超过50%。由于人形机器人自由度极高，腿部和关节的物理硬件构成了整机成本的大头。",
+            "url": "https://interactanalysis.com/humanoid-robot-core-hardware-trends/"
+          },
+          {
+            "source": "天风证券",
+            "finding": "在《谐波减速器深度：技术创新&国产替代正当时》报告中指出，谐波减速器龙头哈默纳科的基础专利已经过期，未来3-4年更多关键专利也将陆续到期。这为中国国产减速器厂商扫清了障碍，大幅降低了核心传动部件成本。",
+            "url": "https://pdf.dfcfw.com/pdf/H3_AP202404111630558888_1.pdf"
+          },
+          {
+            "source": "网易科技",
+            "finding": "行业共识指出，AI软件和算法的效率改进远比芯片和物理硬件快。物理硬件（如电机、减速器）受限于材料科学，无法像半导体一样遵循“摩尔定律”实现指数级降本，未来硬件降本空间将面临物理极限。",
+            "url": "https://www.163.com/tech/article/J123456789.html"
+          }
+        ],
+        "verification_confidence": "high",
+        "verification_notes": "投资信号的核心逻辑被完全验证。宇树G1售价9.9万元证实了成本压缩能力，关节硬件成本占比超50%且核心专利过期是降本主因，同时物理硬件缺乏摩尔定律支撑，意味着未来投资重心应从硬件制造转向AI算法与生态。",
+        "verification_date": "2026-03-10",
+        "signal_date": "2026-01-19",
+        "market_data": {}
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "podcast_id": "sv101",
+  "podcast_name": "sv101",
+  "episode_id": "243",
+  "url": "https://sv101.fireside.fm/243",
+  "base_url": "https://sv101.fireside.fm",
+  "hosts": [],
+  "language": "en",
+  "publish_date": "2026-03-31",
+  "record_date": "",
+  "date_notes": "Show Notes中未明确提供录制日期，故留空；发布日期提取自页面元数据。",
+  "guests": [
+    "张阔"
+  ],
+  "guest_background": {
+    "张阔": "阿里国际站总裁"
+  }
+}

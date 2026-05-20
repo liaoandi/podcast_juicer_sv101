@@ -1,0 +1,148 @@
+{
+  "metadata": {
+    "source": "output/sv101_ep227/227_transcript_gemini.json",
+    "method": "gemini_3_pro_full_context",
+    "model": "gemini-3.1-pro-preview",
+    "total_signals": 3,
+    "companies_mentioned": [
+      "1X",
+      "Meta Platforms",
+      "Physical Intelligence",
+      "Tesla"
+    ],
+    "context_length": 22572,
+    "publish_date": "2025-12-10",
+    "record_date": "",
+    "podcast_id": "sv101",
+    "episode_id": "227"
+  },
+  "signals": [
+    {
+      "entities": [
+        {
+          "name": "Tesla",
+          "ticker": "TSLA",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "product",
+      "claim": "特斯拉下一代Optimus机器人将进行重大硬件架构调整，把主要驱动器从手掌内部移至小臂，以模拟人类肌肉发力（小臂主导抓握，手掌负责精细控制）。此举将直接影响其量产速度与装配难度，并重塑对微型电机与柔性传动材料的供应链需求结构。",
+      "evidence_seg_ids": [
+        114,
+        125,
+        127
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 125,
+          "quote": "把它驱动器从手掌内移到小臂"
+        }
+      ],
+      "impact_path": [
+        "改变Optimus机器人的物料清单（BOM）结构",
+        "可能影响相关微型伺服电机与传动线缆供应商的订单分配"
+      ],
+      "verification_steps": [
+        "追踪特斯拉下次AI Day或发布会的Optimus硬件拆解与参数公布",
+        "监测柔性腱绳材料与微型电机供应链相关企业的订单变动"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "00:39:27",
+      "time_end": "00:42:58",
+      "start_seconds": 2367.0,
+      "end_seconds": 2578.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Meta Platforms",
+          "ticker": "META",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "product",
+      "claim": "Meta今年初已在FAIR之外秘密成立独立的人形机器人研发项目，目标是从硬件底层做起，打造可落地的家庭消费级机器人。这表明Meta正将AI技术加速向实体硬件延伸，意图在服务机器人赛道挑战特斯拉，未来可能大幅推高其硬件研发与资本支出。",
+      "evidence_seg_ids": [
+        133,
+        134
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 134,
+          "quote": "有一个项目是做人形机器人的"
+        },
+        {
+          "seg_id": 134,
+          "quote": "自己从硬件开始做，然后采数据做算法"
+        }
+      ],
+      "impact_path": [
+        "扩大Meta在机器人硬件与传感器供应链领域的资本支出（Capex）",
+        "促使市场重新评估Meta在实体服务机器人赛道的长期商业潜力"
+      ],
+      "verification_steps": [
+        "跟踪Meta关于机械工程和机器人硬件相关的内部调动与外部招聘动向",
+        "关注后续财报电话会管理层对家用消费级机器人的研发投入指引"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "00:44:17",
+      "time_end": "00:47:05",
+      "start_seconds": 2657.0,
+      "end_seconds": 2825.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Physical Intelligence",
+          "ticker": null,
+          "parent": null,
+          "type": "private"
+        },
+        {
+          "name": "1X",
+          "ticker": null,
+          "parent": null,
+          "type": "private"
+        }
+      ],
+      "signal_type": "competition",
+      "claim": "机器人端到端模型的核心壁垒是高质量遥操数据。目前初创公司Physical Intelligence已积累全行业最大规模数据集；而1X则效仿特斯拉FSD路线，通过向C端售卖机器并配合后台遥操来突破瓶颈。数据获取战略的差异将直接决定各家商业化进度与估值天花板。",
+      "evidence_seg_ids": [
+        141,
+        147,
+        148
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 141,
+          "quote": "1X 相当于是一种有点像特斯拉在自动驾驶上面的策略"
+        },
+        {
+          "seg_id": 147,
+          "quote": "收集遥操采集数据最多的公司是谁"
+        }
+      ],
+      "impact_path": [
+        "显著拉开领先厂商与跟随者在端到端机器人大模型泛化能力上的差距",
+        "影响后续私募市场相关标的的估值溢价和风投资本偏好"
+      ],
+      "verification_steps": [
+        "关注1X NEO机器人的出货规模及其隐私条款中关于数据回传的具体政策",
+        "追踪Pi0模型与其他主流基础模型在跨场景复杂任务上的成功率对比"
+      ],
+      "confidence": "high",
+      "novelty": "low",
+      "actionability": "low",
+      "time_start": "00:47:33",
+      "time_end": "00:50:48",
+      "start_seconds": 2853.0,
+      "end_seconds": 3048.0
+    }
+  ]
+}

@@ -1,0 +1,272 @@
+{
+  "metadata": {
+    "source": "output/sv101_ep233/233_transcript_polished_gemini.json",
+    "method": "gemini_3_pro_full_context",
+    "model": "gemini-3.1-pro-preview",
+    "total_signals": 6,
+    "companies_mentioned": [
+      "AMD",
+      "Alphabet",
+      "Apple",
+      "Meta",
+      "NVIDIA",
+      "OpenAI",
+      "Oracle",
+      "SpaceX"
+    ],
+    "context_length": 15862,
+    "publish_date": "2026-01-14",
+    "record_date": "",
+    "podcast_id": "sv101",
+    "episode_id": "233"
+  },
+  "signals": [
+    {
+      "entities": [
+        {
+          "name": "Alphabet",
+          "ticker": "GOOGL",
+          "parent": null,
+          "type": "public"
+        },
+        {
+          "name": "Meta",
+          "ticker": "META",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "valuation",
+      "claim": "Google的估值因Gemini叙事反转已快速扩张至27-28倍PE，较Meta出现明显溢价。未来股价继续上涨的动力将从叙事驱动转向基本面驱动，必须依赖搜索和云计算业务的实质性EPS上调，且需证明其能防御AI对传统搜索利润的侵蚀。",
+      "evidence_seg_ids": [
+        5,
+        15
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 15,
+          "quote": "Google 现在的估值相对来说是比较满的，已经达到了大概 27 、 28 倍"
+        }
+      ],
+      "impact_path": [
+        "影响Google估值扩张空间",
+        "市场预期已充分计价模型能力，后续需验证EPS实质增长及搜索防守能力"
+      ],
+      "verification_steps": [
+        "追踪Google季度财报中Search与Cloud的营收及利润率变化",
+        "对比Google与Meta的远期PE溢价倍数变化"
+      ],
+      "confidence": "high",
+      "novelty": "low",
+      "actionability": "high",
+      "time_start": "00:12:17",
+      "time_end": "00:31:25",
+      "start_seconds": 737.0,
+      "end_seconds": 1885.0
+    },
+    {
+      "entities": [
+        {
+          "name": "AMD",
+          "ticker": "AMD",
+          "parent": null,
+          "type": "public"
+        },
+        {
+          "name": "NVIDIA",
+          "ticker": "NVDA",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "competition",
+      "claim": "AMD作为GPU二供的战略地位正面临云厂商（CSP）自研ASIC的直接挤压。由于软硬件适配资源有限，云厂商内部已将AMD GPU的适配优先级降级，优先将产能和工程资源投入到自身定制ASIC的适配中，可能长期压制AMD的AI业务市占率。",
+      "evidence_seg_ids": [
+        25
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 25,
+          "quote": "内部的优先级现在肯定是降下来了嘛，大家...先去做自己 ASIC 的适配"
+        }
+      ],
+      "impact_path": [
+        "影响AMD数据中心GPU业务的营收增速预期",
+        "CSP客户将工程资源向自研芯片倾斜，导致AMD生态适配进展缓慢"
+      ],
+      "verification_steps": [
+        "跟踪主要云厂商（如微软、亚马逊）新增资本开支中AMD MI系列芯片的采购比例",
+        "监测云厂商自研ASIC（如Trainium/Maia）的量产及上架速度"
+      ],
+      "confidence": "low",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:43:13",
+      "time_end": "00:44:04",
+      "start_seconds": 2593.0,
+      "end_seconds": 2644.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Oracle",
+          "ticker": "ORCL",
+          "parent": null,
+          "type": "public"
+        },
+        {
+          "name": "OpenAI",
+          "ticker": null,
+          "parent": null,
+          "type": "private"
+        }
+      ],
+      "signal_type": "risk",
+      "claim": "Oracle在当前的AI基础设施扩建中承担了极高风险的“脏活累活”（如为CoreWeave等算力新势力垫资并承担金融风险），其股价实质上已成为OpenAI生态系统健康度的高Beta情绪代理指标，若AI资本支出放缓将首当其冲受损。",
+      "evidence_seg_ids": [
+        27,
+        28,
+        30
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 27,
+          "quote": "你就来干脏活累活，无论是融资、金融风险也我来承担着"
+        }
+      ],
+      "impact_path": [
+        "影响Oracle的资产负债表健康度及股价波动率",
+        "作为底层算力重资产承接方，极易受到AI算力供需反转或坏账风险冲击"
+      ],
+      "verification_steps": [
+        "核查Oracle财报中与新兴云算力提供商（如CoreWeave）相关的关联交易或融资担保敞口",
+        "观测Oracle股价与OpenAI负面舆情的联动相关性"
+      ],
+      "confidence": "low",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:43:46",
+      "time_end": "00:49:25",
+      "start_seconds": 2626.0,
+      "end_seconds": 2965.0
+    },
+    {
+      "entities": [
+        {
+          "name": "OpenAI",
+          "ticker": null,
+          "parent": null,
+          "type": "private"
+        }
+      ],
+      "signal_type": "valuation",
+      "claim": "市场对OpenAI预期IPO的长期盈利能力存疑，其估值面临两极分化风险：若无法建立类似iOS的强生态卡位并实现广告或Agentic Commerce的商业化闭环，纯模型调用可能沦为大宗商品，使其变成类似90年代电信基建的“价值陷阱”。",
+      "evidence_seg_ids": [
+        35,
+        38
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 38,
+          "quote": "其实 OpenAI 就是个 value trap，它可能就不值这么多钱"
+        }
+      ],
+      "impact_path": [
+        "影响OpenAI及AI大模型赛道的整体一二级估值锚",
+        "通用模型能力趋同导致定价权丧失，资本开支无法转化为有效ROE"
+      ],
+      "verification_steps": [
+        "关注OpenAI在白领生产力或AI Agent场景的增量订阅收入数据",
+        "观察大模型API调用单价的降价趋势是否持续恶化"
+      ],
+      "confidence": "low",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:30:40",
+      "time_end": "00:32:49",
+      "start_seconds": 1840.0,
+      "end_seconds": 1969.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Apple",
+          "ticker": "AAPL",
+          "parent": null,
+          "type": "public"
+        },
+        {
+          "name": "Alphabet",
+          "ticker": "GOOGL",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "product",
+      "claim": "苹果在自研大模型竞争中处于劣势，短期将单纯依赖作为分发渠道接入第三方模型（如Gemini/ChatGPT）。其真正的尾部风险不在于大模型本身，而是AI是否会催生取代智能手机核心入口地位的新型硬件（如AI智能眼镜）。",
+      "evidence_seg_ids": [
+        40,
+        43,
+        45
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 43,
+          "quote": "去接 Gemini ，接 ChatGPT ，完全没有问题嘛"
+        }
+      ],
+      "impact_path": [
+        "影响苹果硬件生态的长期护城河及终端设备定价权",
+        "若交互入口被新型穿戴设备替代，苹果的渠道分发垄断利润将流失"
+      ],
+      "verification_steps": [
+        "跟踪Meta/OpenAI等竞争对手在AI可穿戴硬件（如智能眼镜/硬件Agent）的渗透率数据",
+        "观测苹果iOS集成第三方大模型后获得的分润协议条款"
+      ],
+      "confidence": "low",
+      "novelty": "low",
+      "actionability": "high",
+      "time_start": "00:32:49",
+      "time_end": "01:08:18",
+      "start_seconds": 1969.0,
+      "end_seconds": 4098.0
+    },
+    {
+      "entities": [
+        {
+          "name": "SpaceX",
+          "ticker": null,
+          "parent": null,
+          "type": "private"
+        }
+      ],
+      "signal_type": "capital_action",
+      "claim": "SpaceX预计在2026年进行IPO，市场预期其上市估值将达到1.5万亿至2万亿美元（远超当前2100亿美元私募估值），主要驱动力源自逆全球化背景下赋予该资产的“国家安全属性”和绝对稀缺性溢价，打破传统估值体系。",
+      "evidence_seg_ids": [
+        48,
+        50
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 50,
+          "quote": "现在是2100亿的估值...想的是1.5万亿或者是2万亿去上市"
+        }
+      ],
+      "impact_path": [
+        "影响商业航天及军工科技板块的整体估值重塑",
+        "极高的稀缺性和国家安全战略地位赋予其脱离基本面财务指标的溢价"
+      ],
+      "verification_steps": [
+        "跟踪SpaceX向SEC提交S-1注册文件的进度及承销团组建消息",
+        "观测SpaceX在私募二级市场(Secondary Market)的股权交易价格变动"
+      ],
+      "confidence": "high",
+      "novelty": "low",
+      "actionability": "high",
+      "time_start": "01:08:14",
+      "time_end": "01:13:08",
+      "start_seconds": 4094.0,
+      "end_seconds": 4388.0
+    }
+  ]
+}

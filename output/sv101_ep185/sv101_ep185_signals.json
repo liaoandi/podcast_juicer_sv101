@@ -1,0 +1,209 @@
+{
+  "metadata": {
+    "source": "/Users/antonio/Desktop/podcast_juicer/output/sv101_ep185/185_transcript_gemini.json",
+    "method": "gemini_3_pro_full_context",
+    "model": "gemini-3.1-pro-preview",
+    "total_signals": 4,
+    "companies_mentioned": [
+      "Apple",
+      "Nvidia",
+      "iRobot",
+      "华为",
+      "大疆",
+      "小米",
+      "拓竹科技",
+      "石头科技",
+      "追觅科技"
+    ],
+    "context_length": 18681,
+    "publish_date": "2025-01-16",
+    "record_date": "",
+    "podcast_id": "sv101",
+    "episode_id": "185"
+  },
+  "signals": [
+    {
+      "entities": [
+        {
+          "name": "石头科技",
+          "ticker": "688169.SH",
+          "parent": null,
+          "type": "public"
+        },
+        {
+          "name": "iRobot",
+          "ticker": "IRBT",
+          "parent": null,
+          "type": "public"
+        },
+        {
+          "name": "追觅科技",
+          "ticker": null,
+          "parent": null,
+          "type": "private"
+        }
+      ],
+      "signal_type": "competition",
+      "claim": "石头科技和追觅等中国扫地机器人品牌在创新迭代速度上已达海外老牌厂商多倍，且通过自身创新突破了 iRobot 的专利壁垒。中国品牌正夺取行业定价权和海外高溢价市场，海外传统龙头份额将持续萎缩。",
+      "evidence_seg_ids": [
+        19,
+        37,
+        38,
+        112
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 38,
+          "quote": "中国厂商的创新速度和迭代速度可以达到海外厂商的多倍"
+        }
+      ],
+      "impact_path": [
+        "可能影响石头科技和 iRobot 的估值与业绩预期",
+        "因为中国厂商的产品力和迭代速度已形成绝对碾压优势，正在重塑海外高利润市场的竞争格局"
+      ],
+      "verification_steps": [
+        "追踪石头科技及追觅在欧美地区高端价位段的出货量及市占率变化",
+        "查阅 iRobot 财报中的营收下滑幅度及市场份额流失情况"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:06:55",
+      "time_end": "00:51:36",
+      "start_seconds": 415.0,
+      "end_seconds": 3096.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Apple",
+          "ticker": "AAPL",
+          "parent": null,
+          "type": "public"
+        },
+        {
+          "name": "小米",
+          "ticker": "1810.HK",
+          "parent": null,
+          "type": "public"
+        },
+        {
+          "name": "华为",
+          "ticker": null,
+          "parent": null,
+          "type": "private"
+        }
+      ],
+      "signal_type": "competition",
+      "claim": "若智能眼镜在连接和算力上无法脱离手机独立运行，其产品终局必将沦为手机配件。苹果、华为和小米等手机巨头将复刻 TWS 耳机历史，依靠生态优势瓜分绝大部分市场，独立智能眼镜初创公司的生存将被极大挤压。",
+      "evidence_seg_ids": [
+        54,
+        55,
+        57
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 55,
+          "quote": "绝大部分市场份额会被智能手机厂商给获得"
+        }
+      ],
+      "impact_path": [
+        "可能影响独立 AR/AI 眼镜公司的私募融资估值及手机巨头的穿戴设备增长预期",
+        "因为眼镜的底层算力和无缝通信连接仍被手机生态牢牢掌控，独立硬件厂商难以构建护城河"
+      ],
+      "verification_steps": [
+        "观察主流手机巨头（苹果、华为等）是否开始密集发布高度集成各自手机操作系统的自有品牌智能眼镜",
+        "跟踪现有独立品牌智能眼镜出货量增长是否遭遇瓶颈"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "00:25:32",
+      "time_end": "00:28:15",
+      "start_seconds": 1532.0,
+      "end_seconds": 1695.0
+    },
+    {
+      "entities": [
+        {
+          "name": "Nvidia",
+          "ticker": "NVDA",
+          "parent": null,
+          "type": "public"
+        }
+      ],
+      "signal_type": "product",
+      "claim": "英伟达在机器人赛道的核心商业模式是通过 Cosmos 物理模型和 Isaac Gym 等仿真工具链赋能开发者。随着其工具链成为行业标准，英伟达将深度锁定全行业对 GPU 芯片的长期需求，加固硬件护城河。",
+      "evidence_seg_ids": [
+        87,
+        88,
+        89
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 89,
+          "quote": "当它的工具链成为必须使用的工具时，它的处理器生意就会有很好支撑"
+        }
+      ],
+      "impact_path": [
+        "可能影响英伟达在具身智能时代的远期估值中枢",
+        "因为工具链的使用会培养开发者习惯，形成极高的生态迁移成本，确保芯片硬件采购需求"
+      ],
+      "verification_steps": [
+        "统计最新发布的足式或具身智能机器人研发中，使用英伟达 Isaac 仿真环境进行强化学习训练的比例",
+        "关注英伟达机器人相关开发者工具链的使用时长与授权增长数据"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:38:38",
+      "time_end": "00:40:56",
+      "start_seconds": 2318.0,
+      "end_seconds": 2456.0
+    },
+    {
+      "entities": [
+        {
+          "name": "拓竹科技",
+          "ticker": null,
+          "parent": "Bambu Lab",
+          "type": "private"
+        },
+        {
+          "name": "大疆",
+          "ticker": null,
+          "parent": "DJI",
+          "type": "private"
+        }
+      ],
+      "signal_type": "product",
+      "claim": "脱胎于大疆团队的 3D 打印企业拓竹科技凭借第一性原理的工程拆解能力，在一年内斩获超 50% 市场份额。这表明大疆溢出的极客文化与体系化硬件管理能力能降维打击传统消费赛道，造就极强的品牌溢价力。",
+      "evidence_seg_ids": [
+        103,
+        105,
+        107
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 105,
+          "quote": "为什么拓竹能够一年有超过 50% 的 market share"
+        }
+      ],
+      "impact_path": [
+        "可能影响 3D 打印行业格局及大疆背景创业团队的私募估值溢价",
+        "因为成建制外溢的顶尖人才梯队和追求极致的工程师文化能在长链条硬件赛道带来极高的产品成功率"
+      ],
+      "verification_steps": [
+        "查阅全球 3D 打印机市场份额报告核实拓竹科技的市占率",
+        "追踪带有大疆前高管/核心研发背景的硬件初创企业产品交付口碑"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "00:44:17",
+      "time_end": "00:46:51",
+      "start_seconds": 2657.0,
+      "end_seconds": 2811.0
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "metadata": {
+    "source": "/Users/antonio/Desktop/podcast_juicer/output/sv101_ep213/213_transcript_gemini.json",
+    "method": "gemini_3_pro_full_context",
+    "model": "gemini-3.1-pro-preview",
+    "total_signals": 3,
+    "companies_mentioned": [
+      "BlackRock",
+      "OpenAI",
+      "Robinhood",
+      "SpaceX"
+    ],
+    "context_length": 25570,
+    "publish_date": null,
+    "record_date": null,
+    "podcast_id": "sv101",
+    "episode_id": "213"
+  },
+  "signals": [
+    {
+      "entities": [
+        {
+          "name": "Robinhood",
+          "ticker": "HOOD",
+          "type": "public"
+        }
+      ],
+      "signal_type": "valuation",
+      "claim": "Robinhood的加密业务利润率极高（每笔达55个基点，含做市商返点与滑点），远超传统股票的0.8基点。若其股票代币化战略完全上链落地，Robinhood有望将高毛利的加密变现模式平移至传统美股交易，从而大幅重估其商业模式的盈利上限。",
+      "evidence_seg_ids": [
+        25,
+        27,
+        28,
+        30
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 28,
+          "quote": "Robinhood每交易一个单位的币，它的收入是55bp"
+        }
+      ],
+      "impact_path": [
+        "大幅提升单客ARPU和整体业务利润率",
+        "上链后利用信息不对称将传统股票交易费用暗盘化"
+      ],
+      "verification_steps": [
+        "观察HOOD财报中加密业务Take rate与股票业务的差距变化",
+        "跟踪其欧洲股票代币化（CFD）向完全上链演进的合规进度与资产规模"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:12:05",
+      "time_end": "00:16:55",
+      "start_seconds": 725.0,
+      "end_seconds": 1015.0
+    },
+    {
+      "entities": [
+        {
+          "name": "BlackRock",
+          "ticker": "BLK",
+          "type": "public"
+        }
+      ],
+      "signal_type": "risk",
+      "claim": "贝莱德代币化基金BUIDL存在隐性流动性错配风险。其底层货基为T+1结算，表面的T+0实时赎回高度依赖如Circle的1亿USDC垫资池。3月5日垫资池曾因大额赎回被击穿停摆23小时。未来若遇极端抛售，极易引发RWA资产挤兑。",
+      "evidence_seg_ids": [
+        99
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 99,
+          "quote": "Circle的1亿的垫资池23小时不能用"
+        }
+      ],
+      "impact_path": [
+        "极端行情下可能导致RWA资产脱锚或赎回通道全面冻结",
+        "暴露传统金融结算机制与链上实时交易的底层冲突"
+      ],
+      "verification_steps": [
+        "监控Circle及PYUSD为BUIDL等RWA资产提供的稳定币垫资池水位",
+        "追踪极端宏观事件发生时各大代币化货基的链上赎回延迟数据"
+      ],
+      "confidence": "high",
+      "novelty": "high",
+      "actionability": "high",
+      "time_start": "00:58:54",
+      "time_end": "01:01:23",
+      "start_seconds": 3534.0,
+      "end_seconds": 3683.0
+    },
+    {
+      "entities": [
+        {
+          "name": "OpenAI",
+          "ticker": null,
+          "type": "private"
+        },
+        {
+          "name": "SpaceX",
+          "ticker": null,
+          "type": "private"
+        },
+        {
+          "name": "Robinhood",
+          "ticker": "HOOD",
+          "type": "public"
+        }
+      ],
+      "signal_type": "valuation",
+      "claim": "交易平台针对OpenAI、SpaceX等未上市公司的代币化CFD交易，将为一级半市场引入连续定价权。随着交易量放大，未上市企业的估值将受盘面散户情绪锚定，剥夺投行IPO定价权，并迫使风投机构的底层资产跟随二级市场波动频繁重估。",
+      "evidence_seg_ids": [
+        103,
+        104,
+        106,
+        110
+      ],
+      "key_quotes": [
+        {
+          "seg_id": 104,
+          "quote": "哪里交易量比较大，定价权在哪"
+        }
+      ],
+      "impact_path": [
+        "未上市明星企业估值波动加剧，不再呈现单纯的轮次阶梯式上升",
+        "传统风投机构的账面回报计算逻辑被迫向二级市场盯市（Mark-to-market）靠拢"
+      ],
+      "verification_steps": [
+        "对比Robinhood上OpenAI的CFD价格与最近一轮机构私募融资估值的倒挂程度",
+        "观察此类超级独角兽下一轮融资或IPO是否开始参考公开的盘面价格"
+      ],
+      "confidence": "low",
+      "novelty": "high",
+      "actionability": "low",
+      "time_start": "01:02:22",
+      "time_end": "01:05:35",
+      "start_seconds": 3742.0,
+      "end_seconds": 3935.0
+    }
+  ]
+}

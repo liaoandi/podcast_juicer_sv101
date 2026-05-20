@@ -1,0 +1,19 @@
+{
+  "host": [
+    "泓君Jane"
+  ],
+  "guests": [
+    "Roger Luo",
+    "Jared Ren"
+  ],
+  "episode_info": "硅谷101 #180 - 量子计算的Transformer时刻与科技巨头的路径之争",
+  "guest_background": {
+    "Roger Luo": "Anyon Technologies 创始人兼CEO，加州理工博士与伯克利大学的博士后",
+    "Jared Ren": "Anyon Technologies 创始人兼CTO，加州理工博士与博士后"
+  },
+  "publish_date": "2025-02-13",
+  "record_date": "2025-01-15",
+  "date_notes": "录制日期推断为谷歌宣布量子计算突破的同月",
+  "record_date_source": "transcript",
+  "record_date_evidence": "我們這期節目的錄製是在1月份的CAS之後，剛好是黃仁勳回答了這個問題"
+}
